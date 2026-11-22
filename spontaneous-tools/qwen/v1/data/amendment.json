@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-22T02:41:10.332753+00:00",
+  "authorized_prompts_revised": 120,
+  "original_prompt_sha256": "0100055a6856071109679e4581a143bc61ad7285db9b91aae4e37ac45d1f3f72",
+  "full_prompt_sha256": "105f9b3c6778ba99769638594eba8d5877eeae9bd350f93cdec3d79a4b3f97b4",
+  "factual_prompt_changes": 0,
+  "trigger": "Original base development controls had subject referents missing and length-capped attempts.",
+  "secondary": "Continue length-capped new-suite main outputs, preserving generated IDs through 96, to a total of 256 tokens."
+}

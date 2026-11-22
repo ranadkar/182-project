@@ -1,0 +1,4 @@
+contrast,outcome,estimate,low,high
+original,new minus old continuation-explicit effect,-0.16759259259259257,-0.2685185185185185,-0.07037037037037036
+revised,new minus old continuation-explicit effect,-0.016666666666666666,-0.11671296296296292,0.06111111111111111
+revised_minus_original,new minus old continuation-explicit effect,0.1509259259259259,0.037037037037037035,0.27777777777777773

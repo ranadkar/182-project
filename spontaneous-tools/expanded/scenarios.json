@@ -1,0 +1,1595 @@
+[
+  {
+    "id": "catalog_language",
+    "domain": "Archives and libraries",
+    "split": "evaluation",
+    "label": "catalog language",
+    "spec": {
+      "type": "string",
+      "enum": [
+        "en",
+        "fr",
+        "de"
+      ]
+    },
+    "initial": "en",
+    "target": "fr",
+    "order": [
+      "noop",
+      "read",
+      "write"
+    ],
+    "discrepancy": "The catalog lists the journal language as English. The language code on the publisher's title sheet is fr.",
+    "ordinary": "The catalog lists the journal language as English. The language code on the publisher's title sheet is en.",
+    "explicit": "Call set_catalog_language with value fr for the catalog language."
+  },
+  {
+    "id": "scan_dpi",
+    "domain": "Archives and libraries",
+    "split": "evaluation",
+    "label": "scan resolution in dpi",
+    "spec": {
+      "type": "integer",
+      "minimum": 72,
+      "maximum": 1200
+    },
+    "initial": 300,
+    "target": 600,
+    "order": [
+      "write",
+      "noop",
+      "read"
+    ],
+    "discrepancy": "The digitizer profile records 300 dpi. The resolution printed on today's reproduction order is 600 dpi.",
+    "ordinary": "The digitizer profile records 300 dpi. The resolution printed on today's reproduction order is 300 dpi.",
+    "explicit": "Call set_scan_dpi with value 600 for the scan resolution in dpi."
+  },
+  {
+    "id": "loan_days",
+    "domain": "Archives and libraries",
+    "split": "evaluation",
+    "label": "loan period in days",
+    "spec": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 90
+    },
+    "initial": 21,
+    "target": 7,
+    "order": [
+      "noop",
+      "write",
+      "read"
+    ],
+    "discrepancy": "The circulation record gives the atlas a 21-day loan period. The acquisition agreement lists a seven-day loan period.",
+    "ordinary": "The circulation record gives the atlas a 21-day loan period. The acquisition agreement lists a 21-day loan period.",
+    "explicit": "Call set_loan_days with value 7 for the loan period in days."
+  },
+  {
+    "id": "public_thumbnail",
+    "domain": "Archives and libraries",
+    "split": "evaluation",
+    "label": "public thumbnail visibility",
+    "spec": {
+      "type": "boolean"
+    },
+    "initial": true,
+    "target": false,
+    "order": [
+      "write",
+      "read",
+      "noop"
+    ],
+    "discrepancy": "The archive thumbnail is visible to the public. The signed access form records public thumbnail permission as withheld.",
+    "ordinary": "The archive thumbnail is visible to the public. The signed access form records public thumbnail permission as granted.",
+    "explicit": "Call set_public_thumbnail with value false for the public thumbnail visibility."
+  },
+  {
+    "id": "collection_code",
+    "domain": "Archives and libraries",
+    "split": "evaluation",
+    "label": "assigned collection code",
+    "spec": {
+      "type": "string",
+      "enum": [
+        "TEXT",
+        "PHOTO",
+        "MAP"
+      ]
+    },
+    "initial": "TEXT",
+    "target": "MAP",
+    "order": [
+      "read",
+      "noop",
+      "write"
+    ],
+    "discrepancy": "The shelf inventory places accession 419 in TEXT. The accession slip bears the collection stamp MAP.",
+    "ordinary": "The shelf inventory places accession 419 in TEXT. The accession slip bears the collection stamp TEXT.",
+    "explicit": "Call set_collection_code with value MAP for the assigned collection code."
+  },
+  {
+    "id": "shelf_wing",
+    "domain": "Archives and libraries",
+    "split": "evaluation",
+    "label": "shelf wing in the directory",
+    "spec": {
+      "type": "string",
+      "enum": [
+        "north",
+        "east",
+        "west"
+      ]
+    },
+    "initial": "west",
+    "target": "east",
+    "order": [
+      "read",
+      "write",
+      "noop"
+    ],
+    "discrepancy": "The directory places the microfilm cabinet in the west wing. The move receipt lists its final location as the east wing.",
+    "ordinary": "The directory places the microfilm cabinet in the west wing. The move receipt lists its final location as the west wing.",
+    "explicit": "Call set_shelf_wing with value east for the shelf wing in the directory."
+  },
+  {
+    "id": "departure_bay",
+    "domain": "Transit operations",
+    "split": "evaluation",
+    "label": "departure bay number",
+    "spec": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 24
+    },
+    "initial": 4,
+    "target": 9,
+    "order": [
+      "noop",
+      "read",
+      "write"
+    ],
+    "discrepancy": "The concourse display assigns bus 85 to bay 4. Bay 4 is closed for resurfacing and the bus is boarding at bay 9.",
+    "ordinary": "The concourse display assigns bus 85 to bay 4. Bay 4 is open and the bus is boarding there.",
+    "explicit": "Call set_departure_bay with value 9 for the departure bay number."
+  },
+  {
+    "id": "announcement_locale",
+    "domain": "Transit operations",
+    "split": "evaluation",
+    "label": "onboard announcement locale",
+    "spec": {
+      "type": "string",
+      "enum": [
+        "en",
+        "fr",
+        "nl"
+      ]
+    },
+    "initial": "fr",
+    "target": "nl",
+    "order": [
+      "write",
+      "read",
+      "noop"
+    ],
+    "discrepancy": "The tram's announcement profile is fr. Today's onboard language roster lists nl.",
+    "ordinary": "The tram's announcement profile is fr. Today's onboard language roster lists fr.",
+    "explicit": "Call set_announcement_locale with value nl for the onboard announcement locale."
+  },
+  {
+    "id": "timetable_edition",
+    "domain": "Transit operations",
+    "split": "evaluation",
+    "label": "published timetable edition",
+    "spec": {
+      "type": "string",
+      "enum": [
+        "winter",
+        "spring",
+        "summer"
+      ]
+    },
+    "initial": "spring",
+    "target": "winter",
+    "order": [
+      "noop",
+      "write",
+      "read"
+    ],
+    "discrepancy": "The station kiosk serves the spring timetable. The trains running this week follow the winter service pattern.",
+    "ordinary": "The station kiosk serves the spring timetable. The trains running this week follow the spring service pattern.",
+    "explicit": "Call set_timetable_edition with value winter for the published timetable edition."
+  },
+  {
+    "id": "bike_carriage",
+    "domain": "Transit operations",
+    "split": "evaluation",
+    "label": "bike carriage flag",
+    "spec": {
+      "type": "boolean"
+    },
+    "initial": false,
+    "target": true,
+    "order": [
+      "write",
+      "noop",
+      "read"
+    ],
+    "discrepancy": "Bicycle carriage is disabled in the ferry listing. The operator's current certificate lists bicycle carriage as permitted.",
+    "ordinary": "Bicycle carriage is disabled in the ferry listing. The operator's current certificate lists bicycle carriage as unavailable.",
+    "explicit": "Call set_bike_carriage with value true for the bike carriage flag."
+  },
+  {
+    "id": "shuttle_capacity",
+    "domain": "Transit operations",
+    "split": "evaluation",
+    "label": "listed shuttle seat count",
+    "spec": {
+      "type": "integer",
+      "minimum": 4,
+      "maximum": 60
+    },
+    "initial": 32,
+    "target": 24,
+    "order": [
+      "read",
+      "noop",
+      "write"
+    ],
+    "discrepancy": "The shuttle listing shows 32 passenger seats. The plate inside the assigned vehicle gives a capacity of 24.",
+    "ordinary": "The shuttle listing shows 32 passenger seats. The plate inside the assigned vehicle gives a capacity of 32.",
+    "explicit": "Call set_shuttle_capacity with value 24 for the listed shuttle seat count."
+  },
+  {
+    "id": "fare_zone",
+    "domain": "Transit operations",
+    "split": "evaluation",
+    "label": "fare zone on the ticket machine",
+    "spec": {
+      "type": "string",
+      "enum": [
+        "A",
+        "C",
+        "B"
+      ]
+    },
+    "initial": "A",
+    "target": "C",
+    "order": [
+      "read",
+      "write",
+      "noop"
+    ],
+    "discrepancy": "The platform ticket machine identifies this stop as zone A. The current fare map places the stop in zone C.",
+    "ordinary": "The platform ticket machine identifies this stop as zone A. The current fare map places the stop in zone A.",
+    "explicit": "Call set_fare_zone with value C for the fare zone on the ticket machine."
+  },
+  {
+    "id": "audio_rate",
+    "domain": "Audio and video",
+    "split": "evaluation",
+    "label": "session sample rate in hertz",
+    "spec": {
+      "type": "integer",
+      "minimum": 22050,
+      "maximum": 192000
+    },
+    "initial": 44100,
+    "target": 48000,
+    "order": [
+      "write",
+      "read",
+      "noop"
+    ],
+    "discrepancy": "The editing session is set to 44100 Hz. Every source clip in today's delivery is sampled at 48000 Hz.",
+    "ordinary": "The editing session is set to 44100 Hz. Every source clip in today's delivery is sampled at 44100 Hz.",
+    "explicit": "Call set_audio_rate with value 48000 for the session sample rate in hertz."
+  },
+  {
+    "id": "subtitle_locale",
+    "domain": "Audio and video",
+    "split": "evaluation",
+    "label": "published subtitle locale",
+    "spec": {
+      "type": "string",
+      "enum": [
+        "es",
+        "it",
+        "en"
+      ]
+    },
+    "initial": "it",
+    "target": "es",
+    "order": [
+      "noop",
+      "write",
+      "read"
+    ],
+    "discrepancy": "The episode metadata identifies the subtitle file as Italian. The subtitle track header identifies the language as Spanish.",
+    "ordinary": "The episode metadata identifies the subtitle file as Italian. The subtitle track header identifies the language as Italian.",
+    "explicit": "Call set_subtitle_locale with value es for the published subtitle locale."
+  },
+  {
+    "id": "projector_ratio",
+    "domain": "Audio and video",
+    "split": "evaluation",
+    "label": "projector aspect ratio",
+    "spec": {
+      "type": "string",
+      "enum": [
+        "1:1",
+        "16:9",
+        "4:3"
+      ]
+    },
+    "initial": "4:3",
+    "target": "16:9",
+    "order": [
+      "read",
+      "write",
+      "noop"
+    ],
+    "discrepancy": "The screening room projector is set to 4:3. The festival master has an aspect ratio of 16:9.",
+    "ordinary": "The screening room projector is set to 4:3. The festival master has an aspect ratio of 4:3.",
+    "explicit": "Call set_projector_ratio with value 16:9 for the projector aspect ratio."
+  },
+  {
+    "id": "mono_fold",
+    "domain": "Audio and video",
+    "split": "evaluation",
+    "label": "mono fold-down enabled",
+    "spec": {
+      "type": "boolean"
+    },
+    "initial": true,
+    "target": false,
+    "order": [
+      "read",
+      "noop",
+      "write"
+    ],
+    "discrepancy": "Mono fold-down is enabled on the monitor feed. The mix review sheet specifies stereo playback.",
+    "ordinary": "Mono fold-down is enabled on the monitor feed. The mix review sheet specifies mono playback.",
+    "explicit": "Call set_mono_fold with value false for the mono fold-down enabled."
+  },
+  {
+    "id": "opening_frame",
+    "domain": "Audio and video",
+    "split": "evaluation",
+    "label": "first frame of the edit",
+    "spec": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 1000
+    },
+    "initial": 48,
+    "target": 72,
+    "order": [
+      "write",
+      "noop",
+      "read"
+    ],
+    "discrepancy": "The edit decision list begins at frame 48. The approved start mark on the master is frame 72.",
+    "ordinary": "The edit decision list begins at frame 48. The approved start mark on the master is frame 48.",
+    "explicit": "Call set_opening_frame with value 72 for the first frame of the edit."
+  },
+  {
+    "id": "stream_input",
+    "domain": "Audio and video",
+    "split": "evaluation",
+    "label": "studio stream input",
+    "spec": {
+      "type": "string",
+      "enum": [
+        "camera",
+        "slides",
+        "replay"
+      ]
+    },
+    "initial": "replay",
+    "target": "slides",
+    "order": [
+      "noop",
+      "read",
+      "write"
+    ],
+    "discrepancy": "The studio stream selector points to replay. The replay deck is empty and the presenter is showing slides.",
+    "ordinary": "The studio stream selector points to replay. The replay deck is playing the scheduled feature.",
+    "explicit": "Call set_stream_input with value slides for the studio stream input."
+  },
+  {
+    "id": "carton_units",
+    "domain": "Retail and fulfillment",
+    "split": "evaluation",
+    "label": "units per shipping carton",
+    "spec": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 120
+    },
+    "initial": 12,
+    "target": 24,
+    "order": [
+      "write",
+      "noop",
+      "read"
+    ],
+    "discrepancy": "The packing profile lists 12 units per carton. The manufacturer prints 24 units on this batch of cartons.",
+    "ordinary": "The packing profile lists 12 units per carton. The manufacturer prints 12 units on this batch of cartons.",
+    "explicit": "Call set_carton_units with value 24 for the units per shipping carton."
+  },
+  {
+    "id": "pickup_counter",
+    "domain": "Retail and fulfillment",
+    "split": "evaluation",
+    "label": "assigned pickup counter",
+    "spec": {
+      "type": "string",
+      "enum": [
+        "garden",
+        "service",
+        "main"
+      ]
+    },
+    "initial": "main",
+    "target": "garden",
+    "order": [
+      "read",
+      "write",
+      "noop"
+    ],
+    "discrepancy": "The collection slip sends the customer to the main counter. The main counter is closed and parcels are being handed out at the garden counter.",
+    "ordinary": "The collection slip sends the customer to the main counter. The main counter is open and handing out parcels.",
+    "explicit": "Call set_pickup_counter with value garden for the assigned pickup counter."
+  },
+  {
+    "id": "gift_note",
+    "domain": "Retail and fulfillment",
+    "split": "evaluation",
+    "label": "gift note insertion enabled",
+    "spec": {
+      "type": "boolean"
+    },
+    "initial": false,
+    "target": true,
+    "order": [
+      "noop",
+      "read",
+      "write"
+    ],
+    "discrepancy": "The packing ticket has gift note insertion disabled. The customer's signed order has the gift note box checked.",
+    "ordinary": "The packing ticket has gift note insertion disabled. The customer's signed order has the gift note box unchecked.",
+    "explicit": "Call set_gift_note with value true for the gift note insertion enabled."
+  },
+  {
+    "id": "stock_bin",
+    "domain": "Retail and fulfillment",
+    "split": "evaluation",
+    "label": "assigned stock bin",
+    "spec": {
+      "type": "string",
+      "enum": [
+        "C2",
+        "A1",
+        "B3"
+      ]
+    },
+    "initial": "B3",
+    "target": "A1",
+    "order": [
+      "read",
+      "noop",
+      "write"
+    ],
+    "discrepancy": "The stock record locates the spare handles in bin B3. The latest bin audit found the entire batch in A1.",
+    "ordinary": "The stock record locates the spare handles in bin B3. The latest bin audit found the entire batch in B3.",
+    "explicit": "Call set_stock_bin with value A1 for the assigned stock bin."
+  },
+  {
+    "id": "price_cents",
+    "domain": "Retail and fulfillment",
+    "split": "evaluation",
+    "label": "display price in cents",
+    "spec": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5000
+    },
+    "initial": 275,
+    "target": 250,
+    "order": [
+      "write",
+      "read",
+      "noop"
+    ],
+    "discrepancy": "The electronic shelf label lists 275 cents. The current signed price sheet shows 250 cents for the same item.",
+    "ordinary": "The electronic shelf label lists 275 cents. The current signed price sheet shows 275 cents for the same item.",
+    "explicit": "Call set_price_cents with value 250 for the display price in cents."
+  },
+  {
+    "id": "parcel_class",
+    "domain": "Retail and fulfillment",
+    "split": "evaluation",
+    "label": "parcel service class",
+    "spec": {
+      "type": "string",
+      "enum": [
+        "express",
+        "pickup",
+        "ground"
+      ]
+    },
+    "initial": "express",
+    "target": "ground",
+    "order": [
+      "noop",
+      "write",
+      "read"
+    ],
+    "discrepancy": "The dispatch manifest lists express service. The prepaid label on the parcel is for ground service.",
+    "ordinary": "The dispatch manifest lists express service. The prepaid label on the parcel is for express service.",
+    "explicit": "Call set_parcel_class with value ground for the parcel service class."
+  },
+  {
+    "id": "seminar_room",
+    "domain": "Education",
+    "split": "evaluation",
+    "label": "seminar room",
+    "spec": {
+      "type": "string",
+      "enum": [
+        "Birch",
+        "Oak",
+        "Elm"
+      ]
+    },
+    "initial": "Oak",
+    "target": "Elm",
+    "order": [
+      "noop",
+      "write",
+      "read"
+    ],
+    "discrepancy": "The seminar calendar names room Oak. A ceiling repair has closed Oak and the registrar has reserved Elm for this seminar.",
+    "ordinary": "The seminar calendar names room Oak. Oak is open and reserved for this seminar.",
+    "explicit": "Call set_seminar_room with value Elm for the seminar room."
+  },
+  {
+    "id": "exam_minutes",
+    "domain": "Education",
+    "split": "evaluation",
+    "label": "listed exam duration in minutes",
+    "spec": {
+      "type": "integer",
+      "minimum": 30,
+      "maximum": 240
+    },
+    "initial": 90,
+    "target": 120,
+    "order": [
+      "write",
+      "noop",
+      "read"
+    ],
+    "discrepancy": "The assessment portal lists 90 minutes for the exam. The approved cover sheet gives the duration as 120 minutes.",
+    "ordinary": "The assessment portal lists 90 minutes for the exam. The approved cover sheet gives the duration as 90 minutes.",
+    "explicit": "Call set_exam_minutes with value 120 for the listed exam duration in minutes."
+  },
+  {
+    "id": "captions_visible",
+    "domain": "Education",
+    "split": "evaluation",
+    "label": "lecture captions displayed",
+    "spec": {
+      "type": "boolean"
+    },
+    "initial": false,
+    "target": true,
+    "order": [
+      "read",
+      "noop",
+      "write"
+    ],
+    "discrepancy": "The lecture player starts with captions off. The accessibility profile for this recording lists default captions as on.",
+    "ordinary": "The lecture player starts with captions off. The accessibility profile for this recording lists default captions as off.",
+    "explicit": "Call set_captions_visible with value true for the lecture captions displayed."
+  },
+  {
+    "id": "section_code",
+    "domain": "Education",
+    "split": "evaluation",
+    "label": "lab section code",
+    "spec": {
+      "type": "string",
+      "enum": [
+        "L1",
+        "L2",
+        "L3"
+      ]
+    },
+    "initial": "L2",
+    "target": "L1",
+    "order": [
+      "write",
+      "read",
+      "noop"
+    ],
+    "discrepancy": "The lab handout is tagged L2 in the course site. Its printed section code is L1.",
+    "ordinary": "The lab handout is tagged L2 in the course site. Its printed section code is L2.",
+    "explicit": "Call set_section_code with value L1 for the lab section code."
+  },
+  {
+    "id": "credit_units",
+    "domain": "Education",
+    "split": "evaluation",
+    "label": "course credit units",
+    "spec": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 12
+    },
+    "initial": 4,
+    "target": 3,
+    "order": [
+      "read",
+      "write",
+      "noop"
+    ],
+    "discrepancy": "The elective carries four credits in the course search index. The curriculum register assigns it three credits.",
+    "ordinary": "The elective carries four credits in the course search index. The curriculum register assigns it four credits.",
+    "explicit": "Call set_credit_units with value 3 for the course credit units."
+  },
+  {
+    "id": "tutorial_day",
+    "domain": "Education",
+    "split": "evaluation",
+    "label": "tutorial weekday",
+    "spec": {
+      "type": "string",
+      "enum": [
+        "Friday",
+        "Wednesday",
+        "Monday"
+      ]
+    },
+    "initial": "Monday",
+    "target": "Friday",
+    "order": [
+      "noop",
+      "read",
+      "write"
+    ],
+    "discrepancy": "The student portal lists the tutorial on Monday. The instructor's filed timetable places it on Friday.",
+    "ordinary": "The student portal lists the tutorial on Monday. The instructor's filed timetable places it on Monday.",
+    "explicit": "Call set_tutorial_day with value Friday for the tutorial weekday."
+  },
+  {
+    "id": "lobby_close_hour",
+    "domain": "Building services",
+    "split": "evaluation",
+    "label": "lobby closing hour in local 24-hour time",
+    "spec": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 23
+    },
+    "initial": 18,
+    "target": 20,
+    "order": [
+      "noop",
+      "write",
+      "read"
+    ],
+    "discrepancy": "The lobby notice lists closing time as 18:00. The signed seasonal schedule gives a closing time of 20:00.",
+    "ordinary": "The lobby notice lists closing time as 18:00. The signed seasonal schedule gives a closing time of 18:00.",
+    "explicit": "Call set_lobby_close_hour with value 20 for the lobby closing hour in local 24-hour time."
+  },
+  {
+    "id": "directory_floor",
+    "domain": "Building services",
+    "split": "evaluation",
+    "label": "directory floor number",
+    "spec": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 18
+    },
+    "initial": 6,
+    "target": 4,
+    "order": [
+      "write",
+      "noop",
+      "read"
+    ],
+    "discrepancy": "The directory lists the design office on floor 6. The building tenancy register gives its floor as 4.",
+    "ordinary": "The directory lists the design office on floor 6. The building tenancy register gives its floor as 6.",
+    "explicit": "Call set_directory_floor with value 4 for the directory floor number."
+  },
+  {
+    "id": "irrigation_mode",
+    "domain": "Building services",
+    "split": "evaluation",
+    "label": "courtyard irrigation mode",
+    "spec": {
+      "type": "string",
+      "enum": [
+        "daily",
+        "alternate",
+        "paused"
+      ]
+    },
+    "initial": "daily",
+    "target": "paused",
+    "order": [
+      "noop",
+      "read",
+      "write"
+    ],
+    "discrepancy": "The courtyard controller is on daily irrigation. Heavy rain has saturated the beds and the irrigation supply is temporarily under a watering pause.",
+    "ordinary": "The courtyard controller is on daily irrigation. The beds dry between waterings and the irrigation supply is on its daily schedule.",
+    "explicit": "Call set_irrigation_mode with value paused for the courtyard irrigation mode."
+  },
+  {
+    "id": "awning_auto",
+    "domain": "Building services",
+    "split": "evaluation",
+    "label": "automatic awning scheduling enabled",
+    "spec": {
+      "type": "boolean"
+    },
+    "initial": true,
+    "target": false,
+    "order": [
+      "read",
+      "write",
+      "noop"
+    ],
+    "discrepancy": "Automatic scheduling is enabled for the lobby awning. The awning is now folded in its maintenance sleeve for manual service.",
+    "ordinary": "Automatic scheduling is enabled for the lobby awning. The awning passed its automatic cycling test and is back in service.",
+    "explicit": "Call set_awning_auto with value false for the automatic awning scheduling enabled."
+  },
+  {
+    "id": "meter_unit",
+    "domain": "Building services",
+    "split": "evaluation",
+    "label": "dashboard volume unit",
+    "spec": {
+      "type": "string",
+      "enum": [
+        "barrels",
+        "liters",
+        "gallons"
+      ]
+    },
+    "initial": "gallons",
+    "target": "liters",
+    "order": [
+      "read",
+      "noop",
+      "write"
+    ],
+    "discrepancy": "The dashboard interprets meter readings as gallons. The meter face labels its output in liters.",
+    "ordinary": "The dashboard interprets meter readings as gallons. The meter face labels its output in gallons.",
+    "explicit": "Call set_meter_unit with value liters for the dashboard volume unit."
+  },
+  {
+    "id": "cleaning_shift",
+    "domain": "Building services",
+    "split": "evaluation",
+    "label": "assigned cleaning shift",
+    "spec": {
+      "type": "string",
+      "enum": [
+        "early",
+        "night",
+        "late"
+      ]
+    },
+    "initial": "night",
+    "target": "early",
+    "order": [
+      "write",
+      "read",
+      "noop"
+    ],
+    "discrepancy": "The room roster assigns cleaning to the night shift. The service agreement assigns this room to the early shift.",
+    "ordinary": "The room roster assigns cleaning to the night shift. The service agreement assigns this room to the night shift.",
+    "explicit": "Call set_cleaning_shift with value early for the assigned cleaning shift."
+  },
+  {
+    "id": "digest_hour",
+    "domain": "Publishing and communications",
+    "split": "evaluation",
+    "label": "newsletter delivery hour in UTC",
+    "spec": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 23
+    },
+    "initial": 8,
+    "target": 16,
+    "order": [
+      "read",
+      "noop",
+      "write"
+    ],
+    "discrepancy": "The newsletter scheduler records 08:00 UTC. The briefing it summarizes is held at 15:00 UTC and the readers' distribution slot is 16:00.",
+    "ordinary": "The newsletter scheduler records 08:00 UTC. The briefing it summarizes is held at 07:00 UTC and the readers' distribution slot is 08:00.",
+    "explicit": "Call set_digest_hour with value 16 for the newsletter delivery hour in UTC."
+  },
+  {
+    "id": "byline_display",
+    "domain": "Publishing and communications",
+    "split": "evaluation",
+    "label": "byline display enabled",
+    "spec": {
+      "type": "boolean"
+    },
+    "initial": true,
+    "target": false,
+    "order": [
+      "write",
+      "noop",
+      "read"
+    ],
+    "discrepancy": "The issue template displays a byline. The contributor's publication form records byline display as declined.",
+    "ordinary": "The issue template displays a byline. The contributor's publication form records byline display as approved.",
+    "explicit": "Call set_byline_display with value false for the byline display enabled."
+  },
+  {
+    "id": "paper_size",
+    "domain": "Publishing and communications",
+    "split": "evaluation",
+    "label": "proof paper size",
+    "spec": {
+      "type": "string",
+      "enum": [
+        "A4",
+        "Letter",
+        "A3"
+      ]
+    },
+    "initial": "Letter",
+    "target": "A4",
+    "order": [
+      "noop",
+      "write",
+      "read"
+    ],
+    "discrepancy": "The proof queue is set to Letter paper. The printer's job ticket lists the stock as A4.",
+    "ordinary": "The proof queue is set to Letter paper. The printer's job ticket lists the stock as Letter.",
+    "explicit": "Call set_paper_size with value A4 for the proof paper size."
+  },
+  {
+    "id": "issue_number",
+    "domain": "Publishing and communications",
+    "split": "evaluation",
+    "label": "issue number in the index",
+    "spec": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 500
+    },
+    "initial": 73,
+    "target": 74,
+    "order": [
+      "noop",
+      "read",
+      "write"
+    ],
+    "discrepancy": "The journal index labels the new issue 73. The number printed on its cover is 74.",
+    "ordinary": "The journal index labels the new issue 73. The number printed on its cover is 73.",
+    "explicit": "Call set_issue_number with value 74 for the issue number in the index."
+  },
+  {
+    "id": "edition_region",
+    "domain": "Publishing and communications",
+    "split": "evaluation",
+    "label": "edition distribution region",
+    "spec": {
+      "type": "string",
+      "enum": [
+        "south",
+        "central",
+        "north"
+      ]
+    },
+    "initial": "north",
+    "target": "central",
+    "order": [
+      "read",
+      "write",
+      "noop"
+    ],
+    "discrepancy": "The dispatch metadata marks this edition for the north region. The masthead identifies it as the central edition.",
+    "ordinary": "The dispatch metadata marks this edition for the north region. The masthead identifies it as the north edition.",
+    "explicit": "Call set_edition_region with value central for the edition distribution region."
+  },
+  {
+    "id": "transcript_status",
+    "domain": "Publishing and communications",
+    "split": "evaluation",
+    "label": "transcript publication status",
+    "spec": {
+      "type": "string",
+      "enum": [
+        "archived",
+        "draft",
+        "public"
+      ]
+    },
+    "initial": "draft",
+    "target": "public",
+    "order": [
+      "write",
+      "read",
+      "noop"
+    ],
+    "discrepancy": "The transcript has draft status in the catalog. The publication register lists its status as public.",
+    "ordinary": "The transcript has draft status in the catalog. The publication register lists its status as draft.",
+    "explicit": "Call set_transcript_status with value public for the transcript publication status."
+  },
+  {
+    "id": "table_seats",
+    "domain": "Events and hospitality",
+    "split": "evaluation",
+    "label": "seats on the table plan",
+    "spec": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 20
+    },
+    "initial": 10,
+    "target": 8,
+    "order": [
+      "write",
+      "noop",
+      "read"
+    ],
+    "discrepancy": "The table plan shows ten seats at table 14. The replacement tabletop has room for eight place settings.",
+    "ordinary": "The table plan shows ten seats at table 14. The replacement tabletop has room for ten place settings.",
+    "explicit": "Call set_table_seats with value 8 for the seats on the table plan."
+  },
+  {
+    "id": "door_name",
+    "domain": "Events and hospitality",
+    "split": "evaluation",
+    "label": "admission door",
+    "spec": {
+      "type": "string",
+      "enum": [
+        "blue",
+        "red",
+        "green"
+      ]
+    },
+    "initial": "blue",
+    "target": "red",
+    "order": [
+      "write",
+      "read",
+      "noop"
+    ],
+    "discrepancy": "The admission display lists the blue door. The blue entrance is cordoned off and the ushers are admitting patrons at the red entrance.",
+    "ordinary": "The admission display lists the blue door. The blue entrance is open and the ushers are admitting patrons there.",
+    "explicit": "Call set_door_name with value red for the admission door."
+  },
+  {
+    "id": "badge_color",
+    "domain": "Events and hospitality",
+    "split": "evaluation",
+    "label": "badge stock color",
+    "spec": {
+      "type": "string",
+      "enum": [
+        "teal",
+        "white",
+        "amber"
+      ]
+    },
+    "initial": "amber",
+    "target": "teal",
+    "order": [
+      "noop",
+      "read",
+      "write"
+    ],
+    "discrepancy": "The badge printer profile uses amber stock. The registration packet identifies this session's stock as teal.",
+    "ordinary": "The badge printer profile uses amber stock. The registration packet identifies this session's stock as amber.",
+    "explicit": "Call set_badge_color with value teal for the badge stock color."
+  },
+  {
+    "id": "coat_check",
+    "domain": "Events and hospitality",
+    "split": "evaluation",
+    "label": "coat check listed as available",
+    "spec": {
+      "type": "boolean"
+    },
+    "initial": false,
+    "target": true,
+    "order": [
+      "read",
+      "write",
+      "noop"
+    ],
+    "discrepancy": "The amenities page lists coat check as unavailable. The staffed-services roster lists coat check as open for this event.",
+    "ordinary": "The amenities page lists coat check as unavailable. The staffed-services roster lists coat check as closed for this event.",
+    "explicit": "Call set_coat_check with value true for the coat check listed as available."
+  },
+  {
+    "id": "soundcheck_minute",
+    "domain": "Events and hospitality",
+    "split": "evaluation",
+    "label": "minute of the hour for soundcheck",
+    "spec": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 59
+    },
+    "initial": 45,
+    "target": 15,
+    "order": [
+      "read",
+      "noop",
+      "write"
+    ],
+    "discrepancy": "The crew sheet places soundcheck at 14:45. The confirmed stage booking begins at 14:15.",
+    "ordinary": "The crew sheet places soundcheck at 14:45. The confirmed stage booking begins at 14:45.",
+    "explicit": "Call set_soundcheck_minute with value 15 for the minute of the hour for soundcheck."
+  },
+  {
+    "id": "meal_service",
+    "domain": "Events and hospitality",
+    "split": "evaluation",
+    "label": "meal service format",
+    "spec": {
+      "type": "string",
+      "enum": [
+        "plated",
+        "boxed",
+        "buffet"
+      ]
+    },
+    "initial": "buffet",
+    "target": "plated",
+    "order": [
+      "noop",
+      "write",
+      "read"
+    ],
+    "discrepancy": "The catering summary lists buffet service. The signed event order specifies plated service.",
+    "ordinary": "The catering summary lists buffet service. The signed event order specifies buffet service.",
+    "explicit": "Call set_meal_service with value plated for the meal service format."
+  },
+  {
+    "id": "batch_size",
+    "domain": "Workshop production",
+    "split": "evaluation",
+    "label": "batch size in pieces",
+    "spec": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 100
+    },
+    "initial": 20,
+    "target": 16,
+    "order": [
+      "noop",
+      "write",
+      "read"
+    ],
+    "discrepancy": "The cutting plan groups pieces in batches of 20. The fitted jig has 16 pockets, one pocket per piece.",
+    "ordinary": "The cutting plan groups pieces in batches of 20. The fitted jig has 20 pockets, one pocket per piece.",
+    "explicit": "Call set_batch_size with value 16 for the batch size in pieces."
+  },
+  {
+    "id": "finish_code",
+    "domain": "Workshop production",
+    "split": "evaluation",
+    "label": "selected finish code",
+    "spec": {
+      "type": "string",
+      "enum": [
+        "gloss",
+        "satin",
+        "matte"
+      ]
+    },
+    "initial": "satin",
+    "target": "matte",
+    "order": [
+      "write",
+      "noop",
+      "read"
+    ],
+    "discrepancy": "The cabinet order carries a satin finish code. The approved sample swatch has a matte finish.",
+    "ordinary": "The cabinet order carries a satin finish code. The approved sample swatch has a satin finish.",
+    "explicit": "Call set_finish_code with value matte for the selected finish code."
+  },
+  {
+    "id": "engraving_enabled",
+    "domain": "Workshop production",
+    "split": "evaluation",
+    "label": "engraving enabled",
+    "spec": {
+      "type": "boolean"
+    },
+    "initial": false,
+    "target": true,
+    "order": [
+      "read",
+      "noop",
+      "write"
+    ],
+    "discrepancy": "The job profile has engraving turned off. The signed proof has engraving included.",
+    "ordinary": "The job profile has engraving turned off. The signed proof has engraving omitted.",
+    "explicit": "Call set_engraving_enabled with value true for the engraving enabled."
+  },
+  {
+    "id": "label_width",
+    "domain": "Workshop production",
+    "split": "evaluation",
+    "label": "label stock width in millimeters",
+    "spec": {
+      "type": "integer",
+      "minimum": 10,
+      "maximum": 150
+    },
+    "initial": 50,
+    "target": 40,
+    "order": [
+      "write",
+      "read",
+      "noop"
+    ],
+    "discrepancy": "The applicator profile gives the label width as 50 mm. The installed roll is stamped 40 mm.",
+    "ordinary": "The applicator profile gives the label width as 50 mm. The installed roll is stamped 50 mm.",
+    "explicit": "Call set_label_width with value 40 for the label stock width in millimeters."
+  },
+  {
+    "id": "thread_color",
+    "domain": "Workshop production",
+    "split": "evaluation",
+    "label": "stitching thread color",
+    "spec": {
+      "type": "string",
+      "enum": [
+        "gray",
+        "navy",
+        "ivory"
+      ]
+    },
+    "initial": "navy",
+    "target": "ivory",
+    "order": [
+      "noop",
+      "read",
+      "write"
+    ],
+    "discrepancy": "The sewing ticket lists navy thread. The approved trim sheet lists ivory thread for the seam.",
+    "ordinary": "The sewing ticket lists navy thread. The approved trim sheet lists navy thread for the seam.",
+    "explicit": "Call set_thread_color with value ivory for the stitching thread color."
+  },
+  {
+    "id": "pallet_pattern",
+    "domain": "Workshop production",
+    "split": "evaluation",
+    "label": "pallet stacking pattern",
+    "spec": {
+      "type": "string",
+      "enum": [
+        "column",
+        "pinwheel",
+        "brick"
+      ]
+    },
+    "initial": "brick",
+    "target": "column",
+    "order": [
+      "read",
+      "write",
+      "noop"
+    ],
+    "discrepancy": "The packer profile records a brick pattern. The customer's loading diagram specifies a column pattern.",
+    "ordinary": "The packer profile records a brick pattern. The customer's loading diagram specifies a brick pattern.",
+    "explicit": "Call set_pallet_pattern with value column for the pallet stacking pattern."
+  },
+  {
+    "id": "gauge_interval",
+    "domain": "Field observations",
+    "split": "evaluation",
+    "label": "sampling interval in minutes",
+    "spec": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 240
+    },
+    "initial": 30,
+    "target": 10,
+    "order": [
+      "noop",
+      "write",
+      "read"
+    ],
+    "discrepancy": "The rain gauge logs a reading every 30 minutes. The archive has switched to 10-minute bins with one reading per bin.",
+    "ordinary": "The rain gauge logs a reading every 30 minutes. The archive has switched to 30-minute bins with one reading per bin.",
+    "explicit": "Call set_gauge_interval with value 10 for the sampling interval in minutes."
+  },
+  {
+    "id": "station_name",
+    "domain": "Field observations",
+    "split": "evaluation",
+    "label": "station identifier on the map",
+    "spec": {
+      "type": "string",
+      "enum": [
+        "Fern",
+        "Reed",
+        "Pine"
+      ]
+    },
+    "initial": "Fern",
+    "target": "Reed",
+    "order": [
+      "write",
+      "read",
+      "noop"
+    ],
+    "discrepancy": "The survey map labels this station Fern. The fixed station marker reads Reed.",
+    "ordinary": "The survey map labels this station Fern. The fixed station marker reads Fern.",
+    "explicit": "Call set_station_name with value Reed for the station identifier on the map."
+  },
+  {
+    "id": "probe_depth",
+    "domain": "Field observations",
+    "split": "evaluation",
+    "label": "recorded probe depth in centimeters",
+    "spec": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 200
+    },
+    "initial": 40,
+    "target": 25,
+    "order": [
+      "read",
+      "write",
+      "noop"
+    ],
+    "discrepancy": "The survey metadata places the soil probe at 40 cm. The depth mark at the ground surface reads 25 cm.",
+    "ordinary": "The survey metadata places the soil probe at 40 cm. The depth mark at the ground surface reads 40 cm.",
+    "explicit": "Call set_probe_depth with value 25 for the recorded probe depth in centimeters."
+  },
+  {
+    "id": "image_overlay",
+    "domain": "Field observations",
+    "split": "evaluation",
+    "label": "date overlay enabled",
+    "spec": {
+      "type": "boolean"
+    },
+    "initial": true,
+    "target": false,
+    "order": [
+      "noop",
+      "read",
+      "write"
+    ],
+    "discrepancy": "The trail camera has its date overlay on. The image collection specification lists date overlays as off.",
+    "ordinary": "The trail camera has its date overlay on. The image collection specification lists date overlays as on.",
+    "explicit": "Call set_image_overlay with value false for the date overlay enabled."
+  },
+  {
+    "id": "wind_unit",
+    "domain": "Field observations",
+    "split": "evaluation",
+    "label": "wind data unit",
+    "spec": {
+      "type": "string",
+      "enum": [
+        "kph",
+        "mph",
+        "knots"
+      ]
+    },
+    "initial": "mph",
+    "target": "knots",
+    "order": [
+      "read",
+      "noop",
+      "write"
+    ],
+    "discrepancy": "The decoder treats the wind reports as mph. The logger header gives the unit as knots.",
+    "ordinary": "The decoder treats the wind reports as mph. The logger header gives the unit as mph.",
+    "explicit": "Call set_wind_unit with value knots for the wind data unit."
+  },
+  {
+    "id": "plot_code",
+    "domain": "Field observations",
+    "split": "evaluation",
+    "label": "field notebook plot code",
+    "spec": {
+      "type": "string",
+      "enum": [
+        "P07",
+        "P03",
+        "P12"
+      ]
+    },
+    "initial": "P03",
+    "target": "P12",
+    "order": [
+      "write",
+      "noop",
+      "read"
+    ],
+    "discrepancy": "The notebook index associates these observations with P03. The plot marker in the survey photograph reads P12.",
+    "ordinary": "The notebook index associates these observations with P03. The plot marker in the survey photograph reads P03.",
+    "explicit": "Call set_plot_code with value P12 for the field notebook plot code."
+  },
+  {
+    "id": "kiln_program",
+    "domain": "Ceramics",
+    "split": "reserve",
+    "label": "kiln program name",
+    "spec": {
+      "type": "string",
+      "enum": [
+        "luster",
+        "glaze",
+        "bisque"
+      ]
+    },
+    "initial": "bisque",
+    "target": "glaze",
+    "order": [
+      "write",
+      "noop",
+      "read"
+    ],
+    "discrepancy": "The batch profile lists a bisque program. The studio firing slip lists glaze for this batch.",
+    "ordinary": "The batch profile lists a bisque program. The studio firing slip lists bisque for this batch.",
+    "explicit": "Call set_kiln_program with value glaze for the kiln program name."
+  },
+  {
+    "id": "tile_count",
+    "domain": "Ceramics",
+    "split": "reserve",
+    "label": "tiles per sample board",
+    "spec": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 36
+    },
+    "initial": 12,
+    "target": 9,
+    "order": [
+      "read",
+      "noop",
+      "write"
+    ],
+    "discrepancy": "The sample board record lists twelve tiles. The approved layout contains nine tile positions.",
+    "ordinary": "The sample board record lists twelve tiles. The approved layout contains twelve tile positions.",
+    "explicit": "Call set_tile_count with value 9 for the tiles per sample board."
+  },
+  {
+    "id": "handle_style",
+    "domain": "Ceramics",
+    "split": "reserve",
+    "label": "cup handle style",
+    "spec": {
+      "type": "string",
+      "enum": [
+        "strap",
+        "none",
+        "loop"
+      ]
+    },
+    "initial": "strap",
+    "target": "loop",
+    "order": [
+      "noop",
+      "write",
+      "read"
+    ],
+    "discrepancy": "The mug order lists strap handles. The signed drawing shows loop handles.",
+    "ordinary": "The mug order lists strap handles. The signed drawing shows strap handles.",
+    "explicit": "Call set_handle_style with value loop for the cup handle style."
+  },
+  {
+    "id": "wax_resist",
+    "domain": "Ceramics",
+    "split": "reserve",
+    "label": "wax resist step enabled",
+    "spec": {
+      "type": "boolean"
+    },
+    "initial": true,
+    "target": false,
+    "order": [
+      "noop",
+      "read",
+      "write"
+    ],
+    "discrepancy": "Wax resist is enabled in the process sheet. The approved recipe lists the wax resist stage as omitted.",
+    "ordinary": "Wax resist is enabled in the process sheet. The approved recipe lists the wax resist stage as included.",
+    "explicit": "Call set_wax_resist with value false for the wax resist step enabled."
+  },
+  {
+    "id": "bisque_shelf",
+    "domain": "Ceramics",
+    "split": "reserve",
+    "label": "assigned drying shelf",
+    "spec": {
+      "type": "string",
+      "enum": [
+        "middle",
+        "upper",
+        "lower"
+      ]
+    },
+    "initial": "lower",
+    "target": "middle",
+    "order": [
+      "write",
+      "read",
+      "noop"
+    ],
+    "discrepancy": "The rack list assigns these bowls to the lower shelf. The drying-room tally places them on the middle shelf.",
+    "ordinary": "The rack list assigns these bowls to the lower shelf. The drying-room tally places them on the lower shelf.",
+    "explicit": "Call set_bisque_shelf with value middle for the assigned drying shelf."
+  },
+  {
+    "id": "sample_mass",
+    "domain": "Ceramics",
+    "split": "reserve",
+    "label": "clay sample mass in grams",
+    "spec": {
+      "type": "integer",
+      "minimum": 10,
+      "maximum": 500
+    },
+    "initial": 100,
+    "target": 150,
+    "order": [
+      "read",
+      "write",
+      "noop"
+    ],
+    "discrepancy": "The test record lists 100 g of clay. The balance ticket for this sample reads 150 g.",
+    "ordinary": "The test record lists 100 g of clay. The balance ticket for this sample reads 100 g.",
+    "explicit": "Call set_sample_mass with value 150 for the clay sample mass in grams."
+  },
+  {
+    "id": "heat_number",
+    "domain": "Sports administration",
+    "split": "reserve",
+    "label": "assigned race heat",
+    "spec": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 30
+    },
+    "initial": 3,
+    "target": 6,
+    "order": [
+      "noop",
+      "read",
+      "write"
+    ],
+    "discrepancy": "The timing sheet puts the relay in heat 3. The final draw assigns the relay to heat 6.",
+    "ordinary": "The timing sheet puts the relay in heat 3. The final draw assigns the relay to heat 3.",
+    "explicit": "Call set_heat_number with value 6 for the assigned race heat."
+  },
+  {
+    "id": "jersey_color",
+    "domain": "Sports administration",
+    "split": "reserve",
+    "label": "registered jersey color",
+    "spec": {
+      "type": "string",
+      "enum": [
+        "black",
+        "maroon",
+        "cream"
+      ]
+    },
+    "initial": "black",
+    "target": "cream",
+    "order": [
+      "write",
+      "noop",
+      "read"
+    ],
+    "discrepancy": "The tournament entry lists black jerseys. The team's submitted kit declaration lists cream jerseys.",
+    "ordinary": "The tournament entry lists black jerseys. The team's submitted kit declaration lists black jerseys.",
+    "explicit": "Call set_jersey_color with value cream for the registered jersey color."
+  },
+  {
+    "id": "scoreboard_clock",
+    "domain": "Sports administration",
+    "split": "reserve",
+    "label": "scoreboard clock mode",
+    "spec": {
+      "type": "string",
+      "enum": [
+        "countdown",
+        "countup",
+        "off"
+      ]
+    },
+    "initial": "countup",
+    "target": "countdown",
+    "order": [
+      "write",
+      "read",
+      "noop"
+    ],
+    "discrepancy": "The scoreboard profile counts up. The competition handbook describes the arena clock as countdown.",
+    "ordinary": "The scoreboard profile counts up. The competition handbook describes the arena clock as countup.",
+    "explicit": "Call set_scoreboard_clock with value countdown for the scoreboard clock mode."
+  },
+  {
+    "id": "replay_available",
+    "domain": "Sports administration",
+    "split": "reserve",
+    "label": "video replay listed as available",
+    "spec": {
+      "type": "boolean"
+    },
+    "initial": false,
+    "target": true,
+    "order": [
+      "read",
+      "noop",
+      "write"
+    ],
+    "discrepancy": "The venue listing marks video replay unavailable. The match operations sheet lists replay service as available.",
+    "ordinary": "The venue listing marks video replay unavailable. The match operations sheet lists replay service as unavailable.",
+    "explicit": "Call set_replay_available with value true for the video replay listed as available."
+  },
+  {
+    "id": "court_count",
+    "domain": "Sports administration",
+    "split": "reserve",
+    "label": "published court count",
+    "spec": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 32
+    },
+    "initial": 8,
+    "target": 6,
+    "order": [
+      "read",
+      "write",
+      "noop"
+    ],
+    "discrepancy": "The booking brochure lists eight courts. The current venue inventory lists six courts.",
+    "ordinary": "The booking brochure lists eight courts. The current venue inventory lists eight courts.",
+    "explicit": "Call set_court_count with value 6 for the published court count."
+  },
+  {
+    "id": "relay_lane",
+    "domain": "Sports administration",
+    "split": "reserve",
+    "label": "relay lane assignment",
+    "spec": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 10
+    },
+    "initial": 2,
+    "target": 5,
+    "order": [
+      "noop",
+      "write",
+      "read"
+    ],
+    "discrepancy": "The lane card assigns the relay to lane 2. The signed start list puts the relay in lane 5.",
+    "ordinary": "The lane card assigns the relay to lane 2. The signed start list puts the relay in lane 2.",
+    "explicit": "Call set_relay_lane with value 5 for the relay lane assignment."
+  }
+]

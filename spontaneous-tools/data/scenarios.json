@@ -1,0 +1,10 @@
+[
+  {"key":"auth_version","signal":"The installed authentication library is version 2.4. Version 2.5 fixes a known compatibility issue.","control":"The installed authentication library is version 2.5. The release catalog lists version 2.5 as current.","old":"2.4","new":"2.5"},
+  {"key":"printer_tray","signal":"The office printer is using tray A. Tray A is empty. Tray B contains paper.","control":"The office printer is using tray B. Tray B contains paper.","old":"A","new":"B"},
+  {"key":"meeting_room","signal":"The weekly meeting is listed in room Cedar. Cedar is closed that day. Room Maple is available.","control":"The weekly meeting is listed in room Maple. Maple is open that day.","old":"Cedar","new":"Maple"},
+  {"key":"display_zone","signal":"The lobby clock display uses UTC. The building is in the Pacific time zone.","control":"The lobby clock display uses Pacific time. The building is in the Pacific time zone.","old":"UTC","new":"Pacific"},
+  {"key":"backup_drive","signal":"Nightly backups use drive D1. D1 has no free space. Drive D2 has 200 GB available.","control":"Nightly backups use drive D2. D2 has 200 GB available.","old":"D1","new":"D2"},
+  {"key":"label_size","signal":"The label printer is configured for 40 mm labels. The loaded roll contains 50 mm labels.","control":"The label printer is configured for 50 mm labels. The loaded roll contains 50 mm labels.","old":"40 mm","new":"50 mm"},
+  {"key":"caption_track","signal":"The subtitles are set to track A. Track A is empty. Track B contains English captions.","control":"The subtitles are set to track B. Track B contains English captions.","old":"A","new":"B"},
+  {"key":"report_format","signal":"The nightly report is exported as XML. The receiving program accepts CSV files only.","control":"The nightly report is exported as CSV. The receiving program accepts CSV files.","old":"XML","new":"CSV"}
+]

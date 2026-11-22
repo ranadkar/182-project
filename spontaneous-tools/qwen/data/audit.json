@@ -1,0 +1,53 @@
+{
+  "training": {
+    "rows": 256,
+    "decisions": {
+      "write": 96,
+      "read": 96,
+      "noop": 32,
+      "close": 32
+    },
+    "supervised_tokens_per_arm": 4909,
+    "assistant_ids_digest": "7e63c7306e133d19df91dee2f33d90cf9ce8731fbbc58ae29111cc0e0a2726f0",
+    "context_tokens": {
+      "continuation": 138426,
+      "explicit": 140876,
+      "ack": 141023
+    },
+    "max_sequence": 602
+  },
+  "validation": {
+    "rows": 24,
+    "decisions": {
+      "write": 11,
+      "read": 9,
+      "noop": 2,
+      "close": 2
+    },
+    "supervised_tokens_per_arm": 490,
+    "assistant_ids_digest": "bc89316b3067cc074cb21731839fbc03efcaa653fad9c26091736ecb41e7cde2",
+    "context_tokens": {
+      "continuation": 12931,
+      "explicit": 13185,
+      "ack": 13201
+    },
+    "max_sequence": 585
+  },
+  "competence": {
+    "rows": 32,
+    "decisions": {
+      "write": 12,
+      "read": 12,
+      "noop": 4,
+      "close": 4
+    },
+    "supervised_tokens_per_arm": 618,
+    "assistant_ids_digest": "a2cdc15914e15fff730ab605bbd02e1f0f7c9f7dcf1dc45a3a7d2af1fefc6716",
+    "context_tokens": {
+      "continuation": 17346,
+      "explicit": 17653,
+      "ack": 17670
+    },
+    "max_sequence": 601
+  }
+}

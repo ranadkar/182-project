@@ -1,0 +1,1506 @@
+[
+  {
+    "id": "metrology-join",
+    "role": "user",
+    "fact": "Quartz is absent from the check-weight inventory. The signed inventory includes the Quartz weight.",
+    "cold": "<tool_call>\n<function=enroll_metrology>\n<parameter=record>\nQuartz\n</parameter>\n</function>\n</tool_call>",
+    "warm": "<tool_call>\n<function=enroll_metrology>\n<parameter=record>\nQuartz\n</parameter>\n</function>\n</tool_call>",
+    "cold_tokens": [
+      248058,
+      198,
+      27,
+      1628,
+      59673,
+      1065,
+      697,
+      8539,
+      34501,
+      29,
+      198,
+      27,
+      15704,
+      28,
+      8286,
+      29,
+      198,
+      2114,
+      20932,
+      198,
+      510,
+      15704,
+      29,
+      198,
+      510,
+      1628,
+      29,
+      198,
+      248059,
+      248046
+    ],
+    "warm_tokens": [
+      248058,
+      198,
+      27,
+      1628,
+      59673,
+      1065,
+      697,
+      8539,
+      34501,
+      29,
+      198,
+      27,
+      15704,
+      28,
+      8286,
+      29,
+      198,
+      2114,
+      20932,
+      198,
+      510,
+      15704,
+      29,
+      198,
+      510,
+      1628,
+      29,
+      198,
+      248059,
+      248046
+    ],
+    "cold_score": {
+      "outcome": "write",
+      "events": [
+        {
+          "kind": "write",
+          "name": "enroll_metrology",
+          "args": {
+            "record": "Quartz"
+          },
+          "before": [
+            "Ripple"
+          ],
+          "after": [
+            "Ripple",
+            "Quartz"
+          ]
+        }
+      ],
+      "decoded": [
+        {
+          "name": "enroll_metrology",
+          "arguments": {
+            "record": "Quartz"
+          }
+        }
+      ],
+      "error": null,
+      "final_state": [
+        "Ripple",
+        "Quartz"
+      ],
+      "changed": true,
+      "matched": true,
+      "attempted_write": true,
+      "idempotent_write": false
+    },
+    "warm_score": {
+      "outcome": "write",
+      "events": [
+        {
+          "kind": "write",
+          "name": "enroll_metrology",
+          "args": {
+            "record": "Quartz"
+          },
+          "before": [
+            "Ripple"
+          ],
+          "after": [
+            "Ripple",
+            "Quartz"
+          ]
+        }
+      ],
+      "decoded": [
+        {
+          "name": "enroll_metrology",
+          "arguments": {
+            "record": "Quartz"
+          }
+        }
+      ],
+      "error": null,
+      "final_state": [
+        "Ripple",
+        "Quartz"
+      ],
+      "changed": true,
+      "matched": true,
+      "attempted_write": true,
+      "idempotent_write": false
+    },
+    "equal_tokens": true,
+    "equal_state": true
+  },
+  {
+    "id": "fostering-pair",
+    "role": "user",
+    "fact": "Miso's foster file has no placement link. The signed placement agreement names Aster as Miso's foster home.",
+    "cold": "<tool_call>\n<function=link_fostering>\n<parameter=primary>\nMiso\n</parameter>\n<parameter=companion>\nAster\n</parameter>\n</function>\n</tool_call>",
+    "warm": "<tool_call>\n<function=link_fostering>\n<parameter=primary>\nMiso\n</parameter>\n<parameter=companion>\nAster\n</parameter>\n</function>\n</tool_call>",
+    "cold_tokens": [
+      248058,
+      198,
+      27,
+      1628,
+      28,
+      2012,
+      736,
+      522,
+      4519,
+      29,
+      198,
+      27,
+      15704,
+      28,
+      6342,
+      29,
+      198,
+      44,
+      14970,
+      198,
+      510,
+      15704,
+      29,
+      198,
+      27,
+      15704,
+      56856,
+      39444,
+      29,
+      198,
+      32,
+      3541,
+      198,
+      510,
+      15704,
+      29,
+      198,
+      510,
+      1628,
+      29,
+      198,
+      248059,
+      248046
+    ],
+    "warm_tokens": [
+      248058,
+      198,
+      27,
+      1628,
+      28,
+      2012,
+      736,
+      522,
+      4519,
+      29,
+      198,
+      27,
+      15704,
+      28,
+      6342,
+      29,
+      198,
+      44,
+      14970,
+      198,
+      510,
+      15704,
+      29,
+      198,
+      27,
+      15704,
+      56856,
+      39444,
+      29,
+      198,
+      32,
+      3541,
+      198,
+      510,
+      15704,
+      29,
+      198,
+      510,
+      1628,
+      29,
+      198,
+      248059,
+      248046
+    ],
+    "cold_score": {
+      "outcome": "write",
+      "events": [
+        {
+          "kind": "write",
+          "name": "link_fostering",
+          "args": {
+            "primary": "Miso",
+            "companion": "Aster"
+          },
+          "before": {
+            "Pepper": null,
+            "Aster": null,
+            "Miso": null
+          },
+          "after": {
+            "Pepper": null,
+            "Aster": null,
+            "Miso": "Aster"
+          }
+        }
+      ],
+      "decoded": [
+        {
+          "name": "link_fostering",
+          "arguments": {
+            "primary": "Miso",
+            "companion": "Aster"
+          }
+        }
+      ],
+      "error": null,
+      "final_state": {
+        "Pepper": null,
+        "Aster": null,
+        "Miso": "Aster"
+      },
+      "changed": true,
+      "matched": true,
+      "attempted_write": true,
+      "idempotent_write": false
+    },
+    "warm_score": {
+      "outcome": "write",
+      "events": [
+        {
+          "kind": "write",
+          "name": "link_fostering",
+          "args": {
+            "primary": "Miso",
+            "companion": "Aster"
+          },
+          "before": {
+            "Pepper": null,
+            "Aster": null,
+            "Miso": null
+          },
+          "after": {
+            "Pepper": null,
+            "Aster": null,
+            "Miso": "Aster"
+          }
+        }
+      ],
+      "decoded": [
+        {
+          "name": "link_fostering",
+          "arguments": {
+            "primary": "Miso",
+            "companion": "Aster"
+          }
+        }
+      ],
+      "error": null,
+      "final_state": {
+        "Pepper": null,
+        "Aster": null,
+        "Miso": "Aster"
+      },
+      "changed": true,
+      "matched": true,
+      "attempted_write": true,
+      "idempotent_write": false
+    },
+    "equal_tokens": true,
+    "equal_state": true
+  },
+  {
+    "id": "metrology-remove",
+    "role": "environment",
+    "fact": "Nickel remains on the active reference list. Its retirement certificate took effect yesterday.",
+    "cold": "<tool_call>\n<function=inspect_metrology>\n</function>\n</tool_call>",
+    "warm": "<tool_call>\n<function=inspect_metrology>\n</function>\n</tool_call>",
+    "cold_tokens": [
+      248058,
+      198,
+      27,
+      1628,
+      28,
+      79221,
+      697,
+      8539,
+      34501,
+      29,
+      198,
+      510,
+      1628,
+      29,
+      198,
+      248059,
+      248046
+    ],
+    "warm_tokens": [
+      248058,
+      198,
+      27,
+      1628,
+      28,
+      79221,
+      697,
+      8539,
+      34501,
+      29,
+      198,
+      510,
+      1628,
+      29,
+      198,
+      248059,
+      248046
+    ],
+    "cold_score": {
+      "outcome": "read",
+      "events": [
+        {
+          "kind": "read",
+          "name": "inspect_metrology",
+          "args": {},
+          "before": [
+            "Blue",
+            "Nickel"
+          ],
+          "after": [
+            "Blue",
+            "Nickel"
+          ]
+        }
+      ],
+      "decoded": [
+        {
+          "name": "inspect_metrology",
+          "arguments": {}
+        }
+      ],
+      "error": null,
+      "final_state": [
+        "Blue",
+        "Nickel"
+      ],
+      "changed": false,
+      "matched": false,
+      "attempted_write": false,
+      "idempotent_write": false
+    },
+    "warm_score": {
+      "outcome": "read",
+      "events": [
+        {
+          "kind": "read",
+          "name": "inspect_metrology",
+          "args": {},
+          "before": [
+            "Blue",
+            "Nickel"
+          ],
+          "after": [
+            "Blue",
+            "Nickel"
+          ]
+        }
+      ],
+      "decoded": [
+        {
+          "name": "inspect_metrology",
+          "arguments": {}
+        }
+      ],
+      "error": null,
+      "final_state": [
+        "Blue",
+        "Nickel"
+      ],
+      "changed": false,
+      "matched": false,
+      "attempted_write": false,
+      "idempotent_write": false
+    },
+    "equal_tokens": true,
+    "equal_state": true
+  },
+  {
+    "id": "fostering-split",
+    "role": "environment",
+    "fact": "All three unused meal vouchers are credited to Cedar and Birch has none. The closing reimbursement assigns two of those vouchers to Birch.",
+    "cold": "<tool_call>\n<function=inspect_fostering>\n</function>\n</tool_call>",
+    "warm": "<tool_call>\n<function=inspect_fostering>\n</function>\n</tool_call>",
+    "cold_tokens": [
+      248058,
+      198,
+      27,
+      1628,
+      28,
+      79221,
+      736,
+      522,
+      4519,
+      29,
+      198,
+      510,
+      1628,
+      29,
+      198,
+      248059,
+      248046
+    ],
+    "warm_tokens": [
+      248058,
+      198,
+      27,
+      1628,
+      28,
+      79221,
+      736,
+      522,
+      4519,
+      29,
+      198,
+      510,
+      1628,
+      29,
+      198,
+      248059,
+      248046
+    ],
+    "cold_score": {
+      "outcome": "read",
+      "events": [
+        {
+          "kind": "read",
+          "name": "inspect_fostering",
+          "args": {},
+          "before": {
+            "Cedar": 3,
+            "Birch": 0,
+            "Mochi": 1
+          },
+          "after": {
+            "Cedar": 3,
+            "Birch": 0,
+            "Mochi": 1
+          }
+        }
+      ],
+      "decoded": [
+        {
+          "name": "inspect_fostering",
+          "arguments": {}
+        }
+      ],
+      "error": null,
+      "final_state": {
+        "Cedar": 3,
+        "Birch": 0,
+        "Mochi": 1
+      },
+      "changed": false,
+      "matched": false,
+      "attempted_write": false,
+      "idempotent_write": false
+    },
+    "warm_score": {
+      "outcome": "read",
+      "events": [
+        {
+          "kind": "read",
+          "name": "inspect_fostering",
+          "args": {},
+          "before": {
+            "Cedar": 3,
+            "Birch": 0,
+            "Mochi": 1
+          },
+          "after": {
+            "Cedar": 3,
+            "Birch": 0,
+            "Mochi": 1
+          }
+        }
+      ],
+      "decoded": [
+        {
+          "name": "inspect_fostering",
+          "arguments": {}
+        }
+      ],
+      "error": null,
+      "final_state": {
+        "Cedar": 3,
+        "Birch": 0,
+        "Mochi": 1
+      },
+      "changed": false,
+      "matched": false,
+      "attempted_write": false,
+      "idempotent_write": false
+    },
+    "equal_tokens": true,
+    "equal_state": true
+  },
+  {
+    "id": "metrology-move",
+    "role": "system_event",
+    "fact": "The custody ledger places Pebble in east storage. The sealed receipt records delivery to west storage.",
+    "cold": "<tool_call>\n<function=inspect_metrology>\n</function>\n</tool_call>",
+    "warm": "<tool_call>\n<function=inspect_metrology>\n</function>\n</tool_call>",
+    "cold_tokens": [
+      248058,
+      198,
+      27,
+      1628,
+      28,
+      79221,
+      697,
+      8539,
+      34501,
+      29,
+      198,
+      510,
+      1628,
+      29,
+      198,
+      248059,
+      248046
+    ],
+    "warm_tokens": [
+      248058,
+      198,
+      27,
+      1628,
+      28,
+      79221,
+      697,
+      8539,
+      34501,
+      29,
+      198,
+      510,
+      1628,
+      29,
+      198,
+      248059,
+      248046
+    ],
+    "cold_score": {
+      "outcome": "read",
+      "events": [
+        {
+          "kind": "read",
+          "name": "inspect_metrology",
+          "args": {},
+          "before": {
+            "Pebble": "east",
+            "Slate": "holding"
+          },
+          "after": {
+            "Pebble": "east",
+            "Slate": "holding"
+          }
+        }
+      ],
+      "decoded": [
+        {
+          "name": "inspect_metrology",
+          "arguments": {}
+        }
+      ],
+      "error": null,
+      "final_state": {
+        "Pebble": "east",
+        "Slate": "holding"
+      },
+      "changed": false,
+      "matched": false,
+      "attempted_write": false,
+      "idempotent_write": false
+    },
+    "warm_score": {
+      "outcome": "read",
+      "events": [
+        {
+          "kind": "read",
+          "name": "inspect_metrology",
+          "args": {},
+          "before": {
+            "Pebble": "east",
+            "Slate": "holding"
+          },
+          "after": {
+            "Pebble": "east",
+            "Slate": "holding"
+          }
+        }
+      ],
+      "decoded": [
+        {
+          "name": "inspect_metrology",
+          "arguments": {}
+        }
+      ],
+      "error": null,
+      "final_state": {
+        "Pebble": "east",
+        "Slate": "holding"
+      },
+      "changed": false,
+      "matched": false,
+      "attempted_write": false,
+      "idempotent_write": false
+    },
+    "equal_tokens": true,
+    "equal_state": true
+  },
+  {
+    "id": "fostering-mark",
+    "role": "system_event",
+    "fact": "Juniper's home-check milestone is open. The inspector signed the completed home-check record.",
+    "cold": "<tool_call>\n<function=inspect_fostering>\n</function>\n</tool_call>",
+    "warm": "<tool_call>\n<function=inspect_fostering>\n</function>\n</tool_call>",
+    "cold_tokens": [
+      248058,
+      198,
+      27,
+      1628,
+      28,
+      79221,
+      736,
+      522,
+      4519,
+      29,
+      198,
+      510,
+      1628,
+      29,
+      198,
+      248059,
+      248046
+    ],
+    "warm_tokens": [
+      248058,
+      198,
+      27,
+      1628,
+      28,
+      79221,
+      736,
+      522,
+      4519,
+      29,
+      198,
+      510,
+      1628,
+      29,
+      198,
+      248059,
+      248046
+    ],
+    "cold_score": {
+      "outcome": "read",
+      "events": [
+        {
+          "kind": "read",
+          "name": "inspect_fostering",
+          "args": {},
+          "before": {
+            "Juniper": false,
+            "Pip": false
+          },
+          "after": {
+            "Juniper": false,
+            "Pip": false
+          }
+        }
+      ],
+      "decoded": [
+        {
+          "name": "inspect_fostering",
+          "arguments": {}
+        }
+      ],
+      "error": null,
+      "final_state": {
+        "Juniper": false,
+        "Pip": false
+      },
+      "changed": false,
+      "matched": false,
+      "attempted_write": false,
+      "idempotent_write": false
+    },
+    "warm_score": {
+      "outcome": "read",
+      "events": [
+        {
+          "kind": "read",
+          "name": "inspect_fostering",
+          "args": {},
+          "before": {
+            "Juniper": false,
+            "Pip": false
+          },
+          "after": {
+            "Juniper": false,
+            "Pip": false
+          }
+        }
+      ],
+      "decoded": [
+        {
+          "name": "inspect_fostering",
+          "arguments": {}
+        }
+      ],
+      "error": null,
+      "final_state": {
+        "Juniper": false,
+        "Pip": false
+      },
+      "changed": false,
+      "matched": false,
+      "attempted_write": false,
+      "idempotent_write": false
+    },
+    "equal_tokens": true,
+    "equal_state": true
+  },
+  {
+    "id": "metrology-queue",
+    "role": "user",
+    "fact": "Ripple has no comparison ticket in the laboratory queue. Its comparison date has passed and the signed roster includes it.",
+    "cold": "<tool_call>\n<function=withdraw_metrology>\n<parameter=record>\nRipple\n</parameter>\n</function>\n</tool_call>",
+    "warm": "<tool_call>\n<function=withdraw_metrology>\n<parameter=record>\nRipple\n</parameter>\n</function>\n</tool_call>",
+    "cold_tokens": [
+      248058,
+      198,
+      27,
+      1628,
+      28,
+      60342,
+      697,
+      8539,
+      34501,
+      29,
+      198,
+      27,
+      15704,
+      28,
+      8286,
+      29,
+      198,
+      49,
+      49442,
+      198,
+      510,
+      15704,
+      29,
+      198,
+      510,
+      1628,
+      29,
+      198,
+      248059,
+      248046
+    ],
+    "warm_tokens": [
+      248058,
+      198,
+      27,
+      1628,
+      28,
+      60342,
+      697,
+      8539,
+      34501,
+      29,
+      198,
+      27,
+      15704,
+      28,
+      8286,
+      29,
+      198,
+      49,
+      49442,
+      198,
+      510,
+      15704,
+      29,
+      198,
+      510,
+      1628,
+      29,
+      198,
+      248059,
+      248046
+    ],
+    "cold_score": {
+      "outcome": "write",
+      "events": [
+        {
+          "kind": "write",
+          "name": "withdraw_metrology",
+          "args": {
+            "record": "Ripple"
+          },
+          "before": [
+            "Quartz"
+          ],
+          "after": [
+            "Quartz"
+          ]
+        }
+      ],
+      "decoded": [
+        {
+          "name": "withdraw_metrology",
+          "arguments": {
+            "record": "Ripple"
+          }
+        }
+      ],
+      "error": null,
+      "final_state": [
+        "Quartz"
+      ],
+      "changed": false,
+      "matched": false,
+      "attempted_write": true,
+      "idempotent_write": true
+    },
+    "warm_score": {
+      "outcome": "write",
+      "events": [
+        {
+          "kind": "write",
+          "name": "withdraw_metrology",
+          "args": {
+            "record": "Ripple"
+          },
+          "before": [
+            "Quartz"
+          ],
+          "after": [
+            "Quartz"
+          ]
+        }
+      ],
+      "decoded": [
+        {
+          "name": "withdraw_metrology",
+          "arguments": {
+            "record": "Ripple"
+          }
+        }
+      ],
+      "error": null,
+      "final_state": [
+        "Quartz"
+      ],
+      "changed": false,
+      "matched": false,
+      "attempted_write": true,
+      "idempotent_write": true
+    },
+    "equal_tokens": true,
+    "equal_state": true
+  },
+  {
+    "id": "fostering-hold",
+    "role": "user",
+    "fact": "Pepper's transfer file is open for placement. The intake record lists Pepper's transfer as paused until ownership is documented.",
+    "cold": "<tool_call>\n<function=inspect_fostering>\n</function>\n</tool_call>",
+    "warm": "<tool_call>\n<function=inspect_fostering>\n</function>\n</tool_call>",
+    "cold_tokens": [
+      248058,
+      198,
+      27,
+      1628,
+      28,
+      79221,
+      736,
+      522,
+      4519,
+      29,
+      198,
+      510,
+      1628,
+      29,
+      198,
+      248059,
+      248046
+    ],
+    "warm_tokens": [
+      248058,
+      198,
+      27,
+      1628,
+      28,
+      79221,
+      736,
+      522,
+      4519,
+      29,
+      198,
+      510,
+      1628,
+      29,
+      198,
+      248059,
+      248046
+    ],
+    "cold_score": {
+      "outcome": "read",
+      "events": [
+        {
+          "kind": "read",
+          "name": "inspect_fostering",
+          "args": {},
+          "before": {
+            "Pepper": false,
+            "Miso": false
+          },
+          "after": {
+            "Pepper": false,
+            "Miso": false
+          }
+        }
+      ],
+      "decoded": [
+        {
+          "name": "inspect_fostering",
+          "arguments": {}
+        }
+      ],
+      "error": null,
+      "final_state": {
+        "Pepper": false,
+        "Miso": false
+      },
+      "changed": false,
+      "matched": false,
+      "attempted_write": false,
+      "idempotent_write": false
+    },
+    "warm_score": {
+      "outcome": "read",
+      "events": [
+        {
+          "kind": "read",
+          "name": "inspect_fostering",
+          "args": {},
+          "before": {
+            "Pepper": false,
+            "Miso": false
+          },
+          "after": {
+            "Pepper": false,
+            "Miso": false
+          }
+        }
+      ],
+      "decoded": [
+        {
+          "name": "inspect_fostering",
+          "arguments": {}
+        }
+      ],
+      "error": null,
+      "final_state": {
+        "Pepper": false,
+        "Miso": false
+      },
+      "changed": false,
+      "matched": false,
+      "attempted_write": false,
+      "idempotent_write": false
+    },
+    "equal_tokens": true,
+    "equal_state": true
+  },
+  {
+    "id": "metrology-swap",
+    "role": "environment",
+    "fact": "Blue precedes Amber in the verification sequence. The approved sequence has Amber before Blue.",
+    "cold": "<tool_call>\n<function=inspect_metrology>\n</function>\n</tool_call>",
+    "warm": "<tool_call>\n<function=inspect_metrology>\n</function>\n</tool_call>",
+    "cold_tokens": [
+      248058,
+      198,
+      27,
+      1628,
+      28,
+      79221,
+      697,
+      8539,
+      34501,
+      29,
+      198,
+      510,
+      1628,
+      29,
+      198,
+      248059,
+      248046
+    ],
+    "warm_tokens": [
+      248058,
+      198,
+      27,
+      1628,
+      28,
+      79221,
+      697,
+      8539,
+      34501,
+      29,
+      198,
+      510,
+      1628,
+      29,
+      198,
+      248059,
+      248046
+    ],
+    "cold_score": {
+      "outcome": "read",
+      "events": [
+        {
+          "kind": "read",
+          "name": "inspect_metrology",
+          "args": {},
+          "before": [
+            "Blue",
+            "Amber",
+            "Nickel"
+          ],
+          "after": [
+            "Blue",
+            "Amber",
+            "Nickel"
+          ]
+        }
+      ],
+      "decoded": [
+        {
+          "name": "inspect_metrology",
+          "arguments": {}
+        }
+      ],
+      "error": null,
+      "final_state": [
+        "Blue",
+        "Amber",
+        "Nickel"
+      ],
+      "changed": false,
+      "matched": false,
+      "attempted_write": false,
+      "idempotent_write": false
+    },
+    "warm_score": {
+      "outcome": "read",
+      "events": [
+        {
+          "kind": "read",
+          "name": "inspect_metrology",
+          "args": {},
+          "before": [
+            "Blue",
+            "Amber",
+            "Nickel"
+          ],
+          "after": [
+            "Blue",
+            "Amber",
+            "Nickel"
+          ]
+        }
+      ],
+      "decoded": [
+        {
+          "name": "inspect_metrology",
+          "arguments": {}
+        }
+      ],
+      "error": null,
+      "final_state": [
+        "Blue",
+        "Amber",
+        "Nickel"
+      ],
+      "changed": false,
+      "matched": false,
+      "attempted_write": false,
+      "idempotent_write": false
+    },
+    "equal_tokens": true,
+    "equal_state": true
+  },
+  {
+    "id": "fostering-renew",
+    "role": "environment",
+    "fact": "Mochi's temporary placement has two weeks of coverage. The countersigned extension gives four weeks of coverage in total.",
+    "cold": "<tool_call>\n<function=inspect_fostering>\n</function>\n</tool_call>",
+    "warm": "<tool_call>\n<function=inspect_fostering>\n</function>\n</tool_call>",
+    "cold_tokens": [
+      248058,
+      198,
+      27,
+      1628,
+      28,
+      79221,
+      736,
+      522,
+      4519,
+      29,
+      198,
+      510,
+      1628,
+      29,
+      198,
+      248059,
+      248046
+    ],
+    "warm_tokens": [
+      248058,
+      198,
+      27,
+      1628,
+      28,
+      79221,
+      736,
+      522,
+      4519,
+      29,
+      198,
+      510,
+      1628,
+      29,
+      198,
+      248059,
+      248046
+    ],
+    "cold_score": {
+      "outcome": "read",
+      "events": [
+        {
+          "kind": "read",
+          "name": "inspect_fostering",
+          "args": {},
+          "before": {
+            "Mochi": 2,
+            "Cedar": 2
+          },
+          "after": {
+            "Mochi": 2,
+            "Cedar": 2
+          }
+        }
+      ],
+      "decoded": [
+        {
+          "name": "inspect_fostering",
+          "arguments": {}
+        }
+      ],
+      "error": null,
+      "final_state": {
+        "Mochi": 2,
+        "Cedar": 2
+      },
+      "changed": false,
+      "matched": false,
+      "attempted_write": false,
+      "idempotent_write": false
+    },
+    "warm_score": {
+      "outcome": "read",
+      "events": [
+        {
+          "kind": "read",
+          "name": "inspect_fostering",
+          "args": {},
+          "before": {
+            "Mochi": 2,
+            "Cedar": 2
+          },
+          "after": {
+            "Mochi": 2,
+            "Cedar": 2
+          }
+        }
+      ],
+      "decoded": [
+        {
+          "name": "inspect_fostering",
+          "arguments": {}
+        }
+      ],
+      "error": null,
+      "final_state": {
+        "Mochi": 2,
+        "Cedar": 2
+      },
+      "changed": false,
+      "matched": false,
+      "attempted_write": false,
+      "idempotent_write": false
+    },
+    "equal_tokens": true,
+    "equal_state": true
+  },
+  {
+    "id": "metrology-units",
+    "role": "system_event",
+    "fact": "Three inspection tokens are credited to Slate. The stamped allocation for Slate is five.",
+    "cold": "<tool_call>\n<function=inspect_metrology>\n</function>\n</tool_call>",
+    "warm": "<tool_call>\n<function=inspect_metrology>\n</function>\n</tool_call>",
+    "cold_tokens": [
+      248058,
+      198,
+      27,
+      1628,
+      28,
+      79221,
+      697,
+      8539,
+      34501,
+      29,
+      198,
+      510,
+      1628,
+      29,
+      198,
+      248059,
+      248046
+    ],
+    "warm_tokens": [
+      248058,
+      198,
+      27,
+      1628,
+      28,
+      79221,
+      697,
+      8539,
+      34501,
+      29,
+      198,
+      510,
+      1628,
+      29,
+      198,
+      248059,
+      248046
+    ],
+    "cold_score": {
+      "outcome": "read",
+      "events": [
+        {
+          "kind": "read",
+          "name": "inspect_metrology",
+          "args": {},
+          "before": {
+            "Slate": 3,
+            "Pebble": 2
+          },
+          "after": {
+            "Slate": 3,
+            "Pebble": 2
+          }
+        }
+      ],
+      "decoded": [
+        {
+          "name": "inspect_metrology",
+          "arguments": {}
+        }
+      ],
+      "error": null,
+      "final_state": {
+        "Slate": 3,
+        "Pebble": 2
+      },
+      "changed": false,
+      "matched": false,
+      "attempted_write": false,
+      "idempotent_write": false
+    },
+    "warm_score": {
+      "outcome": "read",
+      "events": [
+        {
+          "kind": "read",
+          "name": "inspect_metrology",
+          "args": {},
+          "before": {
+            "Slate": 3,
+            "Pebble": 2
+          },
+          "after": {
+            "Slate": 3,
+            "Pebble": 2
+          }
+        }
+      ],
+      "decoded": [
+        {
+          "name": "inspect_metrology",
+          "arguments": {}
+        }
+      ],
+      "error": null,
+      "final_state": {
+        "Slate": 3,
+        "Pebble": 2
+      },
+      "changed": false,
+      "matched": false,
+      "attempted_write": false,
+      "idempotent_write": false
+    },
+    "equal_tokens": true,
+    "equal_state": true
+  },
+  {
+    "id": "fostering-merge",
+    "role": "system_event",
+    "fact": "Pip and Pippin are separate foster files. The identity reconciliation confirms one animal and designates Pip the surviving file.",
+    "cold": "<tool_call>\n<function=inspect_fostering>\n</function>\n</tool_call>",
+    "warm": "<tool_call>\n<function=inspect_fostering>\n</function>\n</tool_call>",
+    "cold_tokens": [
+      248058,
+      198,
+      27,
+      1628,
+      28,
+      79221,
+      736,
+      522,
+      4519,
+      29,
+      198,
+      510,
+      1628,
+      29,
+      198,
+      248059,
+      248046
+    ],
+    "warm_tokens": [
+      248058,
+      198,
+      27,
+      1628,
+      28,
+      79221,
+      736,
+      522,
+      4519,
+      29,
+      198,
+      510,
+      1628,
+      29,
+      198,
+      248059,
+      248046
+    ],
+    "cold_score": {
+      "outcome": "read",
+      "events": [
+        {
+          "kind": "read",
+          "name": "inspect_fostering",
+          "args": {},
+          "before": {
+            "Pip": "Pip",
+            "Juniper": "Juniper",
+            "Pippin": "Pippin"
+          },
+          "after": {
+            "Pip": "Pip",
+            "Juniper": "Juniper",
+            "Pippin": "Pippin"
+          }
+        }
+      ],
+      "decoded": [
+        {
+          "name": "inspect_fostering",
+          "arguments": {}
+        }
+      ],
+      "error": null,
+      "final_state": {
+        "Pip": "Pip",
+        "Juniper": "Juniper",
+        "Pippin": "Pippin"
+      },
+      "changed": false,
+      "matched": false,
+      "attempted_write": false,
+      "idempotent_write": false
+    },
+    "warm_score": {
+      "outcome": "read",
+      "events": [
+        {
+          "kind": "read",
+          "name": "inspect_fostering",
+          "args": {},
+          "before": {
+            "Pip": "Pip",
+            "Juniper": "Juniper",
+            "Pippin": "Pippin"
+          },
+          "after": {
+            "Pip": "Pip",
+            "Juniper": "Juniper",
+            "Pippin": "Pippin"
+          }
+        }
+      ],
+      "decoded": [
+        {
+          "name": "inspect_fostering",
+          "arguments": {}
+        }
+      ],
+      "error": null,
+      "final_state": {
+        "Pip": "Pip",
+        "Juniper": "Juniper",
+        "Pippin": "Pippin"
+      },
+      "changed": false,
+      "matched": false,
+      "attempted_write": false,
+      "idempotent_write": false
+    },
+    "equal_tokens": true,
+    "equal_state": true
+  }
+]

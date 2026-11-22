@@ -1,0 +1,841 @@
+suite,arm,reference,seed,family,n,delta
+final,continuation,explicit,18235,canal,6,0.0
+final,continuation,explicit,18235,chess,6,0.0
+final,continuation,explicit,18235,darkroom,6,0.0
+final,continuation,explicit,18235,dyehouse,6,0.0
+final,continuation,explicit,18235,foreshore,6,-0.16666666666666666
+final,continuation,explicit,18235,kite,6,0.0
+final,continuation,explicit,18235,lighthouse,6,0.0
+final,continuation,explicit,18235,marbling,6,0.0
+final,continuation,explicit,18235,minerals,6,0.0
+final,continuation,explicit,18235,numismatics,6,0.0
+final,continuation,explicit,18235,orchard,6,-0.16666666666666666
+final,continuation,explicit,18235,puzzles,6,0.0
+final,continuation,explicit,18235,seedbank,6,0.0
+final,continuation,explicit,18235,speleology,6,0.0
+final,continuation,explicit,18235,stamps,6,0.0
+final,continuation,explicit,18235,toolshare,6,0.0
+final,continuation,explicit,18235,wardrobe,6,0.0
+final,continuation,explicit,18235,watershed,6,-0.16666666666666666
+final,continuation,explicit,60921,canal,6,0.0
+final,continuation,explicit,60921,chess,6,0.0
+final,continuation,explicit,60921,darkroom,6,0.16666666666666666
+final,continuation,explicit,60921,dyehouse,6,0.0
+final,continuation,explicit,60921,foreshore,6,0.0
+final,continuation,explicit,60921,kite,6,0.0
+final,continuation,explicit,60921,lighthouse,6,0.0
+final,continuation,explicit,60921,marbling,6,0.0
+final,continuation,explicit,60921,minerals,6,0.0
+final,continuation,explicit,60921,numismatics,6,0.0
+final,continuation,explicit,60921,orchard,6,0.0
+final,continuation,explicit,60921,puzzles,6,0.0
+final,continuation,explicit,60921,seedbank,6,0.0
+final,continuation,explicit,60921,speleology,6,0.0
+final,continuation,explicit,60921,stamps,6,0.0
+final,continuation,explicit,60921,toolshare,6,0.0
+final,continuation,explicit,60921,wardrobe,6,0.0
+final,continuation,explicit,60921,watershed,6,0.16666666666666666
+final,continuation,explicit,72467,canal,6,0.0
+final,continuation,explicit,72467,chess,6,0.0
+final,continuation,explicit,72467,darkroom,6,0.16666666666666666
+final,continuation,explicit,72467,dyehouse,6,0.0
+final,continuation,explicit,72467,foreshore,6,0.0
+final,continuation,explicit,72467,kite,6,0.0
+final,continuation,explicit,72467,lighthouse,6,0.0
+final,continuation,explicit,72467,marbling,6,0.0
+final,continuation,explicit,72467,minerals,6,0.0
+final,continuation,explicit,72467,numismatics,6,0.0
+final,continuation,explicit,72467,orchard,6,0.0
+final,continuation,explicit,72467,puzzles,6,0.0
+final,continuation,explicit,72467,seedbank,6,0.0
+final,continuation,explicit,72467,speleology,6,0.0
+final,continuation,explicit,72467,stamps,6,0.0
+final,continuation,explicit,72467,toolshare,6,0.0
+final,continuation,explicit,72467,wardrobe,6,0.0
+final,continuation,explicit,72467,watershed,6,-0.16666666666666666
+final,factual,explicit,18235,canal,6,0.0
+final,factual,explicit,18235,chess,6,0.0
+final,factual,explicit,18235,darkroom,6,0.0
+final,factual,explicit,18235,dyehouse,6,0.0
+final,factual,explicit,18235,foreshore,6,0.0
+final,factual,explicit,18235,kite,6,0.0
+final,factual,explicit,18235,lighthouse,6,0.0
+final,factual,explicit,18235,marbling,6,0.0
+final,factual,explicit,18235,minerals,6,0.0
+final,factual,explicit,18235,numismatics,6,0.0
+final,factual,explicit,18235,orchard,6,0.0
+final,factual,explicit,18235,puzzles,6,0.0
+final,factual,explicit,18235,seedbank,6,0.0
+final,factual,explicit,18235,speleology,6,0.0
+final,factual,explicit,18235,stamps,6,0.0
+final,factual,explicit,18235,toolshare,6,0.0
+final,factual,explicit,18235,wardrobe,6,0.0
+final,factual,explicit,18235,watershed,6,0.0
+final,factual,explicit,60921,canal,6,0.0
+final,factual,explicit,60921,chess,6,0.0
+final,factual,explicit,60921,darkroom,6,0.16666666666666666
+final,factual,explicit,60921,dyehouse,6,0.0
+final,factual,explicit,60921,foreshore,6,0.0
+final,factual,explicit,60921,kite,6,0.0
+final,factual,explicit,60921,lighthouse,6,0.0
+final,factual,explicit,60921,marbling,6,0.0
+final,factual,explicit,60921,minerals,6,0.0
+final,factual,explicit,60921,numismatics,6,0.0
+final,factual,explicit,60921,orchard,6,0.0
+final,factual,explicit,60921,puzzles,6,0.0
+final,factual,explicit,60921,seedbank,6,0.0
+final,factual,explicit,60921,speleology,6,0.0
+final,factual,explicit,60921,stamps,6,0.0
+final,factual,explicit,60921,toolshare,6,0.0
+final,factual,explicit,60921,wardrobe,6,0.16666666666666666
+final,factual,explicit,60921,watershed,6,0.0
+final,factual,explicit,72467,canal,6,0.0
+final,factual,explicit,72467,chess,6,0.0
+final,factual,explicit,72467,darkroom,6,0.16666666666666666
+final,factual,explicit,72467,dyehouse,6,0.0
+final,factual,explicit,72467,foreshore,6,0.0
+final,factual,explicit,72467,kite,6,0.0
+final,factual,explicit,72467,lighthouse,6,0.0
+final,factual,explicit,72467,marbling,6,0.0
+final,factual,explicit,72467,minerals,6,0.0
+final,factual,explicit,72467,numismatics,6,0.0
+final,factual,explicit,72467,orchard,6,0.0
+final,factual,explicit,72467,puzzles,6,0.0
+final,factual,explicit,72467,seedbank,6,0.0
+final,factual,explicit,72467,speleology,6,0.0
+final,factual,explicit,72467,stamps,6,0.0
+final,factual,explicit,72467,toolshare,6,0.0
+final,factual,explicit,72467,wardrobe,6,0.0
+final,factual,explicit,72467,watershed,6,-0.16666666666666666
+final,neutral,explicit,18235,canal,6,0.0
+final,neutral,explicit,18235,chess,6,0.0
+final,neutral,explicit,18235,darkroom,6,0.0
+final,neutral,explicit,18235,dyehouse,6,0.0
+final,neutral,explicit,18235,foreshore,6,-0.16666666666666666
+final,neutral,explicit,18235,kite,6,0.0
+final,neutral,explicit,18235,lighthouse,6,0.0
+final,neutral,explicit,18235,marbling,6,0.0
+final,neutral,explicit,18235,minerals,6,0.0
+final,neutral,explicit,18235,numismatics,6,0.0
+final,neutral,explicit,18235,orchard,6,0.0
+final,neutral,explicit,18235,puzzles,6,0.0
+final,neutral,explicit,18235,seedbank,6,0.0
+final,neutral,explicit,18235,speleology,6,0.0
+final,neutral,explicit,18235,stamps,6,0.0
+final,neutral,explicit,18235,toolshare,6,0.0
+final,neutral,explicit,18235,wardrobe,6,0.0
+final,neutral,explicit,18235,watershed,6,0.0
+final,neutral,explicit,60921,canal,6,0.0
+final,neutral,explicit,60921,chess,6,0.0
+final,neutral,explicit,60921,darkroom,6,0.16666666666666666
+final,neutral,explicit,60921,dyehouse,6,0.0
+final,neutral,explicit,60921,foreshore,6,0.0
+final,neutral,explicit,60921,kite,6,0.0
+final,neutral,explicit,60921,lighthouse,6,0.0
+final,neutral,explicit,60921,marbling,6,0.0
+final,neutral,explicit,60921,minerals,6,0.0
+final,neutral,explicit,60921,numismatics,6,0.0
+final,neutral,explicit,60921,orchard,6,0.0
+final,neutral,explicit,60921,puzzles,6,0.0
+final,neutral,explicit,60921,seedbank,6,0.0
+final,neutral,explicit,60921,speleology,6,0.0
+final,neutral,explicit,60921,stamps,6,0.0
+final,neutral,explicit,60921,toolshare,6,0.0
+final,neutral,explicit,60921,wardrobe,6,0.0
+final,neutral,explicit,60921,watershed,6,0.16666666666666666
+final,neutral,explicit,72467,canal,6,0.0
+final,neutral,explicit,72467,chess,6,0.0
+final,neutral,explicit,72467,darkroom,6,0.16666666666666666
+final,neutral,explicit,72467,dyehouse,6,0.0
+final,neutral,explicit,72467,foreshore,6,0.0
+final,neutral,explicit,72467,kite,6,0.0
+final,neutral,explicit,72467,lighthouse,6,0.0
+final,neutral,explicit,72467,marbling,6,0.0
+final,neutral,explicit,72467,minerals,6,0.0
+final,neutral,explicit,72467,numismatics,6,0.0
+final,neutral,explicit,72467,orchard,6,0.0
+final,neutral,explicit,72467,puzzles,6,0.0
+final,neutral,explicit,72467,seedbank,6,0.0
+final,neutral,explicit,72467,speleology,6,0.0
+final,neutral,explicit,72467,stamps,6,0.0
+final,neutral,explicit,72467,toolshare,6,0.0
+final,neutral,explicit,72467,wardrobe,6,0.0
+final,neutral,explicit,72467,watershed,6,-0.16666666666666666
+final,factual,neutral,18235,canal,6,0.0
+final,factual,neutral,18235,chess,6,0.0
+final,factual,neutral,18235,darkroom,6,0.0
+final,factual,neutral,18235,dyehouse,6,0.0
+final,factual,neutral,18235,foreshore,6,0.16666666666666666
+final,factual,neutral,18235,kite,6,0.0
+final,factual,neutral,18235,lighthouse,6,0.0
+final,factual,neutral,18235,marbling,6,0.0
+final,factual,neutral,18235,minerals,6,0.0
+final,factual,neutral,18235,numismatics,6,0.0
+final,factual,neutral,18235,orchard,6,0.0
+final,factual,neutral,18235,puzzles,6,0.0
+final,factual,neutral,18235,seedbank,6,0.0
+final,factual,neutral,18235,speleology,6,0.0
+final,factual,neutral,18235,stamps,6,0.0
+final,factual,neutral,18235,toolshare,6,0.0
+final,factual,neutral,18235,wardrobe,6,0.0
+final,factual,neutral,18235,watershed,6,0.0
+final,factual,neutral,60921,canal,6,0.0
+final,factual,neutral,60921,chess,6,0.0
+final,factual,neutral,60921,darkroom,6,0.0
+final,factual,neutral,60921,dyehouse,6,0.0
+final,factual,neutral,60921,foreshore,6,0.0
+final,factual,neutral,60921,kite,6,0.0
+final,factual,neutral,60921,lighthouse,6,0.0
+final,factual,neutral,60921,marbling,6,0.0
+final,factual,neutral,60921,minerals,6,0.0
+final,factual,neutral,60921,numismatics,6,0.0
+final,factual,neutral,60921,orchard,6,0.0
+final,factual,neutral,60921,puzzles,6,0.0
+final,factual,neutral,60921,seedbank,6,0.0
+final,factual,neutral,60921,speleology,6,0.0
+final,factual,neutral,60921,stamps,6,0.0
+final,factual,neutral,60921,toolshare,6,0.0
+final,factual,neutral,60921,wardrobe,6,0.16666666666666666
+final,factual,neutral,60921,watershed,6,-0.16666666666666666
+final,factual,neutral,72467,canal,6,0.0
+final,factual,neutral,72467,chess,6,0.0
+final,factual,neutral,72467,darkroom,6,0.0
+final,factual,neutral,72467,dyehouse,6,0.0
+final,factual,neutral,72467,foreshore,6,0.0
+final,factual,neutral,72467,kite,6,0.0
+final,factual,neutral,72467,lighthouse,6,0.0
+final,factual,neutral,72467,marbling,6,0.0
+final,factual,neutral,72467,minerals,6,0.0
+final,factual,neutral,72467,numismatics,6,0.0
+final,factual,neutral,72467,orchard,6,0.0
+final,factual,neutral,72467,puzzles,6,0.0
+final,factual,neutral,72467,seedbank,6,0.0
+final,factual,neutral,72467,speleology,6,0.0
+final,factual,neutral,72467,stamps,6,0.0
+final,factual,neutral,72467,toolshare,6,0.0
+final,factual,neutral,72467,wardrobe,6,0.0
+final,factual,neutral,72467,watershed,6,0.0
+final,continuation,neutral,18235,canal,6,0.0
+final,continuation,neutral,18235,chess,6,0.0
+final,continuation,neutral,18235,darkroom,6,0.0
+final,continuation,neutral,18235,dyehouse,6,0.0
+final,continuation,neutral,18235,foreshore,6,0.0
+final,continuation,neutral,18235,kite,6,0.0
+final,continuation,neutral,18235,lighthouse,6,0.0
+final,continuation,neutral,18235,marbling,6,0.0
+final,continuation,neutral,18235,minerals,6,0.0
+final,continuation,neutral,18235,numismatics,6,0.0
+final,continuation,neutral,18235,orchard,6,-0.16666666666666666
+final,continuation,neutral,18235,puzzles,6,0.0
+final,continuation,neutral,18235,seedbank,6,0.0
+final,continuation,neutral,18235,speleology,6,0.0
+final,continuation,neutral,18235,stamps,6,0.0
+final,continuation,neutral,18235,toolshare,6,0.0
+final,continuation,neutral,18235,wardrobe,6,0.0
+final,continuation,neutral,18235,watershed,6,-0.16666666666666666
+final,continuation,neutral,60921,canal,6,0.0
+final,continuation,neutral,60921,chess,6,0.0
+final,continuation,neutral,60921,darkroom,6,0.0
+final,continuation,neutral,60921,dyehouse,6,0.0
+final,continuation,neutral,60921,foreshore,6,0.0
+final,continuation,neutral,60921,kite,6,0.0
+final,continuation,neutral,60921,lighthouse,6,0.0
+final,continuation,neutral,60921,marbling,6,0.0
+final,continuation,neutral,60921,minerals,6,0.0
+final,continuation,neutral,60921,numismatics,6,0.0
+final,continuation,neutral,60921,orchard,6,0.0
+final,continuation,neutral,60921,puzzles,6,0.0
+final,continuation,neutral,60921,seedbank,6,0.0
+final,continuation,neutral,60921,speleology,6,0.0
+final,continuation,neutral,60921,stamps,6,0.0
+final,continuation,neutral,60921,toolshare,6,0.0
+final,continuation,neutral,60921,wardrobe,6,0.0
+final,continuation,neutral,60921,watershed,6,0.0
+final,continuation,neutral,72467,canal,6,0.0
+final,continuation,neutral,72467,chess,6,0.0
+final,continuation,neutral,72467,darkroom,6,0.0
+final,continuation,neutral,72467,dyehouse,6,0.0
+final,continuation,neutral,72467,foreshore,6,0.0
+final,continuation,neutral,72467,kite,6,0.0
+final,continuation,neutral,72467,lighthouse,6,0.0
+final,continuation,neutral,72467,marbling,6,0.0
+final,continuation,neutral,72467,minerals,6,0.0
+final,continuation,neutral,72467,numismatics,6,0.0
+final,continuation,neutral,72467,orchard,6,0.0
+final,continuation,neutral,72467,puzzles,6,0.0
+final,continuation,neutral,72467,seedbank,6,0.0
+final,continuation,neutral,72467,speleology,6,0.0
+final,continuation,neutral,72467,stamps,6,0.0
+final,continuation,neutral,72467,toolshare,6,0.0
+final,continuation,neutral,72467,wardrobe,6,0.0
+final,continuation,neutral,72467,watershed,6,0.0
+final,continuation,factual,18235,canal,6,0.0
+final,continuation,factual,18235,chess,6,0.0
+final,continuation,factual,18235,darkroom,6,0.0
+final,continuation,factual,18235,dyehouse,6,0.0
+final,continuation,factual,18235,foreshore,6,-0.16666666666666666
+final,continuation,factual,18235,kite,6,0.0
+final,continuation,factual,18235,lighthouse,6,0.0
+final,continuation,factual,18235,marbling,6,0.0
+final,continuation,factual,18235,minerals,6,0.0
+final,continuation,factual,18235,numismatics,6,0.0
+final,continuation,factual,18235,orchard,6,-0.16666666666666666
+final,continuation,factual,18235,puzzles,6,0.0
+final,continuation,factual,18235,seedbank,6,0.0
+final,continuation,factual,18235,speleology,6,0.0
+final,continuation,factual,18235,stamps,6,0.0
+final,continuation,factual,18235,toolshare,6,0.0
+final,continuation,factual,18235,wardrobe,6,0.0
+final,continuation,factual,18235,watershed,6,-0.16666666666666666
+final,continuation,factual,60921,canal,6,0.0
+final,continuation,factual,60921,chess,6,0.0
+final,continuation,factual,60921,darkroom,6,0.0
+final,continuation,factual,60921,dyehouse,6,0.0
+final,continuation,factual,60921,foreshore,6,0.0
+final,continuation,factual,60921,kite,6,0.0
+final,continuation,factual,60921,lighthouse,6,0.0
+final,continuation,factual,60921,marbling,6,0.0
+final,continuation,factual,60921,minerals,6,0.0
+final,continuation,factual,60921,numismatics,6,0.0
+final,continuation,factual,60921,orchard,6,0.0
+final,continuation,factual,60921,puzzles,6,0.0
+final,continuation,factual,60921,seedbank,6,0.0
+final,continuation,factual,60921,speleology,6,0.0
+final,continuation,factual,60921,stamps,6,0.0
+final,continuation,factual,60921,toolshare,6,0.0
+final,continuation,factual,60921,wardrobe,6,-0.16666666666666666
+final,continuation,factual,60921,watershed,6,0.16666666666666666
+final,continuation,factual,72467,canal,6,0.0
+final,continuation,factual,72467,chess,6,0.0
+final,continuation,factual,72467,darkroom,6,0.0
+final,continuation,factual,72467,dyehouse,6,0.0
+final,continuation,factual,72467,foreshore,6,0.0
+final,continuation,factual,72467,kite,6,0.0
+final,continuation,factual,72467,lighthouse,6,0.0
+final,continuation,factual,72467,marbling,6,0.0
+final,continuation,factual,72467,minerals,6,0.0
+final,continuation,factual,72467,numismatics,6,0.0
+final,continuation,factual,72467,orchard,6,0.0
+final,continuation,factual,72467,puzzles,6,0.0
+final,continuation,factual,72467,seedbank,6,0.0
+final,continuation,factual,72467,speleology,6,0.0
+final,continuation,factual,72467,stamps,6,0.0
+final,continuation,factual,72467,toolshare,6,0.0
+final,continuation,factual,72467,wardrobe,6,0.0
+final,continuation,factual,72467,watershed,6,0.0
+final,explicit,base,18235,canal,6,0.0
+final,explicit,base,18235,chess,6,0.0
+final,explicit,base,18235,darkroom,6,0.0
+final,explicit,base,18235,dyehouse,6,0.0
+final,explicit,base,18235,foreshore,6,0.16666666666666666
+final,explicit,base,18235,kite,6,0.0
+final,explicit,base,18235,lighthouse,6,0.16666666666666666
+final,explicit,base,18235,marbling,6,0.16666666666666666
+final,explicit,base,18235,minerals,6,0.0
+final,explicit,base,18235,numismatics,6,0.0
+final,explicit,base,18235,orchard,6,0.16666666666666666
+final,explicit,base,18235,puzzles,6,0.0
+final,explicit,base,18235,seedbank,6,0.0
+final,explicit,base,18235,speleology,6,0.0
+final,explicit,base,18235,stamps,6,0.0
+final,explicit,base,18235,toolshare,6,0.0
+final,explicit,base,18235,wardrobe,6,0.16666666666666666
+final,explicit,base,18235,watershed,6,0.16666666666666666
+final,explicit,base,60921,canal,6,0.0
+final,explicit,base,60921,chess,6,0.0
+final,explicit,base,60921,darkroom,6,-0.16666666666666666
+final,explicit,base,60921,dyehouse,6,0.0
+final,explicit,base,60921,foreshore,6,0.16666666666666666
+final,explicit,base,60921,kite,6,0.0
+final,explicit,base,60921,lighthouse,6,0.16666666666666666
+final,explicit,base,60921,marbling,6,0.16666666666666666
+final,explicit,base,60921,minerals,6,0.0
+final,explicit,base,60921,numismatics,6,0.0
+final,explicit,base,60921,orchard,6,0.16666666666666666
+final,explicit,base,60921,puzzles,6,0.0
+final,explicit,base,60921,seedbank,6,0.0
+final,explicit,base,60921,speleology,6,0.0
+final,explicit,base,60921,stamps,6,0.0
+final,explicit,base,60921,toolshare,6,0.0
+final,explicit,base,60921,wardrobe,6,0.16666666666666666
+final,explicit,base,60921,watershed,6,0.0
+final,explicit,base,72467,canal,6,0.0
+final,explicit,base,72467,chess,6,0.0
+final,explicit,base,72467,darkroom,6,-0.16666666666666666
+final,explicit,base,72467,dyehouse,6,0.0
+final,explicit,base,72467,foreshore,6,0.16666666666666666
+final,explicit,base,72467,kite,6,0.0
+final,explicit,base,72467,lighthouse,6,0.16666666666666666
+final,explicit,base,72467,marbling,6,0.16666666666666666
+final,explicit,base,72467,minerals,6,0.0
+final,explicit,base,72467,numismatics,6,0.0
+final,explicit,base,72467,orchard,6,0.16666666666666666
+final,explicit,base,72467,puzzles,6,0.0
+final,explicit,base,72467,seedbank,6,0.0
+final,explicit,base,72467,speleology,6,0.0
+final,explicit,base,72467,stamps,6,0.0
+final,explicit,base,72467,toolshare,6,0.0
+final,explicit,base,72467,wardrobe,6,0.16666666666666666
+final,explicit,base,72467,watershed,6,0.16666666666666666
+final,factual,base,18235,canal,6,0.0
+final,factual,base,18235,chess,6,0.0
+final,factual,base,18235,darkroom,6,0.0
+final,factual,base,18235,dyehouse,6,0.0
+final,factual,base,18235,foreshore,6,0.16666666666666666
+final,factual,base,18235,kite,6,0.0
+final,factual,base,18235,lighthouse,6,0.16666666666666666
+final,factual,base,18235,marbling,6,0.16666666666666666
+final,factual,base,18235,minerals,6,0.0
+final,factual,base,18235,numismatics,6,0.0
+final,factual,base,18235,orchard,6,0.16666666666666666
+final,factual,base,18235,puzzles,6,0.0
+final,factual,base,18235,seedbank,6,0.0
+final,factual,base,18235,speleology,6,0.0
+final,factual,base,18235,stamps,6,0.0
+final,factual,base,18235,toolshare,6,0.0
+final,factual,base,18235,wardrobe,6,0.16666666666666666
+final,factual,base,18235,watershed,6,0.16666666666666666
+final,factual,base,60921,canal,6,0.0
+final,factual,base,60921,chess,6,0.0
+final,factual,base,60921,darkroom,6,0.0
+final,factual,base,60921,dyehouse,6,0.0
+final,factual,base,60921,foreshore,6,0.16666666666666666
+final,factual,base,60921,kite,6,0.0
+final,factual,base,60921,lighthouse,6,0.16666666666666666
+final,factual,base,60921,marbling,6,0.16666666666666666
+final,factual,base,60921,minerals,6,0.0
+final,factual,base,60921,numismatics,6,0.0
+final,factual,base,60921,orchard,6,0.16666666666666666
+final,factual,base,60921,puzzles,6,0.0
+final,factual,base,60921,seedbank,6,0.0
+final,factual,base,60921,speleology,6,0.0
+final,factual,base,60921,stamps,6,0.0
+final,factual,base,60921,toolshare,6,0.0
+final,factual,base,60921,wardrobe,6,0.3333333333333333
+final,factual,base,60921,watershed,6,0.0
+final,factual,base,72467,canal,6,0.0
+final,factual,base,72467,chess,6,0.0
+final,factual,base,72467,darkroom,6,0.0
+final,factual,base,72467,dyehouse,6,0.0
+final,factual,base,72467,foreshore,6,0.16666666666666666
+final,factual,base,72467,kite,6,0.0
+final,factual,base,72467,lighthouse,6,0.16666666666666666
+final,factual,base,72467,marbling,6,0.16666666666666666
+final,factual,base,72467,minerals,6,0.0
+final,factual,base,72467,numismatics,6,0.0
+final,factual,base,72467,orchard,6,0.16666666666666666
+final,factual,base,72467,puzzles,6,0.0
+final,factual,base,72467,seedbank,6,0.0
+final,factual,base,72467,speleology,6,0.0
+final,factual,base,72467,stamps,6,0.0
+final,factual,base,72467,toolshare,6,0.0
+final,factual,base,72467,wardrobe,6,0.16666666666666666
+final,factual,base,72467,watershed,6,0.0
+final,neutral,base,18235,canal,6,0.0
+final,neutral,base,18235,chess,6,0.0
+final,neutral,base,18235,darkroom,6,0.0
+final,neutral,base,18235,dyehouse,6,0.0
+final,neutral,base,18235,foreshore,6,0.0
+final,neutral,base,18235,kite,6,0.0
+final,neutral,base,18235,lighthouse,6,0.16666666666666666
+final,neutral,base,18235,marbling,6,0.16666666666666666
+final,neutral,base,18235,minerals,6,0.0
+final,neutral,base,18235,numismatics,6,0.0
+final,neutral,base,18235,orchard,6,0.16666666666666666
+final,neutral,base,18235,puzzles,6,0.0
+final,neutral,base,18235,seedbank,6,0.0
+final,neutral,base,18235,speleology,6,0.0
+final,neutral,base,18235,stamps,6,0.0
+final,neutral,base,18235,toolshare,6,0.0
+final,neutral,base,18235,wardrobe,6,0.16666666666666666
+final,neutral,base,18235,watershed,6,0.16666666666666666
+final,neutral,base,60921,canal,6,0.0
+final,neutral,base,60921,chess,6,0.0
+final,neutral,base,60921,darkroom,6,0.0
+final,neutral,base,60921,dyehouse,6,0.0
+final,neutral,base,60921,foreshore,6,0.16666666666666666
+final,neutral,base,60921,kite,6,0.0
+final,neutral,base,60921,lighthouse,6,0.16666666666666666
+final,neutral,base,60921,marbling,6,0.16666666666666666
+final,neutral,base,60921,minerals,6,0.0
+final,neutral,base,60921,numismatics,6,0.0
+final,neutral,base,60921,orchard,6,0.16666666666666666
+final,neutral,base,60921,puzzles,6,0.0
+final,neutral,base,60921,seedbank,6,0.0
+final,neutral,base,60921,speleology,6,0.0
+final,neutral,base,60921,stamps,6,0.0
+final,neutral,base,60921,toolshare,6,0.0
+final,neutral,base,60921,wardrobe,6,0.16666666666666666
+final,neutral,base,60921,watershed,6,0.16666666666666666
+final,neutral,base,72467,canal,6,0.0
+final,neutral,base,72467,chess,6,0.0
+final,neutral,base,72467,darkroom,6,0.0
+final,neutral,base,72467,dyehouse,6,0.0
+final,neutral,base,72467,foreshore,6,0.16666666666666666
+final,neutral,base,72467,kite,6,0.0
+final,neutral,base,72467,lighthouse,6,0.16666666666666666
+final,neutral,base,72467,marbling,6,0.16666666666666666
+final,neutral,base,72467,minerals,6,0.0
+final,neutral,base,72467,numismatics,6,0.0
+final,neutral,base,72467,orchard,6,0.16666666666666666
+final,neutral,base,72467,puzzles,6,0.0
+final,neutral,base,72467,seedbank,6,0.0
+final,neutral,base,72467,speleology,6,0.0
+final,neutral,base,72467,stamps,6,0.0
+final,neutral,base,72467,toolshare,6,0.0
+final,neutral,base,72467,wardrobe,6,0.16666666666666666
+final,neutral,base,72467,watershed,6,0.0
+final,continuation,base,18235,canal,6,0.0
+final,continuation,base,18235,chess,6,0.0
+final,continuation,base,18235,darkroom,6,0.0
+final,continuation,base,18235,dyehouse,6,0.0
+final,continuation,base,18235,foreshore,6,0.0
+final,continuation,base,18235,kite,6,0.0
+final,continuation,base,18235,lighthouse,6,0.16666666666666666
+final,continuation,base,18235,marbling,6,0.16666666666666666
+final,continuation,base,18235,minerals,6,0.0
+final,continuation,base,18235,numismatics,6,0.0
+final,continuation,base,18235,orchard,6,0.0
+final,continuation,base,18235,puzzles,6,0.0
+final,continuation,base,18235,seedbank,6,0.0
+final,continuation,base,18235,speleology,6,0.0
+final,continuation,base,18235,stamps,6,0.0
+final,continuation,base,18235,toolshare,6,0.0
+final,continuation,base,18235,wardrobe,6,0.16666666666666666
+final,continuation,base,18235,watershed,6,0.0
+final,continuation,base,60921,canal,6,0.0
+final,continuation,base,60921,chess,6,0.0
+final,continuation,base,60921,darkroom,6,0.0
+final,continuation,base,60921,dyehouse,6,0.0
+final,continuation,base,60921,foreshore,6,0.16666666666666666
+final,continuation,base,60921,kite,6,0.0
+final,continuation,base,60921,lighthouse,6,0.16666666666666666
+final,continuation,base,60921,marbling,6,0.16666666666666666
+final,continuation,base,60921,minerals,6,0.0
+final,continuation,base,60921,numismatics,6,0.0
+final,continuation,base,60921,orchard,6,0.16666666666666666
+final,continuation,base,60921,puzzles,6,0.0
+final,continuation,base,60921,seedbank,6,0.0
+final,continuation,base,60921,speleology,6,0.0
+final,continuation,base,60921,stamps,6,0.0
+final,continuation,base,60921,toolshare,6,0.0
+final,continuation,base,60921,wardrobe,6,0.16666666666666666
+final,continuation,base,60921,watershed,6,0.16666666666666666
+final,continuation,base,72467,canal,6,0.0
+final,continuation,base,72467,chess,6,0.0
+final,continuation,base,72467,darkroom,6,0.0
+final,continuation,base,72467,dyehouse,6,0.0
+final,continuation,base,72467,foreshore,6,0.16666666666666666
+final,continuation,base,72467,kite,6,0.0
+final,continuation,base,72467,lighthouse,6,0.16666666666666666
+final,continuation,base,72467,marbling,6,0.16666666666666666
+final,continuation,base,72467,minerals,6,0.0
+final,continuation,base,72467,numismatics,6,0.0
+final,continuation,base,72467,orchard,6,0.16666666666666666
+final,continuation,base,72467,puzzles,6,0.0
+final,continuation,base,72467,seedbank,6,0.0
+final,continuation,base,72467,speleology,6,0.0
+final,continuation,base,72467,stamps,6,0.0
+final,continuation,base,72467,toolshare,6,0.0
+final,continuation,base,72467,wardrobe,6,0.16666666666666666
+final,continuation,base,72467,watershed,6,0.0
+replication,continuation,explicit,18235,Archives and libraries,6,0.0
+replication,continuation,explicit,18235,Audio and video,6,0.0
+replication,continuation,explicit,18235,Building services,6,0.16666666666666666
+replication,continuation,explicit,18235,Education,6,0.0
+replication,continuation,explicit,18235,Events and hospitality,6,0.0
+replication,continuation,explicit,18235,Field observations,6,0.0
+replication,continuation,explicit,18235,Publishing and communications,6,0.3333333333333333
+replication,continuation,explicit,18235,Retail and fulfillment,6,0.0
+replication,continuation,explicit,18235,Transit operations,6,0.0
+replication,continuation,explicit,18235,Workshop production,6,0.0
+replication,continuation,explicit,60921,Archives and libraries,6,0.0
+replication,continuation,explicit,60921,Audio and video,6,0.0
+replication,continuation,explicit,60921,Building services,6,0.0
+replication,continuation,explicit,60921,Education,6,0.0
+replication,continuation,explicit,60921,Events and hospitality,6,-0.16666666666666666
+replication,continuation,explicit,60921,Field observations,6,0.0
+replication,continuation,explicit,60921,Publishing and communications,6,0.0
+replication,continuation,explicit,60921,Retail and fulfillment,6,0.0
+replication,continuation,explicit,60921,Transit operations,6,0.0
+replication,continuation,explicit,60921,Workshop production,6,0.0
+replication,continuation,explicit,72467,Archives and libraries,6,0.0
+replication,continuation,explicit,72467,Audio and video,6,0.0
+replication,continuation,explicit,72467,Building services,6,0.16666666666666666
+replication,continuation,explicit,72467,Education,6,0.0
+replication,continuation,explicit,72467,Events and hospitality,6,0.0
+replication,continuation,explicit,72467,Field observations,6,0.0
+replication,continuation,explicit,72467,Publishing and communications,6,0.0
+replication,continuation,explicit,72467,Retail and fulfillment,6,0.0
+replication,continuation,explicit,72467,Transit operations,6,0.0
+replication,continuation,explicit,72467,Workshop production,6,0.0
+replication,factual,explicit,18235,Archives and libraries,6,0.0
+replication,factual,explicit,18235,Audio and video,6,0.0
+replication,factual,explicit,18235,Building services,6,0.0
+replication,factual,explicit,18235,Education,6,0.0
+replication,factual,explicit,18235,Events and hospitality,6,0.0
+replication,factual,explicit,18235,Field observations,6,0.0
+replication,factual,explicit,18235,Publishing and communications,6,0.0
+replication,factual,explicit,18235,Retail and fulfillment,6,0.0
+replication,factual,explicit,18235,Transit operations,6,0.0
+replication,factual,explicit,18235,Workshop production,6,0.0
+replication,factual,explicit,60921,Archives and libraries,6,0.0
+replication,factual,explicit,60921,Audio and video,6,0.0
+replication,factual,explicit,60921,Building services,6,0.0
+replication,factual,explicit,60921,Education,6,0.0
+replication,factual,explicit,60921,Events and hospitality,6,-0.16666666666666666
+replication,factual,explicit,60921,Field observations,6,0.0
+replication,factual,explicit,60921,Publishing and communications,6,-0.3333333333333333
+replication,factual,explicit,60921,Retail and fulfillment,6,0.0
+replication,factual,explicit,60921,Transit operations,6,0.0
+replication,factual,explicit,60921,Workshop production,6,0.0
+replication,factual,explicit,72467,Archives and libraries,6,0.0
+replication,factual,explicit,72467,Audio and video,6,0.0
+replication,factual,explicit,72467,Building services,6,0.0
+replication,factual,explicit,72467,Education,6,0.0
+replication,factual,explicit,72467,Events and hospitality,6,0.0
+replication,factual,explicit,72467,Field observations,6,0.0
+replication,factual,explicit,72467,Publishing and communications,6,-0.16666666666666666
+replication,factual,explicit,72467,Retail and fulfillment,6,0.0
+replication,factual,explicit,72467,Transit operations,6,0.0
+replication,factual,explicit,72467,Workshop production,6,0.0
+replication,neutral,explicit,18235,Archives and libraries,6,0.0
+replication,neutral,explicit,18235,Audio and video,6,0.0
+replication,neutral,explicit,18235,Building services,6,0.0
+replication,neutral,explicit,18235,Education,6,0.0
+replication,neutral,explicit,18235,Events and hospitality,6,0.0
+replication,neutral,explicit,18235,Field observations,6,0.0
+replication,neutral,explicit,18235,Publishing and communications,6,0.0
+replication,neutral,explicit,18235,Retail and fulfillment,6,0.0
+replication,neutral,explicit,18235,Transit operations,6,0.0
+replication,neutral,explicit,18235,Workshop production,6,0.0
+replication,neutral,explicit,60921,Archives and libraries,6,0.0
+replication,neutral,explicit,60921,Audio and video,6,0.0
+replication,neutral,explicit,60921,Building services,6,0.0
+replication,neutral,explicit,60921,Education,6,0.0
+replication,neutral,explicit,60921,Events and hospitality,6,-0.16666666666666666
+replication,neutral,explicit,60921,Field observations,6,0.0
+replication,neutral,explicit,60921,Publishing and communications,6,-0.3333333333333333
+replication,neutral,explicit,60921,Retail and fulfillment,6,0.0
+replication,neutral,explicit,60921,Transit operations,6,0.0
+replication,neutral,explicit,60921,Workshop production,6,0.0
+replication,neutral,explicit,72467,Archives and libraries,6,0.0
+replication,neutral,explicit,72467,Audio and video,6,0.0
+replication,neutral,explicit,72467,Building services,6,0.0
+replication,neutral,explicit,72467,Education,6,0.0
+replication,neutral,explicit,72467,Events and hospitality,6,0.0
+replication,neutral,explicit,72467,Field observations,6,0.0
+replication,neutral,explicit,72467,Publishing and communications,6,0.0
+replication,neutral,explicit,72467,Retail and fulfillment,6,0.0
+replication,neutral,explicit,72467,Transit operations,6,0.0
+replication,neutral,explicit,72467,Workshop production,6,0.0
+replication,factual,neutral,18235,Archives and libraries,6,0.0
+replication,factual,neutral,18235,Audio and video,6,0.0
+replication,factual,neutral,18235,Building services,6,0.0
+replication,factual,neutral,18235,Education,6,0.0
+replication,factual,neutral,18235,Events and hospitality,6,0.0
+replication,factual,neutral,18235,Field observations,6,0.0
+replication,factual,neutral,18235,Publishing and communications,6,0.0
+replication,factual,neutral,18235,Retail and fulfillment,6,0.0
+replication,factual,neutral,18235,Transit operations,6,0.0
+replication,factual,neutral,18235,Workshop production,6,0.0
+replication,factual,neutral,60921,Archives and libraries,6,0.0
+replication,factual,neutral,60921,Audio and video,6,0.0
+replication,factual,neutral,60921,Building services,6,0.0
+replication,factual,neutral,60921,Education,6,0.0
+replication,factual,neutral,60921,Events and hospitality,6,0.0
+replication,factual,neutral,60921,Field observations,6,0.0
+replication,factual,neutral,60921,Publishing and communications,6,0.0
+replication,factual,neutral,60921,Retail and fulfillment,6,0.0
+replication,factual,neutral,60921,Transit operations,6,0.0
+replication,factual,neutral,60921,Workshop production,6,0.0
+replication,factual,neutral,72467,Archives and libraries,6,0.0
+replication,factual,neutral,72467,Audio and video,6,0.0
+replication,factual,neutral,72467,Building services,6,0.0
+replication,factual,neutral,72467,Education,6,0.0
+replication,factual,neutral,72467,Events and hospitality,6,0.0
+replication,factual,neutral,72467,Field observations,6,0.0
+replication,factual,neutral,72467,Publishing and communications,6,-0.16666666666666666
+replication,factual,neutral,72467,Retail and fulfillment,6,0.0
+replication,factual,neutral,72467,Transit operations,6,0.0
+replication,factual,neutral,72467,Workshop production,6,0.0
+replication,continuation,neutral,18235,Archives and libraries,6,0.0
+replication,continuation,neutral,18235,Audio and video,6,0.0
+replication,continuation,neutral,18235,Building services,6,0.16666666666666666
+replication,continuation,neutral,18235,Education,6,0.0
+replication,continuation,neutral,18235,Events and hospitality,6,0.0
+replication,continuation,neutral,18235,Field observations,6,0.0
+replication,continuation,neutral,18235,Publishing and communications,6,0.3333333333333333
+replication,continuation,neutral,18235,Retail and fulfillment,6,0.0
+replication,continuation,neutral,18235,Transit operations,6,0.0
+replication,continuation,neutral,18235,Workshop production,6,0.0
+replication,continuation,neutral,60921,Archives and libraries,6,0.0
+replication,continuation,neutral,60921,Audio and video,6,0.0
+replication,continuation,neutral,60921,Building services,6,0.0
+replication,continuation,neutral,60921,Education,6,0.0
+replication,continuation,neutral,60921,Events and hospitality,6,0.0
+replication,continuation,neutral,60921,Field observations,6,0.0
+replication,continuation,neutral,60921,Publishing and communications,6,0.3333333333333333
+replication,continuation,neutral,60921,Retail and fulfillment,6,0.0
+replication,continuation,neutral,60921,Transit operations,6,0.0
+replication,continuation,neutral,60921,Workshop production,6,0.0
+replication,continuation,neutral,72467,Archives and libraries,6,0.0
+replication,continuation,neutral,72467,Audio and video,6,0.0
+replication,continuation,neutral,72467,Building services,6,0.16666666666666666
+replication,continuation,neutral,72467,Education,6,0.0
+replication,continuation,neutral,72467,Events and hospitality,6,0.0
+replication,continuation,neutral,72467,Field observations,6,0.0
+replication,continuation,neutral,72467,Publishing and communications,6,0.0
+replication,continuation,neutral,72467,Retail and fulfillment,6,0.0
+replication,continuation,neutral,72467,Transit operations,6,0.0
+replication,continuation,neutral,72467,Workshop production,6,0.0
+replication,continuation,factual,18235,Archives and libraries,6,0.0
+replication,continuation,factual,18235,Audio and video,6,0.0
+replication,continuation,factual,18235,Building services,6,0.16666666666666666
+replication,continuation,factual,18235,Education,6,0.0
+replication,continuation,factual,18235,Events and hospitality,6,0.0
+replication,continuation,factual,18235,Field observations,6,0.0
+replication,continuation,factual,18235,Publishing and communications,6,0.3333333333333333
+replication,continuation,factual,18235,Retail and fulfillment,6,0.0
+replication,continuation,factual,18235,Transit operations,6,0.0
+replication,continuation,factual,18235,Workshop production,6,0.0
+replication,continuation,factual,60921,Archives and libraries,6,0.0
+replication,continuation,factual,60921,Audio and video,6,0.0
+replication,continuation,factual,60921,Building services,6,0.0
+replication,continuation,factual,60921,Education,6,0.0
+replication,continuation,factual,60921,Events and hospitality,6,0.0
+replication,continuation,factual,60921,Field observations,6,0.0
+replication,continuation,factual,60921,Publishing and communications,6,0.3333333333333333
+replication,continuation,factual,60921,Retail and fulfillment,6,0.0
+replication,continuation,factual,60921,Transit operations,6,0.0
+replication,continuation,factual,60921,Workshop production,6,0.0
+replication,continuation,factual,72467,Archives and libraries,6,0.0
+replication,continuation,factual,72467,Audio and video,6,0.0
+replication,continuation,factual,72467,Building services,6,0.16666666666666666
+replication,continuation,factual,72467,Education,6,0.0
+replication,continuation,factual,72467,Events and hospitality,6,0.0
+replication,continuation,factual,72467,Field observations,6,0.0
+replication,continuation,factual,72467,Publishing and communications,6,0.16666666666666666
+replication,continuation,factual,72467,Retail and fulfillment,6,0.0
+replication,continuation,factual,72467,Transit operations,6,0.0
+replication,continuation,factual,72467,Workshop production,6,0.0
+replication,explicit,base,18235,Archives and libraries,6,0.16666666666666666
+replication,explicit,base,18235,Audio and video,6,0.16666666666666666
+replication,explicit,base,18235,Building services,6,0.16666666666666666
+replication,explicit,base,18235,Education,6,0.0
+replication,explicit,base,18235,Events and hospitality,6,0.0
+replication,explicit,base,18235,Field observations,6,0.0
+replication,explicit,base,18235,Publishing and communications,6,0.0
+replication,explicit,base,18235,Retail and fulfillment,6,0.16666666666666666
+replication,explicit,base,18235,Transit operations,6,0.0
+replication,explicit,base,18235,Workshop production,6,0.3333333333333333
+replication,explicit,base,60921,Archives and libraries,6,0.16666666666666666
+replication,explicit,base,60921,Audio and video,6,0.16666666666666666
+replication,explicit,base,60921,Building services,6,0.16666666666666666
+replication,explicit,base,60921,Education,6,0.0
+replication,explicit,base,60921,Events and hospitality,6,0.16666666666666666
+replication,explicit,base,60921,Field observations,6,0.0
+replication,explicit,base,60921,Publishing and communications,6,0.3333333333333333
+replication,explicit,base,60921,Retail and fulfillment,6,0.16666666666666666
+replication,explicit,base,60921,Transit operations,6,0.0
+replication,explicit,base,60921,Workshop production,6,0.3333333333333333
+replication,explicit,base,72467,Archives and libraries,6,0.16666666666666666
+replication,explicit,base,72467,Audio and video,6,0.16666666666666666
+replication,explicit,base,72467,Building services,6,0.16666666666666666
+replication,explicit,base,72467,Education,6,0.0
+replication,explicit,base,72467,Events and hospitality,6,0.0
+replication,explicit,base,72467,Field observations,6,0.0
+replication,explicit,base,72467,Publishing and communications,6,0.3333333333333333
+replication,explicit,base,72467,Retail and fulfillment,6,0.16666666666666666
+replication,explicit,base,72467,Transit operations,6,0.0
+replication,explicit,base,72467,Workshop production,6,0.3333333333333333
+replication,factual,base,18235,Archives and libraries,6,0.16666666666666666
+replication,factual,base,18235,Audio and video,6,0.16666666666666666
+replication,factual,base,18235,Building services,6,0.16666666666666666
+replication,factual,base,18235,Education,6,0.0
+replication,factual,base,18235,Events and hospitality,6,0.0
+replication,factual,base,18235,Field observations,6,0.0
+replication,factual,base,18235,Publishing and communications,6,0.0
+replication,factual,base,18235,Retail and fulfillment,6,0.16666666666666666
+replication,factual,base,18235,Transit operations,6,0.0
+replication,factual,base,18235,Workshop production,6,0.3333333333333333
+replication,factual,base,60921,Archives and libraries,6,0.16666666666666666
+replication,factual,base,60921,Audio and video,6,0.16666666666666666
+replication,factual,base,60921,Building services,6,0.16666666666666666
+replication,factual,base,60921,Education,6,0.0
+replication,factual,base,60921,Events and hospitality,6,0.0
+replication,factual,base,60921,Field observations,6,0.0
+replication,factual,base,60921,Publishing and communications,6,0.0
+replication,factual,base,60921,Retail and fulfillment,6,0.16666666666666666
+replication,factual,base,60921,Transit operations,6,0.0
+replication,factual,base,60921,Workshop production,6,0.3333333333333333
+replication,factual,base,72467,Archives and libraries,6,0.16666666666666666
+replication,factual,base,72467,Audio and video,6,0.16666666666666666
+replication,factual,base,72467,Building services,6,0.16666666666666666
+replication,factual,base,72467,Education,6,0.0
+replication,factual,base,72467,Events and hospitality,6,0.0
+replication,factual,base,72467,Field observations,6,0.0
+replication,factual,base,72467,Publishing and communications,6,0.16666666666666666
+replication,factual,base,72467,Retail and fulfillment,6,0.16666666666666666
+replication,factual,base,72467,Transit operations,6,0.0
+replication,factual,base,72467,Workshop production,6,0.3333333333333333
+replication,neutral,base,18235,Archives and libraries,6,0.16666666666666666
+replication,neutral,base,18235,Audio and video,6,0.16666666666666666
+replication,neutral,base,18235,Building services,6,0.16666666666666666
+replication,neutral,base,18235,Education,6,0.0
+replication,neutral,base,18235,Events and hospitality,6,0.0
+replication,neutral,base,18235,Field observations,6,0.0
+replication,neutral,base,18235,Publishing and communications,6,0.0
+replication,neutral,base,18235,Retail and fulfillment,6,0.16666666666666666
+replication,neutral,base,18235,Transit operations,6,0.0
+replication,neutral,base,18235,Workshop production,6,0.3333333333333333
+replication,neutral,base,60921,Archives and libraries,6,0.16666666666666666
+replication,neutral,base,60921,Audio and video,6,0.16666666666666666
+replication,neutral,base,60921,Building services,6,0.16666666666666666
+replication,neutral,base,60921,Education,6,0.0
+replication,neutral,base,60921,Events and hospitality,6,0.0
+replication,neutral,base,60921,Field observations,6,0.0
+replication,neutral,base,60921,Publishing and communications,6,0.0
+replication,neutral,base,60921,Retail and fulfillment,6,0.16666666666666666
+replication,neutral,base,60921,Transit operations,6,0.0
+replication,neutral,base,60921,Workshop production,6,0.3333333333333333
+replication,neutral,base,72467,Archives and libraries,6,0.16666666666666666
+replication,neutral,base,72467,Audio and video,6,0.16666666666666666
+replication,neutral,base,72467,Building services,6,0.16666666666666666
+replication,neutral,base,72467,Education,6,0.0
+replication,neutral,base,72467,Events and hospitality,6,0.0
+replication,neutral,base,72467,Field observations,6,0.0
+replication,neutral,base,72467,Publishing and communications,6,0.3333333333333333
+replication,neutral,base,72467,Retail and fulfillment,6,0.16666666666666666
+replication,neutral,base,72467,Transit operations,6,0.0
+replication,neutral,base,72467,Workshop production,6,0.3333333333333333
+replication,continuation,base,18235,Archives and libraries,6,0.16666666666666666
+replication,continuation,base,18235,Audio and video,6,0.16666666666666666
+replication,continuation,base,18235,Building services,6,0.3333333333333333
+replication,continuation,base,18235,Education,6,0.0
+replication,continuation,base,18235,Events and hospitality,6,0.0
+replication,continuation,base,18235,Field observations,6,0.0
+replication,continuation,base,18235,Publishing and communications,6,0.3333333333333333
+replication,continuation,base,18235,Retail and fulfillment,6,0.16666666666666666
+replication,continuation,base,18235,Transit operations,6,0.0
+replication,continuation,base,18235,Workshop production,6,0.3333333333333333
+replication,continuation,base,60921,Archives and libraries,6,0.16666666666666666
+replication,continuation,base,60921,Audio and video,6,0.16666666666666666
+replication,continuation,base,60921,Building services,6,0.16666666666666666
+replication,continuation,base,60921,Education,6,0.0
+replication,continuation,base,60921,Events and hospitality,6,0.0
+replication,continuation,base,60921,Field observations,6,0.0
+replication,continuation,base,60921,Publishing and communications,6,0.3333333333333333
+replication,continuation,base,60921,Retail and fulfillment,6,0.16666666666666666
+replication,continuation,base,60921,Transit operations,6,0.0
+replication,continuation,base,60921,Workshop production,6,0.3333333333333333
+replication,continuation,base,72467,Archives and libraries,6,0.16666666666666666
+replication,continuation,base,72467,Audio and video,6,0.16666666666666666
+replication,continuation,base,72467,Building services,6,0.3333333333333333
+replication,continuation,base,72467,Education,6,0.0
+replication,continuation,base,72467,Events and hospitality,6,0.0
+replication,continuation,base,72467,Field observations,6,0.0
+replication,continuation,base,72467,Publishing and communications,6,0.3333333333333333
+replication,continuation,base,72467,Retail and fulfillment,6,0.16666666666666666
+replication,continuation,base,72467,Transit operations,6,0.0
+replication,continuation,base,72467,Workshop production,6,0.3333333333333333

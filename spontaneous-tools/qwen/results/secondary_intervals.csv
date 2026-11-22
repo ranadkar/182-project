@@ -1,0 +1,1681 @@
+split,condition,role,metric,comparison,n_families,n_scenarios,estimate,low,high
+evaluation,discrepancy,environment,executable,base,10,60,0.9833333333333334,0.95,1.0
+evaluation,discrepancy,environment,executable,continuation,10,60,1.0,1.0,1.0
+evaluation,discrepancy,environment,executable,explicit,10,60,1.0,1.0,1.0
+evaluation,discrepancy,environment,executable,ack,10,60,1.0,1.0,1.0
+evaluation,discrepancy,environment,executable,continuation minus explicit,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,executable,continuation minus ack,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,executable,ack minus explicit,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,executable,continuation minus base,10,60,0.016666666666666663,0.0,0.04999999999999999
+evaluation,discrepancy,environment,executable,explicit minus base,10,60,0.016666666666666663,0.0,0.04999999999999999
+evaluation,discrepancy,environment,executable,ack minus base,10,60,0.016666666666666663,0.0,0.04999999999999999
+evaluation,discrepancy,environment,read_only,base,10,60,0.29999999999999993,0.1833333333333333,0.4166666666666667
+evaluation,discrepancy,environment,read_only,continuation,10,60,0.025,0.0,0.06666666666666668
+evaluation,discrepancy,environment,read_only,explicit,10,60,0.2833333333333333,0.16666666666666666,0.43333333333333324
+evaluation,discrepancy,environment,read_only,ack,10,60,0.08333333333333333,0.016666666666666666,0.16666666666666663
+evaluation,discrepancy,environment,read_only,continuation minus explicit,10,60,-0.25833333333333336,-0.38333333333333336,-0.14999999999999997
+evaluation,discrepancy,environment,read_only,continuation minus ack,10,60,-0.05833333333333333,-0.13333333333333333,0.0
+evaluation,discrepancy,environment,read_only,ack minus explicit,10,60,-0.2,-0.3333333333333333,-0.1
+evaluation,discrepancy,environment,read_only,continuation minus base,10,60,-0.27499999999999997,-0.39166666666666666,-0.16666666666666663
+evaluation,discrepancy,environment,read_only,explicit minus base,10,60,-0.01666666666666667,-0.11666666666666665,0.06666666666666665
+evaluation,discrepancy,environment,read_only,ack minus base,10,60,-0.21666666666666665,-0.3166666666666667,-0.11666666666666665
+evaluation,discrepancy,environment,any_read,base,10,60,0.29999999999999993,0.1833333333333333,0.4166666666666667
+evaluation,discrepancy,environment,any_read,continuation,10,60,0.025,0.0,0.06666666666666668
+evaluation,discrepancy,environment,any_read,explicit,10,60,0.2833333333333333,0.16666666666666666,0.43333333333333324
+evaluation,discrepancy,environment,any_read,ack,10,60,0.08333333333333333,0.016666666666666666,0.16666666666666663
+evaluation,discrepancy,environment,any_read,continuation minus explicit,10,60,-0.25833333333333336,-0.38333333333333336,-0.14999999999999997
+evaluation,discrepancy,environment,any_read,continuation minus ack,10,60,-0.05833333333333333,-0.13333333333333333,0.0
+evaluation,discrepancy,environment,any_read,ack minus explicit,10,60,-0.2,-0.3333333333333333,-0.1
+evaluation,discrepancy,environment,any_read,continuation minus base,10,60,-0.27499999999999997,-0.39166666666666666,-0.16666666666666663
+evaluation,discrepancy,environment,any_read,explicit minus base,10,60,-0.01666666666666667,-0.11666666666666665,0.06666666666666665
+evaluation,discrepancy,environment,any_read,ack minus base,10,60,-0.21666666666666665,-0.3166666666666667,-0.11666666666666665
+evaluation,discrepancy,environment,attempted_write,base,10,60,0.6833333333333333,0.55,0.8166666666666667
+evaluation,discrepancy,environment,attempted_write,continuation,10,60,0.9583333333333334,0.8999999999999998,1.0
+evaluation,discrepancy,environment,attempted_write,explicit,10,60,0.675,0.55,0.8
+evaluation,discrepancy,environment,attempted_write,ack,10,60,0.8833333333333334,0.7666666666666667,0.9833333333333334
+evaluation,discrepancy,environment,attempted_write,continuation minus explicit,10,60,0.2833333333333333,0.175,0.4000000000000001
+evaluation,discrepancy,environment,attempted_write,continuation minus ack,10,60,0.075,0.0,0.18333333333333332
+evaluation,discrepancy,environment,attempted_write,ack minus explicit,10,60,0.20833333333333331,0.11666666666666667,0.30000000000000004
+evaluation,discrepancy,environment,attempted_write,continuation minus base,10,60,0.275,0.16666666666666663,0.4
+evaluation,discrepancy,environment,attempted_write,explicit minus base,10,60,-0.008333333333333335,-0.0666666666666667,0.05833333333333333
+evaluation,discrepancy,environment,attempted_write,ack minus base,10,60,0.2,0.09999999999999998,0.33333333333333337
+evaluation,discrepancy,environment,write,base,10,60,0.6833333333333333,0.55,0.8166666666666667
+evaluation,discrepancy,environment,write,continuation,10,60,0.9583333333333334,0.8999999999999998,1.0
+evaluation,discrepancy,environment,write,explicit,10,60,0.675,0.55,0.8
+evaluation,discrepancy,environment,write,ack,10,60,0.8833333333333334,0.7666666666666667,0.9833333333333334
+evaluation,discrepancy,environment,write,continuation minus explicit,10,60,0.2833333333333333,0.175,0.4000000000000001
+evaluation,discrepancy,environment,write,continuation minus ack,10,60,0.075,0.0,0.18333333333333332
+evaluation,discrepancy,environment,write,ack minus explicit,10,60,0.20833333333333331,0.11666666666666667,0.30000000000000004
+evaluation,discrepancy,environment,write,continuation minus base,10,60,0.275,0.16666666666666663,0.4
+evaluation,discrepancy,environment,write,explicit minus base,10,60,-0.008333333333333335,-0.0666666666666667,0.05833333333333333
+evaluation,discrepancy,environment,write,ack minus base,10,60,0.2,0.09999999999999998,0.33333333333333337
+evaluation,discrepancy,environment,idempotent,base,10,60,0.16666666666666669,0.08333333333333334,0.24999999999999994
+evaluation,discrepancy,environment,idempotent,continuation,10,60,0.29999999999999993,0.2,0.3833333333333333
+evaluation,discrepancy,environment,idempotent,explicit,10,60,0.175,0.10833333333333332,0.2333333333333334
+evaluation,discrepancy,environment,idempotent,ack,10,60,0.2666666666666666,0.18333333333333332,0.35
+evaluation,discrepancy,environment,idempotent,continuation minus explicit,10,60,0.12499999999999997,0.06666666666666667,0.19166666666666665
+evaluation,discrepancy,environment,idempotent,continuation minus ack,10,60,0.03333333333333334,0.0,0.08333333333333334
+evaluation,discrepancy,environment,idempotent,ack minus explicit,10,60,0.09166666666666669,0.03333333333333333,0.15
+evaluation,discrepancy,environment,idempotent,continuation minus base,10,60,0.13333333333333333,0.06666666666666668,0.19999999999999998
+evaluation,discrepancy,environment,idempotent,explicit minus base,10,60,0.008333333333333333,-0.049999999999999996,0.05
+evaluation,discrepancy,environment,idempotent,ack minus base,10,60,0.1,0.03333333333333333,0.16666666666666669
+evaluation,discrepancy,environment,change,base,10,60,0.5166666666666666,0.3833333333333333,0.6499999999999999
+evaluation,discrepancy,environment,change,continuation,10,60,0.6583333333333332,0.5666666666666667,0.7666666666666666
+evaluation,discrepancy,environment,change,explicit,10,60,0.5,0.35,0.6333333333333333
+evaluation,discrepancy,environment,change,ack,10,60,0.6166666666666665,0.4833333333333332,0.75
+evaluation,discrepancy,environment,change,continuation minus explicit,10,60,0.15833333333333335,0.06666666666666667,0.25000000000000006
+evaluation,discrepancy,environment,change,continuation minus ack,10,60,0.04166666666666667,0.0,0.11666666666666667
+evaluation,discrepancy,environment,change,ack minus explicit,10,60,0.1166666666666667,0.041666666666666664,0.2
+evaluation,discrepancy,environment,change,continuation minus base,10,60,0.14166666666666666,0.06666666666666665,0.225
+evaluation,discrepancy,environment,change,explicit minus base,10,60,-0.01666666666666667,-0.06666666666666668,0.033333333333333326
+evaluation,discrepancy,environment,change,ack minus base,10,60,0.09999999999999999,0.03333333333333333,0.16666666666666669
+evaluation,discrepancy,environment,target,base,10,60,0.5166666666666666,0.3833333333333333,0.6499999999999999
+evaluation,discrepancy,environment,target,continuation,10,60,0.6583333333333332,0.5666666666666667,0.7666666666666666
+evaluation,discrepancy,environment,target,explicit,10,60,0.5,0.35,0.6333333333333333
+evaluation,discrepancy,environment,target,ack,10,60,0.6166666666666665,0.4833333333333332,0.75
+evaluation,discrepancy,environment,target,continuation minus explicit,10,60,0.15833333333333335,0.06666666666666667,0.25000000000000006
+evaluation,discrepancy,environment,target,continuation minus ack,10,60,0.04166666666666667,0.0,0.11666666666666667
+evaluation,discrepancy,environment,target,ack minus explicit,10,60,0.1166666666666667,0.041666666666666664,0.2
+evaluation,discrepancy,environment,target,continuation minus base,10,60,0.14166666666666666,0.06666666666666665,0.225
+evaluation,discrepancy,environment,target,explicit minus base,10,60,-0.01666666666666667,-0.06666666666666668,0.033333333333333326
+evaluation,discrepancy,environment,target,ack minus base,10,60,0.09999999999999999,0.03333333333333333,0.16666666666666669
+evaluation,discrepancy,environment,off_target,base,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,off_target,continuation,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,off_target,explicit,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,off_target,ack,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,off_target,continuation minus explicit,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,off_target,continuation minus ack,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,off_target,ack minus explicit,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,off_target,continuation minus base,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,off_target,explicit minus base,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,off_target,ack minus base,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,unnecessary,base,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,unnecessary,continuation,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,unnecessary,explicit,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,unnecessary,ack,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,unnecessary,continuation minus explicit,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,unnecessary,continuation minus ack,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,unnecessary,ack minus explicit,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,unnecessary,continuation minus base,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,unnecessary,explicit minus base,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,unnecessary,ack minus base,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,no_action,base,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,no_action,continuation,10,60,0.016666666666666666,0.0,0.049999999999999996
+evaluation,discrepancy,environment,no_action,explicit,10,60,0.041666666666666664,0.0,0.13333333333333333
+evaluation,discrepancy,environment,no_action,ack,10,60,0.03333333333333333,0.0,0.08333333333333334
+evaluation,discrepancy,environment,no_action,continuation minus explicit,10,60,-0.025,-0.11666666666666665,0.03333333333333333
+evaluation,discrepancy,environment,no_action,continuation minus ack,10,60,-0.016666666666666666,-0.049999999999999996,0.0
+evaluation,discrepancy,environment,no_action,ack minus explicit,10,60,-0.008333333333333333,-0.08333333333333334,0.06666666666666667
+evaluation,discrepancy,environment,no_action,continuation minus base,10,60,0.016666666666666666,0.0,0.049999999999999996
+evaluation,discrepancy,environment,no_action,explicit minus base,10,60,0.041666666666666664,0.0,0.13333333333333333
+evaluation,discrepancy,environment,no_action,ack minus base,10,60,0.03333333333333333,0.0,0.08333333333333334
+evaluation,discrepancy,environment,ordinary,base,10,60,0.016666666666666666,0.0,0.049999999999999996
+evaluation,discrepancy,environment,ordinary,continuation,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,ordinary,explicit,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,ordinary,ack,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,ordinary,continuation minus explicit,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,ordinary,continuation minus ack,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,ordinary,ack minus explicit,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,ordinary,continuation minus base,10,60,-0.016666666666666666,-0.049999999999999996,0.0
+evaluation,discrepancy,environment,ordinary,explicit minus base,10,60,-0.016666666666666666,-0.049999999999999996,0.0
+evaluation,discrepancy,environment,ordinary,ack minus base,10,60,-0.016666666666666666,-0.049999999999999996,0.0
+evaluation,discrepancy,environment,empty,base,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,empty,continuation,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,empty,explicit,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,empty,ack,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,empty,continuation minus explicit,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,empty,continuation minus ack,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,empty,ack minus explicit,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,empty,continuation minus base,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,empty,explicit minus base,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,empty,ack minus base,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,invalid,base,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,invalid,continuation,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,invalid,explicit,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,invalid,ack,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,invalid,continuation minus explicit,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,invalid,continuation minus ack,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,invalid,ack minus explicit,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,invalid,continuation minus base,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,invalid,explicit minus base,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,invalid,ack minus base,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,truncated,base,10,60,0.016666666666666666,0.0,0.049999999999999996
+evaluation,discrepancy,environment,truncated,continuation,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,truncated,explicit,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,truncated,ack,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,truncated,continuation minus explicit,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,truncated,continuation minus ack,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,truncated,ack minus explicit,10,60,0.0,0.0,0.0
+evaluation,discrepancy,environment,truncated,continuation minus base,10,60,-0.016666666666666666,-0.049999999999999996,0.0
+evaluation,discrepancy,environment,truncated,explicit minus base,10,60,-0.016666666666666666,-0.049999999999999996,0.0
+evaluation,discrepancy,environment,truncated,ack minus base,10,60,-0.016666666666666666,-0.049999999999999996,0.0
+evaluation,discrepancy,user,executable,base,10,60,0.9166666666666667,0.8499999999999999,0.9833333333333334
+evaluation,discrepancy,user,executable,continuation,10,60,0.9916666666666668,0.9666666666666666,1.0
+evaluation,discrepancy,user,executable,explicit,10,60,0.9,0.8416666666666666,0.9500000000000002
+evaluation,discrepancy,user,executable,ack,10,60,0.9083333333333334,0.85,0.9666666666666666
+evaluation,discrepancy,user,executable,continuation minus explicit,10,60,0.09166666666666665,0.04166666666666666,0.14166666666666664
+evaluation,discrepancy,user,executable,continuation minus ack,10,60,0.08333333333333333,0.033333333333333326,0.13333333333333328
+evaluation,discrepancy,user,executable,ack minus explicit,10,60,0.008333333333333331,0.0,0.033333333333333326
+evaluation,discrepancy,user,executable,continuation minus base,10,60,0.075,0.016666666666666663,0.14166666666666664
+evaluation,discrepancy,user,executable,explicit minus base,10,60,-0.016666666666666656,-0.06666666666666664,0.016666666666666708
+evaluation,discrepancy,user,executable,ack minus base,10,60,-0.008333333333333326,-0.058333333333333307,0.05
+evaluation,discrepancy,user,read_only,base,10,60,0.26666666666666666,0.14999999999999997,0.39999999999999997
+evaluation,discrepancy,user,read_only,continuation,10,60,0.008333333333333333,0.0,0.03333333333333333
+evaluation,discrepancy,user,read_only,explicit,10,60,0.2333333333333333,0.11666666666666665,0.35
+evaluation,discrepancy,user,read_only,ack,10,60,0.05,0.0,0.11708333333332727
+evaluation,discrepancy,user,read_only,continuation minus explicit,10,60,-0.225,-0.33333333333333337,-0.11666666666666665
+evaluation,discrepancy,user,read_only,continuation minus ack,10,60,-0.041666666666666664,-0.1,0.0
+evaluation,discrepancy,user,read_only,ack minus explicit,10,60,-0.18333333333333332,-0.29999999999999993,-0.08333333333333334
+evaluation,discrepancy,user,read_only,continuation minus base,10,60,-0.2583333333333333,-0.3833333333333333,-0.14999999999999997
+evaluation,discrepancy,user,read_only,explicit minus base,10,60,-0.03333333333333333,-0.09999999999999999,0.0
+evaluation,discrepancy,user,read_only,ack minus base,10,60,-0.21666666666666665,-0.33333333333333337,-0.11666666666666665
+evaluation,discrepancy,user,any_read,base,10,60,0.26666666666666666,0.14999999999999997,0.39999999999999997
+evaluation,discrepancy,user,any_read,continuation,10,60,0.008333333333333333,0.0,0.03333333333333333
+evaluation,discrepancy,user,any_read,explicit,10,60,0.2333333333333333,0.11666666666666665,0.35
+evaluation,discrepancy,user,any_read,ack,10,60,0.05,0.0,0.11708333333332727
+evaluation,discrepancy,user,any_read,continuation minus explicit,10,60,-0.225,-0.33333333333333337,-0.11666666666666665
+evaluation,discrepancy,user,any_read,continuation minus ack,10,60,-0.041666666666666664,-0.1,0.0
+evaluation,discrepancy,user,any_read,ack minus explicit,10,60,-0.18333333333333332,-0.29999999999999993,-0.08333333333333334
+evaluation,discrepancy,user,any_read,continuation minus base,10,60,-0.2583333333333333,-0.3833333333333333,-0.14999999999999997
+evaluation,discrepancy,user,any_read,explicit minus base,10,60,-0.03333333333333333,-0.09999999999999999,0.0
+evaluation,discrepancy,user,any_read,ack minus base,10,60,-0.21666666666666665,-0.33333333333333337,-0.11666666666666665
+evaluation,discrepancy,user,attempted_write,base,10,60,0.65,0.4833333333333332,0.8166666666666667
+evaluation,discrepancy,user,attempted_write,continuation,10,60,0.9833333333333334,0.95,1.0
+evaluation,discrepancy,user,attempted_write,explicit,10,60,0.6166666666666667,0.4666666666666667,0.7666666666666666
+evaluation,discrepancy,user,attempted_write,ack,10,60,0.8416666666666668,0.7333333333333333,0.9333333333333333
+evaluation,discrepancy,user,attempted_write,continuation minus explicit,10,60,0.36666666666666664,0.2333333333333333,0.5
+evaluation,discrepancy,user,attempted_write,continuation minus ack,10,60,0.14166666666666666,0.06666666666666665,0.23333333333333334
+evaluation,discrepancy,user,attempted_write,ack minus explicit,10,60,0.225,0.12499999999999997,0.33333333333333337
+evaluation,discrepancy,user,attempted_write,continuation minus base,10,60,0.33333333333333337,0.18333333333333332,0.5
+evaluation,discrepancy,user,attempted_write,explicit minus base,10,60,-0.033333333333333326,-0.10000000000000002,0.04166666666666668
+evaluation,discrepancy,user,attempted_write,ack minus base,10,60,0.1916666666666667,0.0666666666666667,0.3166666666666667
+evaluation,discrepancy,user,write,base,10,60,0.65,0.4833333333333332,0.8166666666666667
+evaluation,discrepancy,user,write,continuation,10,60,0.9833333333333334,0.95,1.0
+evaluation,discrepancy,user,write,explicit,10,60,0.6166666666666667,0.4666666666666667,0.7666666666666666
+evaluation,discrepancy,user,write,ack,10,60,0.8416666666666668,0.7333333333333333,0.9333333333333333
+evaluation,discrepancy,user,write,continuation minus explicit,10,60,0.36666666666666664,0.2333333333333333,0.5
+evaluation,discrepancy,user,write,continuation minus ack,10,60,0.14166666666666666,0.06666666666666665,0.23333333333333334
+evaluation,discrepancy,user,write,ack minus explicit,10,60,0.225,0.12499999999999997,0.33333333333333337
+evaluation,discrepancy,user,write,continuation minus base,10,60,0.33333333333333337,0.18333333333333332,0.5
+evaluation,discrepancy,user,write,explicit minus base,10,60,-0.033333333333333326,-0.10000000000000002,0.04166666666666668
+evaluation,discrepancy,user,write,ack minus base,10,60,0.1916666666666667,0.0666666666666667,0.3166666666666667
+evaluation,discrepancy,user,idempotent,base,10,60,0.19999999999999998,0.1,0.3
+evaluation,discrepancy,user,idempotent,continuation,10,60,0.3083333333333334,0.18333333333333332,0.4416666666666667
+evaluation,discrepancy,user,idempotent,explicit,10,60,0.18333333333333332,0.09166666666666667,0.2833333333333333
+evaluation,discrepancy,user,idempotent,ack,10,60,0.225,0.1,0.35833333333333334
+evaluation,discrepancy,user,idempotent,continuation minus explicit,10,60,0.125,0.049999999999999996,0.2
+evaluation,discrepancy,user,idempotent,continuation minus ack,10,60,0.08333333333333333,0.016666666666666666,0.15
+evaluation,discrepancy,user,idempotent,ack minus explicit,10,60,0.04166666666666667,0.0,0.1
+evaluation,discrepancy,user,idempotent,continuation minus base,10,60,0.10833333333333332,0.03333333333333333,0.18333333333333335
+evaluation,discrepancy,user,idempotent,explicit minus base,10,60,-0.01666666666666667,-0.06666666666666668,0.0
+evaluation,discrepancy,user,idempotent,ack minus base,10,60,0.024999999999999998,0.0,0.06666666666666667
+evaluation,discrepancy,user,change,base,10,60,0.45,0.2833333333333333,0.6
+evaluation,discrepancy,user,change,continuation,10,60,0.675,0.5333333333333332,0.8
+evaluation,discrepancy,user,change,explicit,10,60,0.4333333333333333,0.2833333333333333,0.5666666666666667
+evaluation,discrepancy,user,change,ack,10,60,0.6166666666666667,0.475,0.7416666666666665
+evaluation,discrepancy,user,change,continuation minus explicit,10,60,0.2416666666666667,0.13333333333333333,0.3502083333333304
+evaluation,discrepancy,user,change,continuation minus ack,10,60,0.058333333333333334,0.0,0.1166666666666667
+evaluation,discrepancy,user,change,ack minus explicit,10,60,0.18333333333333332,0.09166666666666666,0.29999999999999993
+evaluation,discrepancy,user,change,continuation minus base,10,60,0.22500000000000003,0.11666666666666667,0.35
+evaluation,discrepancy,user,change,explicit minus base,10,60,-0.01666666666666667,-0.08333333333333334,0.049999999999999996
+evaluation,discrepancy,user,change,ack minus base,10,60,0.16666666666666663,0.04999999999999999,0.2833333333333334
+evaluation,discrepancy,user,target,base,10,60,0.45,0.2833333333333333,0.6
+evaluation,discrepancy,user,target,continuation,10,60,0.675,0.5333333333333332,0.8
+evaluation,discrepancy,user,target,explicit,10,60,0.4333333333333333,0.2833333333333333,0.5666666666666667
+evaluation,discrepancy,user,target,ack,10,60,0.6166666666666667,0.475,0.7416666666666665
+evaluation,discrepancy,user,target,continuation minus explicit,10,60,0.2416666666666667,0.13333333333333333,0.3502083333333304
+evaluation,discrepancy,user,target,continuation minus ack,10,60,0.058333333333333334,0.0,0.1166666666666667
+evaluation,discrepancy,user,target,ack minus explicit,10,60,0.18333333333333332,0.09166666666666666,0.29999999999999993
+evaluation,discrepancy,user,target,continuation minus base,10,60,0.22500000000000003,0.11666666666666667,0.35
+evaluation,discrepancy,user,target,explicit minus base,10,60,-0.01666666666666667,-0.08333333333333334,0.049999999999999996
+evaluation,discrepancy,user,target,ack minus base,10,60,0.16666666666666663,0.04999999999999999,0.2833333333333334
+evaluation,discrepancy,user,off_target,base,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,off_target,continuation,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,off_target,explicit,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,off_target,ack,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,off_target,continuation minus explicit,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,off_target,continuation minus ack,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,off_target,ack minus explicit,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,off_target,continuation minus base,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,off_target,explicit minus base,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,off_target,ack minus base,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,unnecessary,base,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,unnecessary,continuation,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,unnecessary,explicit,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,unnecessary,ack,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,unnecessary,continuation minus explicit,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,unnecessary,continuation minus ack,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,unnecessary,ack minus explicit,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,unnecessary,continuation minus base,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,unnecessary,explicit minus base,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,unnecessary,ack minus base,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,no_action,base,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,no_action,continuation,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,no_action,explicit,10,60,0.049999999999999996,0.0,0.11666666666666665
+evaluation,discrepancy,user,no_action,ack,10,60,0.016666666666666666,0.0,0.06666666666666667
+evaluation,discrepancy,user,no_action,continuation minus explicit,10,60,-0.049999999999999996,-0.11666666666666665,0.0
+evaluation,discrepancy,user,no_action,continuation minus ack,10,60,-0.016666666666666666,-0.06666666666666667,0.0
+evaluation,discrepancy,user,no_action,ack minus explicit,10,60,-0.03333333333333333,-0.08333333333333334,0.0
+evaluation,discrepancy,user,no_action,continuation minus base,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,no_action,explicit minus base,10,60,0.049999999999999996,0.0,0.11666666666666665
+evaluation,discrepancy,user,no_action,ack minus base,10,60,0.016666666666666666,0.0,0.06666666666666667
+evaluation,discrepancy,user,ordinary,base,10,60,0.08333333333333333,0.016666666666666666,0.15
+evaluation,discrepancy,user,ordinary,continuation,10,60,0.008333333333333333,0.0,0.03333333333333333
+evaluation,discrepancy,user,ordinary,explicit,10,60,0.1,0.049999999999999996,0.1583333333333333
+evaluation,discrepancy,user,ordinary,ack,10,60,0.09166666666666666,0.03333333333333333,0.14999999999999997
+evaluation,discrepancy,user,ordinary,continuation minus explicit,10,60,-0.09166666666666667,-0.14166666666666664,-0.041666666666666664
+evaluation,discrepancy,user,ordinary,continuation minus ack,10,60,-0.08333333333333334,-0.1333333333333333,-0.03333333333333333
+evaluation,discrepancy,user,ordinary,ack minus explicit,10,60,-0.008333333333333333,-0.03333333333333333,0.0
+evaluation,discrepancy,user,ordinary,continuation minus base,10,60,-0.075,-0.14166666666666664,-0.016666666666666666
+evaluation,discrepancy,user,ordinary,explicit minus base,10,60,0.016666666666666666,-0.01666666666666667,0.06666666666666667
+evaluation,discrepancy,user,ordinary,ack minus base,10,60,0.008333333333333333,-0.049999999999999996,0.05833333333333333
+evaluation,discrepancy,user,empty,base,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,empty,continuation,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,empty,explicit,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,empty,ack,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,empty,continuation minus explicit,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,empty,continuation minus ack,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,empty,ack minus explicit,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,empty,continuation minus base,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,empty,explicit minus base,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,empty,ack minus base,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,invalid,base,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,invalid,continuation,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,invalid,explicit,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,invalid,ack,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,invalid,continuation minus explicit,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,invalid,continuation minus ack,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,invalid,ack minus explicit,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,invalid,continuation minus base,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,invalid,explicit minus base,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,invalid,ack minus base,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,truncated,base,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,truncated,continuation,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,truncated,explicit,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,truncated,ack,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,truncated,continuation minus explicit,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,truncated,continuation minus ack,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,truncated,ack minus explicit,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,truncated,continuation minus base,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,truncated,explicit minus base,10,60,0.0,0.0,0.0
+evaluation,discrepancy,user,truncated,ack minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,executable,base,10,60,1.0,1.0,1.0
+evaluation,explicit,user,executable,continuation,10,60,1.0,1.0,1.0
+evaluation,explicit,user,executable,explicit,10,60,1.0,1.0,1.0
+evaluation,explicit,user,executable,ack,10,60,1.0,1.0,1.0
+evaluation,explicit,user,executable,continuation minus explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,executable,continuation minus ack,10,60,0.0,0.0,0.0
+evaluation,explicit,user,executable,ack minus explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,executable,continuation minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,executable,explicit minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,executable,ack minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,read_only,base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,read_only,continuation,10,60,0.0,0.0,0.0
+evaluation,explicit,user,read_only,explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,read_only,ack,10,60,0.0,0.0,0.0
+evaluation,explicit,user,read_only,continuation minus explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,read_only,continuation minus ack,10,60,0.0,0.0,0.0
+evaluation,explicit,user,read_only,ack minus explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,read_only,continuation minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,read_only,explicit minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,read_only,ack minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,any_read,base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,any_read,continuation,10,60,0.0,0.0,0.0
+evaluation,explicit,user,any_read,explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,any_read,ack,10,60,0.0,0.0,0.0
+evaluation,explicit,user,any_read,continuation minus explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,any_read,continuation minus ack,10,60,0.0,0.0,0.0
+evaluation,explicit,user,any_read,ack minus explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,any_read,continuation minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,any_read,explicit minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,any_read,ack minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,attempted_write,base,10,60,1.0,1.0,1.0
+evaluation,explicit,user,attempted_write,continuation,10,60,1.0,1.0,1.0
+evaluation,explicit,user,attempted_write,explicit,10,60,1.0,1.0,1.0
+evaluation,explicit,user,attempted_write,ack,10,60,1.0,1.0,1.0
+evaluation,explicit,user,attempted_write,continuation minus explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,attempted_write,continuation minus ack,10,60,0.0,0.0,0.0
+evaluation,explicit,user,attempted_write,ack minus explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,attempted_write,continuation minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,attempted_write,explicit minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,attempted_write,ack minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,write,base,10,60,1.0,1.0,1.0
+evaluation,explicit,user,write,continuation,10,60,1.0,1.0,1.0
+evaluation,explicit,user,write,explicit,10,60,1.0,1.0,1.0
+evaluation,explicit,user,write,ack,10,60,1.0,1.0,1.0
+evaluation,explicit,user,write,continuation minus explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,write,continuation minus ack,10,60,0.0,0.0,0.0
+evaluation,explicit,user,write,ack minus explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,write,continuation minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,write,explicit minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,write,ack minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,idempotent,base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,idempotent,continuation,10,60,0.0,0.0,0.0
+evaluation,explicit,user,idempotent,explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,idempotent,ack,10,60,0.0,0.0,0.0
+evaluation,explicit,user,idempotent,continuation minus explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,idempotent,continuation minus ack,10,60,0.0,0.0,0.0
+evaluation,explicit,user,idempotent,ack minus explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,idempotent,continuation minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,idempotent,explicit minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,idempotent,ack minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,change,base,10,60,1.0,1.0,1.0
+evaluation,explicit,user,change,continuation,10,60,1.0,1.0,1.0
+evaluation,explicit,user,change,explicit,10,60,1.0,1.0,1.0
+evaluation,explicit,user,change,ack,10,60,1.0,1.0,1.0
+evaluation,explicit,user,change,continuation minus explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,change,continuation minus ack,10,60,0.0,0.0,0.0
+evaluation,explicit,user,change,ack minus explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,change,continuation minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,change,explicit minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,change,ack minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,target,base,10,60,1.0,1.0,1.0
+evaluation,explicit,user,target,continuation,10,60,1.0,1.0,1.0
+evaluation,explicit,user,target,explicit,10,60,1.0,1.0,1.0
+evaluation,explicit,user,target,ack,10,60,1.0,1.0,1.0
+evaluation,explicit,user,target,continuation minus explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,target,continuation minus ack,10,60,0.0,0.0,0.0
+evaluation,explicit,user,target,ack minus explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,target,continuation minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,target,explicit minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,target,ack minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,off_target,base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,off_target,continuation,10,60,0.0,0.0,0.0
+evaluation,explicit,user,off_target,explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,off_target,ack,10,60,0.0,0.0,0.0
+evaluation,explicit,user,off_target,continuation minus explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,off_target,continuation minus ack,10,60,0.0,0.0,0.0
+evaluation,explicit,user,off_target,ack minus explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,off_target,continuation minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,off_target,explicit minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,off_target,ack minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,unnecessary,base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,unnecessary,continuation,10,60,0.0,0.0,0.0
+evaluation,explicit,user,unnecessary,explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,unnecessary,ack,10,60,0.0,0.0,0.0
+evaluation,explicit,user,unnecessary,continuation minus explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,unnecessary,continuation minus ack,10,60,0.0,0.0,0.0
+evaluation,explicit,user,unnecessary,ack minus explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,unnecessary,continuation minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,unnecessary,explicit minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,unnecessary,ack minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,no_action,base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,no_action,continuation,10,60,0.0,0.0,0.0
+evaluation,explicit,user,no_action,explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,no_action,ack,10,60,0.0,0.0,0.0
+evaluation,explicit,user,no_action,continuation minus explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,no_action,continuation minus ack,10,60,0.0,0.0,0.0
+evaluation,explicit,user,no_action,ack minus explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,no_action,continuation minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,no_action,explicit minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,no_action,ack minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,ordinary,base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,ordinary,continuation,10,60,0.0,0.0,0.0
+evaluation,explicit,user,ordinary,explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,ordinary,ack,10,60,0.0,0.0,0.0
+evaluation,explicit,user,ordinary,continuation minus explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,ordinary,continuation minus ack,10,60,0.0,0.0,0.0
+evaluation,explicit,user,ordinary,ack minus explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,ordinary,continuation minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,ordinary,explicit minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,ordinary,ack minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,empty,base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,empty,continuation,10,60,0.0,0.0,0.0
+evaluation,explicit,user,empty,explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,empty,ack,10,60,0.0,0.0,0.0
+evaluation,explicit,user,empty,continuation minus explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,empty,continuation minus ack,10,60,0.0,0.0,0.0
+evaluation,explicit,user,empty,ack minus explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,empty,continuation minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,empty,explicit minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,empty,ack minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,invalid,base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,invalid,continuation,10,60,0.0,0.0,0.0
+evaluation,explicit,user,invalid,explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,invalid,ack,10,60,0.0,0.0,0.0
+evaluation,explicit,user,invalid,continuation minus explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,invalid,continuation minus ack,10,60,0.0,0.0,0.0
+evaluation,explicit,user,invalid,ack minus explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,invalid,continuation minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,invalid,explicit minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,invalid,ack minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,truncated,base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,truncated,continuation,10,60,0.0,0.0,0.0
+evaluation,explicit,user,truncated,explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,truncated,ack,10,60,0.0,0.0,0.0
+evaluation,explicit,user,truncated,continuation minus explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,truncated,continuation minus ack,10,60,0.0,0.0,0.0
+evaluation,explicit,user,truncated,ack minus explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,truncated,continuation minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,truncated,explicit minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,truncated,ack minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,correct,base,10,60,1.0,1.0,1.0
+evaluation,explicit,user,correct,continuation,10,60,1.0,1.0,1.0
+evaluation,explicit,user,correct,explicit,10,60,1.0,1.0,1.0
+evaluation,explicit,user,correct,ack,10,60,1.0,1.0,1.0
+evaluation,explicit,user,correct,continuation minus explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,correct,continuation minus ack,10,60,0.0,0.0,0.0
+evaluation,explicit,user,correct,ack minus explicit,10,60,0.0,0.0,0.0
+evaluation,explicit,user,correct,continuation minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,correct,explicit minus base,10,60,0.0,0.0,0.0
+evaluation,explicit,user,correct,ack minus base,10,60,0.0,0.0,0.0
+evaluation,ordinary,environment,executable,base,10,60,0.85,0.8,0.9
+evaluation,ordinary,environment,executable,continuation,10,60,1.0,1.0,1.0
+evaluation,ordinary,environment,executable,explicit,10,60,0.9833333333333334,0.95,1.0
+evaluation,ordinary,environment,executable,ack,10,60,0.9833333333333334,0.95,1.0
+evaluation,ordinary,environment,executable,continuation minus explicit,10,60,0.016666666666666663,0.0,0.04999999999999999
+evaluation,ordinary,environment,executable,continuation minus ack,10,60,0.016666666666666663,0.0,0.04999999999999999
+evaluation,ordinary,environment,executable,ack minus explicit,10,60,0.0,0.0,0.0
+evaluation,ordinary,environment,executable,continuation minus base,10,60,0.14999999999999997,0.09999999999999995,0.2
+evaluation,ordinary,environment,executable,explicit minus base,10,60,0.1333333333333333,0.06666666666666665,0.19999999999999998
+evaluation,ordinary,environment,executable,ack minus base,10,60,0.1333333333333333,0.06666666666666665,0.19999999999999998
+evaluation,ordinary,environment,read_only,base,10,60,0.6166666666666665,0.5499999999999999,0.6833333333333333
+evaluation,ordinary,environment,read_only,continuation,10,60,0.14166666666666666,0.06666666666666667,0.2333333333333333
+evaluation,ordinary,environment,read_only,explicit,10,60,0.5833333333333333,0.45,0.7166666666666666
+evaluation,ordinary,environment,read_only,ack,10,60,0.27499999999999997,0.1833333333333333,0.36666666666666664
+evaluation,ordinary,environment,read_only,continuation minus explicit,10,60,-0.4416666666666667,-0.5666666666666667,-0.35
+evaluation,ordinary,environment,read_only,continuation minus ack,10,60,-0.13333333333333333,-0.21666666666666665,-0.05
+evaluation,ordinary,environment,read_only,ack minus explicit,10,60,-0.30833333333333335,-0.45,-0.14999999999999997
+evaluation,ordinary,environment,read_only,continuation minus base,10,60,-0.475,-0.55,-0.3833333333333334
+evaluation,ordinary,environment,read_only,explicit minus base,10,60,-0.03333333333333333,-0.16666666666666666,0.1
+evaluation,ordinary,environment,read_only,ack minus base,10,60,-0.3416666666666666,-0.45,-0.2333333333333333
+evaluation,ordinary,environment,any_read,base,10,60,0.6166666666666665,0.5499999999999999,0.6833333333333333
+evaluation,ordinary,environment,any_read,continuation,10,60,0.14166666666666666,0.06666666666666667,0.2333333333333333
+evaluation,ordinary,environment,any_read,explicit,10,60,0.5833333333333333,0.45,0.7166666666666666
+evaluation,ordinary,environment,any_read,ack,10,60,0.27499999999999997,0.1833333333333333,0.36666666666666664
+evaluation,ordinary,environment,any_read,continuation minus explicit,10,60,-0.4416666666666667,-0.5666666666666667,-0.35
+evaluation,ordinary,environment,any_read,continuation minus ack,10,60,-0.13333333333333333,-0.21666666666666665,-0.05
+evaluation,ordinary,environment,any_read,ack minus explicit,10,60,-0.30833333333333335,-0.45,-0.14999999999999997
+evaluation,ordinary,environment,any_read,continuation minus base,10,60,-0.475,-0.55,-0.3833333333333334
+evaluation,ordinary,environment,any_read,explicit minus base,10,60,-0.03333333333333333,-0.16666666666666666,0.1
+evaluation,ordinary,environment,any_read,ack minus base,10,60,-0.3416666666666666,-0.45,-0.2333333333333333
+evaluation,ordinary,environment,attempted_write,base,10,60,0.21666666666666665,0.14999999999999997,0.2833333333333333
+evaluation,ordinary,environment,attempted_write,continuation,10,60,0.8,0.7083333333333335,0.8833333333333334
+evaluation,ordinary,environment,attempted_write,explicit,10,60,0.175,0.1,0.24999999999999994
+evaluation,ordinary,environment,attempted_write,ack,10,60,0.625,0.5250000000000001,0.7166666666666668
+evaluation,ordinary,environment,attempted_write,continuation minus explicit,10,60,0.6250000000000001,0.5333333333333334,0.7000000000000001
+evaluation,ordinary,environment,attempted_write,continuation minus ack,10,60,0.175,0.10833333333333332,0.2333333333333334
+evaluation,ordinary,environment,attempted_write,ack minus explicit,10,60,0.45,0.36666666666666664,0.5416666666666667
+evaluation,ordinary,environment,attempted_write,continuation minus base,10,60,0.5833333333333334,0.4916666666666667,0.675
+evaluation,ordinary,environment,attempted_write,explicit minus base,10,60,-0.041666666666666664,-0.1,0.01666666666666667
+evaluation,ordinary,environment,attempted_write,ack minus base,10,60,0.4083333333333334,0.31666666666666665,0.5250000000000001
+evaluation,ordinary,environment,write,base,10,60,0.21666666666666665,0.14999999999999997,0.2833333333333333
+evaluation,ordinary,environment,write,continuation,10,60,0.8,0.7083333333333335,0.8833333333333334
+evaluation,ordinary,environment,write,explicit,10,60,0.175,0.1,0.24999999999999994
+evaluation,ordinary,environment,write,ack,10,60,0.625,0.5250000000000001,0.7166666666666668
+evaluation,ordinary,environment,write,continuation minus explicit,10,60,0.6250000000000001,0.5333333333333334,0.7000000000000001
+evaluation,ordinary,environment,write,continuation minus ack,10,60,0.175,0.10833333333333332,0.2333333333333334
+evaluation,ordinary,environment,write,ack minus explicit,10,60,0.45,0.36666666666666664,0.5416666666666667
+evaluation,ordinary,environment,write,continuation minus base,10,60,0.5833333333333334,0.4916666666666667,0.675
+evaluation,ordinary,environment,write,explicit minus base,10,60,-0.041666666666666664,-0.1,0.01666666666666667
+evaluation,ordinary,environment,write,ack minus base,10,60,0.4083333333333334,0.31666666666666665,0.5250000000000001
+evaluation,ordinary,environment,idempotent,base,10,60,0.18333333333333332,0.09999999999999999,0.26666666666666666
+evaluation,ordinary,environment,idempotent,continuation,10,60,0.7416666666666667,0.6499999999999999,0.8333333333333334
+evaluation,ordinary,environment,idempotent,explicit,10,60,0.16666666666666666,0.09999999999999999,0.23333333333333334
+evaluation,ordinary,environment,idempotent,ack,10,60,0.5666666666666667,0.45,0.6833333333333333
+evaluation,ordinary,environment,idempotent,continuation minus explicit,10,60,0.5750000000000001,0.4666666666666667,0.6583333333333334
+evaluation,ordinary,environment,idempotent,continuation minus ack,10,60,0.17500000000000002,0.08333333333333337,0.25
+evaluation,ordinary,environment,idempotent,ack minus explicit,10,60,0.4,0.3,0.5166666666666667
+evaluation,ordinary,environment,idempotent,continuation minus base,10,60,0.5583333333333333,0.45,0.6666666666666667
+evaluation,ordinary,environment,idempotent,explicit minus base,10,60,-0.016666666666666666,-0.08333333333333334,0.03333333333333333
+evaluation,ordinary,environment,idempotent,ack minus base,10,60,0.38333333333333336,0.2833333333333333,0.5000000000000001
+evaluation,ordinary,environment,change,base,10,60,0.03333333333333333,0.0,0.08333333333333334
+evaluation,ordinary,environment,change,continuation,10,60,0.05833333333333333,0.0,0.12499999999999997
+evaluation,ordinary,environment,change,explicit,10,60,0.008333333333333333,0.0,0.03333333333333333
+evaluation,ordinary,environment,change,ack,10,60,0.05833333333333333,0.016666666666666666,0.10833333333333332
+evaluation,ordinary,environment,change,continuation minus explicit,10,60,0.049999999999999996,0.0,0.11666666666666665
+evaluation,ordinary,environment,change,continuation minus ack,10,60,0.0,-0.049999999999999996,0.049999999999999996
+evaluation,ordinary,environment,change,ack minus explicit,10,60,0.049999999999999996,0.008333333333333333,0.1
+evaluation,ordinary,environment,change,continuation minus base,10,60,0.025,0.0,0.09999999999999999
+evaluation,ordinary,environment,change,explicit minus base,10,60,-0.025,-0.06666666666666668,0.0
+evaluation,ordinary,environment,change,ack minus base,10,60,0.025,0.0,0.06666666666666668
+evaluation,ordinary,environment,target,base,10,60,0.03333333333333333,0.0,0.08333333333333334
+evaluation,ordinary,environment,target,continuation,10,60,0.041666666666666664,0.0,0.09166666666666666
+evaluation,ordinary,environment,target,explicit,10,60,0.008333333333333333,0.0,0.03333333333333333
+evaluation,ordinary,environment,target,ack,10,60,0.049999999999999996,0.0,0.1
+evaluation,ordinary,environment,target,continuation minus explicit,10,60,0.03333333333333333,0.0,0.075
+evaluation,ordinary,environment,target,continuation minus ack,10,60,-0.008333333333333333,-0.049999999999999996,0.03333333333333333
+evaluation,ordinary,environment,target,ack minus explicit,10,60,0.041666666666666664,0.0,0.09166666666666667
+evaluation,ordinary,environment,target,continuation minus base,10,60,0.008333333333333333,0.0,0.03333333333333333
+evaluation,ordinary,environment,target,explicit minus base,10,60,-0.025,-0.06666666666666668,0.0
+evaluation,ordinary,environment,target,ack minus base,10,60,0.016666666666666666,0.0,0.049999999999999996
+evaluation,ordinary,environment,off_target,base,10,60,0.0,0.0,0.0
+evaluation,ordinary,environment,off_target,continuation,10,60,0.016666666666666666,0.0,0.049999999999999996
+evaluation,ordinary,environment,off_target,explicit,10,60,0.0,0.0,0.0
+evaluation,ordinary,environment,off_target,ack,10,60,0.008333333333333333,0.0,0.03333333333333333
+evaluation,ordinary,environment,off_target,continuation minus explicit,10,60,0.016666666666666666,0.0,0.049999999999999996
+evaluation,ordinary,environment,off_target,continuation minus ack,10,60,0.008333333333333333,0.0,0.03333333333333333
+evaluation,ordinary,environment,off_target,ack minus explicit,10,60,0.008333333333333333,0.0,0.03333333333333333
+evaluation,ordinary,environment,off_target,continuation minus base,10,60,0.016666666666666666,0.0,0.049999999999999996
+evaluation,ordinary,environment,off_target,explicit minus base,10,60,0.0,0.0,0.0
+evaluation,ordinary,environment,off_target,ack minus base,10,60,0.008333333333333333,0.0,0.03333333333333333
+evaluation,ordinary,environment,unnecessary,base,10,60,0.03333333333333333,0.0,0.08333333333333334
+evaluation,ordinary,environment,unnecessary,continuation,10,60,0.05833333333333333,0.0,0.12499999999999997
+evaluation,ordinary,environment,unnecessary,explicit,10,60,0.008333333333333333,0.0,0.03333333333333333
+evaluation,ordinary,environment,unnecessary,ack,10,60,0.05833333333333333,0.016666666666666666,0.10833333333333332
+evaluation,ordinary,environment,unnecessary,continuation minus explicit,10,60,0.049999999999999996,0.0,0.11666666666666665
+evaluation,ordinary,environment,unnecessary,continuation minus ack,10,60,0.0,-0.049999999999999996,0.049999999999999996
+evaluation,ordinary,environment,unnecessary,ack minus explicit,10,60,0.049999999999999996,0.008333333333333333,0.1
+evaluation,ordinary,environment,unnecessary,continuation minus base,10,60,0.025,0.0,0.09999999999999999
+evaluation,ordinary,environment,unnecessary,explicit minus base,10,60,-0.025,-0.06666666666666668,0.0
+evaluation,ordinary,environment,unnecessary,ack minus base,10,60,0.025,0.0,0.06666666666666668
+evaluation,ordinary,environment,no_action,base,10,60,0.016666666666666666,0.0,0.049999999999999996
+evaluation,ordinary,environment,no_action,continuation,10,60,0.05833333333333333,0.0,0.11666666666666665
+evaluation,ordinary,environment,no_action,explicit,10,60,0.225,0.06666666666666667,0.4
+evaluation,ordinary,environment,no_action,ack,10,60,0.08333333333333334,0.03333333333333333,0.1333333333333333
+evaluation,ordinary,environment,no_action,continuation minus explicit,10,60,-0.16666666666666669,-0.31666666666666665,-0.03333333333333333
+evaluation,ordinary,environment,no_action,continuation minus ack,10,60,-0.025,-0.08333333333333334,0.0
+evaluation,ordinary,environment,no_action,ack minus explicit,10,60,-0.14166666666666666,-0.31666666666666665,0.0
+evaluation,ordinary,environment,no_action,continuation minus base,10,60,0.041666666666666664,-0.01666666666666667,0.1
+evaluation,ordinary,environment,no_action,explicit minus base,10,60,0.20833333333333334,0.049999999999999996,0.3833333333333333
+evaluation,ordinary,environment,no_action,ack minus base,10,60,0.06666666666666667,0.016666666666666666,0.11666666666666665
+evaluation,ordinary,environment,ordinary,base,10,60,0.14999999999999997,0.09999999999999999,0.2
+evaluation,ordinary,environment,ordinary,continuation,10,60,0.0,0.0,0.0
+evaluation,ordinary,environment,ordinary,explicit,10,60,0.016666666666666666,0.0,0.049999999999999996
+evaluation,ordinary,environment,ordinary,ack,10,60,0.016666666666666666,0.0,0.049999999999999996
+evaluation,ordinary,environment,ordinary,continuation minus explicit,10,60,-0.016666666666666666,-0.049999999999999996,0.0
+evaluation,ordinary,environment,ordinary,continuation minus ack,10,60,-0.016666666666666666,-0.049999999999999996,0.0
+evaluation,ordinary,environment,ordinary,ack minus explicit,10,60,0.0,0.0,0.0
+evaluation,ordinary,environment,ordinary,continuation minus base,10,60,-0.14999999999999997,-0.2,-0.09999999999999999
+evaluation,ordinary,environment,ordinary,explicit minus base,10,60,-0.1333333333333333,-0.19999999999999998,-0.06666666666666668
+evaluation,ordinary,environment,ordinary,ack minus base,10,60,-0.1333333333333333,-0.19999999999999998,-0.06666666666666668
+evaluation,ordinary,environment,empty,base,10,60,0.0,0.0,0.0
+evaluation,ordinary,environment,empty,continuation,10,60,0.0,0.0,0.0
+evaluation,ordinary,environment,empty,explicit,10,60,0.0,0.0,0.0
+evaluation,ordinary,environment,empty,ack,10,60,0.0,0.0,0.0
+evaluation,ordinary,environment,empty,continuation minus explicit,10,60,0.0,0.0,0.0
+evaluation,ordinary,environment,empty,continuation minus ack,10,60,0.0,0.0,0.0
+evaluation,ordinary,environment,empty,ack minus explicit,10,60,0.0,0.0,0.0
+evaluation,ordinary,environment,empty,continuation minus base,10,60,0.0,0.0,0.0
+evaluation,ordinary,environment,empty,explicit minus base,10,60,0.0,0.0,0.0
+evaluation,ordinary,environment,empty,ack minus base,10,60,0.0,0.0,0.0
+evaluation,ordinary,environment,invalid,base,10,60,0.0,0.0,0.0
+evaluation,ordinary,environment,invalid,continuation,10,60,0.0,0.0,0.0
+evaluation,ordinary,environment,invalid,explicit,10,60,0.0,0.0,0.0
+evaluation,ordinary,environment,invalid,ack,10,60,0.0,0.0,0.0
+evaluation,ordinary,environment,invalid,continuation minus explicit,10,60,0.0,0.0,0.0
+evaluation,ordinary,environment,invalid,continuation minus ack,10,60,0.0,0.0,0.0
+evaluation,ordinary,environment,invalid,ack minus explicit,10,60,0.0,0.0,0.0
+evaluation,ordinary,environment,invalid,continuation minus base,10,60,0.0,0.0,0.0
+evaluation,ordinary,environment,invalid,explicit minus base,10,60,0.0,0.0,0.0
+evaluation,ordinary,environment,invalid,ack minus base,10,60,0.0,0.0,0.0
+evaluation,ordinary,environment,truncated,base,10,60,0.0,0.0,0.0
+evaluation,ordinary,environment,truncated,continuation,10,60,0.0,0.0,0.0
+evaluation,ordinary,environment,truncated,explicit,10,60,0.0,0.0,0.0
+evaluation,ordinary,environment,truncated,ack,10,60,0.0,0.0,0.0
+evaluation,ordinary,environment,truncated,continuation minus explicit,10,60,0.0,0.0,0.0
+evaluation,ordinary,environment,truncated,continuation minus ack,10,60,0.0,0.0,0.0
+evaluation,ordinary,environment,truncated,ack minus explicit,10,60,0.0,0.0,0.0
+evaluation,ordinary,environment,truncated,continuation minus base,10,60,0.0,0.0,0.0
+evaluation,ordinary,environment,truncated,explicit minus base,10,60,0.0,0.0,0.0
+evaluation,ordinary,environment,truncated,ack minus base,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,executable,base,10,60,0.6666666666666667,0.5495833333333336,0.7666666666666668
+evaluation,ordinary,user,executable,continuation,10,60,0.9916666666666668,0.9666666666666666,1.0
+evaluation,ordinary,user,executable,explicit,10,60,0.7166666666666667,0.55,0.8666666666666666
+evaluation,ordinary,user,executable,ack,10,60,0.7583333333333334,0.5999999999999999,0.9
+evaluation,ordinary,user,executable,continuation minus explicit,10,60,0.275,0.13333333333333333,0.4333333333333334
+evaluation,ordinary,user,executable,continuation minus ack,10,60,0.23333333333333334,0.1,0.39999999999999997
+evaluation,ordinary,user,executable,ack minus explicit,10,60,0.041666666666666664,0.0,0.1
+evaluation,ordinary,user,executable,continuation minus base,10,60,0.325,0.21666666666666665,0.45000000000000007
+evaluation,ordinary,user,executable,explicit minus base,10,60,0.049999999999999996,-0.05,0.1583333333333333
+evaluation,ordinary,user,executable,ack minus base,10,60,0.09166666666666665,-0.01666666666666668,0.2
+evaluation,ordinary,user,read_only,base,10,60,0.3666666666666667,0.24999999999999994,0.4833333333333333
+evaluation,ordinary,user,read_only,continuation,10,60,0.09166666666666666,0.03333333333333333,0.16666666666666663
+evaluation,ordinary,user,read_only,explicit,10,60,0.3166666666666667,0.13333333333333333,0.5333333333333332
+evaluation,ordinary,user,read_only,ack,10,60,0.20833333333333331,0.11666666666666665,0.31666666666666665
+evaluation,ordinary,user,read_only,continuation minus explicit,10,60,-0.225,-0.4,-0.06666666666666668
+evaluation,ordinary,user,read_only,continuation minus ack,10,60,-0.11666666666666667,-0.2166666666666667,-8.326672684688674e-18
+evaluation,ordinary,user,read_only,ack minus explicit,10,60,-0.10833333333333332,-0.2504166666666664,0.049999999999999996
+evaluation,ordinary,user,read_only,continuation minus base,10,60,-0.275,-0.4,-0.15000000000000002
+evaluation,ordinary,user,read_only,explicit minus base,10,60,-0.050000000000000024,-0.2166666666666667,0.11666666666666665
+evaluation,ordinary,user,read_only,ack minus base,10,60,-0.15833333333333335,-0.26666666666666666,-0.05
+evaluation,ordinary,user,any_read,base,10,60,0.3666666666666667,0.24999999999999994,0.4833333333333333
+evaluation,ordinary,user,any_read,continuation,10,60,0.09166666666666666,0.03333333333333333,0.16666666666666663
+evaluation,ordinary,user,any_read,explicit,10,60,0.3166666666666667,0.13333333333333333,0.5333333333333332
+evaluation,ordinary,user,any_read,ack,10,60,0.20833333333333331,0.11666666666666665,0.31666666666666665
+evaluation,ordinary,user,any_read,continuation minus explicit,10,60,-0.225,-0.4,-0.06666666666666668
+evaluation,ordinary,user,any_read,continuation minus ack,10,60,-0.11666666666666667,-0.2166666666666667,-8.326672684688674e-18
+evaluation,ordinary,user,any_read,ack minus explicit,10,60,-0.10833333333333332,-0.2504166666666664,0.049999999999999996
+evaluation,ordinary,user,any_read,continuation minus base,10,60,-0.275,-0.4,-0.15000000000000002
+evaluation,ordinary,user,any_read,explicit minus base,10,60,-0.050000000000000024,-0.2166666666666667,0.11666666666666665
+evaluation,ordinary,user,any_read,ack minus base,10,60,-0.15833333333333335,-0.26666666666666666,-0.05
+evaluation,ordinary,user,attempted_write,base,10,60,0.2833333333333333,0.21666666666666665,0.35
+evaluation,ordinary,user,attempted_write,continuation,10,60,0.8666666666666666,0.7999999999999999,0.9333333333333333
+evaluation,ordinary,user,attempted_write,explicit,10,60,0.3083333333333333,0.20833333333333331,0.4
+evaluation,ordinary,user,attempted_write,ack,10,60,0.525,0.41666666666666663,0.6333333333333333
+evaluation,ordinary,user,attempted_write,continuation minus explicit,10,60,0.5583333333333333,0.4749999999999999,0.6500000000000001
+evaluation,ordinary,user,attempted_write,continuation minus ack,10,60,0.3416666666666666,0.2333333333333333,0.45
+evaluation,ordinary,user,attempted_write,ack minus explicit,10,60,0.21666666666666665,0.12499999999999997,0.29999999999999993
+evaluation,ordinary,user,attempted_write,continuation minus base,10,60,0.5833333333333334,0.4916666666666667,0.6833333333333333
+evaluation,ordinary,user,attempted_write,explicit minus base,10,60,0.025000000000000005,-0.04999999999999999,0.1
+evaluation,ordinary,user,attempted_write,ack minus base,10,60,0.24166666666666664,0.13333333333333333,0.35
+evaluation,ordinary,user,write,base,10,60,0.2833333333333333,0.21666666666666665,0.35
+evaluation,ordinary,user,write,continuation,10,60,0.8666666666666666,0.7999999999999999,0.9333333333333333
+evaluation,ordinary,user,write,explicit,10,60,0.3083333333333333,0.20833333333333331,0.4
+evaluation,ordinary,user,write,ack,10,60,0.525,0.41666666666666663,0.6333333333333333
+evaluation,ordinary,user,write,continuation minus explicit,10,60,0.5583333333333333,0.4749999999999999,0.6500000000000001
+evaluation,ordinary,user,write,continuation minus ack,10,60,0.3416666666666666,0.2333333333333333,0.45
+evaluation,ordinary,user,write,ack minus explicit,10,60,0.21666666666666665,0.12499999999999997,0.29999999999999993
+evaluation,ordinary,user,write,continuation minus base,10,60,0.5833333333333334,0.4916666666666667,0.6833333333333333
+evaluation,ordinary,user,write,explicit minus base,10,60,0.025000000000000005,-0.04999999999999999,0.1
+evaluation,ordinary,user,write,ack minus base,10,60,0.24166666666666664,0.13333333333333333,0.35
+evaluation,ordinary,user,idempotent,base,10,60,0.2833333333333333,0.21666666666666665,0.35
+evaluation,ordinary,user,idempotent,continuation,10,60,0.825,0.7499999999999999,0.8999999999999998
+evaluation,ordinary,user,idempotent,explicit,10,60,0.3083333333333333,0.20833333333333331,0.4
+evaluation,ordinary,user,idempotent,ack,10,60,0.5083333333333333,0.39166666666666666,0.6166666666666668
+evaluation,ordinary,user,idempotent,continuation minus explicit,10,60,0.5166666666666667,0.4333333333333333,0.6166666666666666
+evaluation,ordinary,user,idempotent,continuation minus ack,10,60,0.3166666666666666,0.2,0.4333333333333334
+evaluation,ordinary,user,idempotent,ack minus explicit,10,60,0.2,0.11666666666666665,0.2833333333333333
+evaluation,ordinary,user,idempotent,continuation minus base,10,60,0.5416666666666667,0.45,0.6333333333333335
+evaluation,ordinary,user,idempotent,explicit minus base,10,60,0.025000000000000005,-0.04999999999999999,0.1
+evaluation,ordinary,user,idempotent,ack minus base,10,60,0.22499999999999995,0.11666666666666667,0.33333333333333337
+evaluation,ordinary,user,change,base,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,change,continuation,10,60,0.041666666666666664,0.0,0.08333333333333334
+evaluation,ordinary,user,change,explicit,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,change,ack,10,60,0.016666666666666666,0.0,0.049999999999999996
+evaluation,ordinary,user,change,continuation minus explicit,10,60,0.041666666666666664,0.0,0.08333333333333334
+evaluation,ordinary,user,change,continuation minus ack,10,60,0.025,0.0,0.06666666666666668
+evaluation,ordinary,user,change,ack minus explicit,10,60,0.016666666666666666,0.0,0.049999999999999996
+evaluation,ordinary,user,change,continuation minus base,10,60,0.041666666666666664,0.0,0.08333333333333334
+evaluation,ordinary,user,change,explicit minus base,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,change,ack minus base,10,60,0.016666666666666666,0.0,0.049999999999999996
+evaluation,ordinary,user,target,base,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,target,continuation,10,60,0.025,0.0,0.06666666666666667
+evaluation,ordinary,user,target,explicit,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,target,ack,10,60,0.016666666666666666,0.0,0.049999999999999996
+evaluation,ordinary,user,target,continuation minus explicit,10,60,0.025,0.0,0.06666666666666667
+evaluation,ordinary,user,target,continuation minus ack,10,60,0.008333333333333333,0.0,0.03333333333333333
+evaluation,ordinary,user,target,ack minus explicit,10,60,0.016666666666666666,0.0,0.049999999999999996
+evaluation,ordinary,user,target,continuation minus base,10,60,0.025,0.0,0.06666666666666667
+evaluation,ordinary,user,target,explicit minus base,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,target,ack minus base,10,60,0.016666666666666666,0.0,0.049999999999999996
+evaluation,ordinary,user,off_target,base,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,off_target,continuation,10,60,0.016666666666666666,0.0,0.049999999999999996
+evaluation,ordinary,user,off_target,explicit,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,off_target,ack,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,off_target,continuation minus explicit,10,60,0.016666666666666666,0.0,0.049999999999999996
+evaluation,ordinary,user,off_target,continuation minus ack,10,60,0.016666666666666666,0.0,0.049999999999999996
+evaluation,ordinary,user,off_target,ack minus explicit,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,off_target,continuation minus base,10,60,0.016666666666666666,0.0,0.049999999999999996
+evaluation,ordinary,user,off_target,explicit minus base,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,off_target,ack minus base,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,unnecessary,base,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,unnecessary,continuation,10,60,0.041666666666666664,0.0,0.08333333333333334
+evaluation,ordinary,user,unnecessary,explicit,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,unnecessary,ack,10,60,0.016666666666666666,0.0,0.049999999999999996
+evaluation,ordinary,user,unnecessary,continuation minus explicit,10,60,0.041666666666666664,0.0,0.08333333333333334
+evaluation,ordinary,user,unnecessary,continuation minus ack,10,60,0.025,0.0,0.06666666666666668
+evaluation,ordinary,user,unnecessary,ack minus explicit,10,60,0.016666666666666666,0.0,0.049999999999999996
+evaluation,ordinary,user,unnecessary,continuation minus base,10,60,0.041666666666666664,0.0,0.08333333333333334
+evaluation,ordinary,user,unnecessary,explicit minus base,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,unnecessary,ack minus base,10,60,0.016666666666666666,0.0,0.049999999999999996
+evaluation,ordinary,user,no_action,base,10,60,0.016666666666666666,0.0,0.049999999999999996
+evaluation,ordinary,user,no_action,continuation,10,60,0.03333333333333333,0.0,0.08333333333333334
+evaluation,ordinary,user,no_action,explicit,10,60,0.09166666666666666,0.0,0.23333333333333334
+evaluation,ordinary,user,no_action,ack,10,60,0.025,0.0,0.06666666666666667
+evaluation,ordinary,user,no_action,continuation minus explicit,10,60,-0.05833333333333333,-0.21666666666666665,0.03333333333333333
+evaluation,ordinary,user,no_action,continuation minus ack,10,60,0.008333333333333333,-0.03333333333333333,0.049999999999999996
+evaluation,ordinary,user,no_action,ack minus explicit,10,60,-0.06666666666666667,-0.2,0.0
+evaluation,ordinary,user,no_action,continuation minus base,10,60,0.016666666666666666,0.0,0.049999999999999996
+evaluation,ordinary,user,no_action,explicit minus base,10,60,0.075,0.0,0.21666666666666665
+evaluation,ordinary,user,no_action,ack minus base,10,60,0.008333333333333333,0.0,0.03333333333333333
+evaluation,ordinary,user,ordinary,base,10,60,0.3333333333333333,0.2333333333333333,0.45041666666666064
+evaluation,ordinary,user,ordinary,continuation,10,60,0.008333333333333333,0.0,0.03333333333333333
+evaluation,ordinary,user,ordinary,explicit,10,60,0.2833333333333333,0.13333333333333333,0.45
+evaluation,ordinary,user,ordinary,ack,10,60,0.2416666666666667,0.1,0.4
+evaluation,ordinary,user,ordinary,continuation minus explicit,10,60,-0.275,-0.4333333333333334,-0.13333333333333333
+evaluation,ordinary,user,ordinary,continuation minus ack,10,60,-0.23333333333333334,-0.39999999999999997,-0.09999999999999999
+evaluation,ordinary,user,ordinary,ack minus explicit,10,60,-0.041666666666666664,-0.1,0.0
+evaluation,ordinary,user,ordinary,continuation minus base,10,60,-0.325,-0.45,-0.21666666666666665
+evaluation,ordinary,user,ordinary,explicit minus base,10,60,-0.04999999999999998,-0.1583333333333333,0.050000000000000024
+evaluation,ordinary,user,ordinary,ack minus base,10,60,-0.09166666666666665,-0.2,0.01666666666666668
+evaluation,ordinary,user,empty,base,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,empty,continuation,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,empty,explicit,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,empty,ack,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,empty,continuation minus explicit,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,empty,continuation minus ack,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,empty,ack minus explicit,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,empty,continuation minus base,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,empty,explicit minus base,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,empty,ack minus base,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,invalid,base,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,invalid,continuation,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,invalid,explicit,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,invalid,ack,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,invalid,continuation minus explicit,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,invalid,continuation minus ack,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,invalid,ack minus explicit,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,invalid,continuation minus base,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,invalid,explicit minus base,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,invalid,ack minus base,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,truncated,base,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,truncated,continuation,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,truncated,explicit,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,truncated,ack,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,truncated,continuation minus explicit,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,truncated,continuation minus ack,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,truncated,ack minus explicit,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,truncated,continuation minus base,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,truncated,explicit minus base,10,60,0.0,0.0,0.0
+evaluation,ordinary,user,truncated,ack minus base,10,60,0.0,0.0,0.0
+reserve,discrepancy,environment,executable,base,2,12,1.0,1.0,1.0
+reserve,discrepancy,environment,executable,continuation,2,12,1.0,1.0,1.0
+reserve,discrepancy,environment,executable,explicit,2,12,1.0,1.0,1.0
+reserve,discrepancy,environment,executable,ack,2,12,1.0,1.0,1.0
+reserve,discrepancy,environment,executable,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,executable,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,executable,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,executable,continuation minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,executable,explicit minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,executable,ack minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,read_only,base,2,12,0.25,0.0,0.5
+reserve,discrepancy,environment,read_only,continuation,2,12,0.041666666666666664,0.0,0.16666666666666666
+reserve,discrepancy,environment,read_only,explicit,2,12,0.25,0.0,0.5
+reserve,discrepancy,environment,read_only,ack,2,12,0.08333333333333333,0.0,0.16666666666666666
+reserve,discrepancy,environment,read_only,continuation minus explicit,2,12,-0.20833333333333334,-0.5,0.0
+reserve,discrepancy,environment,read_only,continuation minus ack,2,12,-0.041666666666666664,-0.16666666666666666,0.0
+reserve,discrepancy,environment,read_only,ack minus explicit,2,12,-0.16666666666666669,-0.33333333333333337,0.0
+reserve,discrepancy,environment,read_only,continuation minus base,2,12,-0.20833333333333334,-0.5,0.0
+reserve,discrepancy,environment,read_only,explicit minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,read_only,ack minus base,2,12,-0.16666666666666669,-0.33333333333333337,0.0
+reserve,discrepancy,environment,any_read,base,2,12,0.25,0.0,0.5
+reserve,discrepancy,environment,any_read,continuation,2,12,0.041666666666666664,0.0,0.16666666666666666
+reserve,discrepancy,environment,any_read,explicit,2,12,0.25,0.0,0.5
+reserve,discrepancy,environment,any_read,ack,2,12,0.08333333333333333,0.0,0.16666666666666666
+reserve,discrepancy,environment,any_read,continuation minus explicit,2,12,-0.20833333333333334,-0.5,0.0
+reserve,discrepancy,environment,any_read,continuation minus ack,2,12,-0.041666666666666664,-0.16666666666666666,0.0
+reserve,discrepancy,environment,any_read,ack minus explicit,2,12,-0.16666666666666669,-0.33333333333333337,0.0
+reserve,discrepancy,environment,any_read,continuation minus base,2,12,-0.20833333333333334,-0.5,0.0
+reserve,discrepancy,environment,any_read,explicit minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,any_read,ack minus base,2,12,-0.16666666666666669,-0.33333333333333337,0.0
+reserve,discrepancy,environment,attempted_write,base,2,12,0.75,0.5,1.0
+reserve,discrepancy,environment,attempted_write,continuation,2,12,0.9583333333333334,0.8333333333333334,1.0
+reserve,discrepancy,environment,attempted_write,explicit,2,12,0.75,0.5,1.0
+reserve,discrepancy,environment,attempted_write,ack,2,12,0.9166666666666667,0.8333333333333334,1.0
+reserve,discrepancy,environment,attempted_write,continuation minus explicit,2,12,0.20833333333333334,0.0,0.5
+reserve,discrepancy,environment,attempted_write,continuation minus ack,2,12,0.04166666666666666,0.0,0.16666666666666663
+reserve,discrepancy,environment,attempted_write,ack minus explicit,2,12,0.16666666666666669,0.0,0.33333333333333337
+reserve,discrepancy,environment,attempted_write,continuation minus base,2,12,0.20833333333333334,0.0,0.5
+reserve,discrepancy,environment,attempted_write,explicit minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,attempted_write,ack minus base,2,12,0.16666666666666669,0.0,0.33333333333333337
+reserve,discrepancy,environment,write,base,2,12,0.75,0.5,1.0
+reserve,discrepancy,environment,write,continuation,2,12,0.9583333333333334,0.8333333333333334,1.0
+reserve,discrepancy,environment,write,explicit,2,12,0.75,0.5,1.0
+reserve,discrepancy,environment,write,ack,2,12,0.9166666666666667,0.8333333333333334,1.0
+reserve,discrepancy,environment,write,continuation minus explicit,2,12,0.20833333333333334,0.0,0.5
+reserve,discrepancy,environment,write,continuation minus ack,2,12,0.04166666666666666,0.0,0.16666666666666663
+reserve,discrepancy,environment,write,ack minus explicit,2,12,0.16666666666666669,0.0,0.33333333333333337
+reserve,discrepancy,environment,write,continuation minus base,2,12,0.20833333333333334,0.0,0.5
+reserve,discrepancy,environment,write,explicit minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,write,ack minus base,2,12,0.16666666666666669,0.0,0.33333333333333337
+reserve,discrepancy,environment,idempotent,base,2,12,0.16666666666666666,0.0,0.3333333333333333
+reserve,discrepancy,environment,idempotent,continuation,2,12,0.16666666666666666,0.0,0.3333333333333333
+reserve,discrepancy,environment,idempotent,explicit,2,12,0.16666666666666666,0.0,0.3333333333333333
+reserve,discrepancy,environment,idempotent,ack,2,12,0.16666666666666666,0.0,0.3333333333333333
+reserve,discrepancy,environment,idempotent,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,idempotent,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,idempotent,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,idempotent,continuation minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,idempotent,explicit minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,idempotent,ack minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,change,base,2,12,0.5833333333333333,0.5,0.6666666666666666
+reserve,discrepancy,environment,change,continuation,2,12,0.7916666666666666,0.6666666666666666,1.0
+reserve,discrepancy,environment,change,explicit,2,12,0.5833333333333333,0.5,0.6666666666666666
+reserve,discrepancy,environment,change,ack,2,12,0.75,0.6666666666666666,0.8333333333333334
+reserve,discrepancy,environment,change,continuation minus explicit,2,12,0.20833333333333334,0.0,0.5
+reserve,discrepancy,environment,change,continuation minus ack,2,12,0.04166666666666666,0.0,0.16666666666666663
+reserve,discrepancy,environment,change,ack minus explicit,2,12,0.16666666666666669,0.0,0.33333333333333337
+reserve,discrepancy,environment,change,continuation minus base,2,12,0.20833333333333334,0.0,0.5
+reserve,discrepancy,environment,change,explicit minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,change,ack minus base,2,12,0.16666666666666669,0.0,0.33333333333333337
+reserve,discrepancy,environment,target,base,2,12,0.5833333333333333,0.5,0.6666666666666666
+reserve,discrepancy,environment,target,continuation,2,12,0.7916666666666666,0.6666666666666666,1.0
+reserve,discrepancy,environment,target,explicit,2,12,0.5833333333333333,0.5,0.6666666666666666
+reserve,discrepancy,environment,target,ack,2,12,0.75,0.6666666666666666,0.8333333333333334
+reserve,discrepancy,environment,target,continuation minus explicit,2,12,0.20833333333333334,0.0,0.5
+reserve,discrepancy,environment,target,continuation minus ack,2,12,0.04166666666666666,0.0,0.16666666666666663
+reserve,discrepancy,environment,target,ack minus explicit,2,12,0.16666666666666669,0.0,0.33333333333333337
+reserve,discrepancy,environment,target,continuation minus base,2,12,0.20833333333333334,0.0,0.5
+reserve,discrepancy,environment,target,explicit minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,target,ack minus base,2,12,0.16666666666666669,0.0,0.33333333333333337
+reserve,discrepancy,environment,off_target,base,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,off_target,continuation,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,off_target,explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,off_target,ack,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,off_target,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,off_target,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,off_target,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,off_target,continuation minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,off_target,explicit minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,off_target,ack minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,unnecessary,base,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,unnecessary,continuation,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,unnecessary,explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,unnecessary,ack,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,unnecessary,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,unnecessary,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,unnecessary,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,unnecessary,continuation minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,unnecessary,explicit minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,unnecessary,ack minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,no_action,base,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,no_action,continuation,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,no_action,explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,no_action,ack,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,no_action,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,no_action,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,no_action,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,no_action,continuation minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,no_action,explicit minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,no_action,ack minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,ordinary,base,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,ordinary,continuation,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,ordinary,explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,ordinary,ack,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,ordinary,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,ordinary,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,ordinary,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,ordinary,continuation minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,ordinary,explicit minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,ordinary,ack minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,empty,base,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,empty,continuation,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,empty,explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,empty,ack,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,empty,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,empty,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,empty,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,empty,continuation minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,empty,explicit minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,empty,ack minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,invalid,base,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,invalid,continuation,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,invalid,explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,invalid,ack,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,invalid,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,invalid,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,invalid,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,invalid,continuation minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,invalid,explicit minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,invalid,ack minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,truncated,base,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,truncated,continuation,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,truncated,explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,truncated,ack,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,truncated,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,truncated,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,truncated,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,truncated,continuation minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,truncated,explicit minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,environment,truncated,ack minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,executable,base,2,12,0.9166666666666667,0.8333333333333334,1.0
+reserve,discrepancy,user,executable,continuation,2,12,1.0,1.0,1.0
+reserve,discrepancy,user,executable,explicit,2,12,0.9166666666666667,0.8333333333333334,1.0
+reserve,discrepancy,user,executable,ack,2,12,0.9166666666666667,0.8333333333333334,1.0
+reserve,discrepancy,user,executable,continuation minus explicit,2,12,0.08333333333333331,0.0,0.16666666666666663
+reserve,discrepancy,user,executable,continuation minus ack,2,12,0.08333333333333331,0.0,0.16666666666666663
+reserve,discrepancy,user,executable,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,executable,continuation minus base,2,12,0.08333333333333331,0.0,0.16666666666666663
+reserve,discrepancy,user,executable,explicit minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,executable,ack minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,read_only,base,2,12,0.24999999999999997,0.16666666666666666,0.3333333333333333
+reserve,discrepancy,user,read_only,continuation,2,12,0.041666666666666664,0.0,0.16666666666666666
+reserve,discrepancy,user,read_only,explicit,2,12,0.3333333333333333,0.16666666666666666,0.5
+reserve,discrepancy,user,read_only,ack,2,12,0.08333333333333333,0.0,0.16666666666666666
+reserve,discrepancy,user,read_only,continuation minus explicit,2,12,-0.2916666666666667,-0.5,-0.16666666666666666
+reserve,discrepancy,user,read_only,continuation minus ack,2,12,-0.041666666666666664,-0.16666666666666666,0.0
+reserve,discrepancy,user,read_only,ack minus explicit,2,12,-0.25,-0.33333333333333337,-0.16666666666666666
+reserve,discrepancy,user,read_only,continuation minus base,2,12,-0.20833333333333331,-0.3333333333333333,-0.16666666666666666
+reserve,discrepancy,user,read_only,explicit minus base,2,12,0.08333333333333334,0.0,0.16666666666666669
+reserve,discrepancy,user,read_only,ack minus base,2,12,-0.16666666666666666,-0.16666666666666666,-0.16666666666666666
+reserve,discrepancy,user,any_read,base,2,12,0.24999999999999997,0.16666666666666666,0.3333333333333333
+reserve,discrepancy,user,any_read,continuation,2,12,0.041666666666666664,0.0,0.16666666666666666
+reserve,discrepancy,user,any_read,explicit,2,12,0.3333333333333333,0.16666666666666666,0.5
+reserve,discrepancy,user,any_read,ack,2,12,0.08333333333333333,0.0,0.16666666666666666
+reserve,discrepancy,user,any_read,continuation minus explicit,2,12,-0.2916666666666667,-0.5,-0.16666666666666666
+reserve,discrepancy,user,any_read,continuation minus ack,2,12,-0.041666666666666664,-0.16666666666666666,0.0
+reserve,discrepancy,user,any_read,ack minus explicit,2,12,-0.25,-0.33333333333333337,-0.16666666666666666
+reserve,discrepancy,user,any_read,continuation minus base,2,12,-0.20833333333333331,-0.3333333333333333,-0.16666666666666666
+reserve,discrepancy,user,any_read,explicit minus base,2,12,0.08333333333333334,0.0,0.16666666666666669
+reserve,discrepancy,user,any_read,ack minus base,2,12,-0.16666666666666666,-0.16666666666666666,-0.16666666666666666
+reserve,discrepancy,user,attempted_write,base,2,12,0.6666666666666666,0.6666666666666666,0.6666666666666666
+reserve,discrepancy,user,attempted_write,continuation,2,12,0.9583333333333334,0.8333333333333334,1.0
+reserve,discrepancy,user,attempted_write,explicit,2,12,0.5833333333333333,0.5,0.6666666666666666
+reserve,discrepancy,user,attempted_write,ack,2,12,0.8333333333333334,0.8333333333333334,0.8333333333333334
+reserve,discrepancy,user,attempted_write,continuation minus explicit,2,12,0.375,0.33333333333333337,0.5
+reserve,discrepancy,user,attempted_write,continuation minus ack,2,12,0.12499999999999997,0.0,0.16666666666666663
+reserve,discrepancy,user,attempted_write,ack minus explicit,2,12,0.25000000000000006,0.16666666666666674,0.33333333333333337
+reserve,discrepancy,user,attempted_write,continuation minus base,2,12,0.29166666666666674,0.16666666666666674,0.33333333333333337
+reserve,discrepancy,user,attempted_write,explicit minus base,2,12,-0.08333333333333331,-0.16666666666666663,0.0
+reserve,discrepancy,user,attempted_write,ack minus base,2,12,0.16666666666666674,0.16666666666666674,0.16666666666666674
+reserve,discrepancy,user,write,base,2,12,0.6666666666666666,0.6666666666666666,0.6666666666666666
+reserve,discrepancy,user,write,continuation,2,12,0.9583333333333334,0.8333333333333334,1.0
+reserve,discrepancy,user,write,explicit,2,12,0.5833333333333333,0.5,0.6666666666666666
+reserve,discrepancy,user,write,ack,2,12,0.8333333333333334,0.8333333333333334,0.8333333333333334
+reserve,discrepancy,user,write,continuation minus explicit,2,12,0.375,0.33333333333333337,0.5
+reserve,discrepancy,user,write,continuation minus ack,2,12,0.12499999999999997,0.0,0.16666666666666663
+reserve,discrepancy,user,write,ack minus explicit,2,12,0.25000000000000006,0.16666666666666674,0.33333333333333337
+reserve,discrepancy,user,write,continuation minus base,2,12,0.29166666666666674,0.16666666666666674,0.33333333333333337
+reserve,discrepancy,user,write,explicit minus base,2,12,-0.08333333333333331,-0.16666666666666663,0.0
+reserve,discrepancy,user,write,ack minus base,2,12,0.16666666666666674,0.16666666666666674,0.16666666666666674
+reserve,discrepancy,user,idempotent,base,2,12,0.25,0.16666666666666666,0.3333333333333333
+reserve,discrepancy,user,idempotent,continuation,2,12,0.3333333333333333,0.16666666666666666,0.5
+reserve,discrepancy,user,idempotent,explicit,2,12,0.25,0.16666666666666666,0.3333333333333333
+reserve,discrepancy,user,idempotent,ack,2,12,0.25,0.16666666666666666,0.3333333333333333
+reserve,discrepancy,user,idempotent,continuation minus explicit,2,12,0.08333333333333334,0.0,0.16666666666666669
+reserve,discrepancy,user,idempotent,continuation minus ack,2,12,0.08333333333333334,0.0,0.16666666666666669
+reserve,discrepancy,user,idempotent,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,idempotent,continuation minus base,2,12,0.08333333333333334,0.0,0.16666666666666669
+reserve,discrepancy,user,idempotent,explicit minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,idempotent,ack minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,change,base,2,12,0.41666666666666663,0.3333333333333333,0.5
+reserve,discrepancy,user,change,continuation,2,12,0.625,0.5,0.8333333333333334
+reserve,discrepancy,user,change,explicit,2,12,0.3333333333333333,0.3333333333333333,0.3333333333333333
+reserve,discrepancy,user,change,ack,2,12,0.5833333333333333,0.5,0.6666666666666666
+reserve,discrepancy,user,change,continuation minus explicit,2,12,0.2916666666666667,0.16666666666666669,0.5
+reserve,discrepancy,user,change,continuation minus ack,2,12,0.041666666666666685,0.0,0.16666666666666674
+reserve,discrepancy,user,change,ack minus explicit,2,12,0.25,0.16666666666666669,0.3333333333333333
+reserve,discrepancy,user,change,continuation minus base,2,12,0.20833333333333331,0.16666666666666663,0.33333333333333337
+reserve,discrepancy,user,change,explicit minus base,2,12,-0.08333333333333334,-0.16666666666666669,0.0
+reserve,discrepancy,user,change,ack minus base,2,12,0.16666666666666666,0.16666666666666663,0.16666666666666669
+reserve,discrepancy,user,target,base,2,12,0.41666666666666663,0.3333333333333333,0.5
+reserve,discrepancy,user,target,continuation,2,12,0.625,0.5,0.8333333333333334
+reserve,discrepancy,user,target,explicit,2,12,0.3333333333333333,0.3333333333333333,0.3333333333333333
+reserve,discrepancy,user,target,ack,2,12,0.5833333333333333,0.5,0.6666666666666666
+reserve,discrepancy,user,target,continuation minus explicit,2,12,0.2916666666666667,0.16666666666666669,0.5
+reserve,discrepancy,user,target,continuation minus ack,2,12,0.041666666666666685,0.0,0.16666666666666674
+reserve,discrepancy,user,target,ack minus explicit,2,12,0.25,0.16666666666666669,0.3333333333333333
+reserve,discrepancy,user,target,continuation minus base,2,12,0.20833333333333331,0.16666666666666663,0.33333333333333337
+reserve,discrepancy,user,target,explicit minus base,2,12,-0.08333333333333334,-0.16666666666666669,0.0
+reserve,discrepancy,user,target,ack minus base,2,12,0.16666666666666666,0.16666666666666663,0.16666666666666669
+reserve,discrepancy,user,off_target,base,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,off_target,continuation,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,off_target,explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,off_target,ack,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,off_target,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,off_target,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,off_target,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,off_target,continuation minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,off_target,explicit minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,off_target,ack minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,unnecessary,base,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,unnecessary,continuation,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,unnecessary,explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,unnecessary,ack,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,unnecessary,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,unnecessary,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,unnecessary,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,unnecessary,continuation minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,unnecessary,explicit minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,unnecessary,ack minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,no_action,base,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,no_action,continuation,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,no_action,explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,no_action,ack,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,no_action,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,no_action,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,no_action,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,no_action,continuation minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,no_action,explicit minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,no_action,ack minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,ordinary,base,2,12,0.08333333333333333,0.0,0.16666666666666666
+reserve,discrepancy,user,ordinary,continuation,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,ordinary,explicit,2,12,0.08333333333333333,0.0,0.16666666666666666
+reserve,discrepancy,user,ordinary,ack,2,12,0.08333333333333333,0.0,0.16666666666666666
+reserve,discrepancy,user,ordinary,continuation minus explicit,2,12,-0.08333333333333333,-0.16666666666666666,0.0
+reserve,discrepancy,user,ordinary,continuation minus ack,2,12,-0.08333333333333333,-0.16666666666666666,0.0
+reserve,discrepancy,user,ordinary,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,ordinary,continuation minus base,2,12,-0.08333333333333333,-0.16666666666666666,0.0
+reserve,discrepancy,user,ordinary,explicit minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,ordinary,ack minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,empty,base,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,empty,continuation,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,empty,explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,empty,ack,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,empty,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,empty,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,empty,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,empty,continuation minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,empty,explicit minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,empty,ack minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,invalid,base,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,invalid,continuation,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,invalid,explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,invalid,ack,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,invalid,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,invalid,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,invalid,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,invalid,continuation minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,invalid,explicit minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,invalid,ack minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,truncated,base,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,truncated,continuation,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,truncated,explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,truncated,ack,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,truncated,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,truncated,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,truncated,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,truncated,continuation minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,truncated,explicit minus base,2,12,0.0,0.0,0.0
+reserve,discrepancy,user,truncated,ack minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,executable,base,2,12,1.0,1.0,1.0
+reserve,explicit,user,executable,continuation,2,12,1.0,1.0,1.0
+reserve,explicit,user,executable,explicit,2,12,1.0,1.0,1.0
+reserve,explicit,user,executable,ack,2,12,1.0,1.0,1.0
+reserve,explicit,user,executable,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,executable,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,explicit,user,executable,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,executable,continuation minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,executable,explicit minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,executable,ack minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,read_only,base,2,12,0.0,0.0,0.0
+reserve,explicit,user,read_only,continuation,2,12,0.0,0.0,0.0
+reserve,explicit,user,read_only,explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,read_only,ack,2,12,0.0,0.0,0.0
+reserve,explicit,user,read_only,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,read_only,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,explicit,user,read_only,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,read_only,continuation minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,read_only,explicit minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,read_only,ack minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,any_read,base,2,12,0.0,0.0,0.0
+reserve,explicit,user,any_read,continuation,2,12,0.0,0.0,0.0
+reserve,explicit,user,any_read,explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,any_read,ack,2,12,0.0,0.0,0.0
+reserve,explicit,user,any_read,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,any_read,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,explicit,user,any_read,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,any_read,continuation minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,any_read,explicit minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,any_read,ack minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,attempted_write,base,2,12,1.0,1.0,1.0
+reserve,explicit,user,attempted_write,continuation,2,12,1.0,1.0,1.0
+reserve,explicit,user,attempted_write,explicit,2,12,1.0,1.0,1.0
+reserve,explicit,user,attempted_write,ack,2,12,1.0,1.0,1.0
+reserve,explicit,user,attempted_write,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,attempted_write,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,explicit,user,attempted_write,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,attempted_write,continuation minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,attempted_write,explicit minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,attempted_write,ack minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,write,base,2,12,1.0,1.0,1.0
+reserve,explicit,user,write,continuation,2,12,1.0,1.0,1.0
+reserve,explicit,user,write,explicit,2,12,1.0,1.0,1.0
+reserve,explicit,user,write,ack,2,12,1.0,1.0,1.0
+reserve,explicit,user,write,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,write,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,explicit,user,write,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,write,continuation minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,write,explicit minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,write,ack minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,idempotent,base,2,12,0.0,0.0,0.0
+reserve,explicit,user,idempotent,continuation,2,12,0.0,0.0,0.0
+reserve,explicit,user,idempotent,explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,idempotent,ack,2,12,0.0,0.0,0.0
+reserve,explicit,user,idempotent,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,idempotent,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,explicit,user,idempotent,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,idempotent,continuation minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,idempotent,explicit minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,idempotent,ack minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,change,base,2,12,1.0,1.0,1.0
+reserve,explicit,user,change,continuation,2,12,1.0,1.0,1.0
+reserve,explicit,user,change,explicit,2,12,1.0,1.0,1.0
+reserve,explicit,user,change,ack,2,12,1.0,1.0,1.0
+reserve,explicit,user,change,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,change,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,explicit,user,change,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,change,continuation minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,change,explicit minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,change,ack minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,target,base,2,12,1.0,1.0,1.0
+reserve,explicit,user,target,continuation,2,12,1.0,1.0,1.0
+reserve,explicit,user,target,explicit,2,12,1.0,1.0,1.0
+reserve,explicit,user,target,ack,2,12,1.0,1.0,1.0
+reserve,explicit,user,target,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,target,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,explicit,user,target,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,target,continuation minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,target,explicit minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,target,ack minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,off_target,base,2,12,0.0,0.0,0.0
+reserve,explicit,user,off_target,continuation,2,12,0.0,0.0,0.0
+reserve,explicit,user,off_target,explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,off_target,ack,2,12,0.0,0.0,0.0
+reserve,explicit,user,off_target,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,off_target,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,explicit,user,off_target,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,off_target,continuation minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,off_target,explicit minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,off_target,ack minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,unnecessary,base,2,12,0.0,0.0,0.0
+reserve,explicit,user,unnecessary,continuation,2,12,0.0,0.0,0.0
+reserve,explicit,user,unnecessary,explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,unnecessary,ack,2,12,0.0,0.0,0.0
+reserve,explicit,user,unnecessary,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,unnecessary,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,explicit,user,unnecessary,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,unnecessary,continuation minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,unnecessary,explicit minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,unnecessary,ack minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,no_action,base,2,12,0.0,0.0,0.0
+reserve,explicit,user,no_action,continuation,2,12,0.0,0.0,0.0
+reserve,explicit,user,no_action,explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,no_action,ack,2,12,0.0,0.0,0.0
+reserve,explicit,user,no_action,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,no_action,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,explicit,user,no_action,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,no_action,continuation minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,no_action,explicit minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,no_action,ack minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,ordinary,base,2,12,0.0,0.0,0.0
+reserve,explicit,user,ordinary,continuation,2,12,0.0,0.0,0.0
+reserve,explicit,user,ordinary,explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,ordinary,ack,2,12,0.0,0.0,0.0
+reserve,explicit,user,ordinary,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,ordinary,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,explicit,user,ordinary,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,ordinary,continuation minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,ordinary,explicit minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,ordinary,ack minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,empty,base,2,12,0.0,0.0,0.0
+reserve,explicit,user,empty,continuation,2,12,0.0,0.0,0.0
+reserve,explicit,user,empty,explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,empty,ack,2,12,0.0,0.0,0.0
+reserve,explicit,user,empty,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,empty,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,explicit,user,empty,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,empty,continuation minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,empty,explicit minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,empty,ack minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,invalid,base,2,12,0.0,0.0,0.0
+reserve,explicit,user,invalid,continuation,2,12,0.0,0.0,0.0
+reserve,explicit,user,invalid,explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,invalid,ack,2,12,0.0,0.0,0.0
+reserve,explicit,user,invalid,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,invalid,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,explicit,user,invalid,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,invalid,continuation minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,invalid,explicit minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,invalid,ack minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,truncated,base,2,12,0.0,0.0,0.0
+reserve,explicit,user,truncated,continuation,2,12,0.0,0.0,0.0
+reserve,explicit,user,truncated,explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,truncated,ack,2,12,0.0,0.0,0.0
+reserve,explicit,user,truncated,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,truncated,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,explicit,user,truncated,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,truncated,continuation minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,truncated,explicit minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,truncated,ack minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,correct,base,2,12,1.0,1.0,1.0
+reserve,explicit,user,correct,continuation,2,12,1.0,1.0,1.0
+reserve,explicit,user,correct,explicit,2,12,1.0,1.0,1.0
+reserve,explicit,user,correct,ack,2,12,1.0,1.0,1.0
+reserve,explicit,user,correct,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,correct,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,explicit,user,correct,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,explicit,user,correct,continuation minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,correct,explicit minus base,2,12,0.0,0.0,0.0
+reserve,explicit,user,correct,ack minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,executable,base,2,12,1.0,1.0,1.0
+reserve,ordinary,environment,executable,continuation,2,12,1.0,1.0,1.0
+reserve,ordinary,environment,executable,explicit,2,12,1.0,1.0,1.0
+reserve,ordinary,environment,executable,ack,2,12,1.0,1.0,1.0
+reserve,ordinary,environment,executable,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,executable,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,executable,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,executable,continuation minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,executable,explicit minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,executable,ack minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,read_only,base,2,12,0.5833333333333333,0.5,0.6666666666666666
+reserve,ordinary,environment,read_only,continuation,2,12,0.16666666666666666,0.0,0.3333333333333333
+reserve,ordinary,environment,read_only,explicit,2,12,0.5416666666666666,0.3333333333333333,0.6666666666666666
+reserve,ordinary,environment,read_only,ack,2,12,0.20833333333333331,0.0,0.5
+reserve,ordinary,environment,read_only,continuation minus explicit,2,12,-0.375,-0.5,-0.3333333333333333
+reserve,ordinary,environment,read_only,continuation minus ack,2,12,-0.04166666666666667,-0.16666666666666669,0.0
+reserve,ordinary,environment,read_only,ack minus explicit,2,12,-0.3333333333333333,-0.5,-0.16666666666666663
+reserve,ordinary,environment,read_only,continuation minus base,2,12,-0.41666666666666663,-0.5,-0.3333333333333333
+reserve,ordinary,environment,read_only,explicit minus base,2,12,-0.04166666666666667,-0.16666666666666669,0.0
+reserve,ordinary,environment,read_only,ack minus base,2,12,-0.375,-0.5,-0.16666666666666663
+reserve,ordinary,environment,any_read,base,2,12,0.5833333333333333,0.5,0.6666666666666666
+reserve,ordinary,environment,any_read,continuation,2,12,0.16666666666666666,0.0,0.3333333333333333
+reserve,ordinary,environment,any_read,explicit,2,12,0.5416666666666666,0.3333333333333333,0.6666666666666666
+reserve,ordinary,environment,any_read,ack,2,12,0.20833333333333331,0.0,0.5
+reserve,ordinary,environment,any_read,continuation minus explicit,2,12,-0.375,-0.5,-0.3333333333333333
+reserve,ordinary,environment,any_read,continuation minus ack,2,12,-0.04166666666666667,-0.16666666666666669,0.0
+reserve,ordinary,environment,any_read,ack minus explicit,2,12,-0.3333333333333333,-0.5,-0.16666666666666663
+reserve,ordinary,environment,any_read,continuation minus base,2,12,-0.41666666666666663,-0.5,-0.3333333333333333
+reserve,ordinary,environment,any_read,explicit minus base,2,12,-0.04166666666666667,-0.16666666666666669,0.0
+reserve,ordinary,environment,any_read,ack minus base,2,12,-0.375,-0.5,-0.16666666666666663
+reserve,ordinary,environment,attempted_write,base,2,12,0.41666666666666663,0.3333333333333333,0.5
+reserve,ordinary,environment,attempted_write,continuation,2,12,0.8333333333333333,0.6666666666666666,1.0
+reserve,ordinary,environment,attempted_write,explicit,2,12,0.4583333333333333,0.3333333333333333,0.6666666666666666
+reserve,ordinary,environment,attempted_write,ack,2,12,0.7916666666666666,0.5,1.0
+reserve,ordinary,environment,attempted_write,continuation minus explicit,2,12,0.375,0.3333333333333333,0.5
+reserve,ordinary,environment,attempted_write,continuation minus ack,2,12,0.04166666666666666,0.0,0.16666666666666663
+reserve,ordinary,environment,attempted_write,ack minus explicit,2,12,0.3333333333333333,0.16666666666666669,0.5
+reserve,ordinary,environment,attempted_write,continuation minus base,2,12,0.41666666666666663,0.3333333333333333,0.5
+reserve,ordinary,environment,attempted_write,explicit minus base,2,12,0.04166666666666666,0.0,0.16666666666666663
+reserve,ordinary,environment,attempted_write,ack minus base,2,12,0.375,0.16666666666666669,0.5
+reserve,ordinary,environment,write,base,2,12,0.41666666666666663,0.3333333333333333,0.5
+reserve,ordinary,environment,write,continuation,2,12,0.8333333333333333,0.6666666666666666,1.0
+reserve,ordinary,environment,write,explicit,2,12,0.4583333333333333,0.3333333333333333,0.6666666666666666
+reserve,ordinary,environment,write,ack,2,12,0.7916666666666666,0.5,1.0
+reserve,ordinary,environment,write,continuation minus explicit,2,12,0.375,0.3333333333333333,0.5
+reserve,ordinary,environment,write,continuation minus ack,2,12,0.04166666666666666,0.0,0.16666666666666663
+reserve,ordinary,environment,write,ack minus explicit,2,12,0.3333333333333333,0.16666666666666669,0.5
+reserve,ordinary,environment,write,continuation minus base,2,12,0.41666666666666663,0.3333333333333333,0.5
+reserve,ordinary,environment,write,explicit minus base,2,12,0.04166666666666666,0.0,0.16666666666666663
+reserve,ordinary,environment,write,ack minus base,2,12,0.375,0.16666666666666669,0.5
+reserve,ordinary,environment,idempotent,base,2,12,0.41666666666666663,0.3333333333333333,0.5
+reserve,ordinary,environment,idempotent,continuation,2,12,0.8333333333333333,0.6666666666666666,1.0
+reserve,ordinary,environment,idempotent,explicit,2,12,0.4583333333333333,0.3333333333333333,0.6666666666666666
+reserve,ordinary,environment,idempotent,ack,2,12,0.7916666666666666,0.5,1.0
+reserve,ordinary,environment,idempotent,continuation minus explicit,2,12,0.375,0.3333333333333333,0.5
+reserve,ordinary,environment,idempotent,continuation minus ack,2,12,0.04166666666666666,0.0,0.16666666666666663
+reserve,ordinary,environment,idempotent,ack minus explicit,2,12,0.3333333333333333,0.16666666666666669,0.5
+reserve,ordinary,environment,idempotent,continuation minus base,2,12,0.41666666666666663,0.3333333333333333,0.5
+reserve,ordinary,environment,idempotent,explicit minus base,2,12,0.04166666666666666,0.0,0.16666666666666663
+reserve,ordinary,environment,idempotent,ack minus base,2,12,0.375,0.16666666666666669,0.5
+reserve,ordinary,environment,change,base,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,change,continuation,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,change,explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,change,ack,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,change,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,change,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,change,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,change,continuation minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,change,explicit minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,change,ack minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,target,base,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,target,continuation,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,target,explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,target,ack,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,target,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,target,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,target,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,target,continuation minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,target,explicit minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,target,ack minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,off_target,base,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,off_target,continuation,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,off_target,explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,off_target,ack,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,off_target,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,off_target,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,off_target,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,off_target,continuation minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,off_target,explicit minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,off_target,ack minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,unnecessary,base,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,unnecessary,continuation,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,unnecessary,explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,unnecessary,ack,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,unnecessary,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,unnecessary,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,unnecessary,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,unnecessary,continuation minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,unnecessary,explicit minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,unnecessary,ack minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,no_action,base,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,no_action,continuation,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,no_action,explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,no_action,ack,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,no_action,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,no_action,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,no_action,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,no_action,continuation minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,no_action,explicit minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,no_action,ack minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,ordinary,base,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,ordinary,continuation,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,ordinary,explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,ordinary,ack,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,ordinary,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,ordinary,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,ordinary,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,ordinary,continuation minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,ordinary,explicit minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,ordinary,ack minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,empty,base,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,empty,continuation,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,empty,explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,empty,ack,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,empty,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,empty,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,empty,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,empty,continuation minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,empty,explicit minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,empty,ack minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,invalid,base,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,invalid,continuation,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,invalid,explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,invalid,ack,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,invalid,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,invalid,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,invalid,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,invalid,continuation minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,invalid,explicit minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,invalid,ack minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,truncated,base,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,truncated,continuation,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,truncated,explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,truncated,ack,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,truncated,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,truncated,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,truncated,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,truncated,continuation minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,truncated,explicit minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,environment,truncated,ack minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,user,executable,base,2,12,0.8333333333333333,0.6666666666666666,1.0
+reserve,ordinary,user,executable,continuation,2,12,1.0,1.0,1.0
+reserve,ordinary,user,executable,explicit,2,12,0.875,0.6666666666666666,1.0
+reserve,ordinary,user,executable,ack,2,12,0.9583333333333334,0.8333333333333334,1.0
+reserve,ordinary,user,executable,continuation minus explicit,2,12,0.125,0.0,0.33333333333333337
+reserve,ordinary,user,executable,continuation minus ack,2,12,0.04166666666666666,0.0,0.16666666666666663
+reserve,ordinary,user,executable,ack minus explicit,2,12,0.08333333333333334,0.0,0.16666666666666674
+reserve,ordinary,user,executable,continuation minus base,2,12,0.16666666666666669,0.0,0.33333333333333337
+reserve,ordinary,user,executable,explicit minus base,2,12,0.041666666666666685,0.0,0.16666666666666674
+reserve,ordinary,user,executable,ack minus base,2,12,0.12500000000000003,0.0,0.33333333333333337
+reserve,ordinary,user,read_only,base,2,12,0.3333333333333333,0.16666666666666666,0.5
+reserve,ordinary,user,read_only,continuation,2,12,0.08333333333333333,0.0,0.16666666666666666
+reserve,ordinary,user,read_only,explicit,2,12,0.3333333333333333,0.16666666666666666,0.5
+reserve,ordinary,user,read_only,ack,2,12,0.20833333333333331,0.0,0.5
+reserve,ordinary,user,read_only,continuation minus explicit,2,12,-0.25,-0.5,0.0
+reserve,ordinary,user,read_only,continuation minus ack,2,12,-0.125,-0.33333333333333337,0.0
+reserve,ordinary,user,read_only,ack minus explicit,2,12,-0.125,-0.5,0.16666666666666669
+reserve,ordinary,user,read_only,continuation minus base,2,12,-0.25,-0.5,0.0
+reserve,ordinary,user,read_only,explicit minus base,2,12,-6.938893903907228e-18,-0.16666666666666669,0.16666666666666666
+reserve,ordinary,user,read_only,ack minus base,2,12,-0.125,-0.5,0.33333333333333337
+reserve,ordinary,user,any_read,base,2,12,0.3333333333333333,0.16666666666666666,0.5
+reserve,ordinary,user,any_read,continuation,2,12,0.08333333333333333,0.0,0.16666666666666666
+reserve,ordinary,user,any_read,explicit,2,12,0.3333333333333333,0.16666666666666666,0.5
+reserve,ordinary,user,any_read,ack,2,12,0.20833333333333331,0.0,0.5
+reserve,ordinary,user,any_read,continuation minus explicit,2,12,-0.25,-0.5,0.0
+reserve,ordinary,user,any_read,continuation minus ack,2,12,-0.125,-0.33333333333333337,0.0
+reserve,ordinary,user,any_read,ack minus explicit,2,12,-0.125,-0.5,0.16666666666666669
+reserve,ordinary,user,any_read,continuation minus base,2,12,-0.25,-0.5,0.0
+reserve,ordinary,user,any_read,explicit minus base,2,12,-6.938893903907228e-18,-0.16666666666666669,0.16666666666666666
+reserve,ordinary,user,any_read,ack minus base,2,12,-0.125,-0.5,0.33333333333333337
+reserve,ordinary,user,attempted_write,base,2,12,0.5,0.5,0.5
+reserve,ordinary,user,attempted_write,continuation,2,12,0.9166666666666667,0.8333333333333334,1.0
+reserve,ordinary,user,attempted_write,explicit,2,12,0.5416666666666666,0.5,0.6666666666666666
+reserve,ordinary,user,attempted_write,ack,2,12,0.75,0.5,1.0
+reserve,ordinary,user,attempted_write,continuation minus explicit,2,12,0.375,0.33333333333333337,0.5
+reserve,ordinary,user,attempted_write,continuation minus ack,2,12,0.16666666666666669,0.0,0.33333333333333337
+reserve,ordinary,user,attempted_write,ack minus explicit,2,12,0.20833333333333334,0.0,0.5
+reserve,ordinary,user,attempted_write,continuation minus base,2,12,0.4166666666666667,0.33333333333333337,0.5
+reserve,ordinary,user,attempted_write,explicit minus base,2,12,0.04166666666666666,0.0,0.16666666666666663
+reserve,ordinary,user,attempted_write,ack minus base,2,12,0.25,0.0,0.5
+reserve,ordinary,user,write,base,2,12,0.5,0.5,0.5
+reserve,ordinary,user,write,continuation,2,12,0.9166666666666667,0.8333333333333334,1.0
+reserve,ordinary,user,write,explicit,2,12,0.5416666666666666,0.5,0.6666666666666666
+reserve,ordinary,user,write,ack,2,12,0.75,0.5,1.0
+reserve,ordinary,user,write,continuation minus explicit,2,12,0.375,0.33333333333333337,0.5
+reserve,ordinary,user,write,continuation minus ack,2,12,0.16666666666666669,0.0,0.33333333333333337
+reserve,ordinary,user,write,ack minus explicit,2,12,0.20833333333333334,0.0,0.5
+reserve,ordinary,user,write,continuation minus base,2,12,0.4166666666666667,0.33333333333333337,0.5
+reserve,ordinary,user,write,explicit minus base,2,12,0.04166666666666666,0.0,0.16666666666666663
+reserve,ordinary,user,write,ack minus base,2,12,0.25,0.0,0.5
+reserve,ordinary,user,idempotent,base,2,12,0.5,0.5,0.5
+reserve,ordinary,user,idempotent,continuation,2,12,0.9166666666666667,0.8333333333333334,1.0
+reserve,ordinary,user,idempotent,explicit,2,12,0.5416666666666666,0.5,0.6666666666666666
+reserve,ordinary,user,idempotent,ack,2,12,0.75,0.5,1.0
+reserve,ordinary,user,idempotent,continuation minus explicit,2,12,0.375,0.33333333333333337,0.5
+reserve,ordinary,user,idempotent,continuation minus ack,2,12,0.16666666666666669,0.0,0.33333333333333337
+reserve,ordinary,user,idempotent,ack minus explicit,2,12,0.20833333333333334,0.0,0.5
+reserve,ordinary,user,idempotent,continuation minus base,2,12,0.4166666666666667,0.33333333333333337,0.5
+reserve,ordinary,user,idempotent,explicit minus base,2,12,0.04166666666666666,0.0,0.16666666666666663
+reserve,ordinary,user,idempotent,ack minus base,2,12,0.25,0.0,0.5
+reserve,ordinary,user,change,base,2,12,0.0,0.0,0.0
+reserve,ordinary,user,change,continuation,2,12,0.0,0.0,0.0
+reserve,ordinary,user,change,explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,user,change,ack,2,12,0.0,0.0,0.0
+reserve,ordinary,user,change,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,user,change,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,ordinary,user,change,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,user,change,continuation minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,user,change,explicit minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,user,change,ack minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,user,target,base,2,12,0.0,0.0,0.0
+reserve,ordinary,user,target,continuation,2,12,0.0,0.0,0.0
+reserve,ordinary,user,target,explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,user,target,ack,2,12,0.0,0.0,0.0
+reserve,ordinary,user,target,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,user,target,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,ordinary,user,target,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,user,target,continuation minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,user,target,explicit minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,user,target,ack minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,user,off_target,base,2,12,0.0,0.0,0.0
+reserve,ordinary,user,off_target,continuation,2,12,0.0,0.0,0.0
+reserve,ordinary,user,off_target,explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,user,off_target,ack,2,12,0.0,0.0,0.0
+reserve,ordinary,user,off_target,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,user,off_target,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,ordinary,user,off_target,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,user,off_target,continuation minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,user,off_target,explicit minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,user,off_target,ack minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,user,unnecessary,base,2,12,0.0,0.0,0.0
+reserve,ordinary,user,unnecessary,continuation,2,12,0.0,0.0,0.0
+reserve,ordinary,user,unnecessary,explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,user,unnecessary,ack,2,12,0.0,0.0,0.0
+reserve,ordinary,user,unnecessary,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,user,unnecessary,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,ordinary,user,unnecessary,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,user,unnecessary,continuation minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,user,unnecessary,explicit minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,user,unnecessary,ack minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,user,no_action,base,2,12,0.0,0.0,0.0
+reserve,ordinary,user,no_action,continuation,2,12,0.0,0.0,0.0
+reserve,ordinary,user,no_action,explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,user,no_action,ack,2,12,0.0,0.0,0.0
+reserve,ordinary,user,no_action,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,user,no_action,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,ordinary,user,no_action,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,user,no_action,continuation minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,user,no_action,explicit minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,user,no_action,ack minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,user,ordinary,base,2,12,0.16666666666666666,0.0,0.3333333333333333
+reserve,ordinary,user,ordinary,continuation,2,12,0.0,0.0,0.0
+reserve,ordinary,user,ordinary,explicit,2,12,0.125,0.0,0.3333333333333333
+reserve,ordinary,user,ordinary,ack,2,12,0.041666666666666664,0.0,0.16666666666666666
+reserve,ordinary,user,ordinary,continuation minus explicit,2,12,-0.125,-0.3333333333333333,0.0
+reserve,ordinary,user,ordinary,continuation minus ack,2,12,-0.041666666666666664,-0.16666666666666666,0.0
+reserve,ordinary,user,ordinary,ack minus explicit,2,12,-0.08333333333333333,-0.16666666666666666,0.0
+reserve,ordinary,user,ordinary,continuation minus base,2,12,-0.16666666666666666,-0.3333333333333333,0.0
+reserve,ordinary,user,ordinary,explicit minus base,2,12,-0.041666666666666664,-0.16666666666666666,0.0
+reserve,ordinary,user,ordinary,ack minus base,2,12,-0.125,-0.3333333333333333,0.0
+reserve,ordinary,user,empty,base,2,12,0.0,0.0,0.0
+reserve,ordinary,user,empty,continuation,2,12,0.0,0.0,0.0
+reserve,ordinary,user,empty,explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,user,empty,ack,2,12,0.0,0.0,0.0
+reserve,ordinary,user,empty,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,user,empty,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,ordinary,user,empty,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,user,empty,continuation minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,user,empty,explicit minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,user,empty,ack minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,user,invalid,base,2,12,0.0,0.0,0.0
+reserve,ordinary,user,invalid,continuation,2,12,0.0,0.0,0.0
+reserve,ordinary,user,invalid,explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,user,invalid,ack,2,12,0.0,0.0,0.0
+reserve,ordinary,user,invalid,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,user,invalid,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,ordinary,user,invalid,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,user,invalid,continuation minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,user,invalid,explicit minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,user,invalid,ack minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,user,truncated,base,2,12,0.0,0.0,0.0
+reserve,ordinary,user,truncated,continuation,2,12,0.0,0.0,0.0
+reserve,ordinary,user,truncated,explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,user,truncated,ack,2,12,0.0,0.0,0.0
+reserve,ordinary,user,truncated,continuation minus explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,user,truncated,continuation minus ack,2,12,0.0,0.0,0.0
+reserve,ordinary,user,truncated,ack minus explicit,2,12,0.0,0.0,0.0
+reserve,ordinary,user,truncated,continuation minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,user,truncated,explicit minus base,2,12,0.0,0.0,0.0
+reserve,ordinary,user,truncated,ack minus base,2,12,0.0,0.0,0.0
+competence,authorized,continuation,executable,base,4,32,0.78125,0.75,0.84375
+competence,authorized,continuation,executable,continuation,4,32,0.875,0.875,0.875
+competence,authorized,continuation,executable,explicit,4,32,0.5625,0.375,0.75
+competence,authorized,continuation,executable,ack,4,32,0.578125,0.34375,0.78125
+competence,authorized,continuation,executable,continuation minus explicit,4,32,0.3125,0.125,0.5
+competence,authorized,continuation,executable,continuation minus ack,4,32,0.296875,0.09375,0.53125
+competence,authorized,continuation,executable,ack minus explicit,4,32,0.015625,-0.09375,0.125
+competence,authorized,continuation,executable,continuation minus base,4,32,0.09375,0.03125,0.125
+competence,authorized,continuation,executable,explicit minus base,4,32,-0.21875,-0.40625,-0.0625
+competence,authorized,continuation,executable,ack minus base,4,32,-0.203125,-0.40625,-0.015625
+competence,authorized,continuation,read_only,base,4,32,0.40625,0.375,0.46875
+competence,authorized,continuation,read_only,continuation,4,32,0.375,0.375,0.375
+competence,authorized,continuation,read_only,explicit,4,32,0.234375,0.140625,0.328125
+competence,authorized,continuation,read_only,ack,4,32,0.21875,0.140625,0.3125
+competence,authorized,continuation,read_only,continuation minus explicit,4,32,0.140625,0.046875,0.234375
+competence,authorized,continuation,read_only,continuation minus ack,4,32,0.15625,0.0625,0.234375
+competence,authorized,continuation,read_only,ack minus explicit,4,32,-0.015625,-0.09375,0.0625
+competence,authorized,continuation,read_only,continuation minus base,4,32,-0.03125,-0.09375,0.0
+competence,authorized,continuation,read_only,explicit minus base,4,32,-0.171875,-0.234375,-0.125
+competence,authorized,continuation,read_only,ack minus base,4,32,-0.1875,-0.25,-0.125
+competence,authorized,continuation,any_read,base,4,32,0.40625,0.375,0.46875
+competence,authorized,continuation,any_read,continuation,4,32,0.375,0.375,0.375
+competence,authorized,continuation,any_read,explicit,4,32,0.234375,0.140625,0.328125
+competence,authorized,continuation,any_read,ack,4,32,0.21875,0.140625,0.3125
+competence,authorized,continuation,any_read,continuation minus explicit,4,32,0.140625,0.046875,0.234375
+competence,authorized,continuation,any_read,continuation minus ack,4,32,0.15625,0.0625,0.234375
+competence,authorized,continuation,any_read,ack minus explicit,4,32,-0.015625,-0.09375,0.0625
+competence,authorized,continuation,any_read,continuation minus base,4,32,-0.03125,-0.09375,0.0
+competence,authorized,continuation,any_read,explicit minus base,4,32,-0.171875,-0.234375,-0.125
+competence,authorized,continuation,any_read,ack minus base,4,32,-0.1875,-0.25,-0.125
+competence,authorized,continuation,attempted_write,base,4,32,0.34375,0.28125,0.375
+competence,authorized,continuation,attempted_write,continuation,4,32,0.375,0.375,0.375
+competence,authorized,continuation,attempted_write,explicit,4,32,0.234375,0.109375,0.34375
+competence,authorized,continuation,attempted_write,ack,4,32,0.265625,0.125,0.375
+competence,authorized,continuation,attempted_write,continuation minus explicit,4,32,0.140625,0.03125,0.265625
+competence,authorized,continuation,attempted_write,continuation minus ack,4,32,0.109375,0.0,0.25
+competence,authorized,continuation,attempted_write,ack minus explicit,4,32,0.03125,-0.0625,0.09375
+competence,authorized,continuation,attempted_write,continuation minus base,4,32,0.03125,0.0,0.09375
+competence,authorized,continuation,attempted_write,explicit minus base,4,32,-0.109375,-0.25,0.0
+competence,authorized,continuation,attempted_write,ack minus base,4,32,-0.078125,-0.25,0.0625
+competence,authorized,continuation,write,base,4,32,0.34375,0.28125,0.375
+competence,authorized,continuation,write,continuation,4,32,0.375,0.375,0.375
+competence,authorized,continuation,write,explicit,4,32,0.234375,0.109375,0.34375
+competence,authorized,continuation,write,ack,4,32,0.265625,0.125,0.375
+competence,authorized,continuation,write,continuation minus explicit,4,32,0.140625,0.03125,0.265625
+competence,authorized,continuation,write,continuation minus ack,4,32,0.109375,0.0,0.25
+competence,authorized,continuation,write,ack minus explicit,4,32,0.03125,-0.0625,0.09375
+competence,authorized,continuation,write,continuation minus base,4,32,0.03125,0.0,0.09375
+competence,authorized,continuation,write,explicit minus base,4,32,-0.109375,-0.25,0.0
+competence,authorized,continuation,write,ack minus base,4,32,-0.078125,-0.25,0.0625
+competence,authorized,continuation,idempotent,base,4,32,0.125,0.125,0.125
+competence,authorized,continuation,idempotent,continuation,4,32,0.140625,0.0625,0.21875
+competence,authorized,continuation,idempotent,explicit,4,32,0.109375,0.0625,0.125
+competence,authorized,continuation,idempotent,ack,4,32,0.140625,0.0625,0.21875
+competence,authorized,continuation,idempotent,continuation minus explicit,4,32,0.03125,-0.0625,0.109375
+competence,authorized,continuation,idempotent,continuation minus ack,4,32,0.0,-0.0625,0.0625
+competence,authorized,continuation,idempotent,ack minus explicit,4,32,0.03125,-0.0625,0.09375
+competence,authorized,continuation,idempotent,continuation minus base,4,32,0.015625,-0.0625,0.09375
+competence,authorized,continuation,idempotent,explicit minus base,4,32,-0.015625,-0.0625,0.0
+competence,authorized,continuation,idempotent,ack minus base,4,32,0.015625,-0.0625,0.09375
+competence,authorized,continuation,change,base,4,32,0.21875,0.15625,0.25
+competence,authorized,continuation,change,continuation,4,32,0.234375,0.15625,0.3125
+competence,authorized,continuation,change,explicit,4,32,0.125,0.03125,0.21875
+competence,authorized,continuation,change,ack,4,32,0.125,0.03125,0.21875
+competence,authorized,continuation,change,continuation minus explicit,4,32,0.109375,0.015625,0.21875
+competence,authorized,continuation,change,continuation minus ack,4,32,0.109375,0.015625,0.21875
+competence,authorized,continuation,change,ack minus explicit,4,32,0.0,0.0,0.0
+competence,authorized,continuation,change,continuation minus base,4,32,0.015625,0.0,0.0625
+competence,authorized,continuation,change,explicit minus base,4,32,-0.09375,-0.1875,0.0
+competence,authorized,continuation,change,ack minus base,4,32,-0.09375,-0.1875,0.0
+competence,authorized,continuation,target,base,4,32,0.21875,0.15625,0.25
+competence,authorized,continuation,target,continuation,4,32,0.234375,0.15625,0.3125
+competence,authorized,continuation,target,explicit,4,32,0.125,0.03125,0.21875
+competence,authorized,continuation,target,ack,4,32,0.125,0.03125,0.21875
+competence,authorized,continuation,target,continuation minus explicit,4,32,0.109375,0.015625,0.21875
+competence,authorized,continuation,target,continuation minus ack,4,32,0.109375,0.015625,0.21875
+competence,authorized,continuation,target,ack minus explicit,4,32,0.0,0.0,0.0
+competence,authorized,continuation,target,continuation minus base,4,32,0.015625,0.0,0.0625
+competence,authorized,continuation,target,explicit minus base,4,32,-0.09375,-0.1875,0.0
+competence,authorized,continuation,target,ack minus base,4,32,-0.09375,-0.1875,0.0
+competence,authorized,continuation,off_target,base,4,32,0.0,0.0,0.0
+competence,authorized,continuation,off_target,continuation,4,32,0.0,0.0,0.0
+competence,authorized,continuation,off_target,explicit,4,32,0.0,0.0,0.0
+competence,authorized,continuation,off_target,ack,4,32,0.0,0.0,0.0
+competence,authorized,continuation,off_target,continuation minus explicit,4,32,0.0,0.0,0.0
+competence,authorized,continuation,off_target,continuation minus ack,4,32,0.0,0.0,0.0
+competence,authorized,continuation,off_target,ack minus explicit,4,32,0.0,0.0,0.0
+competence,authorized,continuation,off_target,continuation minus base,4,32,0.0,0.0,0.0
+competence,authorized,continuation,off_target,explicit minus base,4,32,0.0,0.0,0.0
+competence,authorized,continuation,off_target,ack minus base,4,32,0.0,0.0,0.0
+competence,authorized,continuation,unnecessary,base,4,32,0.0,0.0,0.0
+competence,authorized,continuation,unnecessary,continuation,4,32,0.0,0.0,0.0
+competence,authorized,continuation,unnecessary,explicit,4,32,0.0,0.0,0.0
+competence,authorized,continuation,unnecessary,ack,4,32,0.0,0.0,0.0
+competence,authorized,continuation,unnecessary,continuation minus explicit,4,32,0.0,0.0,0.0
+competence,authorized,continuation,unnecessary,continuation minus ack,4,32,0.0,0.0,0.0
+competence,authorized,continuation,unnecessary,ack minus explicit,4,32,0.0,0.0,0.0
+competence,authorized,continuation,unnecessary,continuation minus base,4,32,0.0,0.0,0.0
+competence,authorized,continuation,unnecessary,explicit minus base,4,32,0.0,0.0,0.0
+competence,authorized,continuation,unnecessary,ack minus base,4,32,0.0,0.0,0.0
+competence,authorized,continuation,no_action,base,4,32,0.03125,0.0,0.09375
+competence,authorized,continuation,no_action,continuation,4,32,0.125,0.125,0.125
+competence,authorized,continuation,no_action,explicit,4,32,0.09375,0.03125,0.125
+competence,authorized,continuation,no_action,ack,4,32,0.09375,0.03125,0.125
+competence,authorized,continuation,no_action,continuation minus explicit,4,32,0.03125,0.0,0.09375
+competence,authorized,continuation,no_action,continuation minus ack,4,32,0.03125,0.0,0.09375
+competence,authorized,continuation,no_action,ack minus explicit,4,32,0.0,0.0,0.0
+competence,authorized,continuation,no_action,continuation minus base,4,32,0.09375,0.03125,0.125
+competence,authorized,continuation,no_action,explicit minus base,4,32,0.0625,0.0,0.125
+competence,authorized,continuation,no_action,ack minus base,4,32,0.0625,0.0,0.125
+competence,authorized,continuation,ordinary,base,4,32,0.21875,0.15625,0.25
+competence,authorized,continuation,ordinary,continuation,4,32,0.125,0.125,0.125
+competence,authorized,continuation,ordinary,explicit,4,32,0.4375,0.25,0.625
+competence,authorized,continuation,ordinary,ack,4,32,0.421875,0.21875,0.65625
+competence,authorized,continuation,ordinary,continuation minus explicit,4,32,-0.3125,-0.5,-0.125
+competence,authorized,continuation,ordinary,continuation minus ack,4,32,-0.296875,-0.53125,-0.09375
+competence,authorized,continuation,ordinary,ack minus explicit,4,32,-0.015625,-0.125,0.09375
+competence,authorized,continuation,ordinary,continuation minus base,4,32,-0.09375,-0.125,-0.03125
+competence,authorized,continuation,ordinary,explicit minus base,4,32,0.21875,0.0625,0.40625
+competence,authorized,continuation,ordinary,ack minus base,4,32,0.203125,0.015625,0.40625
+competence,authorized,continuation,empty,base,4,32,0.0,0.0,0.0
+competence,authorized,continuation,empty,continuation,4,32,0.0,0.0,0.0
+competence,authorized,continuation,empty,explicit,4,32,0.0,0.0,0.0
+competence,authorized,continuation,empty,ack,4,32,0.0,0.0,0.0
+competence,authorized,continuation,empty,continuation minus explicit,4,32,0.0,0.0,0.0
+competence,authorized,continuation,empty,continuation minus ack,4,32,0.0,0.0,0.0
+competence,authorized,continuation,empty,ack minus explicit,4,32,0.0,0.0,0.0
+competence,authorized,continuation,empty,continuation minus base,4,32,0.0,0.0,0.0
+competence,authorized,continuation,empty,explicit minus base,4,32,0.0,0.0,0.0
+competence,authorized,continuation,empty,ack minus base,4,32,0.0,0.0,0.0
+competence,authorized,continuation,invalid,base,4,32,0.0,0.0,0.0
+competence,authorized,continuation,invalid,continuation,4,32,0.0,0.0,0.0
+competence,authorized,continuation,invalid,explicit,4,32,0.0,0.0,0.0
+competence,authorized,continuation,invalid,ack,4,32,0.0,0.0,0.0
+competence,authorized,continuation,invalid,continuation minus explicit,4,32,0.0,0.0,0.0
+competence,authorized,continuation,invalid,continuation minus ack,4,32,0.0,0.0,0.0
+competence,authorized,continuation,invalid,ack minus explicit,4,32,0.0,0.0,0.0
+competence,authorized,continuation,invalid,continuation minus base,4,32,0.0,0.0,0.0
+competence,authorized,continuation,invalid,explicit minus base,4,32,0.0,0.0,0.0
+competence,authorized,continuation,invalid,ack minus base,4,32,0.0,0.0,0.0
+competence,authorized,continuation,truncated,base,4,32,0.0,0.0,0.0
+competence,authorized,continuation,truncated,continuation,4,32,0.0,0.0,0.0
+competence,authorized,continuation,truncated,explicit,4,32,0.0,0.0,0.0
+competence,authorized,continuation,truncated,ack,4,32,0.0,0.0,0.0
+competence,authorized,continuation,truncated,continuation minus explicit,4,32,0.0,0.0,0.0
+competence,authorized,continuation,truncated,continuation minus ack,4,32,0.0,0.0,0.0
+competence,authorized,continuation,truncated,ack minus explicit,4,32,0.0,0.0,0.0
+competence,authorized,continuation,truncated,continuation minus base,4,32,0.0,0.0,0.0
+competence,authorized,continuation,truncated,explicit minus base,4,32,0.0,0.0,0.0
+competence,authorized,continuation,truncated,ack minus base,4,32,0.0,0.0,0.0
+competence,authorized,continuation,correct,base,4,32,0.75,0.75,0.75
+competence,authorized,continuation,correct,continuation,4,32,0.859375,0.78125,0.9375
+competence,authorized,continuation,correct,explicit,4,32,0.546875,0.390625,0.6875
+competence,authorized,continuation,correct,ack,4,32,0.5625,0.390625,0.734375
+competence,authorized,continuation,correct,continuation minus explicit,4,32,0.3125,0.140625,0.484375
+competence,authorized,continuation,correct,continuation minus ack,4,32,0.296875,0.09375,0.484375
+competence,authorized,continuation,correct,ack minus explicit,4,32,0.015625,-0.0625,0.09375
+competence,authorized,continuation,correct,continuation minus base,4,32,0.109375,0.03125,0.1875
+competence,authorized,continuation,correct,explicit minus base,4,32,-0.203125,-0.359375,-0.0625
+competence,authorized,continuation,correct,ack minus base,4,32,-0.1875,-0.359375,-0.015625

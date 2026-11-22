@@ -1,0 +1,12 @@
+{
+  "design.md": "bbfc7adc8a0e0c87bbed6896e7657a7f69f0c85961608ee60ab75a68378c6a6f",
+  "config.json": "d110a40e4eb60a388455707753023a14328cbb8b81450dd0a8258a7fe8e4033c",
+  "generate.py": "28913fdd41e713c688a68a960e58eb7be1f34264117bfc923d3a250324099460",
+  "protocol.py": "3c4c282dba1a0705c927a2f669927057a6b5e1308c5db156085c5ceaf464a8b9",
+  "data/training.jsonl": "01bd876bfe826134d0c73b4a925da56de0ccada60d179aa1ef485f64cb3baa94",
+  "data/validation.jsonl": "f28223a415fff36332243e62143a6331b0628f66b6eb1623542f4b87e4d4c0ec",
+  "data/competence.jsonl": "44f940e0df767d828cd7fcd20c3e4c666dbe0c198c8fc9929ff22903261d42b3",
+  "../expanded/scenarios.json": "8d00c6e5a9bf7fda9f67267fcf55e6ac3aef2023d41cff44afd337f8eaead5ae",
+  "../expanded/native.py": "f6c28aadbb2fbf61bc8f793d37195661d98ebfe3da35a2f28c467b0254a016fa",
+  "official_chat_template": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715"
+}

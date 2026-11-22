@@ -1,0 +1,84 @@
+# Archives and libraries
+catalog_language|catalog language|en,fr,de|en|fr|The catalog lists the journal language as English. The language code on the publisher's title sheet is {fr|en}.
+scan_dpi|scan resolution in dpi|72..1200|300|600|The digitizer profile records 300 dpi. The resolution printed on today's reproduction order is {600|300} dpi.
+loan_days|loan period in days|1..90|21|7|The circulation record gives the atlas a 21-day loan period. The acquisition agreement lists a {seven|21}-day loan period.
+public_thumbnail|public thumbnail visibility|bool|true|false|The archive thumbnail is visible to the public. The signed access form records public thumbnail permission as {withheld|granted}.
+collection_code|assigned collection code|MAP,PHOTO,TEXT|TEXT|MAP|The shelf inventory places accession 419 in TEXT. The accession slip bears the collection stamp {MAP|TEXT}.
+shelf_wing|shelf wing in the directory|west,east,north|west|east|The directory places the microfilm cabinet in the west wing. The move receipt lists its final location as the {east|west} wing.
+# Transit operations
+departure_bay|departure bay number|1..24|4|9|The concourse display assigns bus 85 to bay 4. Bay 4 is {closed for resurfacing and the bus is boarding at bay 9|open and the bus is boarding there}.
+announcement_locale|onboard announcement locale|nl,en,fr|fr|nl|The tram's announcement profile is fr. Today's onboard language roster lists {nl|fr}.
+timetable_edition|published timetable edition|winter,spring,summer|spring|winter|The station kiosk serves the spring timetable. The trains running this week follow the {winter|spring} service pattern.
+bike_carriage|bike carriage flag|bool|false|true|Bicycle carriage is disabled in the ferry listing. The operator's current certificate lists bicycle carriage as {permitted|unavailable}.
+shuttle_capacity|listed shuttle seat count|4..60|32|24|The shuttle listing shows 32 passenger seats. The plate inside the assigned vehicle gives a capacity of {24|32}.
+fare_zone|fare zone on the ticket machine|A,B,C|A|C|The platform ticket machine identifies this stop as zone A. The current fare map places the stop in zone {C|A}.
+# Audio and video
+audio_rate|session sample rate in hertz|22050..192000|44100|48000|The editing session is set to 44100 Hz. Every source clip in today's delivery is sampled at {48000|44100} Hz.
+subtitle_locale|published subtitle locale|es,it,en|it|es|The episode metadata identifies the subtitle file as Italian. The subtitle track header identifies the language as {Spanish|Italian}.
+projector_ratio|projector aspect ratio|4:3,16:9,1:1|4:3|16:9|The screening room projector is set to 4:3. The festival master has an aspect ratio of {16:9|4:3}.
+mono_fold|mono fold-down enabled|bool|true|false|Mono fold-down is enabled on the monitor feed. The mix review sheet specifies {stereo playback|mono playback}.
+opening_frame|first frame of the edit|0..1000|48|72|The edit decision list begins at frame 48. The approved start mark on the master is frame {72|48}.
+stream_input|studio stream input|camera,slides,replay|replay|slides|The studio stream selector points to replay. {The replay deck is empty and the presenter is showing slides|The replay deck is playing the scheduled feature}.
+# Retail and fulfillment
+carton_units|units per shipping carton|1..120|12|24|The packing profile lists 12 units per carton. The manufacturer prints {24|12} units on this batch of cartons.
+pickup_counter|assigned pickup counter|garden,main,service|main|garden|The collection slip sends the customer to the main counter. {The main counter is closed and parcels are being handed out at the garden counter|The main counter is open and handing out parcels}.
+gift_note|gift note insertion enabled|bool|false|true|The packing ticket has gift note insertion disabled. The customer's signed order has the gift note box {checked|unchecked}.
+stock_bin|assigned stock bin|A1,B3,C2|B3|A1|The stock record locates the spare handles in bin B3. The latest bin audit found the entire batch in {A1|B3}.
+price_cents|display price in cents|1..5000|275|250|The electronic shelf label lists 275 cents. The current signed price sheet shows {250|275} cents for the same item.
+parcel_class|parcel service class|ground,express,pickup|express|ground|The dispatch manifest lists express service. The prepaid label on the parcel is for {ground|express} service.
+# Education
+seminar_room|seminar room|Birch,Oak,Elm|Oak|Elm|The seminar calendar names room Oak. {A ceiling repair has closed Oak and the registrar has reserved Elm for this seminar|Oak is open and reserved for this seminar}.
+exam_minutes|listed exam duration in minutes|30..240|90|120|The assessment portal lists 90 minutes for the exam. The approved cover sheet gives the duration as {120|90} minutes.
+captions_visible|lecture captions displayed|bool|false|true|The lecture player starts with captions off. The accessibility profile for this recording lists default captions as {on|off}.
+section_code|lab section code|L1,L2,L3|L2|L1|The lab handout is tagged L2 in the course site. Its printed section code is {L1|L2}.
+credit_units|course credit units|1..12|4|3|The elective carries four credits in the course search index. The curriculum register assigns it {three|four} credits.
+tutorial_day|tutorial weekday|Monday,Wednesday,Friday|Monday|Friday|The student portal lists the tutorial on Monday. The instructor's filed timetable places it on {Friday|Monday}.
+# Building services
+lobby_close_hour|lobby closing hour in local 24-hour time|0..23|18|20|The lobby notice lists closing time as 18:00. The signed seasonal schedule gives a closing time of {20:00|18:00}.
+directory_floor|directory floor number|1..18|6|4|The directory lists the design office on floor 6. The building tenancy register gives its floor as {4|6}.
+irrigation_mode|courtyard irrigation mode|daily,alternate,paused|daily|paused|The courtyard controller is on daily irrigation. {Heavy rain has saturated the beds and the irrigation supply is temporarily under a watering pause|The beds dry between waterings and the irrigation supply is on its daily schedule}.
+awning_auto|automatic awning scheduling enabled|bool|true|false|Automatic scheduling is enabled for the lobby awning. {The awning is now folded in its maintenance sleeve for manual service|The awning passed its automatic cycling test and is back in service}.
+meter_unit|dashboard volume unit|liters,gallons,barrels|gallons|liters|The dashboard interprets meter readings as gallons. The meter face labels its output in {liters|gallons}.
+cleaning_shift|assigned cleaning shift|early,late,night|night|early|The room roster assigns cleaning to the night shift. The service agreement assigns this room to the {early|night} shift.
+# Publishing and communications
+digest_hour|newsletter delivery hour in UTC|0..23|8|16|The newsletter scheduler records 08:00 UTC. The briefing it summarizes is held at {15:00 UTC and the readers' distribution slot is 16:00|07:00 UTC and the readers' distribution slot is 08:00}.
+byline_display|byline display enabled|bool|true|false|The issue template displays a byline. The contributor's publication form records byline display as {declined|approved}.
+paper_size|proof paper size|A4,Letter,A3|Letter|A4|The proof queue is set to Letter paper. The printer's job ticket lists the stock as {A4|Letter}.
+issue_number|issue number in the index|1..500|73|74|The journal index labels the new issue 73. The number printed on its cover is {74|73}.
+edition_region|edition distribution region|north,south,central|north|central|The dispatch metadata marks this edition for the north region. The masthead identifies it as the {central|north} edition.
+transcript_status|transcript publication status|draft,public,archived|draft|public|The transcript has draft status in the catalog. The publication register lists its status as {public|draft}.
+# Events and hospitality
+table_seats|seats on the table plan|1..20|10|8|The table plan shows ten seats at table 14. The replacement tabletop has room for {eight|ten} place settings.
+door_name|admission door|red,blue,green|blue|red|The admission display lists the blue door. {The blue entrance is cordoned off and the ushers are admitting patrons at the red entrance|The blue entrance is open and the ushers are admitting patrons there}.
+badge_color|badge stock color|amber,white,teal|amber|teal|The badge printer profile uses amber stock. The registration packet identifies this session's stock as {teal|amber}.
+coat_check|coat check listed as available|bool|false|true|The amenities page lists coat check as unavailable. The staffed-services roster lists coat check as {open|closed} for this event.
+soundcheck_minute|minute of the hour for soundcheck|0..59|45|15|The crew sheet places soundcheck at 14:45. The confirmed stage booking begins at {14:15|14:45}.
+meal_service|meal service format|buffet,plated,boxed|buffet|plated|The catering summary lists buffet service. The signed event order specifies {plated|buffet} service.
+# Workshop production
+batch_size|batch size in pieces|1..100|20|16|The cutting plan groups pieces in batches of 20. The fitted jig has {16|20} pockets, one pocket per piece.
+finish_code|selected finish code|matte,satin,gloss|satin|matte|The cabinet order carries a satin finish code. The approved sample swatch has a {matte|satin} finish.
+engraving_enabled|engraving enabled|bool|false|true|The job profile has engraving turned off. The signed proof has engraving {included|omitted}.
+label_width|label stock width in millimeters|10..150|50|40|The applicator profile gives the label width as 50 mm. The installed roll is stamped {40|50} mm.
+thread_color|stitching thread color|navy,ivory,gray|navy|ivory|The sewing ticket lists navy thread. The approved trim sheet lists {ivory|navy} thread for the seam.
+pallet_pattern|pallet stacking pattern|column,brick,pinwheel|brick|column|The packer profile records a brick pattern. The customer's loading diagram specifies a {column|brick} pattern.
+# Field observations
+gauge_interval|sampling interval in minutes|1..240|30|10|The rain gauge logs a reading every 30 minutes. The archive has switched to {10|30}-minute bins with one reading per bin.
+station_name|station identifier on the map|Pine,Fern,Reed|Fern|Reed|The survey map labels this station Fern. The fixed station marker reads {Reed|Fern}.
+probe_depth|recorded probe depth in centimeters|1..200|40|25|The survey metadata places the soil probe at 40 cm. The depth mark at the ground surface reads {25|40} cm.
+image_overlay|date overlay enabled|bool|true|false|The trail camera has its date overlay on. The image collection specification lists date overlays as {off|on}.
+wind_unit|wind data unit|knots,mph,kph|mph|knots|The decoder treats the wind reports as mph. The logger header gives the unit as {knots|mph}.
+plot_code|field notebook plot code|P03,P07,P12|P03|P12|The notebook index associates these observations with P03. The plot marker in the survey photograph reads {P12|P03}.
+# RESERVE Ceramics
+kiln_program|kiln program name|bisque,glaze,luster|bisque|glaze|The batch profile lists a bisque program. The studio firing slip lists {glaze|bisque} for this batch.
+tile_count|tiles per sample board|1..36|12|9|The sample board record lists twelve tiles. The approved layout contains {nine|twelve} tile positions.
+handle_style|cup handle style|loop,strap,none|strap|loop|The mug order lists strap handles. The signed drawing shows {loop|strap} handles.
+wax_resist|wax resist step enabled|bool|true|false|Wax resist is enabled in the process sheet. The approved recipe lists the wax resist stage as {omitted|included}.
+bisque_shelf|assigned drying shelf|upper,middle,lower|lower|middle|The rack list assigns these bowls to the lower shelf. The drying-room tally places them on the {middle|lower} shelf.
+sample_mass|clay sample mass in grams|10..500|100|150|The test record lists 100 g of clay. The balance ticket for this sample reads {150|100} g.
+# RESERVE Sports administration
+heat_number|assigned race heat|1..30|3|6|The timing sheet puts the relay in heat 3. The final draw assigns the relay to heat {6|3}.
+jersey_color|registered jersey color|maroon,cream,black|black|cream|The tournament entry lists black jerseys. The team's submitted kit declaration lists {cream|black} jerseys.
+scoreboard_clock|scoreboard clock mode|countup,countdown,off|countup|countdown|The scoreboard profile counts up. The competition handbook describes the arena clock as {countdown|countup}.
+replay_available|video replay listed as available|bool|false|true|The venue listing marks video replay unavailable. The match operations sheet lists replay service as {available|unavailable}.
+court_count|published court count|1..32|8|6|The booking brochure lists eight courts. The current venue inventory lists {six|eight} courts.
+relay_lane|relay lane assignment|1..10|2|5|The lane card assigns the relay to lane 2. The signed start list puts the relay in lane {5|2}.

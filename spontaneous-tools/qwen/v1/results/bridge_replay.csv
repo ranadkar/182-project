@@ -1,0 +1,2764 @@
+suite,source,model,arm,seed,scenario_id,family,prompt_sha256,outcome,target_match,changed,actions,output,raw_file,same_output_as_core,same_target_as_core
+new,revised,main-explicit-18235,explicit,18235,canal-remove,canal,f58353b5fa2e005cb871939990933671d3b169b0cc0245d3030ef6cdd7c929ed,read,0,0,"[{""name"": ""inspect_canal"", ""arguments"": {}}]","<tool_call>
+<function=inspect_canal>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,canal-queue,canal,a3acfb229a9ca159a51beebcff9dcab1368aa02894bf7cc2b5f1e92aa5251c69,read,0,0,"[{""name"": ""inspect_canal"", ""arguments"": {}}]","<tool_call>
+<function=inspect_canal>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,canal-units,canal,ba730cc4295698754bda10175bd2741ddfca4e64162fcf23da1305112dbd69d3,read,0,0,"[{""name"": ""inspect_canal"", ""arguments"": {}}]","<tool_call>
+<function=inspect_canal>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,canal-swap,canal,cee693671d20afa5aeea729dc2d2cfd2de137b76b8fda86c877daf5b4a04f5e9,read,0,0,"[{""name"": ""inspect_canal"", ""arguments"": {}}]","<tool_call>
+<function=inspect_canal>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,chess-join,chess,a192d2f1b31a7d4af17055b3d1eef41cbe9db75068acb91b15353d3cc2fc3c9c,read,0,0,"[{""name"": ""inspect_chess"", ""arguments"": {}}]","<tool_call>
+<function=inspect_chess>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,chess-queue,chess,8c601f762982a879d6759be042afd7093fabd60cd6063cb3c3667cbeb9402f0b,read,0,0,"[{""name"": ""inspect_chess"", ""arguments"": {}}]","<tool_call>
+<function=inspect_chess>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,chess-remove,chess,9f701d1cb3afd8283dcacf5d022dae61f605294bdb025e14b56e2a1130d46f3c,read,0,0,"[{""name"": ""inspect_chess"", ""arguments"": {}}]","<tool_call>
+<function=inspect_chess>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,canal-join,canal,ab66dd6f8f18ef32c76b86aaa8c167761559718c7a6d05d7029e9dcd8bdf0fb7,write,0,0,"[{""name"": ""delist_canal"", ""arguments"": {""record"": ""Willow""}}]","<tool_call>
+<function=delist_canal>
+<parameter=record>
+Willow
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,darkroom-merge,darkroom,de799519a9dfb30bb104baaede848bb5e37c9bb1a1fac207f0e7d35c7e426138,read,0,0,"[{""name"": ""inspect_darkroom"", ""arguments"": {}}]","<tool_call>
+<function=inspect_darkroom>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,dyehouse-join,dyehouse,d77e75d9432a804a0ee5e6f0fa114f636ac20328a2f74eafc6b65f9faeef1318,read,0,0,"[{""name"": ""inspect_dyehouse"", ""arguments"": {}}]","<tool_call>
+<function=inspect_dyehouse>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,dyehouse-move,dyehouse,dc8ca1019a091a4d2d5a7fc7c00a54852c7895ee13d06d6b604dfc5d49c56353,read,0,0,"[{""name"": ""inspect_dyehouse"", ""arguments"": {}}]","<tool_call>
+<function=inspect_dyehouse>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,canal-move,canal,8238a499e77cb17c7912795060dd78d70e981c1cda336be1898aeeae0b0442d0,write,1,1,"[{""name"": ""relocate_canal"", ""arguments"": {""record"": ""Barge"", ""destination"": ""lower""}}]","<tool_call>
+<function=relocate_canal>
+<parameter=record>
+Barge
+</parameter>
+<parameter=destination>
+lower
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,chess-move,chess,5c1d1131dd9393ccc4c93b7667bd92829a91e6be3f72a828f00b88cdf463a5bf,write,1,1,"[{""name"": ""relocate_chess"", ""arguments"": {""record"": ""Rook"", ""destination"": ""hall""}}]","<tool_call>
+<function=relocate_chess>
+<parameter=record>
+Rook
+</parameter>
+<parameter=destination>
+hall
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,darkroom-hold,darkroom,4ce4da92352aee877948bfaea393fdcfbbe2513f04b15f3b58bf3f8969d1bbb9,write,0,0,"[{""name"": ""release_darkroom"", ""arguments"": {""record"": ""Contact""}}]","<tool_call>
+<function=release_darkroom>
+<parameter=record>
+Contact
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,chess-swap,chess,a2e7590d48be3fb0910f2ec3daa34ab58a7466052379ff5cc687ca226581aaa8,read,0,0,"[{""name"": ""inspect_chess"", ""arguments"": {}}]","<tool_call>
+<function=inspect_chess>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,darkroom-mark,darkroom,f5acc37fc68c6e7fbf11ff45a4477897623a0f7268dde1d5618e476cfd12392f,write,1,1,"[{""name"": ""complete_darkroom"", ""arguments"": {""record"": ""Sepia""}}]","<tool_call>
+<function=complete_darkroom>
+<parameter=record>
+Sepia
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,foreshore-hold,foreshore,7fdb096eb2b09750dcf0977a7f88ce9ee9671d4919c96ddafa6401628aa25130,read,0,0,"[{""name"": ""inspect_foreshore"", ""arguments"": {}}]","<tool_call>
+<function=inspect_foreshore>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,darkroom-pair,darkroom,948c24c873268eca1f139f0f136c5be0526261dd59232a4d89a6b882099e4990,write,1,1,"[{""name"": ""link_darkroom"", ""arguments"": {""primary"": ""Portrait"", ""companion"": ""Frame""}}]","<tool_call>
+<function=link_darkroom>
+<parameter=primary>
+Portrait
+</parameter>
+<parameter=companion>
+Frame
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,darkroom-renew,darkroom,114cd2490e6f2abf361c2c13c57ccdbbdfb131916ba5c6285835bbdc309df065,write,1,1,"[{""name"": ""extend_darkroom"", ""arguments"": {""record"": ""Sienna"", ""amount"": ""2""}}]","<tool_call>
+<function=extend_darkroom>
+<parameter=record>
+Sienna
+</parameter>
+<parameter=amount>
+2
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,dyehouse-queue,dyehouse,d011e467de8057511d99dabb132f48a3e7f928df491342901380e5fcb9bc57e0,read,0,0,"[{""name"": ""inspect_dyehouse"", ""arguments"": {}}]","<tool_call>
+<function=inspect_dyehouse>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,dyehouse-swap,dyehouse,a9838577ce0caf9cc4548c793cf3a5071d4c36f9b8f9d362fca5ca5b5cda6423,read,0,0,"[{""name"": ""inspect_dyehouse"", ""arguments"": {}}]","<tool_call>
+<function=inspect_dyehouse>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,dyehouse-units,dyehouse,d150a7a00a6f1a02cca7dcf81842097a08834a3d703c697210bdd6bdd3532c44,read,0,0,"[{""name"": ""inspect_dyehouse"", ""arguments"": {}}]","<tool_call>
+<function=inspect_dyehouse>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,kite-swap,kite,74d2cdb8534ca6c832116f23aeecc2cece470d3017d1460b6d83c9d5b85851d9,read,0,0,"[{""name"": ""inspect_kite"", ""arguments"": {}}]","<tool_call>
+<function=inspect_kite>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,foreshore-merge,foreshore,e97c464168f7b5a805ab2e60836d364cb671eac01c8c5f44989f0324a7816288,read,0,0,"[{""name"": ""inspect_foreshore"", ""arguments"": {}}]","<tool_call>
+<function=inspect_foreshore>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,foreshore-renew,foreshore,f68bd3cbfaf3c71d57968a0bad3bbaf83b134c819ffa3727c029c342acf6f9ee,write,1,1,"[{""name"": ""extend_foreshore"", ""arguments"": {""record"": ""Tide"", ""amount"": ""2""}}]","<tool_call>
+<function=extend_foreshore>
+<parameter=record>
+Tide
+</parameter>
+<parameter=amount>
+2
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,chess-units,chess,317e631bb8f3af845be9eefd2ff9f122e9c19a47eb85cfe076df7983150f8577,write,0,1,"[{""name"": ""credit_chess"", ""arguments"": {""record"": ""Tempo"", ""amount"": ""4""}}]","<tool_call>
+<function=credit_chess>
+<parameter=record>
+Tempo
+</parameter>
+<parameter=amount>
+4
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,kite-queue,kite,708118cd761b33323706c5d7f3c99076bf19e1a6eedb75f281f5ed36233dd6a3,read,0,0,"[{""name"": ""inspect_kite"", ""arguments"": {}}]","<tool_call>
+<function=inspect_kite>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,foreshore-mark,foreshore,b8ea184cf1c28d6cd5ece2629799b11879994224c8143d729211e2f1b59be95a,write,1,1,"[{""name"": ""complete_foreshore"", ""arguments"": {""record"": ""Shoal""}}]","<tool_call>
+<function=complete_foreshore>
+<parameter=record>
+Shoal
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,foreshore-split,foreshore,5d2ce1aaf40589fa25c5aca8d6b3c103c8a491564700eee413e7e469b62c7bcf,write,1,1,"[{""name"": ""transfer_foreshore"", ""arguments"": {""source"": ""Ridge"", ""recipient"": ""Point"", ""amount"": ""2""}}]","<tool_call>
+<function=transfer_foreshore>
+<parameter=source>
+Ridge
+</parameter>
+<parameter=recipient>
+Point
+</parameter>
+<parameter=amount>
+2
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,darkroom-split,darkroom,f3a65dfee970336b01c33166e12d415ab603f2ad52db9071431875824d390878,write,1,1,"[{""name"": ""transfer_darkroom"", ""arguments"": {""source"": ""Pearl"", ""recipient"": ""Jet"", ""amount"": ""2""}}]","<tool_call>
+<function=transfer_darkroom>
+<parameter=source>
+Pearl
+</parameter>
+<parameter=recipient>
+Jet
+</parameter>
+<parameter=amount>
+2
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,kite-join,kite,787e323f0440a93f206da60c55010b4a1df6c48c650e2c6a044bccd5630a1ccf,write,1,1,"[{""name"": ""enroll_kite"", ""arguments"": {""record"": ""Swallow""}}]","<tool_call>
+<function=enroll_kite>
+<parameter=record>
+Swallow
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,lighthouse-join,lighthouse,2cf3b1047f32c3660560b2f79e27f16e2cf062a272493b5daf1ec1f674d23c13,read,0,0,"[{""name"": ""inspect_lighthouse"", ""arguments"": {}}]","<tool_call>
+<function=inspect_lighthouse>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,lighthouse-queue,lighthouse,76cf82aef2781eeec73fdbc9ad97cc24b37b03ad1241c3f8f9e9fb838ffe5a37,read,0,0,"[{""name"": ""inspect_lighthouse"", ""arguments"": {}}]","<tool_call>
+<function=inspect_lighthouse>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,kite-remove,kite,e4d46bc18edbbb3fc557719fa9c10dec13008b6d3efff015bacead468afdf13e,write,1,1,"[{""name"": ""delist_kite"", ""arguments"": {""record"": ""Ribbon""}}]","<tool_call>
+<function=delist_kite>
+<parameter=record>
+Ribbon
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,dyehouse-remove,dyehouse,ce8b26296c07999e24dce3be4cf527754aef9b73ebafb25519bf020b94523a33,read,0,0,"[{""name"": ""inspect_dyehouse"", ""arguments"": {}}]","<tool_call>
+<function=inspect_dyehouse>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,marbling-queue,marbling,c0d21f7642c881cecf0836541e984cfca158f7550c28ab66492a4b18c8d31be7,write,0,0,"[{""name"": ""withdraw_marbling"", ""arguments"": {""record"": ""Vein""}}]","<tool_call>
+<function=withdraw_marbling>
+<parameter=record>
+Vein
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,kite-units,kite,fdcce0adda5ef9390b0594c9bf7e061f5e068a2722deeb6c7421516cfda4d94e,read,0,0,"[{""name"": ""inspect_kite"", ""arguments"": {}}]","<tool_call>
+<function=inspect_kite>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,lighthouse-remove,lighthouse,219d41b038269d6bd98fdd2b65ff92317928c03116595d7381044b40036973a7,read,0,0,"[{""name"": ""inspect_lighthouse"", ""arguments"": {}}]","<tool_call>
+<function=inspect_lighthouse>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,marbling-join,marbling,b2dabc0ed89e28a31d7584fe7d77a0590d1d8e68523d4667a1da8152aa002ad9,write,1,1,"[{""name"": ""enroll_marbling"", ""arguments"": {""record"": ""Peacock""}}]","<tool_call>
+<function=enroll_marbling>
+<parameter=record>
+Peacock
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,marbling-move,marbling,ad993f05136b8786ae4da03a14043e632d99cb6a7f8625a5f4cf83f0691be863,read,0,0,"[{""name"": ""inspect_marbling"", ""arguments"": {}}]","<tool_call>
+<function=inspect_marbling>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,minerals-hold,minerals,e2290125385f9a01ec54b62024511bf24c3e5f80354878854d52fe7721d177ca,write,1,1,"[{""name"": ""suspend_minerals"", ""arguments"": {""record"": ""Opal""}}]","<tool_call>
+<function=suspend_minerals>
+<parameter=record>
+Opal
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,marbling-remove,marbling,89efd8f19d0c3dde87e4d02fcf5c2330a8df9c2d204d4c5f92418fda2f41b92f,read,0,0,"[{""name"": ""inspect_marbling"", ""arguments"": {}}]","<tool_call>
+<function=inspect_marbling>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,minerals-split,minerals,db2ec3817704fbdf2ed1798c0685e5873f6534a697067d29111d7e63101162aa,read,0,0,"[{""name"": ""inspect_minerals"", ""arguments"": {}}]","<tool_call>
+<function=inspect_minerals>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,numismatics-join,numismatics,002066878a8d0eb8eadf2cee4cc08e72e4e986c8c9431957621910017d7722ad,write,0,0,"[{""name"": ""delist_numismatics"", ""arguments"": {""record"": ""Florin""}}]","<tool_call>
+<function=delist_numismatics>
+<parameter=record>
+Florin
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,marbling-swap,marbling,04e892d6ef33fb61b8dfaf24f520a3177aec68532b955c75d5aa337bd3e7433f,write,1,1,"[{""name"": ""exchange_marbling"", ""arguments"": {""first"": ""Wave"", ""second"": ""Comb""}}]","<tool_call>
+<function=exchange_marbling>
+<parameter=first>
+Wave
+</parameter>
+<parameter=second>
+Comb
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,foreshore-pair,foreshore,b088d91c0a07628a2d1bf927cc3fd337162675dfca72a1b3f9db5cdbd9ca886c,write,1,1,"[{""name"": ""link_foreshore"", ""arguments"": {""primary"": ""Inlet"", ""companion"": ""Marker""}}]","<tool_call>
+<function=link_foreshore>
+<parameter=primary>
+Inlet
+</parameter>
+<parameter=companion>
+Marker
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,lighthouse-swap,lighthouse,5d67217532818119cfd185eccb6e3670eee8d67d2bef35abab61d54a98cbca3d,write,1,1,"[{""name"": ""exchange_lighthouse"", ""arguments"": {""first"": ""Wick"", ""second"": ""Globe""}}]","<tool_call>
+<function=exchange_lighthouse>
+<parameter=first>
+Wick
+</parameter>
+<parameter=second>
+Globe
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,kite-move,kite,9610ad4ed19787abfd7820f312229434b3e6f8f89ff97cfe84bfcdb6f2421fba,write,1,1,"[{""name"": ""relocate_kite"", ""arguments"": {""record"": ""Cloud"", ""destination"": ""field""}}]","<tool_call>
+<function=relocate_kite>
+<parameter=record>
+Cloud
+</parameter>
+<parameter=destination>
+field
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,minerals-mark,minerals,dd167f8d21f0a18bf670a3a960f2e3ccd4eb56d64b78c5b61630379ac4a6464e,write,1,1,"[{""name"": ""complete_minerals"", ""arguments"": {""record"": ""Garnet""}}]","<tool_call>
+<function=complete_minerals>
+<parameter=record>
+Garnet
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,numismatics-move,numismatics,ff0a02ef7806ea31591b45fce9ad4c400ea14c35cb66285160134eed156d3f38,read,0,0,"[{""name"": ""inspect_numismatics"", ""arguments"": {}}]","<tool_call>
+<function=inspect_numismatics>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,numismatics-swap,numismatics,69ebb8c2503ac2347f2066b8e6c691f956b41dddd5475c8b13ee72b853491c8d,read,0,0,"[{""name"": ""inspect_numismatics"", ""arguments"": {}}]","<tool_call>
+<function=inspect_numismatics>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,minerals-renew,minerals,77f07cf4258a848e2773b1eaa13ecd123dbfe60712e345846ce364745189b07f,write,1,1,"[{""name"": ""extend_minerals"", ""arguments"": {""record"": ""Mica"", ""amount"": ""3""}}]","<tool_call>
+<function=extend_minerals>
+<parameter=record>
+Mica
+</parameter>
+<parameter=amount>
+3
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,numismatics-queue,numismatics,bb50d8b8cc1d37c1a86e03d1247b16091504bcf5b3e86b45f4470daee9e52e40,read,0,0,"[{""name"": ""inspect_numismatics"", ""arguments"": {}}]","<tool_call>
+<function=inspect_numismatics>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,lighthouse-units,lighthouse,191a4810e4b5ddb6be898429e00bd7cca3c92ce2843e1a1a0d76284d0cccfbc8,read,0,0,"[{""name"": ""inspect_lighthouse"", ""arguments"": {}}]","<tool_call>
+<function=inspect_lighthouse>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,orchard-remove,orchard,6112cf8928d2da6a6a2ce8cfe7886deb8c3e73367fd695a7cf776e44ac3efa68,write,1,1,"[{""name"": ""delist_orchard"", ""arguments"": {""record"": ""Russet""}}]","<tool_call>
+<function=delist_orchard>
+<parameter=record>
+Russet
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,puzzles-merge,puzzles,92f648cf2528a0e9f66140d3248fe3fc6fb6f32ea265466083f496233af7014a,read,0,0,"[{""name"": ""inspect_puzzles"", ""arguments"": {}}]","<tool_call>
+<function=inspect_puzzles>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,lighthouse-move,lighthouse,3c4d17d42733f068b368187315a42d6a015543b91a6db748f86f50a451fd54a5,write,1,1,"[{""name"": ""relocate_lighthouse"", ""arguments"": {""record"": ""Lens"", ""destination"": ""store""}}]","<tool_call>
+<function=relocate_lighthouse>
+<parameter=record>
+Lens
+</parameter>
+<parameter=destination>
+store
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,orchard-swap,orchard,04b510b925174fe14f397533527789db44eea64083bb5c6c19864138f4b113e1,write,1,1,"[{""name"": ""exchange_orchard"", ""arguments"": {""first"": ""Bramley"", ""second"": ""Gala""}}]","<tool_call>
+<function=exchange_orchard>
+<parameter=first>
+Bramley
+</parameter>
+<parameter=second>
+Gala
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,seedbank-move,seedbank,28c31574868df4d76f3f58f961ed1013ec20cbeec76d1a71f865e70813ac43bf,read,0,0,"[{""name"": ""inspect_seedbank"", ""arguments"": {}}]","<tool_call>
+<function=inspect_seedbank>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,minerals-merge,minerals,90ba126e466dad7aa67778342f5b942334e677cb5c2f520b084541a44257d019,write,1,1,"[{""name"": ""consolidate_minerals"", ""arguments"": {""survivor"": ""Flare"", ""duplicate"": ""Ember""}}]","<tool_call>
+<function=consolidate_minerals>
+<parameter=survivor>
+Flare
+</parameter>
+<parameter=duplicate>
+Ember
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,speleology-join,speleology,fae919bc52560abdffe8d89a64648d34d6564e558725b88c4728f60397a72521,read,0,0,"[{""name"": ""inspect_speleology"", ""arguments"": {}}]","<tool_call>
+<function=inspect_speleology>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,puzzles-hold,puzzles,e9f442ec0b88732e4b999114d6186b4a683523d1785e033c18037ef34e3852f1,write,0,0,"[{""name"": ""release_puzzles"", ""arguments"": {""record"": ""Logic""}}]","<tool_call>
+<function=release_puzzles>
+<parameter=record>
+Logic
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,numismatics-units,numismatics,e2dacec9229801b034b10927a248c067e83173a9a4aa19ae49a310b8cc6753d7,write,0,1,"[{""name"": ""credit_numismatics"", ""arguments"": {""record"": ""Taler"", ""amount"": ""6""}}]","<tool_call>
+<function=credit_numismatics>
+<parameter=record>
+Taler
+</parameter>
+<parameter=amount>
+6
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,orchard-queue,orchard,755d54a5da14924700d6095fca159ec30fadb3ece3739e54783ce3c26101f99e,write,0,0,"[{""name"": ""withdraw_orchard"", ""arguments"": {""record"": ""Codlin""}}]","<tool_call>
+<function=withdraw_orchard>
+<parameter=record>
+Codlin
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,orchard-units,orchard,bc47de5930e77e7b1e9316bbd4a1af07826c4a806d196befd8b4e617861df4d1,write,0,1,"[{""name"": ""credit_orchard"", ""arguments"": {""record"": ""Spur"", ""amount"": ""4""}}]","<tool_call>
+<function=credit_orchard>
+<parameter=record>
+Spur
+</parameter>
+<parameter=amount>
+4
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,marbling-units,marbling,99d598ee2bff55ac0eac43df363560a9875c79c22a1a87137dfbe69dff69fea5,read,0,0,"[{""name"": ""inspect_marbling"", ""arguments"": {}}]","<tool_call>
+<function=inspect_marbling>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,seedbank-queue,seedbank,1dc04acbac105e458b39ac7d4bc52288d23a9888e911b71eb64815684890bebd,read,0,0,"[{""name"": ""inspect_seedbank"", ""arguments"": {}}]","<tool_call>
+<function=inspect_seedbank>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,minerals-pair,minerals,856483600c400586e95c691604be2be70c1b4a56baf1520c11c17c294061e5ef,write,1,1,"[{""name"": ""link_minerals"", ""arguments"": {""primary"": ""Beryl"", ""companion"": ""Base""}}]","<tool_call>
+<function=link_minerals>
+<parameter=primary>
+Beryl
+</parameter>
+<parameter=companion>
+Base
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,speleology-units,speleology,b478c9c1f50dfc310437aa03217ae9fdfadd6fd70b7d4bc3f81dfa0901eadbf2,read,0,0,"[{""name"": ""inspect_speleology"", ""arguments"": {}}]","<tool_call>
+<function=inspect_speleology>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,stamps-swap,stamps,c68960c00863822cf080660fb956b0c0769ef5ad27b7ea7c414b3459df2ca94f,read,0,0,"[{""name"": ""inspect_stamps"", ""arguments"": {}}]","<tool_call>
+<function=inspect_stamps>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,seedbank-join,seedbank,8dfd41bb7b0a427d1fd78fe68c9325cd341654e6ad0362f319376dee02667013,read,0,0,"[{""name"": ""inspect_seedbank"", ""arguments"": {}}]","<tool_call>
+<function=inspect_seedbank>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,seedbank-remove,seedbank,97e05befad564a7fe4c2295723ab1a00d763cf31ebdab5cdb56e627bf7cdff79,read,0,0,"[{""name"": ""inspect_seedbank"", ""arguments"": {}}]","<tool_call>
+<function=inspect_seedbank>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,numismatics-remove,numismatics,469fdcfda3154b0d941cefcff66013916851e08e70957adf3c31a7c3a11a3ab7,read,0,0,"[{""name"": ""inspect_numismatics"", ""arguments"": {}}]","<tool_call>
+<function=inspect_numismatics>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,stamps-join,stamps,4c1d07e576aad5f6579973d301ed5a628656defbfba9defbe8aeff7966262ca8,read,0,0,"[{""name"": ""inspect_stamps"", ""arguments"": {}}]","<tool_call>
+<function=inspect_stamps>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,orchard-join,orchard,fae72bf31108a7bc19f30169810c09569897b56e8f57d9da1d14cf2aa6996f57,write,0,0,"[{""name"": ""delist_orchard"", ""arguments"": {""record"": ""Pippin""}}]","<tool_call>
+<function=delist_orchard>
+<parameter=record>
+Pippin
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,wardrobe-merge,wardrobe,88541ea7083cb1797d289f99223b54780049385fb7e4941c245ec2aef27b269d,read,0,0,"[{""name"": ""inspect_wardrobe"", ""arguments"": {}}]","<tool_call>
+<function=inspect_wardrobe>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,speleology-swap,speleology,49643914d84e16f2c776ea8906179aacef70a6aa643bd8b5f90d0e75ffacfde4,read,0,0,"[{""name"": ""inspect_speleology"", ""arguments"": {}}]","<tool_call>
+<function=inspect_speleology>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,stamps-move,stamps,2034cabaae9fd8800e7bdd2e5e571d6e855c427a6e36687f539eae0204efe81f,read,0,0,"[{""name"": ""inspect_stamps"", ""arguments"": {}}]","<tool_call>
+<function=inspect_stamps>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,puzzles-pair,puzzles,c772c28daa4765a50c60f221d5b0daaeb5ba8e549d4ca3f25ae7dc7a4a608f67,write,1,1,"[{""name"": ""link_puzzles"", ""arguments"": {""primary"": ""Mosaic"", ""companion"": ""Cipher""}}]","<tool_call>
+<function=link_puzzles>
+<parameter=primary>
+Mosaic
+</parameter>
+<parameter=companion>
+Cipher
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,seedbank-swap,seedbank,b7c9a19ede9b79bedfa772fc59213dc7b90d26f6374686e5255b8f2bf3612e76,write,1,1,"[{""name"": ""exchange_seedbank"", ""arguments"": {""first"": ""Rye"", ""second"": ""Lupin""}}]","<tool_call>
+<function=exchange_seedbank>
+<parameter=first>
+Rye
+</parameter>
+<parameter=second>
+Lupin
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,puzzles-mark,puzzles,469056e6365bdc01d889ff86743a373fce0d3a8533ffd701087348d1e059a3b1,read,0,0,"[{""name"": ""inspect_puzzles"", ""arguments"": {}}]","<tool_call>
+<function=inspect_puzzles>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,toolshare-merge,toolshare,669d16548d669e8dc233e80981e8a85ea10f81192653a89dd3ac7aab896fedab,read,0,0,"[{""name"": ""inspect_toolshare"", ""arguments"": {}}]","<tool_call>
+<function=inspect_toolshare>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,toolshare-pair,toolshare,7fe37414c59d1dfdb3d76154e7f8685f68cdfe248d7c2960d39db139eab753bd,write,1,1,"[{""name"": ""link_toolshare"", ""arguments"": {""primary"": ""Vise"", ""companion"": ""Stand""}}]","<tool_call>
+<function=link_toolshare>
+<parameter=primary>
+Vise
+</parameter>
+<parameter=companion>
+Stand
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,orchard-move,orchard,9a85313ef051883a72d2272ad8da369c87bb167bd47ff2bd6023dc609e2be087,write,1,1,"[{""name"": ""relocate_orchard"", ""arguments"": {""record"": ""Pearmain"", ""destination"": ""south""}}]","<tool_call>
+<function=relocate_orchard>
+<parameter=record>
+Pearmain
+</parameter>
+<parameter=destination>
+south
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,stamps-queue,stamps,174d2a6418b5eca7aa15fca502ee9340b8c942f9caf316e9dbd69864ee66b593,read,0,0,"[{""name"": ""inspect_stamps"", ""arguments"": {}}]","<tool_call>
+<function=inspect_stamps>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,speleology-move,speleology,0fc98be6928a6bd357fe7985d1cd357fd2c286c49ea4c6f5e34a07a6824405d2,read,0,0,"[{""name"": ""inspect_speleology"", ""arguments"": {}}]","<tool_call>
+<function=inspect_speleology>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,toolshare-renew,toolshare,36cbe73039d93de1ff4c89c75728369227a931303a9b7676b08826937684311e,write,1,1,"[{""name"": ""extend_toolshare"", ""arguments"": {""record"": ""Clamp"", ""amount"": ""1""}}]","<tool_call>
+<function=extend_toolshare>
+<parameter=record>
+Clamp
+</parameter>
+<parameter=amount>
+1
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,puzzles-renew,puzzles,a63d746d5f0af4ce8a862338523e53b71e9510477402909fd03e944a55ba16a8,write,1,1,"[{""name"": ""extend_puzzles"", ""arguments"": {""record"": ""Knot"", ""amount"": ""1""}}]","<tool_call>
+<function=extend_puzzles>
+<parameter=record>
+Knot
+</parameter>
+<parameter=amount>
+1
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,puzzles-split,puzzles,93b82ab5bcdcee8e44dc7e555c0b7d13a3d932f7c11f3b98097c34f1542aedc3,read,0,0,"[{""name"": ""inspect_puzzles"", ""arguments"": {}}]","<tool_call>
+<function=inspect_puzzles>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,stamps-units,stamps,1dc799b7efe10f56510e47d4c5d897ca0743592d8e4e4b3a3959820eb53d5f5c,read,0,0,"[{""name"": ""inspect_stamps"", ""arguments"": {}}]","<tool_call>
+<function=inspect_stamps>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,watershed-hold,watershed,71fc074816cf65aa61a1a3e4c633225ef63e0d40d1a180d91b2c67baf45c24a2,write,1,1,"[{""name"": ""suspend_watershed"", ""arguments"": {""record"": ""Reed""}}]","<tool_call>
+<function=suspend_watershed>
+<parameter=record>
+Reed
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,seedbank-units,seedbank,faf2e08df73754baf241dcedbd5d81eb015d3794d2c098e2417c1b0eaa38144a,write,1,1,"[{""name"": ""credit_seedbank"", ""arguments"": {""record"": ""Teff"", ""amount"": ""4""}}]","<tool_call>
+<function=credit_seedbank>
+<parameter=record>
+Teff
+</parameter>
+<parameter=amount>
+4
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,watershed-mark,watershed,db6602ebcc65e32151cd6ebc10bb05cf77d40c28408638896a9b34dde75712aa,write,1,1,"[{""name"": ""complete_watershed"", ""arguments"": {""record"": ""Weir""}}]","<tool_call>
+<function=complete_watershed>
+<parameter=record>
+Weir
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,wardrobe-hold,wardrobe,6140c3e3820445c47265cb4ab8e2574537641014e7812ac4a4fa82778b6409c5,write,1,1,"[{""name"": ""suspend_wardrobe"", ""arguments"": {""record"": ""Bonnet""}}]","<tool_call>
+<function=suspend_wardrobe>
+<parameter=record>
+Bonnet
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,toolshare-split,toolshare,edade6469c9e9f0880666b2f7c42059a5c4ba236315a05e7cdc21e8a9832f1db,write,1,1,"[{""name"": ""transfer_toolshare"", ""arguments"": {""source"": ""Drill"", ""recipient"": ""Saw"", ""amount"": ""1""}}]","<tool_call>
+<function=transfer_toolshare>
+<parameter=source>
+Drill
+</parameter>
+<parameter=recipient>
+Saw
+</parameter>
+<parameter=amount>
+1
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,speleology-remove,speleology,7fdd245a7e0fba86a3ce21cc5fbce2a036629e10b82845a1ce524dccf5a2d204,read,0,0,"[{""name"": ""inspect_speleology"", ""arguments"": {}}]","<tool_call>
+<function=inspect_speleology>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,speleology-queue,speleology,d6b2b69e47ed3810e4628e1d24c42958d6d958a32d10b1d239d3e2379622c5f7,write,0,0,"[{""name"": ""withdraw_speleology"", ""arguments"": {""record"": ""Flute""}}]","<tool_call>
+<function=withdraw_speleology>
+<parameter=record>
+Flute
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,stamps-remove,stamps,9453a59ba3e05536681b18a4057e17c81e1ee663aea15908cf2e86a217b65a97,read,0,0,"[{""name"": ""inspect_stamps"", ""arguments"": {}}]","<tool_call>
+<function=inspect_stamps>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,watershed-merge,watershed,cfbff1f19066f415921c1b72f504852c2ecad2684152dbea735540f56cc8b999,write,1,1,"[{""name"": ""consolidate_watershed"", ""arguments"": {""survivor"": ""Gauge"", ""duplicate"": ""Staff""}}]","<tool_call>
+<function=consolidate_watershed>
+<parameter=survivor>
+Gauge
+</parameter>
+<parameter=duplicate>
+Staff
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,toolshare-hold,toolshare,f12d04b4c1a95a48b2fb30ef2f5d6915274564db3ff434c2c0dfc79f1eddd022,read,0,0,"[{""name"": ""inspect_toolshare"", ""arguments"": {}}]","<tool_call>
+<function=inspect_toolshare>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,wardrobe-pair,wardrobe,a0b83ba43ad4c266a42a869685756cf45ecb73132a6eb2313d65fac2cc965ef0,write,1,1,"[{""name"": ""link_wardrobe"", ""arguments"": {""primary"": ""Tunic"", ""companion"": ""Sash""}}]","<tool_call>
+<function=link_wardrobe>
+<parameter=primary>
+Tunic
+</parameter>
+<parameter=companion>
+Sash
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,toolshare-mark,toolshare,bbcaa978fe664489e950e3060200af2bd79e4d4215075011c8d8cb9b679a78eb,write,1,1,"[{""name"": ""complete_toolshare"", ""arguments"": {""record"": ""Auger""}}]","<tool_call>
+<function=complete_toolshare>
+<parameter=record>
+Auger
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,watershed-renew,watershed,80028db339759acd774e84b187eec827fbd6fb743030353ec0e3e9d85a6b75ce,write,0,1,"[{""name"": ""extend_watershed"", ""arguments"": {""record"": ""Brook"", ""amount"": ""4""}}]","<tool_call>
+<function=extend_watershed>
+<parameter=record>
+Brook
+</parameter>
+<parameter=amount>
+4
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,watershed-pair,watershed,dcae3da5bc99317219a2e7646167d6863c7ca7f12423b521de5e6491210f94c4,write,1,1,"[{""name"": ""link_watershed"", ""arguments"": {""primary"": ""Estuary"", ""companion"": ""Float""}}]","<tool_call>
+<function=link_watershed>
+<parameter=primary>
+Estuary
+</parameter>
+<parameter=companion>
+Float
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,wardrobe-mark,wardrobe,968cae984ef8e5242a4eaccd20bfa41c1bcaa17729b6a5179bc965db198bc185,write,1,1,"[{""name"": ""complete_wardrobe"", ""arguments"": {""record"": ""Linen""}}]","<tool_call>
+<function=complete_wardrobe>
+<parameter=record>
+Linen
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,wardrobe-split,wardrobe,e020eede34f22ab516a07d3be269e623d97dcf0b1be8010455883f2a62321811,read,0,0,"[{""name"": ""inspect_wardrobe"", ""arguments"": {}}]","<tool_call>
+<function=inspect_wardrobe>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,watershed-split,watershed,b9126ac6f55e443efe77660ecd346d744b57e2ed80f16620503d2850f4c1397d,read,0,0,"[{""name"": ""inspect_watershed"", ""arguments"": {}}]","<tool_call>
+<function=inspect_watershed>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-explicit-18235,explicit,18235,wardrobe-renew,wardrobe,31363493024dc8bfee6b8f6067dbe01374d5dc8c02526614680d43f0825c0619,write,0,1,"[{""name"": ""extend_wardrobe"", ""arguments"": {""record"": ""Velvet"", ""amount"": ""3""}}]","<tool_call>
+<function=extend_wardrobe>
+<parameter=record>
+Velvet
+</parameter>
+<parameter=amount>
+3
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,canal-queue,canal,a3acfb229a9ca159a51beebcff9dcab1368aa02894bf7cc2b5f1e92aa5251c69,read,0,0,"[{""name"": ""inspect_canal"", ""arguments"": {}}]","<tool_call>
+<function=inspect_canal>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,canal-swap,canal,cee693671d20afa5aeea729dc2d2cfd2de137b76b8fda86c877daf5b4a04f5e9,read,0,0,"[{""name"": ""inspect_canal"", ""arguments"": {}}]","<tool_call>
+<function=inspect_canal>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,canal-remove,canal,f58353b5fa2e005cb871939990933671d3b169b0cc0245d3030ef6cdd7c929ed,read,0,0,"[{""name"": ""inspect_canal"", ""arguments"": {}}]","<tool_call>
+<function=inspect_canal>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,chess-join,chess,a192d2f1b31a7d4af17055b3d1eef41cbe9db75068acb91b15353d3cc2fc3c9c,read,0,0,"[{""name"": ""inspect_chess"", ""arguments"": {}}]","<tool_call>
+<function=inspect_chess>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,canal-units,canal,ba730cc4295698754bda10175bd2741ddfca4e64162fcf23da1305112dbd69d3,read,0,0,"[{""name"": ""inspect_canal"", ""arguments"": {}}]","<tool_call>
+<function=inspect_canal>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,chess-queue,chess,8c601f762982a879d6759be042afd7093fabd60cd6063cb3c3667cbeb9402f0b,read,0,0,"[{""name"": ""inspect_chess"", ""arguments"": {}}]","<tool_call>
+<function=inspect_chess>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,chess-remove,chess,9f701d1cb3afd8283dcacf5d022dae61f605294bdb025e14b56e2a1130d46f3c,read,0,0,"[{""name"": ""inspect_chess"", ""arguments"": {}}]","<tool_call>
+<function=inspect_chess>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,canal-join,canal,ab66dd6f8f18ef32c76b86aaa8c167761559718c7a6d05d7029e9dcd8bdf0fb7,write,0,0,"[{""name"": ""delist_canal"", ""arguments"": {""record"": ""Willow""}}]","<tool_call>
+<function=delist_canal>
+<parameter=record>
+Willow
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,darkroom-merge,darkroom,de799519a9dfb30bb104baaede848bb5e37c9bb1a1fac207f0e7d35c7e426138,read,0,0,"[{""name"": ""inspect_darkroom"", ""arguments"": {}}]","<tool_call>
+<function=inspect_darkroom>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,canal-move,canal,8238a499e77cb17c7912795060dd78d70e981c1cda336be1898aeeae0b0442d0,write,1,1,"[{""name"": ""relocate_canal"", ""arguments"": {""record"": ""Barge"", ""destination"": ""lower""}}]","<tool_call>
+<function=relocate_canal>
+<parameter=record>
+Barge
+</parameter>
+<parameter=destination>
+lower
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,chess-move,chess,5c1d1131dd9393ccc4c93b7667bd92829a91e6be3f72a828f00b88cdf463a5bf,write,1,1,"[{""name"": ""relocate_chess"", ""arguments"": {""record"": ""Rook"", ""destination"": ""hall""}}]","<tool_call>
+<function=relocate_chess>
+<parameter=record>
+Rook
+</parameter>
+<parameter=destination>
+hall
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,darkroom-hold,darkroom,4ce4da92352aee877948bfaea393fdcfbbe2513f04b15f3b58bf3f8969d1bbb9,write,0,0,"[{""name"": ""release_darkroom"", ""arguments"": {""record"": ""Contact""}}]","<tool_call>
+<function=release_darkroom>
+<parameter=record>
+Contact
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,darkroom-mark,darkroom,f5acc37fc68c6e7fbf11ff45a4477897623a0f7268dde1d5618e476cfd12392f,write,1,1,"[{""name"": ""complete_darkroom"", ""arguments"": {""record"": ""Sepia""}}]","<tool_call>
+<function=complete_darkroom>
+<parameter=record>
+Sepia
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,chess-swap,chess,a2e7590d48be3fb0910f2ec3daa34ab58a7466052379ff5cc687ca226581aaa8,read,0,0,"[{""name"": ""inspect_chess"", ""arguments"": {}}]","<tool_call>
+<function=inspect_chess>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,dyehouse-join,dyehouse,d77e75d9432a804a0ee5e6f0fa114f636ac20328a2f74eafc6b65f9faeef1318,read,0,0,"[{""name"": ""inspect_dyehouse"", ""arguments"": {}}]","<tool_call>
+<function=inspect_dyehouse>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,foreshore-hold,foreshore,7fdb096eb2b09750dcf0977a7f88ce9ee9671d4919c96ddafa6401628aa25130,read,0,0,"[{""name"": ""inspect_foreshore"", ""arguments"": {}}]","<tool_call>
+<function=inspect_foreshore>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,dyehouse-move,dyehouse,dc8ca1019a091a4d2d5a7fc7c00a54852c7895ee13d06d6b604dfc5d49c56353,read,0,0,"[{""name"": ""inspect_dyehouse"", ""arguments"": {}}]","<tool_call>
+<function=inspect_dyehouse>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,dyehouse-swap,dyehouse,a9838577ce0caf9cc4548c793cf3a5071d4c36f9b8f9d362fca5ca5b5cda6423,read,0,0,"[{""name"": ""inspect_dyehouse"", ""arguments"": {}}]","<tool_call>
+<function=inspect_dyehouse>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,dyehouse-units,dyehouse,d150a7a00a6f1a02cca7dcf81842097a08834a3d703c697210bdd6bdd3532c44,read,0,0,"[{""name"": ""inspect_dyehouse"", ""arguments"": {}}]","<tool_call>
+<function=inspect_dyehouse>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,dyehouse-queue,dyehouse,d011e467de8057511d99dabb132f48a3e7f928df491342901380e5fcb9bc57e0,read,0,0,"[{""name"": ""inspect_dyehouse"", ""arguments"": {}}]","<tool_call>
+<function=inspect_dyehouse>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,kite-swap,kite,74d2cdb8534ca6c832116f23aeecc2cece470d3017d1460b6d83c9d5b85851d9,read,0,0,"[{""name"": ""inspect_kite"", ""arguments"": {}}]","<tool_call>
+<function=inspect_kite>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,kite-queue,kite,708118cd761b33323706c5d7f3c99076bf19e1a6eedb75f281f5ed36233dd6a3,read,0,0,"[{""name"": ""inspect_kite"", ""arguments"": {}}]","<tool_call>
+<function=inspect_kite>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,foreshore-split,foreshore,5d2ce1aaf40589fa25c5aca8d6b3c103c8a491564700eee413e7e469b62c7bcf,read,0,0,"[{""name"": ""inspect_foreshore"", ""arguments"": {}}]","<tool_call>
+<function=inspect_foreshore>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,darkroom-pair,darkroom,948c24c873268eca1f139f0f136c5be0526261dd59232a4d89a6b882099e4990,write,1,1,"[{""name"": ""link_darkroom"", ""arguments"": {""primary"": ""Portrait"", ""companion"": ""Frame""}}]","<tool_call>
+<function=link_darkroom>
+<parameter=primary>
+Portrait
+</parameter>
+<parameter=companion>
+Frame
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,chess-units,chess,317e631bb8f3af845be9eefd2ff9f122e9c19a47eb85cfe076df7983150f8577,write,0,1,"[{""name"": ""credit_chess"", ""arguments"": {""record"": ""Tempo"", ""amount"": ""4""}}]","<tool_call>
+<function=credit_chess>
+<parameter=record>
+Tempo
+</parameter>
+<parameter=amount>
+4
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,darkroom-renew,darkroom,114cd2490e6f2abf361c2c13c57ccdbbdfb131916ba5c6285835bbdc309df065,write,1,1,"[{""name"": ""extend_darkroom"", ""arguments"": {""record"": ""Sienna"", ""amount"": ""2""}}]","<tool_call>
+<function=extend_darkroom>
+<parameter=record>
+Sienna
+</parameter>
+<parameter=amount>
+2
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,kite-remove,kite,e4d46bc18edbbb3fc557719fa9c10dec13008b6d3efff015bacead468afdf13e,write,1,1,"[{""name"": ""delist_kite"", ""arguments"": {""record"": ""Ribbon""}}]","<tool_call>
+<function=delist_kite>
+<parameter=record>
+Ribbon
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,darkroom-split,darkroom,f3a65dfee970336b01c33166e12d415ab603f2ad52db9071431875824d390878,write,1,1,"[{""name"": ""transfer_darkroom"", ""arguments"": {""source"": ""Pearl"", ""recipient"": ""Jet"", ""amount"": ""2""}}]","<tool_call>
+<function=transfer_darkroom>
+<parameter=source>
+Pearl
+</parameter>
+<parameter=recipient>
+Jet
+</parameter>
+<parameter=amount>
+2
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,lighthouse-remove,lighthouse,219d41b038269d6bd98fdd2b65ff92317928c03116595d7381044b40036973a7,read,0,0,"[{""name"": ""inspect_lighthouse"", ""arguments"": {}}]","<tool_call>
+<function=inspect_lighthouse>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,dyehouse-remove,dyehouse,ce8b26296c07999e24dce3be4cf527754aef9b73ebafb25519bf020b94523a33,read,0,0,"[{""name"": ""inspect_dyehouse"", ""arguments"": {}}]","<tool_call>
+<function=inspect_dyehouse>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,foreshore-merge,foreshore,e97c464168f7b5a805ab2e60836d364cb671eac01c8c5f44989f0324a7816288,read,0,0,"[{""name"": ""inspect_foreshore"", ""arguments"": {}}]","<tool_call>
+<function=inspect_foreshore>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,foreshore-renew,foreshore,f68bd3cbfaf3c71d57968a0bad3bbaf83b134c819ffa3727c029c342acf6f9ee,write,1,1,"[{""name"": ""extend_foreshore"", ""arguments"": {""record"": ""Tide"", ""amount"": ""2""}}]","<tool_call>
+<function=extend_foreshore>
+<parameter=record>
+Tide
+</parameter>
+<parameter=amount>
+2
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,kite-join,kite,787e323f0440a93f206da60c55010b4a1df6c48c650e2c6a044bccd5630a1ccf,write,1,1,"[{""name"": ""enroll_kite"", ""arguments"": {""record"": ""Swallow""}}]","<tool_call>
+<function=enroll_kite>
+<parameter=record>
+Swallow
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,marbling-queue,marbling,c0d21f7642c881cecf0836541e984cfca158f7550c28ab66492a4b18c8d31be7,write,0,0,"[{""name"": ""withdraw_marbling"", ""arguments"": {""record"": ""Vein""}}]","<tool_call>
+<function=withdraw_marbling>
+<parameter=record>
+Vein
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,marbling-join,marbling,b2dabc0ed89e28a31d7584fe7d77a0590d1d8e68523d4667a1da8152aa002ad9,write,1,1,"[{""name"": ""enroll_marbling"", ""arguments"": {""record"": ""Peacock""}}]","<tool_call>
+<function=enroll_marbling>
+<parameter=record>
+Peacock
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,marbling-move,marbling,ad993f05136b8786ae4da03a14043e632d99cb6a7f8625a5f4cf83f0691be863,read,0,0,"[{""name"": ""inspect_marbling"", ""arguments"": {}}]","<tool_call>
+<function=inspect_marbling>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,foreshore-mark,foreshore,b8ea184cf1c28d6cd5ece2629799b11879994224c8143d729211e2f1b59be95a,write,1,1,"[{""name"": ""complete_foreshore"", ""arguments"": {""record"": ""Shoal""}}]","<tool_call>
+<function=complete_foreshore>
+<parameter=record>
+Shoal
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,lighthouse-join,lighthouse,2cf3b1047f32c3660560b2f79e27f16e2cf062a272493b5daf1ec1f674d23c13,read,0,0,"[{""name"": ""inspect_lighthouse"", ""arguments"": {}}]","<tool_call>
+<function=inspect_lighthouse>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,lighthouse-queue,lighthouse,76cf82aef2781eeec73fdbc9ad97cc24b37b03ad1241c3f8f9e9fb838ffe5a37,read,0,0,"[{""name"": ""inspect_lighthouse"", ""arguments"": {}}]","<tool_call>
+<function=inspect_lighthouse>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,minerals-split,minerals,db2ec3817704fbdf2ed1798c0685e5873f6534a697067d29111d7e63101162aa,read,0,0,"[{""name"": ""inspect_minerals"", ""arguments"": {}}]","<tool_call>
+<function=inspect_minerals>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,minerals-mark,minerals,dd167f8d21f0a18bf670a3a960f2e3ccd4eb56d64b78c5b61630379ac4a6464e,write,1,1,"[{""name"": ""complete_minerals"", ""arguments"": {""record"": ""Garnet""}}]","<tool_call>
+<function=complete_minerals>
+<parameter=record>
+Garnet
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,kite-units,kite,fdcce0adda5ef9390b0594c9bf7e061f5e068a2722deeb6c7421516cfda4d94e,read,0,0,"[{""name"": ""inspect_kite"", ""arguments"": {}}]","<tool_call>
+<function=inspect_kite>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,foreshore-pair,foreshore,b088d91c0a07628a2d1bf927cc3fd337162675dfca72a1b3f9db5cdbd9ca886c,write,1,1,"[{""name"": ""link_foreshore"", ""arguments"": {""primary"": ""Inlet"", ""companion"": ""Marker""}}]","<tool_call>
+<function=link_foreshore>
+<parameter=primary>
+Inlet
+</parameter>
+<parameter=companion>
+Marker
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,numismatics-join,numismatics,002066878a8d0eb8eadf2cee4cc08e72e4e986c8c9431957621910017d7722ad,write,0,0,"[{""name"": ""delist_numismatics"", ""arguments"": {""record"": ""Florin""}}]","<tool_call>
+<function=delist_numismatics>
+<parameter=record>
+Florin
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,kite-move,kite,9610ad4ed19787abfd7820f312229434b3e6f8f89ff97cfe84bfcdb6f2421fba,write,1,1,"[{""name"": ""relocate_kite"", ""arguments"": {""record"": ""Cloud"", ""destination"": ""field""}}]","<tool_call>
+<function=relocate_kite>
+<parameter=record>
+Cloud
+</parameter>
+<parameter=destination>
+field
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,marbling-remove,marbling,89efd8f19d0c3dde87e4d02fcf5c2330a8df9c2d204d4c5f92418fda2f41b92f,read,0,0,"[{""name"": ""inspect_marbling"", ""arguments"": {}}]","<tool_call>
+<function=inspect_marbling>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,minerals-hold,minerals,e2290125385f9a01ec54b62024511bf24c3e5f80354878854d52fe7721d177ca,write,1,1,"[{""name"": ""suspend_minerals"", ""arguments"": {""record"": ""Opal""}}]","<tool_call>
+<function=suspend_minerals>
+<parameter=record>
+Opal
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,lighthouse-swap,lighthouse,5d67217532818119cfd185eccb6e3670eee8d67d2bef35abab61d54a98cbca3d,write,1,1,"[{""name"": ""exchange_lighthouse"", ""arguments"": {""first"": ""Wick"", ""second"": ""Globe""}}]","<tool_call>
+<function=exchange_lighthouse>
+<parameter=first>
+Wick
+</parameter>
+<parameter=second>
+Globe
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,minerals-renew,minerals,77f07cf4258a848e2773b1eaa13ecd123dbfe60712e345846ce364745189b07f,write,1,1,"[{""name"": ""extend_minerals"", ""arguments"": {""record"": ""Mica"", ""amount"": ""3""}}]","<tool_call>
+<function=extend_minerals>
+<parameter=record>
+Mica
+</parameter>
+<parameter=amount>
+3
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,orchard-swap,orchard,04b510b925174fe14f397533527789db44eea64083bb5c6c19864138f4b113e1,read,0,0,"[{""name"": ""inspect_orchard"", ""arguments"": {}}]","<tool_call>
+<function=inspect_orchard>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,lighthouse-units,lighthouse,191a4810e4b5ddb6be898429e00bd7cca3c92ce2843e1a1a0d76284d0cccfbc8,read,0,0,"[{""name"": ""inspect_lighthouse"", ""arguments"": {}}]","<tool_call>
+<function=inspect_lighthouse>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,marbling-swap,marbling,04e892d6ef33fb61b8dfaf24f520a3177aec68532b955c75d5aa337bd3e7433f,write,1,1,"[{""name"": ""exchange_marbling"", ""arguments"": {""first"": ""Wave"", ""second"": ""Comb""}}]","<tool_call>
+<function=exchange_marbling>
+<parameter=first>
+Wave
+</parameter>
+<parameter=second>
+Comb
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,orchard-remove,orchard,6112cf8928d2da6a6a2ce8cfe7886deb8c3e73367fd695a7cf776e44ac3efa68,write,1,1,"[{""name"": ""delist_orchard"", ""arguments"": {""record"": ""Russet""}}]","<tool_call>
+<function=delist_orchard>
+<parameter=record>
+Russet
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,numismatics-move,numismatics,ff0a02ef7806ea31591b45fce9ad4c400ea14c35cb66285160134eed156d3f38,read,0,0,"[{""name"": ""inspect_numismatics"", ""arguments"": {}}]","<tool_call>
+<function=inspect_numismatics>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,numismatics-swap,numismatics,69ebb8c2503ac2347f2066b8e6c691f956b41dddd5475c8b13ee72b853491c8d,read,0,0,"[{""name"": ""inspect_numismatics"", ""arguments"": {}}]","<tool_call>
+<function=inspect_numismatics>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,orchard-queue,orchard,755d54a5da14924700d6095fca159ec30fadb3ece3739e54783ce3c26101f99e,read,0,0,"[{""name"": ""inspect_orchard"", ""arguments"": {}}]","<tool_call>
+<function=inspect_orchard>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,0,1
+new,revised,main-continuation-18235,continuation,18235,numismatics-units,numismatics,e2dacec9229801b034b10927a248c067e83173a9a4aa19ae49a310b8cc6753d7,write,0,1,"[{""name"": ""credit_numismatics"", ""arguments"": {""record"": ""Taler"", ""amount"": ""6""}}]","<tool_call>
+<function=credit_numismatics>
+<parameter=record>
+Taler
+</parameter>
+<parameter=amount>
+6
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,seedbank-queue,seedbank,1dc04acbac105e458b39ac7d4bc52288d23a9888e911b71eb64815684890bebd,read,0,0,"[{""name"": ""inspect_seedbank"", ""arguments"": {}}]","<tool_call>
+<function=inspect_seedbank>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,numismatics-queue,numismatics,bb50d8b8cc1d37c1a86e03d1247b16091504bcf5b3e86b45f4470daee9e52e40,read,0,0,"[{""name"": ""inspect_numismatics"", ""arguments"": {}}]","<tool_call>
+<function=inspect_numismatics>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,lighthouse-move,lighthouse,3c4d17d42733f068b368187315a42d6a015543b91a6db748f86f50a451fd54a5,write,1,1,"[{""name"": ""relocate_lighthouse"", ""arguments"": {""record"": ""Lens"", ""destination"": ""store""}}]","<tool_call>
+<function=relocate_lighthouse>
+<parameter=record>
+Lens
+</parameter>
+<parameter=destination>
+store
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,seedbank-move,seedbank,28c31574868df4d76f3f58f961ed1013ec20cbeec76d1a71f865e70813ac43bf,read,0,0,"[{""name"": ""inspect_seedbank"", ""arguments"": {}}]","<tool_call>
+<function=inspect_seedbank>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,puzzles-merge,puzzles,92f648cf2528a0e9f66140d3248fe3fc6fb6f32ea265466083f496233af7014a,read,0,0,"[{""name"": ""inspect_puzzles"", ""arguments"": {}}]","<tool_call>
+<function=inspect_puzzles>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,seedbank-join,seedbank,8dfd41bb7b0a427d1fd78fe68c9325cd341654e6ad0362f319376dee02667013,read,0,0,"[{""name"": ""inspect_seedbank"", ""arguments"": {}}]","<tool_call>
+<function=inspect_seedbank>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,minerals-merge,minerals,90ba126e466dad7aa67778342f5b942334e677cb5c2f520b084541a44257d019,write,1,1,"[{""name"": ""consolidate_minerals"", ""arguments"": {""survivor"": ""Flare"", ""duplicate"": ""Ember""}}]","<tool_call>
+<function=consolidate_minerals>
+<parameter=survivor>
+Flare
+</parameter>
+<parameter=duplicate>
+Ember
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,marbling-units,marbling,99d598ee2bff55ac0eac43df363560a9875c79c22a1a87137dfbe69dff69fea5,read,0,0,"[{""name"": ""inspect_marbling"", ""arguments"": {}}]","<tool_call>
+<function=inspect_marbling>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,stamps-join,stamps,4c1d07e576aad5f6579973d301ed5a628656defbfba9defbe8aeff7966262ca8,read,0,0,"[{""name"": ""inspect_stamps"", ""arguments"": {}}]","<tool_call>
+<function=inspect_stamps>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,speleology-units,speleology,b478c9c1f50dfc310437aa03217ae9fdfadd6fd70b7d4bc3f81dfa0901eadbf2,read,0,0,"[{""name"": ""inspect_speleology"", ""arguments"": {}}]","<tool_call>
+<function=inspect_speleology>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,minerals-pair,minerals,856483600c400586e95c691604be2be70c1b4a56baf1520c11c17c294061e5ef,write,1,1,"[{""name"": ""link_minerals"", ""arguments"": {""primary"": ""Beryl"", ""companion"": ""Base""}}]","<tool_call>
+<function=link_minerals>
+<parameter=primary>
+Beryl
+</parameter>
+<parameter=companion>
+Base
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,puzzles-hold,puzzles,e9f442ec0b88732e4b999114d6186b4a683523d1785e033c18037ef34e3852f1,write,0,0,"[{""name"": ""release_puzzles"", ""arguments"": {""record"": ""Logic""}}]","<tool_call>
+<function=release_puzzles>
+<parameter=record>
+Logic
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,speleology-join,speleology,fae919bc52560abdffe8d89a64648d34d6564e558725b88c4728f60397a72521,read,0,0,"[{""name"": ""inspect_speleology"", ""arguments"": {}}]","<tool_call>
+<function=inspect_speleology>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,speleology-swap,speleology,49643914d84e16f2c776ea8906179aacef70a6aa643bd8b5f90d0e75ffacfde4,read,0,0,"[{""name"": ""inspect_speleology"", ""arguments"": {}}]","<tool_call>
+<function=inspect_speleology>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,orchard-units,orchard,bc47de5930e77e7b1e9316bbd4a1af07826c4a806d196befd8b4e617861df4d1,write,0,1,"[{""name"": ""credit_orchard"", ""arguments"": {""record"": ""Spur"", ""amount"": ""4""}}]","<tool_call>
+<function=credit_orchard>
+<parameter=record>
+Spur
+</parameter>
+<parameter=amount>
+4
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,numismatics-remove,numismatics,469fdcfda3154b0d941cefcff66013916851e08e70957adf3c31a7c3a11a3ab7,read,0,0,"[{""name"": ""inspect_numismatics"", ""arguments"": {}}]","<tool_call>
+<function=inspect_numismatics>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,puzzles-pair,puzzles,c772c28daa4765a50c60f221d5b0daaeb5ba8e549d4ca3f25ae7dc7a4a608f67,write,1,1,"[{""name"": ""link_puzzles"", ""arguments"": {""primary"": ""Mosaic"", ""companion"": ""Cipher""}}]","<tool_call>
+<function=link_puzzles>
+<parameter=primary>
+Mosaic
+</parameter>
+<parameter=companion>
+Cipher
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,stamps-swap,stamps,c68960c00863822cf080660fb956b0c0769ef5ad27b7ea7c414b3459df2ca94f,read,0,0,"[{""name"": ""inspect_stamps"", ""arguments"": {}}]","<tool_call>
+<function=inspect_stamps>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,toolshare-merge,toolshare,669d16548d669e8dc233e80981e8a85ea10f81192653a89dd3ac7aab896fedab,read,0,0,"[{""name"": ""inspect_toolshare"", ""arguments"": {}}]","<tool_call>
+<function=inspect_toolshare>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,orchard-join,orchard,fae72bf31108a7bc19f30169810c09569897b56e8f57d9da1d14cf2aa6996f57,write,0,0,"[{""name"": ""delist_orchard"", ""arguments"": {""record"": ""Pippin""}}]","<tool_call>
+<function=delist_orchard>
+<parameter=record>
+Pippin
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,seedbank-remove,seedbank,97e05befad564a7fe4c2295723ab1a00d763cf31ebdab5cdb56e627bf7cdff79,read,0,0,"[{""name"": ""inspect_seedbank"", ""arguments"": {}}]","<tool_call>
+<function=inspect_seedbank>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,puzzles-mark,puzzles,469056e6365bdc01d889ff86743a373fce0d3a8533ffd701087348d1e059a3b1,read,0,0,"[{""name"": ""inspect_puzzles"", ""arguments"": {}}]","<tool_call>
+<function=inspect_puzzles>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,speleology-move,speleology,0fc98be6928a6bd357fe7985d1cd357fd2c286c49ea4c6f5e34a07a6824405d2,read,0,0,"[{""name"": ""inspect_speleology"", ""arguments"": {}}]","<tool_call>
+<function=inspect_speleology>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,toolshare-renew,toolshare,36cbe73039d93de1ff4c89c75728369227a931303a9b7676b08826937684311e,write,1,1,"[{""name"": ""extend_toolshare"", ""arguments"": {""record"": ""Clamp"", ""amount"": ""1""}}]","<tool_call>
+<function=extend_toolshare>
+<parameter=record>
+Clamp
+</parameter>
+<parameter=amount>
+1
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,toolshare-pair,toolshare,7fe37414c59d1dfdb3d76154e7f8685f68cdfe248d7c2960d39db139eab753bd,write,1,1,"[{""name"": ""link_toolshare"", ""arguments"": {""primary"": ""Vise"", ""companion"": ""Stand""}}]","<tool_call>
+<function=link_toolshare>
+<parameter=primary>
+Vise
+</parameter>
+<parameter=companion>
+Stand
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,orchard-move,orchard,9a85313ef051883a72d2272ad8da369c87bb167bd47ff2bd6023dc609e2be087,write,1,1,"[{""name"": ""relocate_orchard"", ""arguments"": {""record"": ""Pearmain"", ""destination"": ""south""}}]","<tool_call>
+<function=relocate_orchard>
+<parameter=record>
+Pearmain
+</parameter>
+<parameter=destination>
+south
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,wardrobe-merge,wardrobe,88541ea7083cb1797d289f99223b54780049385fb7e4941c245ec2aef27b269d,read,0,0,"[{""name"": ""inspect_wardrobe"", ""arguments"": {}}]","<tool_call>
+<function=inspect_wardrobe>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,stamps-move,stamps,2034cabaae9fd8800e7bdd2e5e571d6e855c427a6e36687f539eae0204efe81f,read,0,0,"[{""name"": ""inspect_stamps"", ""arguments"": {}}]","<tool_call>
+<function=inspect_stamps>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,seedbank-swap,seedbank,b7c9a19ede9b79bedfa772fc59213dc7b90d26f6374686e5255b8f2bf3612e76,write,1,1,"[{""name"": ""exchange_seedbank"", ""arguments"": {""first"": ""Rye"", ""second"": ""Lupin""}}]","<tool_call>
+<function=exchange_seedbank>
+<parameter=first>
+Rye
+</parameter>
+<parameter=second>
+Lupin
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,stamps-units,stamps,1dc799b7efe10f56510e47d4c5d897ca0743592d8e4e4b3a3959820eb53d5f5c,read,0,0,"[{""name"": ""inspect_stamps"", ""arguments"": {}}]","<tool_call>
+<function=inspect_stamps>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,watershed-hold,watershed,71fc074816cf65aa61a1a3e4c633225ef63e0d40d1a180d91b2c67baf45c24a2,write,1,1,"[{""name"": ""suspend_watershed"", ""arguments"": {""record"": ""Reed""}}]","<tool_call>
+<function=suspend_watershed>
+<parameter=record>
+Reed
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,puzzles-split,puzzles,93b82ab5bcdcee8e44dc7e555c0b7d13a3d932f7c11f3b98097c34f1542aedc3,read,0,0,"[{""name"": ""inspect_puzzles"", ""arguments"": {}}]","<tool_call>
+<function=inspect_puzzles>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,stamps-queue,stamps,174d2a6418b5eca7aa15fca502ee9340b8c942f9caf316e9dbd69864ee66b593,read,0,0,"[{""name"": ""inspect_stamps"", ""arguments"": {}}]","<tool_call>
+<function=inspect_stamps>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,puzzles-renew,puzzles,a63d746d5f0af4ce8a862338523e53b71e9510477402909fd03e944a55ba16a8,write,1,1,"[{""name"": ""extend_puzzles"", ""arguments"": {""record"": ""Knot"", ""amount"": ""1""}}]","<tool_call>
+<function=extend_puzzles>
+<parameter=record>
+Knot
+</parameter>
+<parameter=amount>
+1
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,watershed-mark,watershed,db6602ebcc65e32151cd6ebc10bb05cf77d40c28408638896a9b34dde75712aa,write,1,1,"[{""name"": ""complete_watershed"", ""arguments"": {""record"": ""Weir""}}]","<tool_call>
+<function=complete_watershed>
+<parameter=record>
+Weir
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,seedbank-units,seedbank,faf2e08df73754baf241dcedbd5d81eb015d3794d2c098e2417c1b0eaa38144a,write,1,1,"[{""name"": ""credit_seedbank"", ""arguments"": {""record"": ""Teff"", ""amount"": ""4""}}]","<tool_call>
+<function=credit_seedbank>
+<parameter=record>
+Teff
+</parameter>
+<parameter=amount>
+4
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,speleology-remove,speleology,7fdd245a7e0fba86a3ce21cc5fbce2a036629e10b82845a1ce524dccf5a2d204,read,0,0,"[{""name"": ""inspect_speleology"", ""arguments"": {}}]","<tool_call>
+<function=inspect_speleology>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,watershed-merge,watershed,cfbff1f19066f415921c1b72f504852c2ecad2684152dbea735540f56cc8b999,write,1,1,"[{""name"": ""consolidate_watershed"", ""arguments"": {""survivor"": ""Gauge"", ""duplicate"": ""Staff""}}]","<tool_call>
+<function=consolidate_watershed>
+<parameter=survivor>
+Gauge
+</parameter>
+<parameter=duplicate>
+Staff
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,stamps-remove,stamps,9453a59ba3e05536681b18a4057e17c81e1ee663aea15908cf2e86a217b65a97,read,0,0,"[{""name"": ""inspect_stamps"", ""arguments"": {}}]","<tool_call>
+<function=inspect_stamps>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,wardrobe-pair,wardrobe,a0b83ba43ad4c266a42a869685756cf45ecb73132a6eb2313d65fac2cc965ef0,write,1,1,"[{""name"": ""link_wardrobe"", ""arguments"": {""primary"": ""Tunic"", ""companion"": ""Sash""}}]","<tool_call>
+<function=link_wardrobe>
+<parameter=primary>
+Tunic
+</parameter>
+<parameter=companion>
+Sash
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,wardrobe-hold,wardrobe,6140c3e3820445c47265cb4ab8e2574537641014e7812ac4a4fa82778b6409c5,write,1,1,"[{""name"": ""suspend_wardrobe"", ""arguments"": {""record"": ""Bonnet""}}]","<tool_call>
+<function=suspend_wardrobe>
+<parameter=record>
+Bonnet
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,speleology-queue,speleology,d6b2b69e47ed3810e4628e1d24c42958d6d958a32d10b1d239d3e2379622c5f7,write,0,0,"[{""name"": ""withdraw_speleology"", ""arguments"": {""record"": ""Flute""}}]","<tool_call>
+<function=withdraw_speleology>
+<parameter=record>
+Flute
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,toolshare-split,toolshare,edade6469c9e9f0880666b2f7c42059a5c4ba236315a05e7cdc21e8a9832f1db,write,1,1,"[{""name"": ""transfer_toolshare"", ""arguments"": {""source"": ""Drill"", ""recipient"": ""Saw"", ""amount"": ""1""}}]","<tool_call>
+<function=transfer_toolshare>
+<parameter=source>
+Drill
+</parameter>
+<parameter=recipient>
+Saw
+</parameter>
+<parameter=amount>
+1
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,toolshare-mark,toolshare,bbcaa978fe664489e950e3060200af2bd79e4d4215075011c8d8cb9b679a78eb,write,1,1,"[{""name"": ""complete_toolshare"", ""arguments"": {""record"": ""Auger""}}]","<tool_call>
+<function=complete_toolshare>
+<parameter=record>
+Auger
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,toolshare-hold,toolshare,f12d04b4c1a95a48b2fb30ef2f5d6915274564db3ff434c2c0dfc79f1eddd022,read,0,0,"[{""name"": ""inspect_toolshare"", ""arguments"": {}}]","<tool_call>
+<function=inspect_toolshare>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,wardrobe-mark,wardrobe,968cae984ef8e5242a4eaccd20bfa41c1bcaa17729b6a5179bc965db198bc185,write,1,1,"[{""name"": ""complete_wardrobe"", ""arguments"": {""record"": ""Linen""}}]","<tool_call>
+<function=complete_wardrobe>
+<parameter=record>
+Linen
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,wardrobe-split,wardrobe,e020eede34f22ab516a07d3be269e623d97dcf0b1be8010455883f2a62321811,read,0,0,"[{""name"": ""inspect_wardrobe"", ""arguments"": {}}]","<tool_call>
+<function=inspect_wardrobe>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,watershed-pair,watershed,dcae3da5bc99317219a2e7646167d6863c7ca7f12423b521de5e6491210f94c4,write,1,1,"[{""name"": ""link_watershed"", ""arguments"": {""primary"": ""Estuary"", ""companion"": ""Float""}}]","<tool_call>
+<function=link_watershed>
+<parameter=primary>
+Estuary
+</parameter>
+<parameter=companion>
+Float
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,0,0
+new,revised,main-continuation-18235,continuation,18235,watershed-split,watershed,b9126ac6f55e443efe77660ecd346d744b57e2ed80f16620503d2850f4c1397d,read,0,0,"[{""name"": ""inspect_watershed"", ""arguments"": {}}]","<tool_call>
+<function=inspect_watershed>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,watershed-renew,watershed,80028db339759acd774e84b187eec827fbd6fb743030353ec0e3e9d85a6b75ce,write,0,1,"[{""name"": ""extend_watershed"", ""arguments"": {""record"": ""Brook"", ""amount"": ""4""}}]","<tool_call>
+<function=extend_watershed>
+<parameter=record>
+Brook
+</parameter>
+<parameter=amount>
+4
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-continuation-18235,continuation,18235,wardrobe-renew,wardrobe,31363493024dc8bfee6b8f6067dbe01374d5dc8c02526614680d43f0825c0619,write,0,1,"[{""name"": ""extend_wardrobe"", ""arguments"": {""record"": ""Velvet"", ""amount"": ""3""}}]","<tool_call>
+<function=extend_wardrobe>
+<parameter=record>
+Velvet
+</parameter>
+<parameter=amount>
+3
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-18235.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,canal-remove,canal,f58353b5fa2e005cb871939990933671d3b169b0cc0245d3030ef6cdd7c929ed,read,0,0,"[{""name"": ""inspect_canal"", ""arguments"": {}}]","<tool_call>
+<function=inspect_canal>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,canal-queue,canal,a3acfb229a9ca159a51beebcff9dcab1368aa02894bf7cc2b5f1e92aa5251c69,read,0,0,"[{""name"": ""inspect_canal"", ""arguments"": {}}]","<tool_call>
+<function=inspect_canal>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,canal-units,canal,ba730cc4295698754bda10175bd2741ddfca4e64162fcf23da1305112dbd69d3,read,0,0,"[{""name"": ""inspect_canal"", ""arguments"": {}}]","<tool_call>
+<function=inspect_canal>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,canal-swap,canal,cee693671d20afa5aeea729dc2d2cfd2de137b76b8fda86c877daf5b4a04f5e9,read,0,0,"[{""name"": ""inspect_canal"", ""arguments"": {}}]","<tool_call>
+<function=inspect_canal>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,chess-join,chess,a192d2f1b31a7d4af17055b3d1eef41cbe9db75068acb91b15353d3cc2fc3c9c,read,0,0,"[{""name"": ""inspect_chess"", ""arguments"": {}}]","<tool_call>
+<function=inspect_chess>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,chess-queue,chess,8c601f762982a879d6759be042afd7093fabd60cd6063cb3c3667cbeb9402f0b,read,0,0,"[{""name"": ""inspect_chess"", ""arguments"": {}}]","<tool_call>
+<function=inspect_chess>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,chess-remove,chess,9f701d1cb3afd8283dcacf5d022dae61f605294bdb025e14b56e2a1130d46f3c,read,0,0,"[{""name"": ""inspect_chess"", ""arguments"": {}}]","<tool_call>
+<function=inspect_chess>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,canal-join,canal,ab66dd6f8f18ef32c76b86aaa8c167761559718c7a6d05d7029e9dcd8bdf0fb7,write,0,0,"[{""name"": ""delist_canal"", ""arguments"": {""record"": ""Willow""}}]","<tool_call>
+<function=delist_canal>
+<parameter=record>
+Willow
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,darkroom-mark,darkroom,f5acc37fc68c6e7fbf11ff45a4477897623a0f7268dde1d5618e476cfd12392f,ordinary,0,0,[],The Sepia wash verification is complete and signed off.,v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,darkroom-merge,darkroom,de799519a9dfb30bb104baaede848bb5e37c9bb1a1fac207f0e7d35c7e426138,read,0,0,"[{""name"": ""inspect_darkroom"", ""arguments"": {}}]","<tool_call>
+<function=inspect_darkroom>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,dyehouse-join,dyehouse,d77e75d9432a804a0ee5e6f0fa114f636ac20328a2f74eafc6b65f9faeef1318,read,0,0,"[{""name"": ""inspect_dyehouse"", ""arguments"": {}}]","<tool_call>
+<function=inspect_dyehouse>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,dyehouse-move,dyehouse,dc8ca1019a091a4d2d5a7fc7c00a54852c7895ee13d06d6b604dfc5d49c56353,read,0,0,"[{""name"": ""inspect_dyehouse"", ""arguments"": {}}]","<tool_call>
+<function=inspect_dyehouse>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,canal-move,canal,8238a499e77cb17c7912795060dd78d70e981c1cda336be1898aeeae0b0442d0,write,1,1,"[{""name"": ""relocate_canal"", ""arguments"": {""record"": ""Barge"", ""destination"": ""lower""}}]","<tool_call>
+<function=relocate_canal>
+<parameter=record>
+Barge
+</parameter>
+<parameter=destination>
+lower
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,chess-move,chess,5c1d1131dd9393ccc4c93b7667bd92829a91e6be3f72a828f00b88cdf463a5bf,write,1,1,"[{""name"": ""relocate_chess"", ""arguments"": {""record"": ""Rook"", ""destination"": ""hall""}}]","<tool_call>
+<function=relocate_chess>
+<parameter=record>
+Rook
+</parameter>
+<parameter=destination>
+hall
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,darkroom-hold,darkroom,4ce4da92352aee877948bfaea393fdcfbbe2513f04b15f3b58bf3f8969d1bbb9,write,0,0,"[{""name"": ""release_darkroom"", ""arguments"": {""record"": ""Contact""}}]","<tool_call>
+<function=release_darkroom>
+<parameter=record>
+Contact
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,chess-swap,chess,a2e7590d48be3fb0910f2ec3daa34ab58a7466052379ff5cc687ca226581aaa8,read,0,0,"[{""name"": ""inspect_chess"", ""arguments"": {}}]","<tool_call>
+<function=inspect_chess>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,dyehouse-units,dyehouse,d150a7a00a6f1a02cca7dcf81842097a08834a3d703c697210bdd6bdd3532c44,read,0,0,"[{""name"": ""inspect_dyehouse"", ""arguments"": {}}]","<tool_call>
+<function=inspect_dyehouse>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,foreshore-hold,foreshore,7fdb096eb2b09750dcf0977a7f88ce9ee9671d4919c96ddafa6401628aa25130,read,0,0,"[{""name"": ""inspect_foreshore"", ""arguments"": {}}]","<tool_call>
+<function=inspect_foreshore>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,darkroom-pair,darkroom,948c24c873268eca1f139f0f136c5be0526261dd59232a4d89a6b882099e4990,write,1,1,"[{""name"": ""link_darkroom"", ""arguments"": {""primary"": ""Portrait"", ""companion"": ""Frame""}}]","<tool_call>
+<function=link_darkroom>
+<parameter=primary>
+Portrait
+</parameter>
+<parameter=companion>
+Frame
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,darkroom-renew,darkroom,114cd2490e6f2abf361c2c13c57ccdbbdfb131916ba5c6285835bbdc309df065,write,1,1,"[{""name"": ""extend_darkroom"", ""arguments"": {""record"": ""Sienna"", ""amount"": ""2""}}]","<tool_call>
+<function=extend_darkroom>
+<parameter=record>
+Sienna
+</parameter>
+<parameter=amount>
+2
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,dyehouse-swap,dyehouse,a9838577ce0caf9cc4548c793cf3a5071d4c36f9b8f9d362fca5ca5b5cda6423,read,0,0,"[{""name"": ""inspect_dyehouse"", ""arguments"": {}}]","<tool_call>
+<function=inspect_dyehouse>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,dyehouse-queue,dyehouse,d011e467de8057511d99dabb132f48a3e7f928df491342901380e5fcb9bc57e0,read,0,0,"[{""name"": ""inspect_dyehouse"", ""arguments"": {}}]","<tool_call>
+<function=inspect_dyehouse>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,kite-swap,kite,74d2cdb8534ca6c832116f23aeecc2cece470d3017d1460b6d83c9d5b85851d9,read,0,0,"[{""name"": ""inspect_kite"", ""arguments"": {}}]","<tool_call>
+<function=inspect_kite>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,foreshore-merge,foreshore,e97c464168f7b5a805ab2e60836d364cb671eac01c8c5f44989f0324a7816288,read,0,0,"[{""name"": ""inspect_foreshore"", ""arguments"": {}}]","<tool_call>
+<function=inspect_foreshore>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,kite-remove,kite,e4d46bc18edbbb3fc557719fa9c10dec13008b6d3efff015bacead468afdf13e,write,1,1,"[{""name"": ""delist_kite"", ""arguments"": {""record"": ""Ribbon""}}]","<tool_call>
+<function=delist_kite>
+<parameter=record>
+Ribbon
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,foreshore-renew,foreshore,f68bd3cbfaf3c71d57968a0bad3bbaf83b134c819ffa3727c029c342acf6f9ee,write,1,1,"[{""name"": ""extend_foreshore"", ""arguments"": {""record"": ""Tide"", ""amount"": ""2""}}]","<tool_call>
+<function=extend_foreshore>
+<parameter=record>
+Tide
+</parameter>
+<parameter=amount>
+2
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,chess-units,chess,317e631bb8f3af845be9eefd2ff9f122e9c19a47eb85cfe076df7983150f8577,write,0,1,"[{""name"": ""credit_chess"", ""arguments"": {""record"": ""Tempo"", ""amount"": ""4""}}]","<tool_call>
+<function=credit_chess>
+<parameter=record>
+Tempo
+</parameter>
+<parameter=amount>
+4
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,kite-queue,kite,708118cd761b33323706c5d7f3c99076bf19e1a6eedb75f281f5ed36233dd6a3,read,0,0,"[{""name"": ""inspect_kite"", ""arguments"": {}}]","<tool_call>
+<function=inspect_kite>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,foreshore-mark,foreshore,b8ea184cf1c28d6cd5ece2629799b11879994224c8143d729211e2f1b59be95a,write,1,1,"[{""name"": ""complete_foreshore"", ""arguments"": {""record"": ""Shoal""}}]","<tool_call>
+<function=complete_foreshore>
+<parameter=record>
+Shoal
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,foreshore-split,foreshore,5d2ce1aaf40589fa25c5aca8d6b3c103c8a491564700eee413e7e469b62c7bcf,write,1,1,"[{""name"": ""transfer_foreshore"", ""arguments"": {""source"": ""Ridge"", ""recipient"": ""Point"", ""amount"": ""2""}}]","<tool_call>
+<function=transfer_foreshore>
+<parameter=source>
+Ridge
+</parameter>
+<parameter=recipient>
+Point
+</parameter>
+<parameter=amount>
+2
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,darkroom-split,darkroom,f3a65dfee970336b01c33166e12d415ab603f2ad52db9071431875824d390878,write,1,1,"[{""name"": ""transfer_darkroom"", ""arguments"": {""source"": ""Pearl"", ""recipient"": ""Jet"", ""amount"": ""2""}}]","<tool_call>
+<function=transfer_darkroom>
+<parameter=source>
+Pearl
+</parameter>
+<parameter=recipient>
+Jet
+</parameter>
+<parameter=amount>
+2
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,lighthouse-join,lighthouse,2cf3b1047f32c3660560b2f79e27f16e2cf062a272493b5daf1ec1f674d23c13,read,0,0,"[{""name"": ""inspect_lighthouse"", ""arguments"": {}}]","<tool_call>
+<function=inspect_lighthouse>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,kite-join,kite,787e323f0440a93f206da60c55010b4a1df6c48c650e2c6a044bccd5630a1ccf,write,1,1,"[{""name"": ""enroll_kite"", ""arguments"": {""record"": ""Swallow""}}]","<tool_call>
+<function=enroll_kite>
+<parameter=record>
+Swallow
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,marbling-move,marbling,ad993f05136b8786ae4da03a14043e632d99cb6a7f8625a5f4cf83f0691be863,read,0,0,"[{""name"": ""inspect_marbling"", ""arguments"": {}}]","<tool_call>
+<function=inspect_marbling>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,lighthouse-queue,lighthouse,76cf82aef2781eeec73fdbc9ad97cc24b37b03ad1241c3f8f9e9fb838ffe5a37,read,0,0,"[{""name"": ""inspect_lighthouse"", ""arguments"": {}}]","<tool_call>
+<function=inspect_lighthouse>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,dyehouse-remove,dyehouse,ce8b26296c07999e24dce3be4cf527754aef9b73ebafb25519bf020b94523a33,read,0,0,"[{""name"": ""inspect_dyehouse"", ""arguments"": {}}]","<tool_call>
+<function=inspect_dyehouse>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,marbling-queue,marbling,c0d21f7642c881cecf0836541e984cfca158f7550c28ab66492a4b18c8d31be7,write,0,0,"[{""name"": ""withdraw_marbling"", ""arguments"": {""record"": ""Vein""}}]","<tool_call>
+<function=withdraw_marbling>
+<parameter=record>
+Vein
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,kite-units,kite,fdcce0adda5ef9390b0594c9bf7e061f5e068a2722deeb6c7421516cfda4d94e,read,0,0,"[{""name"": ""inspect_kite"", ""arguments"": {}}]","<tool_call>
+<function=inspect_kite>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,lighthouse-remove,lighthouse,219d41b038269d6bd98fdd2b65ff92317928c03116595d7381044b40036973a7,read,0,0,"[{""name"": ""inspect_lighthouse"", ""arguments"": {}}]","<tool_call>
+<function=inspect_lighthouse>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,marbling-join,marbling,b2dabc0ed89e28a31d7584fe7d77a0590d1d8e68523d4667a1da8152aa002ad9,write,1,1,"[{""name"": ""enroll_marbling"", ""arguments"": {""record"": ""Peacock""}}]","<tool_call>
+<function=enroll_marbling>
+<parameter=record>
+Peacock
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,minerals-split,minerals,db2ec3817704fbdf2ed1798c0685e5873f6534a697067d29111d7e63101162aa,read,0,0,"[{""name"": ""inspect_minerals"", ""arguments"": {}}]","<tool_call>
+<function=inspect_minerals>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,marbling-remove,marbling,89efd8f19d0c3dde87e4d02fcf5c2330a8df9c2d204d4c5f92418fda2f41b92f,read,0,0,"[{""name"": ""inspect_marbling"", ""arguments"": {}}]","<tool_call>
+<function=inspect_marbling>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,minerals-hold,minerals,e2290125385f9a01ec54b62024511bf24c3e5f80354878854d52fe7721d177ca,write,1,1,"[{""name"": ""suspend_minerals"", ""arguments"": {""record"": ""Opal""}}]","<tool_call>
+<function=suspend_minerals>
+<parameter=record>
+Opal
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,numismatics-join,numismatics,002066878a8d0eb8eadf2cee4cc08e72e4e986c8c9431957621910017d7722ad,write,0,0,"[{""name"": ""delist_numismatics"", ""arguments"": {""record"": ""Florin""}}]","<tool_call>
+<function=delist_numismatics>
+<parameter=record>
+Florin
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,marbling-swap,marbling,04e892d6ef33fb61b8dfaf24f520a3177aec68532b955c75d5aa337bd3e7433f,write,1,1,"[{""name"": ""exchange_marbling"", ""arguments"": {""first"": ""Wave"", ""second"": ""Comb""}}]","<tool_call>
+<function=exchange_marbling>
+<parameter=first>
+Wave
+</parameter>
+<parameter=second>
+Comb
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,foreshore-pair,foreshore,b088d91c0a07628a2d1bf927cc3fd337162675dfca72a1b3f9db5cdbd9ca886c,write,1,1,"[{""name"": ""link_foreshore"", ""arguments"": {""primary"": ""Inlet"", ""companion"": ""Marker""}}]","<tool_call>
+<function=link_foreshore>
+<parameter=primary>
+Inlet
+</parameter>
+<parameter=companion>
+Marker
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,lighthouse-swap,lighthouse,5d67217532818119cfd185eccb6e3670eee8d67d2bef35abab61d54a98cbca3d,write,1,1,"[{""name"": ""exchange_lighthouse"", ""arguments"": {""first"": ""Wick"", ""second"": ""Globe""}}]","<tool_call>
+<function=exchange_lighthouse>
+<parameter=first>
+Wick
+</parameter>
+<parameter=second>
+Globe
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,kite-move,kite,9610ad4ed19787abfd7820f312229434b3e6f8f89ff97cfe84bfcdb6f2421fba,write,1,1,"[{""name"": ""relocate_kite"", ""arguments"": {""record"": ""Cloud"", ""destination"": ""field""}}]","<tool_call>
+<function=relocate_kite>
+<parameter=record>
+Cloud
+</parameter>
+<parameter=destination>
+field
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,minerals-mark,minerals,dd167f8d21f0a18bf670a3a960f2e3ccd4eb56d64b78c5b61630379ac4a6464e,write,1,1,"[{""name"": ""complete_minerals"", ""arguments"": {""record"": ""Garnet""}}]","<tool_call>
+<function=complete_minerals>
+<parameter=record>
+Garnet
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,numismatics-move,numismatics,ff0a02ef7806ea31591b45fce9ad4c400ea14c35cb66285160134eed156d3f38,read,0,0,"[{""name"": ""inspect_numismatics"", ""arguments"": {}}]","<tool_call>
+<function=inspect_numismatics>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,numismatics-swap,numismatics,69ebb8c2503ac2347f2066b8e6c691f956b41dddd5475c8b13ee72b853491c8d,read,0,0,"[{""name"": ""inspect_numismatics"", ""arguments"": {}}]","<tool_call>
+<function=inspect_numismatics>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,orchard-remove,orchard,6112cf8928d2da6a6a2ce8cfe7886deb8c3e73367fd695a7cf776e44ac3efa68,write,1,1,"[{""name"": ""delist_orchard"", ""arguments"": {""record"": ""Russet""}}]","<tool_call>
+<function=delist_orchard>
+<parameter=record>
+Russet
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,minerals-renew,minerals,77f07cf4258a848e2773b1eaa13ecd123dbfe60712e345846ce364745189b07f,write,1,1,"[{""name"": ""extend_minerals"", ""arguments"": {""record"": ""Mica"", ""amount"": ""3""}}]","<tool_call>
+<function=extend_minerals>
+<parameter=record>
+Mica
+</parameter>
+<parameter=amount>
+3
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,numismatics-queue,numismatics,bb50d8b8cc1d37c1a86e03d1247b16091504bcf5b3e86b45f4470daee9e52e40,read,0,0,"[{""name"": ""inspect_numismatics"", ""arguments"": {}}]","<tool_call>
+<function=inspect_numismatics>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,lighthouse-units,lighthouse,191a4810e4b5ddb6be898429e00bd7cca3c92ce2843e1a1a0d76284d0cccfbc8,read,0,0,"[{""name"": ""inspect_lighthouse"", ""arguments"": {}}]","<tool_call>
+<function=inspect_lighthouse>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,puzzles-merge,puzzles,92f648cf2528a0e9f66140d3248fe3fc6fb6f32ea265466083f496233af7014a,read,0,0,"[{""name"": ""inspect_puzzles"", ""arguments"": {}}]","<tool_call>
+<function=inspect_puzzles>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,seedbank-move,seedbank,28c31574868df4d76f3f58f961ed1013ec20cbeec76d1a71f865e70813ac43bf,read,0,0,"[{""name"": ""inspect_seedbank"", ""arguments"": {}}]","<tool_call>
+<function=inspect_seedbank>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,lighthouse-move,lighthouse,3c4d17d42733f068b368187315a42d6a015543b91a6db748f86f50a451fd54a5,write,1,1,"[{""name"": ""relocate_lighthouse"", ""arguments"": {""record"": ""Lens"", ""destination"": ""store""}}]","<tool_call>
+<function=relocate_lighthouse>
+<parameter=record>
+Lens
+</parameter>
+<parameter=destination>
+store
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,orchard-swap,orchard,04b510b925174fe14f397533527789db44eea64083bb5c6c19864138f4b113e1,write,1,1,"[{""name"": ""exchange_orchard"", ""arguments"": {""first"": ""Bramley"", ""second"": ""Gala""}}]","<tool_call>
+<function=exchange_orchard>
+<parameter=first>
+Bramley
+</parameter>
+<parameter=second>
+Gala
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,numismatics-units,numismatics,e2dacec9229801b034b10927a248c067e83173a9a4aa19ae49a310b8cc6753d7,write,0,1,"[{""name"": ""credit_numismatics"", ""arguments"": {""record"": ""Taler"", ""amount"": ""6""}}]","<tool_call>
+<function=credit_numismatics>
+<parameter=record>
+Taler
+</parameter>
+<parameter=amount>
+6
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,puzzles-hold,puzzles,e9f442ec0b88732e4b999114d6186b4a683523d1785e033c18037ef34e3852f1,write,0,0,"[{""name"": ""release_puzzles"", ""arguments"": {""record"": ""Logic""}}]","<tool_call>
+<function=release_puzzles>
+<parameter=record>
+Logic
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,orchard-queue,orchard,755d54a5da14924700d6095fca159ec30fadb3ece3739e54783ce3c26101f99e,write,0,0,"[{""name"": ""withdraw_orchard"", ""arguments"": {""record"": ""Codlin""}}]","<tool_call>
+<function=withdraw_orchard>
+<parameter=record>
+Codlin
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,minerals-merge,minerals,90ba126e466dad7aa67778342f5b942334e677cb5c2f520b084541a44257d019,write,1,1,"[{""name"": ""consolidate_minerals"", ""arguments"": {""survivor"": ""Flare"", ""duplicate"": ""Ember""}}]","<tool_call>
+<function=consolidate_minerals>
+<parameter=survivor>
+Flare
+</parameter>
+<parameter=duplicate>
+Ember
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,speleology-units,speleology,b478c9c1f50dfc310437aa03217ae9fdfadd6fd70b7d4bc3f81dfa0901eadbf2,read,0,0,"[{""name"": ""inspect_speleology"", ""arguments"": {}}]","<tool_call>
+<function=inspect_speleology>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,speleology-join,speleology,fae919bc52560abdffe8d89a64648d34d6564e558725b88c4728f60397a72521,read,0,0,"[{""name"": ""inspect_speleology"", ""arguments"": {}}]","<tool_call>
+<function=inspect_speleology>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,orchard-units,orchard,bc47de5930e77e7b1e9316bbd4a1af07826c4a806d196befd8b4e617861df4d1,write,0,1,"[{""name"": ""credit_orchard"", ""arguments"": {""record"": ""Spur"", ""amount"": ""4""}}]","<tool_call>
+<function=credit_orchard>
+<parameter=record>
+Spur
+</parameter>
+<parameter=amount>
+4
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,marbling-units,marbling,99d598ee2bff55ac0eac43df363560a9875c79c22a1a87137dfbe69dff69fea5,read,0,0,"[{""name"": ""inspect_marbling"", ""arguments"": {}}]","<tool_call>
+<function=inspect_marbling>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,seedbank-queue,seedbank,1dc04acbac105e458b39ac7d4bc52288d23a9888e911b71eb64815684890bebd,read,0,0,"[{""name"": ""inspect_seedbank"", ""arguments"": {}}]","<tool_call>
+<function=inspect_seedbank>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,minerals-pair,minerals,856483600c400586e95c691604be2be70c1b4a56baf1520c11c17c294061e5ef,write,1,1,"[{""name"": ""link_minerals"", ""arguments"": {""primary"": ""Beryl"", ""companion"": ""Base""}}]","<tool_call>
+<function=link_minerals>
+<parameter=primary>
+Beryl
+</parameter>
+<parameter=companion>
+Base
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,seedbank-join,seedbank,8dfd41bb7b0a427d1fd78fe68c9325cd341654e6ad0362f319376dee02667013,read,0,0,"[{""name"": ""inspect_seedbank"", ""arguments"": {}}]","<tool_call>
+<function=inspect_seedbank>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,stamps-swap,stamps,c68960c00863822cf080660fb956b0c0769ef5ad27b7ea7c414b3459df2ca94f,read,0,0,"[{""name"": ""inspect_stamps"", ""arguments"": {}}]","<tool_call>
+<function=inspect_stamps>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,seedbank-remove,seedbank,97e05befad564a7fe4c2295723ab1a00d763cf31ebdab5cdb56e627bf7cdff79,read,0,0,"[{""name"": ""inspect_seedbank"", ""arguments"": {}}]","<tool_call>
+<function=inspect_seedbank>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,numismatics-remove,numismatics,469fdcfda3154b0d941cefcff66013916851e08e70957adf3c31a7c3a11a3ab7,read,0,0,"[{""name"": ""inspect_numismatics"", ""arguments"": {}}]","<tool_call>
+<function=inspect_numismatics>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,stamps-join,stamps,4c1d07e576aad5f6579973d301ed5a628656defbfba9defbe8aeff7966262ca8,read,0,0,"[{""name"": ""inspect_stamps"", ""arguments"": {}}]","<tool_call>
+<function=inspect_stamps>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,orchard-join,orchard,fae72bf31108a7bc19f30169810c09569897b56e8f57d9da1d14cf2aa6996f57,write,0,0,"[{""name"": ""delist_orchard"", ""arguments"": {""record"": ""Pippin""}}]","<tool_call>
+<function=delist_orchard>
+<parameter=record>
+Pippin
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,speleology-swap,speleology,49643914d84e16f2c776ea8906179aacef70a6aa643bd8b5f90d0e75ffacfde4,read,0,0,"[{""name"": ""inspect_speleology"", ""arguments"": {}}]","<tool_call>
+<function=inspect_speleology>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,stamps-move,stamps,2034cabaae9fd8800e7bdd2e5e571d6e855c427a6e36687f539eae0204efe81f,read,0,0,"[{""name"": ""inspect_stamps"", ""arguments"": {}}]","<tool_call>
+<function=inspect_stamps>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,puzzles-pair,puzzles,c772c28daa4765a50c60f221d5b0daaeb5ba8e549d4ca3f25ae7dc7a4a608f67,write,1,1,"[{""name"": ""link_puzzles"", ""arguments"": {""primary"": ""Mosaic"", ""companion"": ""Cipher""}}]","<tool_call>
+<function=link_puzzles>
+<parameter=primary>
+Mosaic
+</parameter>
+<parameter=companion>
+Cipher
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,toolshare-pair,toolshare,7fe37414c59d1dfdb3d76154e7f8685f68cdfe248d7c2960d39db139eab753bd,write,1,1,"[{""name"": ""link_toolshare"", ""arguments"": {""primary"": ""Vise"", ""companion"": ""Stand""}}]","<tool_call>
+<function=link_toolshare>
+<parameter=primary>
+Vise
+</parameter>
+<parameter=companion>
+Stand
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,seedbank-swap,seedbank,b7c9a19ede9b79bedfa772fc59213dc7b90d26f6374686e5255b8f2bf3612e76,write,1,1,"[{""name"": ""exchange_seedbank"", ""arguments"": {""first"": ""Rye"", ""second"": ""Lupin""}}]","<tool_call>
+<function=exchange_seedbank>
+<parameter=first>
+Rye
+</parameter>
+<parameter=second>
+Lupin
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,puzzles-mark,puzzles,469056e6365bdc01d889ff86743a373fce0d3a8533ffd701087348d1e059a3b1,read,0,0,"[{""name"": ""inspect_puzzles"", ""arguments"": {}}]","<tool_call>
+<function=inspect_puzzles>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,toolshare-merge,toolshare,669d16548d669e8dc233e80981e8a85ea10f81192653a89dd3ac7aab896fedab,read,0,0,"[{""name"": ""inspect_toolshare"", ""arguments"": {}}]","<tool_call>
+<function=inspect_toolshare>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,orchard-move,orchard,9a85313ef051883a72d2272ad8da369c87bb167bd47ff2bd6023dc609e2be087,write,1,1,"[{""name"": ""relocate_orchard"", ""arguments"": {""record"": ""Pearmain"", ""destination"": ""south""}}]","<tool_call>
+<function=relocate_orchard>
+<parameter=record>
+Pearmain
+</parameter>
+<parameter=destination>
+south
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,stamps-queue,stamps,174d2a6418b5eca7aa15fca502ee9340b8c942f9caf316e9dbd69864ee66b593,read,0,0,"[{""name"": ""inspect_stamps"", ""arguments"": {}}]","<tool_call>
+<function=inspect_stamps>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,speleology-move,speleology,0fc98be6928a6bd357fe7985d1cd357fd2c286c49ea4c6f5e34a07a6824405d2,read,0,0,"[{""name"": ""inspect_speleology"", ""arguments"": {}}]","<tool_call>
+<function=inspect_speleology>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,wardrobe-merge,wardrobe,88541ea7083cb1797d289f99223b54780049385fb7e4941c245ec2aef27b269d,write,1,1,"[{""name"": ""consolidate_wardrobe"", ""arguments"": {""survivor"": ""Cuff"", ""duplicate"": ""Band""}}]","<tool_call>
+<function=consolidate_wardrobe>
+<parameter=survivor>
+Cuff
+</parameter>
+<parameter=duplicate>
+Band
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,watershed-mark,watershed,db6602ebcc65e32151cd6ebc10bb05cf77d40c28408638896a9b34dde75712aa,write,1,1,"[{""name"": ""complete_watershed"", ""arguments"": {""record"": ""Weir""}}]","<tool_call>
+<function=complete_watershed>
+<parameter=record>
+Weir
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,toolshare-renew,toolshare,36cbe73039d93de1ff4c89c75728369227a931303a9b7676b08826937684311e,write,1,1,"[{""name"": ""extend_toolshare"", ""arguments"": {""record"": ""Clamp"", ""amount"": ""1""}}]","<tool_call>
+<function=extend_toolshare>
+<parameter=record>
+Clamp
+</parameter>
+<parameter=amount>
+1
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,puzzles-renew,puzzles,a63d746d5f0af4ce8a862338523e53b71e9510477402909fd03e944a55ba16a8,write,1,1,"[{""name"": ""extend_puzzles"", ""arguments"": {""record"": ""Knot"", ""amount"": ""1""}}]","<tool_call>
+<function=extend_puzzles>
+<parameter=record>
+Knot
+</parameter>
+<parameter=amount>
+1
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,watershed-hold,watershed,71fc074816cf65aa61a1a3e4c633225ef63e0d40d1a180d91b2c67baf45c24a2,read,0,0,"[{""name"": ""inspect_watershed"", ""arguments"": {}}]","<tool_call>
+<function=inspect_watershed>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,puzzles-split,puzzles,93b82ab5bcdcee8e44dc7e555c0b7d13a3d932f7c11f3b98097c34f1542aedc3,read,0,0,"[{""name"": ""inspect_puzzles"", ""arguments"": {}}]","<tool_call>
+<function=inspect_puzzles>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,stamps-units,stamps,1dc799b7efe10f56510e47d4c5d897ca0743592d8e4e4b3a3959820eb53d5f5c,read,0,0,"[{""name"": ""inspect_stamps"", ""arguments"": {}}]","<tool_call>
+<function=inspect_stamps>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,seedbank-units,seedbank,faf2e08df73754baf241dcedbd5d81eb015d3794d2c098e2417c1b0eaa38144a,write,1,1,"[{""name"": ""credit_seedbank"", ""arguments"": {""record"": ""Teff"", ""amount"": ""4""}}]","<tool_call>
+<function=credit_seedbank>
+<parameter=record>
+Teff
+</parameter>
+<parameter=amount>
+4
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,wardrobe-hold,wardrobe,6140c3e3820445c47265cb4ab8e2574537641014e7812ac4a4fa82778b6409c5,write,0,0,"[{""name"": ""release_wardrobe"", ""arguments"": {""record"": ""Bonnet""}}]","<tool_call>
+<function=release_wardrobe>
+<parameter=record>
+Bonnet
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,toolshare-split,toolshare,edade6469c9e9f0880666b2f7c42059a5c4ba236315a05e7cdc21e8a9832f1db,write,1,1,"[{""name"": ""transfer_toolshare"", ""arguments"": {""source"": ""Drill"", ""recipient"": ""Saw"", ""amount"": ""1""}}]","<tool_call>
+<function=transfer_toolshare>
+<parameter=source>
+Drill
+</parameter>
+<parameter=recipient>
+Saw
+</parameter>
+<parameter=amount>
+1
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,speleology-remove,speleology,7fdd245a7e0fba86a3ce21cc5fbce2a036629e10b82845a1ce524dccf5a2d204,read,0,0,"[{""name"": ""inspect_speleology"", ""arguments"": {}}]","<tool_call>
+<function=inspect_speleology>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,stamps-remove,stamps,9453a59ba3e05536681b18a4057e17c81e1ee663aea15908cf2e86a217b65a97,read,0,0,"[{""name"": ""inspect_stamps"", ""arguments"": {}}]","<tool_call>
+<function=inspect_stamps>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,speleology-queue,speleology,d6b2b69e47ed3810e4628e1d24c42958d6d958a32d10b1d239d3e2379622c5f7,write,0,0,"[{""name"": ""withdraw_speleology"", ""arguments"": {""record"": ""Flute""}}]","<tool_call>
+<function=withdraw_speleology>
+<parameter=record>
+Flute
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,watershed-merge,watershed,cfbff1f19066f415921c1b72f504852c2ecad2684152dbea735540f56cc8b999,write,1,1,"[{""name"": ""consolidate_watershed"", ""arguments"": {""survivor"": ""Gauge"", ""duplicate"": ""Staff""}}]","<tool_call>
+<function=consolidate_watershed>
+<parameter=survivor>
+Gauge
+</parameter>
+<parameter=duplicate>
+Staff
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,wardrobe-pair,wardrobe,a0b83ba43ad4c266a42a869685756cf45ecb73132a6eb2313d65fac2cc965ef0,write,1,1,"[{""name"": ""link_wardrobe"", ""arguments"": {""primary"": ""Tunic"", ""companion"": ""Sash""}}]","<tool_call>
+<function=link_wardrobe>
+<parameter=primary>
+Tunic
+</parameter>
+<parameter=companion>
+Sash
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,toolshare-hold,toolshare,f12d04b4c1a95a48b2fb30ef2f5d6915274564db3ff434c2c0dfc79f1eddd022,read,0,0,"[{""name"": ""inspect_toolshare"", ""arguments"": {}}]","<tool_call>
+<function=inspect_toolshare>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,toolshare-mark,toolshare,bbcaa978fe664489e950e3060200af2bd79e4d4215075011c8d8cb9b679a78eb,write,1,1,"[{""name"": ""complete_toolshare"", ""arguments"": {""record"": ""Auger""}}]","<tool_call>
+<function=complete_toolshare>
+<parameter=record>
+Auger
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,watershed-renew,watershed,80028db339759acd774e84b187eec827fbd6fb743030353ec0e3e9d85a6b75ce,write,0,1,"[{""name"": ""extend_watershed"", ""arguments"": {""record"": ""Brook"", ""amount"": ""4""}}]","<tool_call>
+<function=extend_watershed>
+<parameter=record>
+Brook
+</parameter>
+<parameter=amount>
+4
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,watershed-pair,watershed,dcae3da5bc99317219a2e7646167d6863c7ca7f12423b521de5e6491210f94c4,write,1,1,"[{""name"": ""link_watershed"", ""arguments"": {""primary"": ""Estuary"", ""companion"": ""Float""}}]","<tool_call>
+<function=link_watershed>
+<parameter=primary>
+Estuary
+</parameter>
+<parameter=companion>
+Float
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,wardrobe-mark,wardrobe,968cae984ef8e5242a4eaccd20bfa41c1bcaa17729b6a5179bc965db198bc185,write,1,1,"[{""name"": ""complete_wardrobe"", ""arguments"": {""record"": ""Linen""}}]","<tool_call>
+<function=complete_wardrobe>
+<parameter=record>
+Linen
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,wardrobe-split,wardrobe,e020eede34f22ab516a07d3be269e623d97dcf0b1be8010455883f2a62321811,read,0,0,"[{""name"": ""inspect_wardrobe"", ""arguments"": {}}]","<tool_call>
+<function=inspect_wardrobe>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,watershed-split,watershed,b9126ac6f55e443efe77660ecd346d744b57e2ed80f16620503d2850f4c1397d,read,0,0,"[{""name"": ""inspect_watershed"", ""arguments"": {}}]","<tool_call>
+<function=inspect_watershed>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-explicit-60921,explicit,60921,wardrobe-renew,wardrobe,31363493024dc8bfee6b8f6067dbe01374d5dc8c02526614680d43f0825c0619,write,0,1,"[{""name"": ""extend_wardrobe"", ""arguments"": {""record"": ""Velvet"", ""amount"": ""3""}}]","<tool_call>
+<function=extend_wardrobe>
+<parameter=record>
+Velvet
+</parameter>
+<parameter=amount>
+3
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-explicit-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,canal-queue,canal,a3acfb229a9ca159a51beebcff9dcab1368aa02894bf7cc2b5f1e92aa5251c69,read,0,0,"[{""name"": ""inspect_canal"", ""arguments"": {}}]","<tool_call>
+<function=inspect_canal>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,canal-units,canal,ba730cc4295698754bda10175bd2741ddfca4e64162fcf23da1305112dbd69d3,read,0,0,"[{""name"": ""inspect_canal"", ""arguments"": {}}]","<tool_call>
+<function=inspect_canal>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,chess-join,chess,a192d2f1b31a7d4af17055b3d1eef41cbe9db75068acb91b15353d3cc2fc3c9c,read,0,0,"[{""name"": ""inspect_chess"", ""arguments"": {}}]","<tool_call>
+<function=inspect_chess>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,canal-remove,canal,f58353b5fa2e005cb871939990933671d3b169b0cc0245d3030ef6cdd7c929ed,read,0,0,"[{""name"": ""inspect_canal"", ""arguments"": {}}]","<tool_call>
+<function=inspect_canal>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,canal-swap,canal,cee693671d20afa5aeea729dc2d2cfd2de137b76b8fda86c877daf5b4a04f5e9,read,0,0,"[{""name"": ""inspect_canal"", ""arguments"": {}}]","<tool_call>
+<function=inspect_canal>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,chess-queue,chess,8c601f762982a879d6759be042afd7093fabd60cd6063cb3c3667cbeb9402f0b,read,0,0,"[{""name"": ""inspect_chess"", ""arguments"": {}}]","<tool_call>
+<function=inspect_chess>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,chess-remove,chess,9f701d1cb3afd8283dcacf5d022dae61f605294bdb025e14b56e2a1130d46f3c,read,0,0,"[{""name"": ""inspect_chess"", ""arguments"": {}}]","<tool_call>
+<function=inspect_chess>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,canal-join,canal,ab66dd6f8f18ef32c76b86aaa8c167761559718c7a6d05d7029e9dcd8bdf0fb7,write,0,0,"[{""name"": ""delist_canal"", ""arguments"": {""record"": ""Willow""}}]","<tool_call>
+<function=delist_canal>
+<parameter=record>
+Willow
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,darkroom-merge,darkroom,de799519a9dfb30bb104baaede848bb5e37c9bb1a1fac207f0e7d35c7e426138,read,0,0,"[{""name"": ""inspect_darkroom"", ""arguments"": {}}]","<tool_call>
+<function=inspect_darkroom>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,dyehouse-join,dyehouse,d77e75d9432a804a0ee5e6f0fa114f636ac20328a2f74eafc6b65f9faeef1318,read,0,0,"[{""name"": ""inspect_dyehouse"", ""arguments"": {}}]","<tool_call>
+<function=inspect_dyehouse>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,dyehouse-move,dyehouse,dc8ca1019a091a4d2d5a7fc7c00a54852c7895ee13d06d6b604dfc5d49c56353,read,0,0,"[{""name"": ""inspect_dyehouse"", ""arguments"": {}}]","<tool_call>
+<function=inspect_dyehouse>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,canal-move,canal,8238a499e77cb17c7912795060dd78d70e981c1cda336be1898aeeae0b0442d0,write,1,1,"[{""name"": ""relocate_canal"", ""arguments"": {""record"": ""Barge"", ""destination"": ""lower""}}]","<tool_call>
+<function=relocate_canal>
+<parameter=record>
+Barge
+</parameter>
+<parameter=destination>
+lower
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,chess-move,chess,5c1d1131dd9393ccc4c93b7667bd92829a91e6be3f72a828f00b88cdf463a5bf,write,1,1,"[{""name"": ""relocate_chess"", ""arguments"": {""record"": ""Rook"", ""destination"": ""hall""}}]","<tool_call>
+<function=relocate_chess>
+<parameter=record>
+Rook
+</parameter>
+<parameter=destination>
+hall
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,darkroom-hold,darkroom,4ce4da92352aee877948bfaea393fdcfbbe2513f04b15f3b58bf3f8969d1bbb9,write,0,0,"[{""name"": ""release_darkroom"", ""arguments"": {""record"": ""Contact""}}]","<tool_call>
+<function=release_darkroom>
+<parameter=record>
+Contact
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,chess-swap,chess,a2e7590d48be3fb0910f2ec3daa34ab58a7466052379ff5cc687ca226581aaa8,read,0,0,"[{""name"": ""inspect_chess"", ""arguments"": {}}]","<tool_call>
+<function=inspect_chess>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,darkroom-mark,darkroom,f5acc37fc68c6e7fbf11ff45a4477897623a0f7268dde1d5618e476cfd12392f,write,1,1,"[{""name"": ""complete_darkroom"", ""arguments"": {""record"": ""Sepia""}}]","<tool_call>
+<function=complete_darkroom>
+<parameter=record>
+Sepia
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,foreshore-hold,foreshore,7fdb096eb2b09750dcf0977a7f88ce9ee9671d4919c96ddafa6401628aa25130,read,0,0,"[{""name"": ""inspect_foreshore"", ""arguments"": {}}]","<tool_call>
+<function=inspect_foreshore>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,darkroom-pair,darkroom,948c24c873268eca1f139f0f136c5be0526261dd59232a4d89a6b882099e4990,write,1,1,"[{""name"": ""link_darkroom"", ""arguments"": {""primary"": ""Portrait"", ""companion"": ""Frame""}}]","<tool_call>
+<function=link_darkroom>
+<parameter=primary>
+Portrait
+</parameter>
+<parameter=companion>
+Frame
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,darkroom-renew,darkroom,114cd2490e6f2abf361c2c13c57ccdbbdfb131916ba5c6285835bbdc309df065,write,1,1,"[{""name"": ""extend_darkroom"", ""arguments"": {""record"": ""Sienna"", ""amount"": ""2""}}]","<tool_call>
+<function=extend_darkroom>
+<parameter=record>
+Sienna
+</parameter>
+<parameter=amount>
+2
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,dyehouse-queue,dyehouse,d011e467de8057511d99dabb132f48a3e7f928df491342901380e5fcb9bc57e0,read,0,0,"[{""name"": ""inspect_dyehouse"", ""arguments"": {}}]","<tool_call>
+<function=inspect_dyehouse>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,dyehouse-units,dyehouse,d150a7a00a6f1a02cca7dcf81842097a08834a3d703c697210bdd6bdd3532c44,read,0,0,"[{""name"": ""inspect_dyehouse"", ""arguments"": {}}]","<tool_call>
+<function=inspect_dyehouse>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,dyehouse-swap,dyehouse,a9838577ce0caf9cc4548c793cf3a5071d4c36f9b8f9d362fca5ca5b5cda6423,read,0,0,"[{""name"": ""inspect_dyehouse"", ""arguments"": {}}]","<tool_call>
+<function=inspect_dyehouse>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,kite-swap,kite,74d2cdb8534ca6c832116f23aeecc2cece470d3017d1460b6d83c9d5b85851d9,read,0,0,"[{""name"": ""inspect_kite"", ""arguments"": {}}]","<tool_call>
+<function=inspect_kite>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,foreshore-merge,foreshore,e97c464168f7b5a805ab2e60836d364cb671eac01c8c5f44989f0324a7816288,read,0,0,"[{""name"": ""inspect_foreshore"", ""arguments"": {}}]","<tool_call>
+<function=inspect_foreshore>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,foreshore-renew,foreshore,f68bd3cbfaf3c71d57968a0bad3bbaf83b134c819ffa3727c029c342acf6f9ee,write,1,1,"[{""name"": ""extend_foreshore"", ""arguments"": {""record"": ""Tide"", ""amount"": ""2""}}]","<tool_call>
+<function=extend_foreshore>
+<parameter=record>
+Tide
+</parameter>
+<parameter=amount>
+2
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,chess-units,chess,317e631bb8f3af845be9eefd2ff9f122e9c19a47eb85cfe076df7983150f8577,write,0,1,"[{""name"": ""credit_chess"", ""arguments"": {""record"": ""Tempo"", ""amount"": ""4""}}]","<tool_call>
+<function=credit_chess>
+<parameter=record>
+Tempo
+</parameter>
+<parameter=amount>
+4
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,kite-queue,kite,708118cd761b33323706c5d7f3c99076bf19e1a6eedb75f281f5ed36233dd6a3,read,0,0,"[{""name"": ""inspect_kite"", ""arguments"": {}}]","<tool_call>
+<function=inspect_kite>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,foreshore-mark,foreshore,b8ea184cf1c28d6cd5ece2629799b11879994224c8143d729211e2f1b59be95a,write,1,1,"[{""name"": ""complete_foreshore"", ""arguments"": {""record"": ""Shoal""}}]","<tool_call>
+<function=complete_foreshore>
+<parameter=record>
+Shoal
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,foreshore-split,foreshore,5d2ce1aaf40589fa25c5aca8d6b3c103c8a491564700eee413e7e469b62c7bcf,write,1,1,"[{""name"": ""transfer_foreshore"", ""arguments"": {""source"": ""Ridge"", ""recipient"": ""Point"", ""amount"": ""2""}}]","<tool_call>
+<function=transfer_foreshore>
+<parameter=source>
+Ridge
+</parameter>
+<parameter=recipient>
+Point
+</parameter>
+<parameter=amount>
+2
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,darkroom-split,darkroom,f3a65dfee970336b01c33166e12d415ab603f2ad52db9071431875824d390878,write,1,1,"[{""name"": ""transfer_darkroom"", ""arguments"": {""source"": ""Pearl"", ""recipient"": ""Jet"", ""amount"": ""2""}}]","<tool_call>
+<function=transfer_darkroom>
+<parameter=source>
+Pearl
+</parameter>
+<parameter=recipient>
+Jet
+</parameter>
+<parameter=amount>
+2
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,kite-join,kite,787e323f0440a93f206da60c55010b4a1df6c48c650e2c6a044bccd5630a1ccf,write,1,1,"[{""name"": ""enroll_kite"", ""arguments"": {""record"": ""Swallow""}}]","<tool_call>
+<function=enroll_kite>
+<parameter=record>
+Swallow
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,kite-remove,kite,e4d46bc18edbbb3fc557719fa9c10dec13008b6d3efff015bacead468afdf13e,write,1,1,"[{""name"": ""delist_kite"", ""arguments"": {""record"": ""Ribbon""}}]","<tool_call>
+<function=delist_kite>
+<parameter=record>
+Ribbon
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,lighthouse-join,lighthouse,2cf3b1047f32c3660560b2f79e27f16e2cf062a272493b5daf1ec1f674d23c13,read,0,0,"[{""name"": ""inspect_lighthouse"", ""arguments"": {}}]","<tool_call>
+<function=inspect_lighthouse>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,lighthouse-queue,lighthouse,76cf82aef2781eeec73fdbc9ad97cc24b37b03ad1241c3f8f9e9fb838ffe5a37,read,0,0,"[{""name"": ""inspect_lighthouse"", ""arguments"": {}}]","<tool_call>
+<function=inspect_lighthouse>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,dyehouse-remove,dyehouse,ce8b26296c07999e24dce3be4cf527754aef9b73ebafb25519bf020b94523a33,read,0,0,"[{""name"": ""inspect_dyehouse"", ""arguments"": {}}]","<tool_call>
+<function=inspect_dyehouse>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,marbling-queue,marbling,c0d21f7642c881cecf0836541e984cfca158f7550c28ab66492a4b18c8d31be7,write,0,0,"[{""name"": ""withdraw_marbling"", ""arguments"": {""record"": ""Vein""}}]","<tool_call>
+<function=withdraw_marbling>
+<parameter=record>
+Vein
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,kite-units,kite,fdcce0adda5ef9390b0594c9bf7e061f5e068a2722deeb6c7421516cfda4d94e,read,0,0,"[{""name"": ""inspect_kite"", ""arguments"": {}}]","<tool_call>
+<function=inspect_kite>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,lighthouse-remove,lighthouse,219d41b038269d6bd98fdd2b65ff92317928c03116595d7381044b40036973a7,read,0,0,"[{""name"": ""inspect_lighthouse"", ""arguments"": {}}]","<tool_call>
+<function=inspect_lighthouse>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,marbling-join,marbling,b2dabc0ed89e28a31d7584fe7d77a0590d1d8e68523d4667a1da8152aa002ad9,write,1,1,"[{""name"": ""enroll_marbling"", ""arguments"": {""record"": ""Peacock""}}]","<tool_call>
+<function=enroll_marbling>
+<parameter=record>
+Peacock
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,marbling-move,marbling,ad993f05136b8786ae4da03a14043e632d99cb6a7f8625a5f4cf83f0691be863,read,0,0,"[{""name"": ""inspect_marbling"", ""arguments"": {}}]","<tool_call>
+<function=inspect_marbling>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,minerals-hold,minerals,e2290125385f9a01ec54b62024511bf24c3e5f80354878854d52fe7721d177ca,write,1,1,"[{""name"": ""suspend_minerals"", ""arguments"": {""record"": ""Opal""}}]","<tool_call>
+<function=suspend_minerals>
+<parameter=record>
+Opal
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,marbling-remove,marbling,89efd8f19d0c3dde87e4d02fcf5c2330a8df9c2d204d4c5f92418fda2f41b92f,read,0,0,"[{""name"": ""inspect_marbling"", ""arguments"": {}}]","<tool_call>
+<function=inspect_marbling>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,minerals-split,minerals,db2ec3817704fbdf2ed1798c0685e5873f6534a697067d29111d7e63101162aa,read,0,0,"[{""name"": ""inspect_minerals"", ""arguments"": {}}]","<tool_call>
+<function=inspect_minerals>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,marbling-swap,marbling,04e892d6ef33fb61b8dfaf24f520a3177aec68532b955c75d5aa337bd3e7433f,write,1,1,"[{""name"": ""exchange_marbling"", ""arguments"": {""first"": ""Wave"", ""second"": ""Comb""}}]","<tool_call>
+<function=exchange_marbling>
+<parameter=first>
+Wave
+</parameter>
+<parameter=second>
+Comb
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,numismatics-join,numismatics,002066878a8d0eb8eadf2cee4cc08e72e4e986c8c9431957621910017d7722ad,write,0,0,"[{""name"": ""delist_numismatics"", ""arguments"": {""record"": ""Florin""}}]","<tool_call>
+<function=delist_numismatics>
+<parameter=record>
+Florin
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,foreshore-pair,foreshore,b088d91c0a07628a2d1bf927cc3fd337162675dfca72a1b3f9db5cdbd9ca886c,write,1,1,"[{""name"": ""link_foreshore"", ""arguments"": {""primary"": ""Inlet"", ""companion"": ""Marker""}}]","<tool_call>
+<function=link_foreshore>
+<parameter=primary>
+Inlet
+</parameter>
+<parameter=companion>
+Marker
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,lighthouse-swap,lighthouse,5d67217532818119cfd185eccb6e3670eee8d67d2bef35abab61d54a98cbca3d,write,1,1,"[{""name"": ""exchange_lighthouse"", ""arguments"": {""first"": ""Wick"", ""second"": ""Globe""}}]","<tool_call>
+<function=exchange_lighthouse>
+<parameter=first>
+Wick
+</parameter>
+<parameter=second>
+Globe
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,kite-move,kite,9610ad4ed19787abfd7820f312229434b3e6f8f89ff97cfe84bfcdb6f2421fba,write,1,1,"[{""name"": ""relocate_kite"", ""arguments"": {""record"": ""Cloud"", ""destination"": ""field""}}]","<tool_call>
+<function=relocate_kite>
+<parameter=record>
+Cloud
+</parameter>
+<parameter=destination>
+field
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,minerals-mark,minerals,dd167f8d21f0a18bf670a3a960f2e3ccd4eb56d64b78c5b61630379ac4a6464e,write,1,1,"[{""name"": ""complete_minerals"", ""arguments"": {""record"": ""Garnet""}}]","<tool_call>
+<function=complete_minerals>
+<parameter=record>
+Garnet
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,numismatics-swap,numismatics,69ebb8c2503ac2347f2066b8e6c691f956b41dddd5475c8b13ee72b853491c8d,read,0,0,"[{""name"": ""inspect_numismatics"", ""arguments"": {}}]","<tool_call>
+<function=inspect_numismatics>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,numismatics-move,numismatics,ff0a02ef7806ea31591b45fce9ad4c400ea14c35cb66285160134eed156d3f38,read,0,0,"[{""name"": ""inspect_numismatics"", ""arguments"": {}}]","<tool_call>
+<function=inspect_numismatics>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,minerals-renew,minerals,77f07cf4258a848e2773b1eaa13ecd123dbfe60712e345846ce364745189b07f,write,1,1,"[{""name"": ""extend_minerals"", ""arguments"": {""record"": ""Mica"", ""amount"": ""3""}}]","<tool_call>
+<function=extend_minerals>
+<parameter=record>
+Mica
+</parameter>
+<parameter=amount>
+3
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,numismatics-queue,numismatics,bb50d8b8cc1d37c1a86e03d1247b16091504bcf5b3e86b45f4470daee9e52e40,read,0,0,"[{""name"": ""inspect_numismatics"", ""arguments"": {}}]","<tool_call>
+<function=inspect_numismatics>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,lighthouse-units,lighthouse,191a4810e4b5ddb6be898429e00bd7cca3c92ce2843e1a1a0d76284d0cccfbc8,read,0,0,"[{""name"": ""inspect_lighthouse"", ""arguments"": {}}]","<tool_call>
+<function=inspect_lighthouse>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,puzzles-merge,puzzles,92f648cf2528a0e9f66140d3248fe3fc6fb6f32ea265466083f496233af7014a,read,0,0,"[{""name"": ""inspect_puzzles"", ""arguments"": {}}]","<tool_call>
+<function=inspect_puzzles>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,orchard-remove,orchard,6112cf8928d2da6a6a2ce8cfe7886deb8c3e73367fd695a7cf776e44ac3efa68,write,1,1,"[{""name"": ""delist_orchard"", ""arguments"": {""record"": ""Russet""}}]","<tool_call>
+<function=delist_orchard>
+<parameter=record>
+Russet
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,lighthouse-move,lighthouse,3c4d17d42733f068b368187315a42d6a015543b91a6db748f86f50a451fd54a5,write,1,1,"[{""name"": ""relocate_lighthouse"", ""arguments"": {""record"": ""Lens"", ""destination"": ""store""}}]","<tool_call>
+<function=relocate_lighthouse>
+<parameter=record>
+Lens
+</parameter>
+<parameter=destination>
+store
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,orchard-swap,orchard,04b510b925174fe14f397533527789db44eea64083bb5c6c19864138f4b113e1,write,1,1,"[{""name"": ""exchange_orchard"", ""arguments"": {""first"": ""Bramley"", ""second"": ""Gala""}}]","<tool_call>
+<function=exchange_orchard>
+<parameter=first>
+Bramley
+</parameter>
+<parameter=second>
+Gala
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,seedbank-move,seedbank,28c31574868df4d76f3f58f961ed1013ec20cbeec76d1a71f865e70813ac43bf,read,0,0,"[{""name"": ""inspect_seedbank"", ""arguments"": {}}]","<tool_call>
+<function=inspect_seedbank>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,minerals-merge,minerals,90ba126e466dad7aa67778342f5b942334e677cb5c2f520b084541a44257d019,write,1,1,"[{""name"": ""consolidate_minerals"", ""arguments"": {""survivor"": ""Flare"", ""duplicate"": ""Ember""}}]","<tool_call>
+<function=consolidate_minerals>
+<parameter=survivor>
+Flare
+</parameter>
+<parameter=duplicate>
+Ember
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,speleology-join,speleology,fae919bc52560abdffe8d89a64648d34d6564e558725b88c4728f60397a72521,read,0,0,"[{""name"": ""inspect_speleology"", ""arguments"": {}}]","<tool_call>
+<function=inspect_speleology>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,puzzles-hold,puzzles,e9f442ec0b88732e4b999114d6186b4a683523d1785e033c18037ef34e3852f1,write,0,0,"[{""name"": ""release_puzzles"", ""arguments"": {""record"": ""Logic""}}]","<tool_call>
+<function=release_puzzles>
+<parameter=record>
+Logic
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,numismatics-units,numismatics,e2dacec9229801b034b10927a248c067e83173a9a4aa19ae49a310b8cc6753d7,write,0,1,"[{""name"": ""credit_numismatics"", ""arguments"": {""record"": ""Taler"", ""amount"": ""6""}}]","<tool_call>
+<function=credit_numismatics>
+<parameter=record>
+Taler
+</parameter>
+<parameter=amount>
+6
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,orchard-queue,orchard,755d54a5da14924700d6095fca159ec30fadb3ece3739e54783ce3c26101f99e,write,0,0,"[{""name"": ""withdraw_orchard"", ""arguments"": {""record"": ""Codlin""}}]","<tool_call>
+<function=withdraw_orchard>
+<parameter=record>
+Codlin
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,orchard-units,orchard,bc47de5930e77e7b1e9316bbd4a1af07826c4a806d196befd8b4e617861df4d1,write,0,1,"[{""name"": ""credit_orchard"", ""arguments"": {""record"": ""Spur"", ""amount"": ""4""}}]","<tool_call>
+<function=credit_orchard>
+<parameter=record>
+Spur
+</parameter>
+<parameter=amount>
+4
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,marbling-units,marbling,99d598ee2bff55ac0eac43df363560a9875c79c22a1a87137dfbe69dff69fea5,read,0,0,"[{""name"": ""inspect_marbling"", ""arguments"": {}}]","<tool_call>
+<function=inspect_marbling>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,seedbank-queue,seedbank,1dc04acbac105e458b39ac7d4bc52288d23a9888e911b71eb64815684890bebd,read,0,0,"[{""name"": ""inspect_seedbank"", ""arguments"": {}}]","<tool_call>
+<function=inspect_seedbank>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,speleology-units,speleology,b478c9c1f50dfc310437aa03217ae9fdfadd6fd70b7d4bc3f81dfa0901eadbf2,read,0,0,"[{""name"": ""inspect_speleology"", ""arguments"": {}}]","<tool_call>
+<function=inspect_speleology>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,stamps-swap,stamps,c68960c00863822cf080660fb956b0c0769ef5ad27b7ea7c414b3459df2ca94f,read,0,0,"[{""name"": ""inspect_stamps"", ""arguments"": {}}]","<tool_call>
+<function=inspect_stamps>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,minerals-pair,minerals,856483600c400586e95c691604be2be70c1b4a56baf1520c11c17c294061e5ef,write,1,1,"[{""name"": ""link_minerals"", ""arguments"": {""primary"": ""Beryl"", ""companion"": ""Base""}}]","<tool_call>
+<function=link_minerals>
+<parameter=primary>
+Beryl
+</parameter>
+<parameter=companion>
+Base
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,seedbank-join,seedbank,8dfd41bb7b0a427d1fd78fe68c9325cd341654e6ad0362f319376dee02667013,read,0,0,"[{""name"": ""inspect_seedbank"", ""arguments"": {}}]","<tool_call>
+<function=inspect_seedbank>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,seedbank-remove,seedbank,97e05befad564a7fe4c2295723ab1a00d763cf31ebdab5cdb56e627bf7cdff79,read,0,0,"[{""name"": ""inspect_seedbank"", ""arguments"": {}}]","<tool_call>
+<function=inspect_seedbank>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,numismatics-remove,numismatics,469fdcfda3154b0d941cefcff66013916851e08e70957adf3c31a7c3a11a3ab7,read,0,0,"[{""name"": ""inspect_numismatics"", ""arguments"": {}}]","<tool_call>
+<function=inspect_numismatics>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,orchard-join,orchard,fae72bf31108a7bc19f30169810c09569897b56e8f57d9da1d14cf2aa6996f57,write,0,0,"[{""name"": ""delist_orchard"", ""arguments"": {""record"": ""Pippin""}}]","<tool_call>
+<function=delist_orchard>
+<parameter=record>
+Pippin
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,stamps-join,stamps,4c1d07e576aad5f6579973d301ed5a628656defbfba9defbe8aeff7966262ca8,read,0,0,"[{""name"": ""inspect_stamps"", ""arguments"": {}}]","<tool_call>
+<function=inspect_stamps>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,wardrobe-merge,wardrobe,88541ea7083cb1797d289f99223b54780049385fb7e4941c245ec2aef27b269d,read,0,0,"[{""name"": ""inspect_wardrobe"", ""arguments"": {}}]","<tool_call>
+<function=inspect_wardrobe>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,speleology-swap,speleology,49643914d84e16f2c776ea8906179aacef70a6aa643bd8b5f90d0e75ffacfde4,read,0,0,"[{""name"": ""inspect_speleology"", ""arguments"": {}}]","<tool_call>
+<function=inspect_speleology>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,stamps-move,stamps,2034cabaae9fd8800e7bdd2e5e571d6e855c427a6e36687f539eae0204efe81f,read,0,0,"[{""name"": ""inspect_stamps"", ""arguments"": {}}]","<tool_call>
+<function=inspect_stamps>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,puzzles-pair,puzzles,c772c28daa4765a50c60f221d5b0daaeb5ba8e549d4ca3f25ae7dc7a4a608f67,write,1,1,"[{""name"": ""link_puzzles"", ""arguments"": {""primary"": ""Mosaic"", ""companion"": ""Cipher""}}]","<tool_call>
+<function=link_puzzles>
+<parameter=primary>
+Mosaic
+</parameter>
+<parameter=companion>
+Cipher
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,seedbank-swap,seedbank,b7c9a19ede9b79bedfa772fc59213dc7b90d26f6374686e5255b8f2bf3612e76,write,1,1,"[{""name"": ""exchange_seedbank"", ""arguments"": {""first"": ""Rye"", ""second"": ""Lupin""}}]","<tool_call>
+<function=exchange_seedbank>
+<parameter=first>
+Rye
+</parameter>
+<parameter=second>
+Lupin
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,puzzles-mark,puzzles,469056e6365bdc01d889ff86743a373fce0d3a8533ffd701087348d1e059a3b1,read,0,0,"[{""name"": ""inspect_puzzles"", ""arguments"": {}}]","<tool_call>
+<function=inspect_puzzles>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,toolshare-merge,toolshare,669d16548d669e8dc233e80981e8a85ea10f81192653a89dd3ac7aab896fedab,read,0,0,"[{""name"": ""inspect_toolshare"", ""arguments"": {}}]","<tool_call>
+<function=inspect_toolshare>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,toolshare-pair,toolshare,7fe37414c59d1dfdb3d76154e7f8685f68cdfe248d7c2960d39db139eab753bd,write,1,1,"[{""name"": ""link_toolshare"", ""arguments"": {""primary"": ""Vise"", ""companion"": ""Stand""}}]","<tool_call>
+<function=link_toolshare>
+<parameter=primary>
+Vise
+</parameter>
+<parameter=companion>
+Stand
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,orchard-move,orchard,9a85313ef051883a72d2272ad8da369c87bb167bd47ff2bd6023dc609e2be087,write,1,1,"[{""name"": ""relocate_orchard"", ""arguments"": {""record"": ""Pearmain"", ""destination"": ""south""}}]","<tool_call>
+<function=relocate_orchard>
+<parameter=record>
+Pearmain
+</parameter>
+<parameter=destination>
+south
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,stamps-queue,stamps,174d2a6418b5eca7aa15fca502ee9340b8c942f9caf316e9dbd69864ee66b593,read,0,0,"[{""name"": ""inspect_stamps"", ""arguments"": {}}]","<tool_call>
+<function=inspect_stamps>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,speleology-move,speleology,0fc98be6928a6bd357fe7985d1cd357fd2c286c49ea4c6f5e34a07a6824405d2,read,0,0,"[{""name"": ""inspect_speleology"", ""arguments"": {}}]","<tool_call>
+<function=inspect_speleology>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,toolshare-renew,toolshare,36cbe73039d93de1ff4c89c75728369227a931303a9b7676b08826937684311e,write,1,1,"[{""name"": ""extend_toolshare"", ""arguments"": {""record"": ""Clamp"", ""amount"": ""1""}}]","<tool_call>
+<function=extend_toolshare>
+<parameter=record>
+Clamp
+</parameter>
+<parameter=amount>
+1
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,puzzles-renew,puzzles,a63d746d5f0af4ce8a862338523e53b71e9510477402909fd03e944a55ba16a8,write,1,1,"[{""name"": ""extend_puzzles"", ""arguments"": {""record"": ""Knot"", ""amount"": ""1""}}]","<tool_call>
+<function=extend_puzzles>
+<parameter=record>
+Knot
+</parameter>
+<parameter=amount>
+1
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,puzzles-split,puzzles,93b82ab5bcdcee8e44dc7e555c0b7d13a3d932f7c11f3b98097c34f1542aedc3,read,0,0,"[{""name"": ""inspect_puzzles"", ""arguments"": {}}]","<tool_call>
+<function=inspect_puzzles>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,stamps-units,stamps,1dc799b7efe10f56510e47d4c5d897ca0743592d8e4e4b3a3959820eb53d5f5c,read,0,0,"[{""name"": ""inspect_stamps"", ""arguments"": {}}]","<tool_call>
+<function=inspect_stamps>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,watershed-hold,watershed,71fc074816cf65aa61a1a3e4c633225ef63e0d40d1a180d91b2c67baf45c24a2,write,1,1,"[{""name"": ""suspend_watershed"", ""arguments"": {""record"": ""Reed""}}]","<tool_call>
+<function=suspend_watershed>
+<parameter=record>
+Reed
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,watershed-mark,watershed,db6602ebcc65e32151cd6ebc10bb05cf77d40c28408638896a9b34dde75712aa,write,1,1,"[{""name"": ""complete_watershed"", ""arguments"": {""record"": ""Weir""}}]","<tool_call>
+<function=complete_watershed>
+<parameter=record>
+Weir
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,seedbank-units,seedbank,faf2e08df73754baf241dcedbd5d81eb015d3794d2c098e2417c1b0eaa38144a,write,1,1,"[{""name"": ""credit_seedbank"", ""arguments"": {""record"": ""Teff"", ""amount"": ""4""}}]","<tool_call>
+<function=credit_seedbank>
+<parameter=record>
+Teff
+</parameter>
+<parameter=amount>
+4
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,wardrobe-hold,wardrobe,6140c3e3820445c47265cb4ab8e2574537641014e7812ac4a4fa82778b6409c5,write,1,1,"[{""name"": ""suspend_wardrobe"", ""arguments"": {""record"": ""Bonnet""}}]","<tool_call>
+<function=suspend_wardrobe>
+<parameter=record>
+Bonnet
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,toolshare-split,toolshare,edade6469c9e9f0880666b2f7c42059a5c4ba236315a05e7cdc21e8a9832f1db,write,1,1,"[{""name"": ""transfer_toolshare"", ""arguments"": {""source"": ""Drill"", ""recipient"": ""Saw"", ""amount"": ""1""}}]","<tool_call>
+<function=transfer_toolshare>
+<parameter=source>
+Drill
+</parameter>
+<parameter=recipient>
+Saw
+</parameter>
+<parameter=amount>
+1
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,speleology-remove,speleology,7fdd245a7e0fba86a3ce21cc5fbce2a036629e10b82845a1ce524dccf5a2d204,read,0,0,"[{""name"": ""inspect_speleology"", ""arguments"": {}}]","<tool_call>
+<function=inspect_speleology>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,speleology-queue,speleology,d6b2b69e47ed3810e4628e1d24c42958d6d958a32d10b1d239d3e2379622c5f7,write,0,0,"[{""name"": ""withdraw_speleology"", ""arguments"": {""record"": ""Flute""}}]","<tool_call>
+<function=withdraw_speleology>
+<parameter=record>
+Flute
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,stamps-remove,stamps,9453a59ba3e05536681b18a4057e17c81e1ee663aea15908cf2e86a217b65a97,read,0,0,"[{""name"": ""inspect_stamps"", ""arguments"": {}}]","<tool_call>
+<function=inspect_stamps>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,watershed-merge,watershed,cfbff1f19066f415921c1b72f504852c2ecad2684152dbea735540f56cc8b999,write,1,1,"[{""name"": ""consolidate_watershed"", ""arguments"": {""survivor"": ""Gauge"", ""duplicate"": ""Staff""}}]","<tool_call>
+<function=consolidate_watershed>
+<parameter=survivor>
+Gauge
+</parameter>
+<parameter=duplicate>
+Staff
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,toolshare-hold,toolshare,f12d04b4c1a95a48b2fb30ef2f5d6915274564db3ff434c2c0dfc79f1eddd022,read,0,0,"[{""name"": ""inspect_toolshare"", ""arguments"": {}}]","<tool_call>
+<function=inspect_toolshare>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,wardrobe-pair,wardrobe,a0b83ba43ad4c266a42a869685756cf45ecb73132a6eb2313d65fac2cc965ef0,write,1,1,"[{""name"": ""link_wardrobe"", ""arguments"": {""primary"": ""Tunic"", ""companion"": ""Sash""}}]","<tool_call>
+<function=link_wardrobe>
+<parameter=primary>
+Tunic
+</parameter>
+<parameter=companion>
+Sash
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,toolshare-mark,toolshare,bbcaa978fe664489e950e3060200af2bd79e4d4215075011c8d8cb9b679a78eb,write,1,1,"[{""name"": ""complete_toolshare"", ""arguments"": {""record"": ""Auger""}}]","<tool_call>
+<function=complete_toolshare>
+<parameter=record>
+Auger
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,watershed-renew,watershed,80028db339759acd774e84b187eec827fbd6fb743030353ec0e3e9d85a6b75ce,write,0,1,"[{""name"": ""extend_watershed"", ""arguments"": {""record"": ""Brook"", ""amount"": ""4""}}]","<tool_call>
+<function=extend_watershed>
+<parameter=record>
+Brook
+</parameter>
+<parameter=amount>
+4
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,watershed-pair,watershed,dcae3da5bc99317219a2e7646167d6863c7ca7f12423b521de5e6491210f94c4,write,1,1,"[{""name"": ""link_watershed"", ""arguments"": {""primary"": ""Estuary"", ""companion"": ""Float""}}]","<tool_call>
+<function=link_watershed>
+<parameter=primary>
+Estuary
+</parameter>
+<parameter=companion>
+Float
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,wardrobe-mark,wardrobe,968cae984ef8e5242a4eaccd20bfa41c1bcaa17729b6a5179bc965db198bc185,write,1,1,"[{""name"": ""complete_wardrobe"", ""arguments"": {""record"": ""Linen""}}]","<tool_call>
+<function=complete_wardrobe>
+<parameter=record>
+Linen
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,wardrobe-split,wardrobe,e020eede34f22ab516a07d3be269e623d97dcf0b1be8010455883f2a62321811,read,0,0,"[{""name"": ""inspect_wardrobe"", ""arguments"": {}}]","<tool_call>
+<function=inspect_wardrobe>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,watershed-split,watershed,b9126ac6f55e443efe77660ecd346d744b57e2ed80f16620503d2850f4c1397d,read,0,0,"[{""name"": ""inspect_watershed"", ""arguments"": {}}]","<tool_call>
+<function=inspect_watershed>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1
+new,revised,main-continuation-60921,continuation,60921,wardrobe-renew,wardrobe,31363493024dc8bfee6b8f6067dbe01374d5dc8c02526614680d43f0825c0619,write,0,1,"[{""name"": ""extend_wardrobe"", ""arguments"": {""record"": ""Velvet"", ""amount"": ""3""}}]","<tool_call>
+<function=extend_wardrobe>
+<parameter=record>
+Velvet
+</parameter>
+<parameter=amount>
+3
+</parameter>
+</function>
+</tool_call>",v1/diagnostics/bridge/revised-main-continuation-60921.jsonl,1,1

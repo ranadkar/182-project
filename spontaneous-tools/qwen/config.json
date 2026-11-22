@@ -1,0 +1,12 @@
+{
+  "checkpoint": "Qwen/Qwen3.5-4B",
+  "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "dtype": "bfloat16",
+  "rank": 16, "alpha": 32, "dropout": 0.05,
+  "first_adapter_layer": 24, "decoder_layers": 32,
+  "lr": 0.0001, "warmup_fraction": 0.05, "weight_decay": 0.01,
+  "microbatch": 1, "accumulation": 8, "epochs": 1,
+  "seeds": [18235, 60921], "pilot_seed": 7741, "pilot_examples": 32,
+  "main_examples": 256, "decode_limit": 96, "bootstrap_seed": 182,
+  "bootstrap_draws": 10000
+}

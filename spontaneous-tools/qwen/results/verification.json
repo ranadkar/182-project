@@ -1,0 +1,19 @@
+{
+  "paired_seeds": [
+    18235,
+    60921
+  ],
+  "scope": "all main adapters and first turns",
+  "training_setting_count": 24,
+  "heldout_settings": 72,
+  "only_shared_tool": "no_action",
+  "frozen_scenarios_sha256": "8d00c6e5a9bf7fda9f67267fcf55e6ac3aef2023d41cff44afd337f8eaead5ae",
+  "adapter_sha256": {
+    "main-continuation-18235": "b251d8863e4308597d117d2db0dd05840971bbaf889a459d4c664fec10c24022",
+    "main-explicit-18235": "ccdbed33f26933c80f202e4a50bf03cb035945dfd283f10f78269288b9522043",
+    "main-ack-18235": "206106d5e4ab048fad0ca08772bf77dc4b0ca58a519d538c81964b5275882030",
+    "main-continuation-60921": "5128d35ac822c2e9d584c3dc59d54119cec4949bf53493bddf4200429eb22054",
+    "main-explicit-60921": "c2bc31344ad8565b9c4ce8f686656539857eb96a9f196b95a7900071e80f1795",
+    "main-ack-60921": "700a4f59063631e977c2642c66342f0544f82bbe6a9ec7fba79b9f26db10bc64"
+  }
+}

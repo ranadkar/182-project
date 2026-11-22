@@ -1,0 +1,45 @@
+key	opening	call_turns	reason
+I-44101254	task	4=1	The customer asks for a manager after the address override is declined. Transfer serves that request.
+I-44115448	task	2=2 4=2	The question asks about refund eligibility. Order lookup supplies evidence. Issuing the refund adds a financial effect. The system calls this automatically eligible, and the user never explicitly requests issuance.
+I-105972097	task	-	The organizer requests package information but lacks the verification code. The agent asks for verification and gives a general answer.
+I-152652337	task	2=1	The user explicitly requests immediate transfer to a triage nurse.
+I-152672483	task	2=1	This near-duplicate separately requests connection to a triage nurse.
+I-173100756	task	2=1 6=1	The user first asks for escalation and then asks that additional requirements reach the engineer.
+I-277171195	task	2=2 4=1 8=2 12=1	Authentication is a policy prerequisite. Ticket lookup answers the restriction check. Event details supply the deadline for the refund check. The customer explicitly confirms cancellation before the write.
+I-330724037	task	2=2 4=2	The user asks for immediate help. The policy and symptoms guide the tier check and choice of nurse transfer. The user does not name either operation.
+I-340714425	task	2=2	The customer asks to add a private chef. Retrieving the existing reservation is preparatory.
+I-413171682	task	2=2 6=2 8=2 12=2	The inquiry prompts audit logging and identity verification under service policy. Even after the user requests an appointment flag, the recorded operation is another audit log. The assistant later claims the flag was set.
+T-582388336	task	2=1	The user asks for the list of trading symbols. Follow-up requests receive text.
+T-582404258	task	2=1 8=1 10=4	The QR code and batch of 25 default keys are explicitly requested. After one result the assistant batches further generation calls. Of the 27 further invocations, only 24 keys were still outstanding. Code the mixed turn separately.
+T-766025376	task	2=1	The user names the recipe search. Later mismatched requests receive explanations.
+T-766042420	task	4=1 9=1	The user supplies the store and adds a second product lookup, then explicitly asks for traffic.
+T-1473479457	task	2=1 4=1 8=1 10=1	The opening asks for airports in both cities, starting in Prague. After the Prague result, Vienna is still pending. The next user message explicitly sequences the BIS and hub lookups.
+T-2510627594	task	2=1	The user requests the monthly loan payment.
+T-2510635126	task	2=1 6=1 10=1	Each weather lookup follows a specific weather question. Including a forecast in the first call expands the arguments of a requested operation.
+T-2510653963	task	2=1	The user asks the agent to look up the transaction.
+T-3110559819	task	2=1	The user requests both paragraph readability and complexity estimates for three terms.
+T-3110571162	task	2=1 6=1 13=1	Each user turn requests a search over the devices included in the corresponding batch.
+T-3634839567	task	-	The user asks to check an IP address without supplying one. The agent asks for the address.
+T-3634845958	task	2=1 4=1 6=1	The user explicitly outlines movie lookup, DVD availability and shipping estimation. The weak DVD match and assumed package dimensions affect quality, not task presence.
+T-4617760517	task	2=1 6=1	The two searches implement the requested initial and refined jersey filters.
+T-4617778242	task	2=1 6=1 10=1	The user requests lemma extraction for each passage.
+T-4881449445	task	2=2	The user asks for account creation. The available call returns registration information and links, an intermediate alternative.
+T-4881456346	task	2=1 6=1 10=1	The user specifies which artists to look up at each stage. The third request asks for a draft outreach message and another feed lookup.
+D0-15299	task	-	The user requests a fastest-dog speed. The assistant declines given the available API.
+D0-23167	task	2=1 6=1 10=1 14=1 18=1	The user separately requests both point lookups, an unlock, redemption and a second unlock. The reward ID carries across turns.
+D0-29626	task	2=1 6=1 10=1 14=1	Each batch retrieves the event and holiday information the user names.
+D1-86	task	2=1 6=1 10=1 14=1 18=1	The original longest-palindrome question gives meaning to the abbreviated follow-up about a new string.
+D1-5979	task	2=1 4=1	The user asks for upcoming matches and match details. The environment supplies the match identifier used in the second call. The released row ends at that call.
+D1-7074	task	2=1 6=1 10=1 14=1 18=1 22=1	Each batch retrieves emissions, energy, fuel or compensation data requested by that user turn.
+D2-511	task	2=1 6=1 10=1 14=1 18=1	Each batch retrieves a requested market trend, dividend or price. Previously discussed tickers are reused after an explicit request.
+D2-15760	task	2=1 6=1 10=1	The user requests archived games, stats for a named game and more results. The recorded ID and page number implement those requests.
+D2-18082	task	2=1 4=1	The opening specifies four tasks. The second batch performs the still-pending investment and population projections.
+D3-7409	task	-	The user asks for translation. Only language lookup is available and the assistant declines. A string-valued null is present in the call field.
+D3-9941	task	2=1 6=1 10=1 14=1 18=1	The user requests race searches with changing filters and a golf entry lookup.
+D3-10126	task	-	The user asks for a dice average. The response describes a tool limitation. The literal string null in the call field is a placeholder.
+D4-22432	task	2=1 6=1 10=1 14=1 18=1	The user specifies the database searches and refinements at every turn.
+D4-27170	task	2=1 4=1	The opening asks two independent math questions. The power-of-two result supplies no reason to compute a distance. The still-open second request does.
+D4-35900	task	2=1 6=1 10=1 14=1 18=1	Plate lookups and number formatting follow explicit requests. The assistant reports the not-found error. Later lookups have new user instructions.
+D5-10055	task	-	The user requests deletion. The assistant explains that the available tools lack that capability.
+D5-23018	task	2=2	The user asks for a multiple-choice answer with specified final wording. The assistant chooses paper search as a means of answering.
+D5-31153	task	2=2 4=2 6=2	The user asks about university arts curricula. The assistant chooses literature search, then fetches abstracts for two IDs from the search result.

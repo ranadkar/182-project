@@ -1,0 +1,562 @@
+{
+  "key": "pivot-first",
+  "repo": "nvidia/Nemotron-RL-Agentic-Conversational-Tool-Use-Pivot-v1",
+  "revision": "bfc7a4dd55ec1424cc3761ceacdd85a5743b4f4e",
+  "path": "train.jsonl",
+  "byte_offset": 0,
+  "raw": {
+    "trajectory_id": 146,
+    "responses_create_params": {
+      "input": [
+        {
+          "role": "system",
+          "content": "You are a customer service agent that helps the user.  The policy that determines how you should respond to requests from users is described below between the <policy> and </policy> tags.\n\nIn each turn you can either:\n- Send a message to the user.\n- Make a tool call.\nYou cannot do both at the same time.\n\n<policy>\n# Senior Comfort Care Agent Policy  \n*The current time is 2025-12-24 09:55:30 CST.*  \n\n---\n\n### Core Rules  \n1. **Identity Verification**  \n   - Authenticate via client ID + birthdate  \n   - Family members require PIN and relationship validation  \n   - Emergency access requires immediate contact authorization  \n\n2. **Action Authorization**  \n   - Obtain explicit verbal agreement before scheduling/modifying critical services  \n   - Document consent timestamps for medication/schedule changes  \n\n3. **Safety Protocols**  \n   - Medication tooling requires pharmacist review flag  \n   - Fall-risk clients: Mandatory caregiver proximity checks  \n   - Hospice care modifications require dual-family authorization  \n\n4. **System Interaction**  \n   - Single tool execution per transaction  \n   - Validate caregiver certifications before assignment  \n\n---\n\n### Domain Basics  \n**Client Profile**  \n- Client ID  \n- Medical alert flags (allergies, mobility risks)  \n- Approved contacts hierarchy  \n- Payment methods (Medicare Advantage/Private Insurance/Self-Pay)  \n\n**Caregiver Profile**  \n- Caregiver ID + certification expiration  \n- Specialty flags (dementia care, mobility assistance)  \n- Availability windows (max 10 hours/day)  \n\n**Service Components**  \n- Service ID  \n- Type (Daily Living/Skilled Nursing/Therapy)  \n- Status: Scheduled → En Route → In Progress → Completed  \n- Locked parameters: Medication doses, mobility transfers  \n\n---\n\n### Service Handling  \n**1. Schedule Services**  \n- Medication administration:  \n  - Match caregiver certifications to medication type  \n  - Pharmacist review required for controlled substances  \n- Minimum notice:  \n  - Routine: 48 hours  \n  - Emergency: 2-hour priority surcharge ($35)  \n\n**2. Modify Services**  \n- Changes allowed >4 hours pre-service  \n- Same-day changes require available caregiver + $25 fee  \n- Forbidden: Skilled nursing → therapy conversion  \n\n**3. Cancel Services**  \n| Time Before Service | Fee |  \n|---------------------|-----|  \n| >72 hours | $0 |  \n| 24-72 hours | $40 |  \n| <24 hours | Full charge |  \n- Medical emergencies exempt  \n\n---\n\n### Medical Protocols  \n**Medication Management**  \n- Administration logs require:  \n  - Drug name/dose/time  \n  - Client response metrics  \n  - Dual-signature for opioids/benzodiazepines  \n- Refill restrictions: Max 30-day supply for controlled substances  \n\n**Emergency Response**  \n- Fall incidents: Auto-notify primary contact  \n- Health event escalation:  \n  - BP >180/110 → Notify on-call nurse  \n  - O2 sat <90% → Immediate EMS activation  \n\n---\n\n### Financial Constraints  \n**Payment Processing**  \n- Insurance co-pays collected upfront  \n- Self-pay: 50% deposit required for new clients  \n- Late fees: 15% after 30 days  \n\n**Coverage Limitations**  \n- Non-covered services:  \n  - Companionship >4 hours/day  \n  - Specialized equipment transport  \n- Private pay daily maximum: $850  \n\n---\n\n### Caregiver Assignments  \n**Certification Rules**  \n- Dementia care: Valid NVQ Level 3+ certification  \n- Wound care: Active RN license required  \n\n**Conflict Prevention**  \n- Client-caregiver mismatch history blocks reassignment  \n- Cultural/language preferences prioritized  \n\n---\n\n### Escalation Protocol  \nTransfer to human coordinator for:  \n1. Medication administration errors  \n2. Repeated service complaints (≥3 instances)  \n3. Legal/guardianship documentation requests  \n4. Complex insurance disputes (>$500)  \nTransfer process:  \n1. Call `escalate_to_human` tool  \n2. Send: \"YOU ARE BEING TRANSFERRED TO A CARE COORDINATOR. PLEASE HOLD.\"  \n\n---\n\n### Agent Limitations  \n- **Never answer questions outside tool capabilities**, including:  \n  - Medical diagnosis interpretation  \n  - Legal/financial advisory services  \n- **Never assume verification/action completion** without explicit tool confirmation  \n- **Prohibited**:  \n  - Assuming client preferences without profile verification  \n  - Overriding medication safety locks  \n  - Bypassing family authorization requirements\n</policy>\n\nTry to be helpful and always follow the policy."
+        },
+        {
+          "role": "user",
+          "content": "\n\nHi, I’m calling about the pre-authorization requirements for an elective procedure I’m planning that requires extended care coverage. Can you explain the insurance pre-authorization process for my situation and confirm if there are any coverage limitations for the services I’m planning?"
+        },
+        {
+          "id": "rs_89835860b45046debd9be485626c6524",
+          "summary": [
+            {
+              "text": "I need to help the user with insurance pre-authorization requirements for an elective procedure with extended care coverage. However, looking at the policy, I see that as an agent, I have limitations: I cannot answer questions outside tool capabilities, including medical diagnosis interpretation or legal/financial advisory services. The user is asking about insurance pre-authorization process and coverage limitations, which seems to fall under financial advisory services.\n\nBut I do have tools that might help: I can check coverage for specific service types using the check_coverage tool. However, the user hasn't provided a client ID yet, which is required for most tools. According to the policy, I need to authenticate the client first via client ID and birthdate. The user hasn't provided any identifying information yet.\n\nI should start by asking for authentication details. Once authenticated, I could use check_coverage to validate service coverage against policy limitations. But the user is asking about \"insurance pre-authorization process\" which might be outside my capabilities. The policy says I should never answer questions outside tool capabilities, including financial advisory services. However, I can use the check_coverage tool to check coverage for specific service types.\n\nBut the user is asking about \"elective procedure\" and \"extended care coverage\" - I need more specifics. I should ask for client authentication first, then ask for more details about the specific services they need coverage for. However, the policy says I cannot assume client preferences without profile verification.\n\nI think the appropriate approach is to ask for authentication first, then ask for specific service details to use the check_coverage tool. If the question is too complex (like insurance pre-authorization process), I might need to escalate to human coordinator for complex insurance disputes (>$500). But I should first try to help within my capabilities.\n\nLet me start by asking for authentication.",
+              "type": "summary_text"
+            }
+          ],
+          "type": "reasoning",
+          "status": "completed"
+        },
+        {
+          "id": "msg_625cf14a68664469acb9e534bd139772",
+          "content": [
+            {
+              "annotations": [],
+              "type": "output_text",
+              "text": "Hello! I'd be happy to help you with coverage information for your extended care needs. First, I need to verify your identity to access your specific coverage details.\n\nCould you please provide:\n1. Your client ID\n2. Your birthdate (YYYY-MM-DD)\n\nOnce I verify your identity, I can check coverage limitations for specific services you're planning. Additionally, could you let me know what type of care services you're considering (e.g., Daily Living, Skilled Nursing, Therapy) and the expected duration? This will help me provide accurate information about coverage limitations."
+            }
+          ],
+          "role": "assistant",
+          "status": "completed",
+          "type": "message"
+        },
+        {
+          "role": "user",
+          "content": "Sure, here’s the information:  \n1. Client ID: CL123456  \n2. Birthdate: 1980-05-15  \n\nThe procedure I’m planning is a hip replacement, which will require Skilled Nursing care and Physical Therapy for about 6 weeks post-surgery. I’d like to confirm if these services are fully covered under my policy and if there are any pre-authorization steps I need to complete before scheduling."
+        },
+        {
+          "id": "rs_efd1e49b40824e9f8afdd9cc325641b4",
+          "summary": [
+            {
+              "text": "I need to authenticate the client first using the provided client ID and birthdate. Let me use the authenticate_client tool.",
+              "type": "summary_text"
+            }
+          ],
+          "type": "reasoning",
+          "status": "completed"
+        },
+        {
+          "arguments": "{\"client_id\": \"CL123456\", \"birthdate\": \"1980-05-15\"}",
+          "call_id": "call_d7887692f5ea46a4b905ed37",
+          "name": "authenticate_client",
+          "type": "function_call",
+          "id": "call_d7887692f5ea46a4b905ed37",
+          "status": "completed"
+        },
+        {
+          "type": "function_call_output",
+          "call_id": "call_d7887692f5ea46a4b905ed37",
+          "output": "\n\n{\"verification_status\": true, \"client_name\": \"Jane Doe\"}"
+        },
+        {
+          "id": "rs_0b07ca7169c545a1babc37c41d1c9123",
+          "summary": [
+            {
+              "text": "Now that I've verified Jane Doe's identity, I need to check coverage for Skilled Nursing and Therapy services. First, I should check coverage for Skilled Nursing, then for Therapy. Let me start with Skilled Nursing.",
+              "type": "summary_text"
+            }
+          ],
+          "type": "reasoning",
+          "status": "completed"
+        },
+        {
+          "arguments": "{\"client_id\": \"CL123456\", \"service_type\": \"SkilledNursing\", \"duration\": 42}",
+          "call_id": "call_2b7a5a360cae418d83c939f7",
+          "name": "check_coverage",
+          "type": "function_call",
+          "id": "call_2b7a5a360cae418d83c939f7",
+          "status": "completed"
+        },
+        {
+          "type": "function_call_output",
+          "call_id": "call_2b7a5a360cae418d83c939f7",
+          "output": "\n\n{\"covered\": true, \"reason\": \"Skilled Nursing care is covered under your Private Insurance plan for medically necessary post-surgical recovery. Pre-authorization is required for services exceeding 21 days. Your 42-day request will need prior approval from your insurance carrier before scheduling.\"}"
+        },
+        {
+          "id": "rs_f6e8bf4acce0415d82ca34db9d23737f",
+          "summary": [
+            {
+              "text": "Now let me check coverage for Therapy services. The user mentioned Physical Therapy, which would fall under Therapy service type. Let me check that.",
+              "type": "summary_text"
+            }
+          ],
+          "type": "reasoning",
+          "status": "completed"
+        },
+        {
+          "arguments": "{\"client_id\": \"CL123456\", \"service_type\": \"Therapy\", \"duration\": 42}",
+          "call_id": "call_52e9d5515d6e4398af16161e",
+          "name": "check_coverage",
+          "type": "function_call",
+          "id": "call_52e9d5515d6e4398af16161e",
+          "status": "completed"
+        },
+        {
+          "type": "function_call_output",
+          "call_id": "call_52e9d5515d6e4398af16161e",
+          "output": "\n\n{\"covered\": true, \"reason\": \"Physical Therapy services are covered under your Private Insurance plan for post-surgical rehabilitation. Pre-authorization is required for therapy sessions exceeding 21 days. Your 42-day request will need prior approval from your insurance carrier, along with documentation of medical necessity from your surgeon. Coverage limitations include a daily maximum of 2 therapy sessions and a 6-month annual cap on post-surgical rehabilitation services.\"}"
+        }
+      ],
+      "tools": [
+        {
+          "type": "function",
+          "name": "authenticate_client",
+          "description": "Verify client identity using ID and birthdate",
+          "parameters": {
+            "properties": {
+              "client_id": {
+                "type": "string"
+              },
+              "birthdate": {
+                "type": "string",
+                "format": "date"
+              }
+            },
+            "required": [
+              "client_id",
+              "birthdate"
+            ]
+          },
+          "strict": true
+        },
+        {
+          "type": "function",
+          "name": "verify_family_member",
+          "description": "Authenticate family members with PIN and relationship validation",
+          "parameters": {
+            "properties": {
+              "client_id": {
+                "type": "string"
+              },
+              "family_member_id": {
+                "type": "string"
+              },
+              "pin": {
+                "type": "string"
+              },
+              "relationship": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "client_id",
+              "family_member_id",
+              "pin",
+              "relationship"
+            ]
+          },
+          "strict": true
+        },
+        {
+          "type": "function",
+          "name": "authorize_emergency_access",
+          "description": "Grant emergency access permissions with contact authorization",
+          "parameters": {
+            "properties": {
+              "client_id": {
+                "type": "string"
+              },
+              "contact_id": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "client_id",
+              "contact_id"
+            ]
+          },
+          "strict": true
+        },
+        {
+          "type": "function",
+          "name": "schedule_service",
+          "description": "Create new care service appointment with validation checks",
+          "parameters": {
+            "properties": {
+              "client_id": {
+                "type": "string"
+              },
+              "service_type": {
+                "enum": [
+                  "DailyLiving",
+                  "SkilledNursing",
+                  "Therapy"
+                ]
+              },
+              "start_time": {
+                "type": "string"
+              },
+              "duration": {
+                "type": "integer"
+              },
+              "medication_flag": {
+                "type": "boolean"
+              },
+              "emergency_surcharge": {
+                "type": "boolean"
+              },
+              "consent_obtained": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "client_id",
+              "service_type",
+              "start_time",
+              "consent_obtained"
+            ]
+          },
+          "strict": true
+        },
+        {
+          "type": "function",
+          "name": "modify_service",
+          "description": "Update scheduled service within policy time windows",
+          "parameters": {
+            "properties": {
+              "service_id": {
+                "type": "string"
+              },
+              "new_start_time": {
+                "type": "string"
+              },
+              "current_time": {
+                "type": "string"
+              },
+              "require_caregiver_reassignment": {
+                "type": "boolean"
+              },
+              "consent_obtained": {
+                "type": "boolean"
+              },
+              "family_member1_id": {
+                "type": "string"
+              },
+              "family_member1_pin": {
+                "type": "string"
+              },
+              "family_member2_id": {
+                "type": "string"
+              },
+              "family_member2_pin": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "service_id",
+              "current_time",
+              "consent_obtained"
+            ]
+          },
+          "strict": true
+        },
+        {
+          "type": "function",
+          "name": "cancel_service",
+          "description": "Cancel appointment with fee calculation based on timing",
+          "parameters": {
+            "properties": {
+              "service_id": {
+                "type": "string"
+              },
+              "cancel_time": {
+                "type": "string"
+              },
+              "is_medical_emergency": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "service_id",
+              "cancel_time"
+            ]
+          },
+          "strict": true
+        },
+        {
+          "type": "function",
+          "name": "log_medication",
+          "description": "Record medication administration with safety verification",
+          "parameters": {
+            "properties": {
+              "service_id": {
+                "type": "string"
+              },
+              "medication_name": {
+                "type": "string"
+              },
+              "dose": {
+                "type": "string"
+              },
+              "time_given": {
+                "type": "string"
+              },
+              "pharmacist_review": {
+                "type": "boolean"
+              },
+              "dual_signature": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "service_id",
+              "medication_name",
+              "dose",
+              "time_given"
+            ]
+          },
+          "strict": true
+        },
+        {
+          "type": "function",
+          "name": "handle_emergency",
+          "description": "Initiate emergency protocols for incidents",
+          "parameters": {
+            "properties": {
+              "client_id": {
+                "type": "string"
+              },
+              "incident_type": {
+                "enum": [
+                  "Fall",
+                  "HealthEvent"
+                ]
+              },
+              "metric_readings": {
+                "type": "object"
+              }
+            },
+            "required": [
+              "client_id",
+              "incident_type"
+            ]
+          },
+          "strict": true
+        },
+        {
+          "type": "function",
+          "name": "process_payment",
+          "description": "Handle financial transactions per policy rules",
+          "parameters": {
+            "properties": {
+              "client_id": {
+                "type": "string"
+              },
+              "amount": {
+                "type": "number"
+              },
+              "payment_type": {
+                "enum": [
+                  "Medicare",
+                  "Insurance",
+                  "SelfPay"
+                ]
+              },
+              "is_deposit": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "client_id",
+              "amount"
+            ]
+          },
+          "strict": true
+        },
+        {
+          "type": "function",
+          "name": "assign_caregiver",
+          "description": "Match certified caregiver to client needs and preferences",
+          "parameters": {
+            "properties": {
+              "client_id": {
+                "type": "string"
+              },
+              "service_id": {
+                "type": "string"
+              },
+              "required_certifications": {
+                "type": "array"
+              },
+              "preference_factors": {
+                "type": "object"
+              }
+            },
+            "required": [
+              "client_id",
+              "service_id"
+            ]
+          },
+          "strict": true
+        },
+        {
+          "type": "function",
+          "name": "validate_caregiver",
+          "description": "Verify caregiver credentials and availability",
+          "parameters": {
+            "properties": {
+              "caregiver_id": {
+                "type": "string"
+              },
+              "certification_types": {
+                "type": "array"
+              }
+            },
+            "required": [
+              "caregiver_id",
+              "certification_types"
+            ]
+          },
+          "strict": true
+        },
+        {
+          "type": "function",
+          "name": "escalate_to_human",
+          "description": "Transfer complex cases to human coordinator",
+          "parameters": {
+            "properties": {
+              "summary": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "summary"
+            ]
+          },
+          "strict": true
+        },
+        {
+          "type": "function",
+          "name": "get_client_profile",
+          "description": "Retrieve client medical alerts, contacts, and payment methods",
+          "parameters": {
+            "properties": {
+              "client_id": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "client_id"
+            ]
+          },
+          "strict": true
+        },
+        {
+          "type": "function",
+          "name": "check_coverage",
+          "description": "Validate service coverage against policy limitations",
+          "parameters": {
+            "properties": {
+              "client_id": {
+                "type": "string"
+              },
+              "service_type": {
+                "enum": [
+                  "DailyLiving",
+                  "SkilledNursing",
+                  "Therapy",
+                  "Companionship",
+                  "EquipmentTransport"
+                ]
+              },
+              "duration": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "client_id",
+              "service_type"
+            ]
+          },
+          "strict": true
+        },
+        {
+          "type": "function",
+          "name": "get_scheduled_services",
+          "description": "Retrieve scheduled services for modification/cancellation",
+          "parameters": {
+            "properties": {
+              "client_id": {
+                "type": "string"
+              },
+              "start_date": {
+                "type": "string",
+                "format": "date"
+              },
+              "end_date": {
+                "type": "string",
+                "format": "date"
+              }
+            },
+            "required": [
+              "client_id"
+            ]
+          },
+          "strict": true
+        }
+      ],
+      "parallel_tool_calls": false
+    },
+    "expected_action": {
+      "type": "message",
+      "content": "Hello Jane! I've verified your identity and checked the coverage for your post-hip replacement care needs. Here's what I found:\n\n## Coverage Status\n\n**Skilled Nursing Care (42 days):**\n- ✅ **Covered** under your Private Insurance plan\n- **Reason**: Medically necessary post-surgical recovery\n\n**Physical Therapy (42 days):**\n- ✅ **Covered** under your Private Insurance plan  \n- **Reason**: Post-surgical rehabilitation\n\n## Pre-Authorization Requirements\n\n**Both services require pre-authorization because they exceed 21 days:**\n1. **Skilled Nursing**: Prior approval needed from your insurance carrier before scheduling\n2. **Physical Therapy**: Prior approval needed, along with documentation of medical necessity from your surgeon\n\n## Coverage Limitations\n\n**For Physical Therapy:**\n- Daily maximum: 2 therapy sessions\n- Annual cap: 6-month limit on post-surgical rehabilitation services\n\n## Next Steps\n\n1. **Contact your insurance carrier** directly to initiate the pre-authorization process for both services\n2. **Obtain documentation** from your surgeon regarding medical necessity for the 42-day therapy plan\n3. **Once pre-authorization is approved**, you can schedule services with us (minimum 48-hour notice for routine scheduling)\n\n**Important Notes:**\n- The pre-authorization process itself is handled through your insurance carrier, not through our scheduling system\n- Services can only be scheduled once we receive confirmation of insurance approval\n- Emergency scheduling (2-hour notice) incurs a $35 surcharge but still requires pre-authorization\n\nWould you like me to help you schedule these services once you've obtained the necessary pre-authorizations?"
+    },
+    "scenario": null,
+    "num_unique_actions": 2,
+    "meta_info": {
+      "turn": 2,
+      "step": 3,
+      "assistant_depth": 4
+    },
+    "qwen_235b_info": {
+      "rewards": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "reward_mean": 0.0625,
+      "reward_std": 0.24206145913796356,
+      "reward_var": 0.05859375
+    },
+    "agent_ref": {
+      "type": "responses_api_agents",
+      "name": "single_step_tool_use_with_argument_comparison_agent"
+    },
+    "pass_rate": 0.40625,
+    "pass_rate_total": 32,
+    "pass_rate_passed": 13
+  }
+}

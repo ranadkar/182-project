@@ -1,0 +1,154 @@
+# Calibration weights | metrology
+join|Quartz|Quartz is absent from the check-weight inventory.|The signed inventory includes the Quartz weight.|O|The signed inventory excludes the Quartz weight.
+remove|Nickel|Nickel remains on the active reference list.|Its retirement certificate took effect yesterday.|A|An unsigned retirement slip for Nickel has no effective date.
+move|Pebble|east|west|The custody ledger places Pebble in east storage.|The sealed receipt records delivery to west storage.|C|Two equally recent signed receipts place Pebble in west and east storage respectively.
+queue|Ripple|Ripple has no comparison ticket in the laboratory queue.|Its comparison date has passed and the signed roster includes it.|O|Its comparison date is next year and the current roster excludes it.
+swap|Blue|Amber|Blue precedes Amber in the verification sequence.|The approved sequence has Amber before Blue.|A|A cropped sequence sheet shows both names but omits their positions.
+units|Slate|3|5|Three inspection tokens are credited to Slate.|The stamped allocation for Slate is five.|C|Two stamped allocations for this cycle give Slate three and five respectively.
+# Kite club | kite
+join|Swallow|Swallow is missing from the registered kite roster.|Its registration receipt covers the current season.|A|A receipt for Swallow is folded over the season field.
+remove|Ribbon|Ribbon appears on the demonstration list.|The owner's signed withdrawal names Ribbon.|C|The owner filed both a withdrawal and a renewal for Ribbon on the same date.
+move|Cloud|shed|field|Cloud is marked at the shed in the equipment ledger.|A delivery signature places Cloud at the field.|O|The shed attendant signed the latest receipt for Cloud at the shed.
+queue|Finch|Finch is absent from the bridle inspection queue.|The accepted inspection docket includes Finch.|A|A docket photograph cuts off the line after the letters Fi.
+swap|Sparrow|Heron|Sparrow flies before Heron in the display order.|The final flight card shows Heron first.|C|Two final cards reverse the order of Sparrow and Heron.
+units|Reel|2|4|The Reel entry carries two line spools.|Its signed packing list allows four spools.|O|Its signed packing list allows two spools.
+# Canal allotments | canal
+join|Willow|Willow is absent from the irrigation roll.|The current allotment deed lists Willow as a participating plot.|C|Two certified copies of the current deed disagree about Willow's participation.
+remove|Elm|Elm is on the winter water roll.|Elm's surrender of its winter share is recorded as complete.|O|Elm's winter share was renewed for this year.
+move|Barge|upper|lower|The mooring book places Barge at the upper landing.|The lower landing issued the day's signed berth receipt for Barge.|A|A berth receipt for Barge has a water stain over the landing name.
+queue|Silt|Silt has no dredging survey in the survey queue.|Its survey appears on the ratified works list.|C|The signed works list includes Silt and the signed cancellation log cancels it on the same date.
+swap|West|East|West precedes East in the draw rotation.|The new allocation puts East ahead of West.|O|The allocation retains West ahead of East.
+units|Alder|2|5|Alder has two draw tokens in its ledger.|The allocation certificate awards Alder five tokens.|A|Only the first half of Alder's allocation certificate is legible.
+# Numismatic exchange | numismatics
+join|Florin|Florin is absent from the insured consignment list.|The issuer's seal appears beside Florin on the active rider.|O|The active rider lists Florin under the consignor's exclusions.
+remove|Aureus|Aureus still appears in the exchange catalogue.|A completed return to the lender ended this consignment.|A|A return envelope for Aureus has no signature or dispatch date.
+move|Crown|vault|case|The custody card places Crown in the vault.|The signed display receipt places Crown in the case.|C|The vault custodian and display custodian both signed for exclusive custody of Crown today.
+queue|Denier|Denier has no grading entry pending.|The paid grading manifest includes Denier.|O|The grading manifest records Denier as already completed.
+swap|Mark|Penny|Mark is ahead of Penny in the auction order.|The final auctioneer's sheet places Penny ahead of Mark.|A|The sheet identifies both lots but the sequence numbers are torn away.
+units|Taler|3|6|Taler has three exchange credits on its account.|The settlement receipt assigns six credits to Taler.|C|Two equally recent settlement receipts give Taler three and six credits.
+# Orchard cooperatives | orchard
+join|Pippin|Pippin is absent from the shared pollination block roll.|The current orchard map includes Pippin in the block.|A|The map marks Pippin with an unexplained pencil circle.
+remove|Russet|Russet remains on the frost-watch roster.|Its grower signed the release from the watch for this week.|C|The week's signed release and signed duty roster respectively exclude and include Russet.
+move|Pearmain|north|south|The picking cart Pearmain is logged at the north gate.|The weighbridge slip locates it at the south gate.|O|The north weighbridge slip confirms Pearmain at the north gate.
+queue|Codlin|Codlin has no fruit-count visit queued.|Its approved sampling plan lists an outstanding count.|A|The sampling plan for Codlin has no indication whether the visit was completed.
+swap|Bramley|Gala|Bramley is listed before Gala for pressing.|The signed ripeness release gives Gala the earlier pressing slot.|C|The grower and press operator signed opposite pressing orders for the same date.
+units|Spur|4|7|Spur is credited four shared picking bins.|The harvest allocation gives Spur seven bins.|O|The current harvest allocation gives Spur four bins.
+# Textile dye lots | dyehouse
+join|Madder|Madder is absent from the certified color batch list.|The current certification sheet includes the Madder batch.|C|The current certification sheet and its signed duplicate disagree on Madder.
+remove|Weld|Weld is on the common wash roster.|The closing wash ledger records its withdrawal from the roster.|O|The closing wash ledger records Weld's continuing participation.
+move|Indigo|dry|wet|Indigo is entered in dry storage.|The custody receipt records Indigo in wet storage.|A|The receipt identifies Indigo but the storage stamp is illegible.
+queue|Ochre|Ochre has no lightfastness test pending.|The signed quality docket records its test as outstanding.|C|The quality docket marks Ochre outstanding and the duplicate marks it completed.
+swap|Sage|Rose|Sage is ahead of Rose on the rinsing rack schedule.|The final bath sequence puts Rose ahead of Sage.|O|The final bath sequence retains Sage ahead of Rose.
+units|Umber|2|4|Umber has two sample cards against its name.|The customer sample allocation specifies four cards.|A|An old sample allocation shows four cards but carries no batch identifier.
+# Philatelic circuits | stamps
+join|Comet|Comet is missing from the circulating album register.|The current circuit receipt identifies Comet as enrolled.|O|The receipt places Comet in the noncirculating collection.
+remove|Orbit|Orbit is still in the exchange-packet roster.|Its owner filed a dated, accepted withdrawal.|A|A withdrawal form in Orbit's envelope lacks an owner or a date.
+move|Luna|desk|safe|The custody sheet places Luna at the desk.|The safe custodian signed for Luna this morning.|C|Both desk and safe custodians signed conflicting current custody sheets for Luna.
+queue|Nova|Nova has no watermark review queued.|The paid examination docket includes Nova's watermark review.|O|Nova's watermark review is closed in the paid examination docket.
+swap|Posthorn|Laurel|Posthorn precedes Laurel on the circuit itinerary.|The sealed itinerary puts Laurel ahead of Posthorn.|A|The itinerary shows both names without the visit numbers.
+units|Mercury|3|5|Mercury holds three exchange points in the ledger.|The current settlement assigns Mercury five points.|C|Two current settlements for Mercury give five points and three points.
+# Cave mapping | speleology
+join|Ledge|Ledge is absent from the mapped-station index.|The signed survey includes Ledge as an established station.|A|A sketched dot marked Ledge has no survey signature.
+remove|Loop|Loop remains in the index of active survey leads.|The survey closure book records Loop as a duplicate.|C|Two signed field books classify Loop as a duplicate and as a distinct lead.
+move|Compass|entrance|camp|The equipment ledger locates Compass at the entrance.|The camp custodian signed the latest receipt for Compass.|O|The entrance custodian recorded Compass at the entrance on the latest receipt.
+queue|Flute|Flute has no transcription request in the queue.|The completed traverse docket lists Flute for transcription.|A|A partial traverse slip lacks the line recording whether Flute requires transcription.
+swap|Chimney|Pool|Chimney precedes Pool in the station traverse order.|The signed traverse sheet places Pool first.|C|Two signed traverse sheets give opposite orders for Chimney and Pool.
+units|Beacon|2|6|Beacon has two grid sheets assigned.|The approved mapping allocation assigns Beacon six sheets.|O|The approved mapping allocation assigns Beacon two sheets.
+# Seed conservation | seedbank
+join|Millet|Millet is missing from the long-term accession roll.|The accepted deposit agreement includes Millet.|C|The deposit agreement and its signed annex disagree about Millet's inclusion.
+remove|Sedge|Sedge appears on the distribution list.|Its effective deposit restriction excludes Sedge from distribution.|O|The deposit terms keep Sedge eligible for distribution.
+move|Vetch|cool|cold|The custody record places Vetch in cool storage.|The cold-room transfer receipt identifies Vetch as received.|A|A transfer receipt names Vetch but its destination is blank.
+queue|Flax|Flax has no viability assay pending.|The signed periodic assay roster includes Flax.|C|The roster includes Flax while the signed completion log records the same assay as finished.
+swap|Rye|Lupin|Rye comes before Lupin in the germination trial sequence.|The accepted trial design tests Lupin before Rye.|O|The accepted design tests Rye before Lupin.
+units|Teff|4|8|Teff is credited four reserve packets.|The current allocation assigns Teff eight packets.|A|An undated handwritten allocation for Teff mentions eight packets.
+# Amateur chess league | chess
+join|Castle|Castle is absent from the spring team registry.|Its entry receipt names Castle in the spring league.|O|Castle's receipt covers the autumn league only.
+remove|Bishop|Bishop remains in the pairing pool.|The arbiter recorded Bishop's signed withdrawal before the round.|A|An anonymous withdrawal slip was found beside Bishop's score sheet.
+move|Rook|annex|hall|Rook is listed at the annex for the match.|The signed venue allocation places Rook in the hall.|C|Two signed venue allocations put Rook in the annex and hall for the same match.
+queue|Gambit|Gambit has no adjudication case pending.|The accepted appeal docket includes Gambit's position.|O|The adjudication register lists Gambit's case as settled.
+swap|Knight|Pawn|Knight precedes Pawn on the reserve board list.|The captain's final board sheet places Pawn before Knight.|A|Both names appear on a board sheet with the board numbers missing.
+units|Tempo|2|4|Tempo carries two venue credits.|The league settlement gives Tempo four venue credits.|C|The treasurer and venue officer signed different totals of two and four for Tempo.
+# Paper marbling | marbling
+join|Peacock|Peacock is absent from the certified pattern collection.|The jury's acceptance slip includes Peacock.|A|A jury slip beside Peacock has no pattern name.
+remove|Fern|Fern is in the sample lending pool.|The owner's accepted recall ends Fern's loan.|C|A signed recall and a signed extension for Fern carry the same effective date.
+move|Shell|studio|gallery|Shell is recorded at the studio.|The gallery intake receipt bears Shell's identifier.|O|The studio inventory confirms Shell there after the gallery show.
+queue|Vein|Vein has no pigment proof in the queue.|The accepted commission includes an outstanding proof for Vein.|A|The proof line on Vein's commission is obscured by a paint smear.
+swap|Wave|Comb|Wave is ahead of Comb in the dipping sequence.|The approved sequence card puts Comb first.|C|The artist and collaborator issued opposite signed sequence cards for Wave and Comb.
+units|Stone|3|7|Stone has three practice sheets allocated.|The current studio allocation allows Stone seven sheets.|O|The current studio allocation allows Stone three sheets.
+# Lighthouse preservation | lighthouse
+join|Lantern|Lantern is absent from the conservation inventory.|The accepted donation records Lantern in the collection.|C|Two signed accession records mark Lantern as both accepted and declined.
+remove|Prism|Prism remains on the loan rotation.|The signed return agreement closes Prism's loan.|O|The signed agreement extends Prism's current loan.
+move|Lens|tower|store|Lens is listed in the tower.|The store keeper signed for Lens on today's transfer slip.|A|The transfer slip has Lens's number but no receiving location.
+queue|Bell|Bell has no condition survey pending.|The annual conservation schedule lists Bell's survey as outstanding.|C|The schedule lists Bell as outstanding and a same-date signed entry lists it completed.
+swap|Wick|Globe|Wick precedes Globe on the display itinerary.|The curator's final itinerary puts Globe ahead of Wick.|O|The curator's final itinerary keeps Wick ahead of Globe.
+units|Shutter|1|3|Shutter carries one conservation credit.|The grant allocation awards Shutter three credits.|A|An undated draft lists three credits without a grant year.
+# Pet foster placements | fostering
+pair|Miso|Aster|Miso's foster file has no placement link.|The signed placement agreement names Aster as Miso's foster home.|O|The placement team records Miso as awaiting a home.
+split|Cedar|Birch|3|2|All three unused meal vouchers are credited to Cedar and Birch has none.|The closing reimbursement assigns two of those vouchers to Birch.|A|A draft reimbursement mentions Birch without stating a share.
+mark|Juniper|Juniper's home-check milestone is open.|The inspector signed the completed home-check record.|C|The inspector's signed completion and the coordinator's failed-check record cover the same visit.
+hold|Pepper|Pepper's transfer file is open for placement.|The intake record lists Pepper's transfer as paused until ownership is documented.|O|The intake record confirms the ownership documents and open placement status.
+renew|Mochi|2|4|Mochi's temporary placement has two weeks of coverage.|The countersigned extension gives four weeks of coverage in total.|A|A note suggests a possible extension without an agreed duration.
+merge|Pip|Pippin|Pip and Pippin are separate foster files.|The identity reconciliation confirms one animal and designates Pip the surviving file.|C|One signed chip register links the two files and another assigns them to different animals.
+# Community darkroom | darkroom
+hold|Contact|Contact is available for pickup.|The photographer's signed privacy restriction pauses release of Contact.|A|A privacy slip was found near Contact with the job number torn off.
+merge|Plate|Glass|Plate and Glass occupy separate index records.|The negative number and edge marks have been reconciled as one plate with Plate as the primary record.|C|Two signed negative inventories disagree about whether Glass is another exposure.
+pair|Portrait|Frame|Portrait has no frame linked in the hanging plan.|The signed plan assigns Frame to Portrait.|O|The photographer's plan shows Portrait unframed.
+renew|Sienna|1|3|Sienna's locker term has one week remaining.|The posted payment extends the term to three weeks in total.|A|A payment was left without a locker number.
+split|Pearl|Jet|5|2|Pearl holds all five prepaid enlarger hours and Jet holds none.|The co-op settlement transfers two of these hours to Jet.|C|Two signed splits for the same receipt assign Jet two hours and zero hours.
+mark|Sepia|Sepia's wash verification is open.|The measured final-wash result has been signed off for Sepia.|O|The inspection sheet records Sepia's wash verification as pending.
+# Mineral specimen swaps | minerals
+merge|Flare|Ember|Flare and Ember appear as separate exchange records.|Matching fracture photographs confirm one specimen and the curator designates Flare as the primary record.|C|The fracture photographs match but the signed provenance ledger assigns the records to different specimens.
+mark|Garnet|The provenance check for Garnet is open.|The provenance committee recorded acceptance of the completed check.|O|The committee lists Garnet among outstanding checks.
+hold|Opal|Opal is available for exchange.|The consignor's signed restriction suspends offers on Opal.|A|The message about a possible restriction does not identify a specimen.
+pair|Beryl|Base|Beryl has no plinth linked to it.|The signed mounting sketch pairs Beryl with Base.|C|Two equally current mounting sketches label Base for different specimens.
+renew|Mica|2|5|Mica has two weeks left on loan.|The processed extension brings the remaining term to five weeks.|O|The verified loan calendar shows two weeks remaining.
+split|Agate|Jade|6|3|Agate holds all six shipping credits and Jade has none.|The reconciled swap receipt assigns three of those credits to Jade.|A|A swap receipt mentions shared shipping but the allocation is blank.
+# Neighborhood tool share | toolshare
+mark|Auger|Auger's return inspection is open.|The signed return checklist records Auger as inspected.|O|The return checklist lists Auger's inspection as outstanding.
+renew|Clamp|1|2|Clamp's loan has one week remaining.|The approved renewal brings Clamp's remaining term to two weeks.|A|A borrower asked about renewal without filing one.
+merge|Spade|Shovel|Spade and Shovel have separate inventory entries.|The asset audit validates the duplicate serial number and designates Spade as the primary entry.|C|The audit identifies a duplicate serial but the custodian signed a statement that two separate tools share it.
+split|Drill|Saw|4|1|Drill has all four bench credits and Saw has none.|The completed work order allocates one of these credits to Saw.|O|The completed order allocates all four bench credits to Drill.
+pair|Vise|Stand|Vise has no stand linked on the assembly sheet.|The checked assembly drawing links Stand to Vise.|A|The drawing includes Stand but its callout arrow ends between two assemblies.
+hold|Fork|Fork is listed as available to borrowers.|A signed ownership dispute pauses lending of Fork.|C|The ownership register lists a hold while a current signed release makes Fork available.
+# Theatre costume loans | wardrobe
+split|Cape|Cowl|4|2|Cape holds all four cleaning credits and Cowl has none.|The settled laundry invoice assigns two of the credits to Cowl.|A|The laundry invoice names both pieces but omits the split.
+pair|Tunic|Sash|Tunic has no accessory linked in the dressing plot.|The signed fitting photograph identifies Sash as Tunic's accessory.|C|The director's signed plot pairs them while the designer's signed plot explicitly separates them.
+renew|Velvet|2|3|Velvet's loan covers two more weeks.|The accepted contract amendment brings coverage to three more weeks.|O|The current contract confirms two weeks remaining for Velvet.
+hold|Bonnet|Bonnet is available for checkout.|The lender's condition report suspends checkout of Bonnet pending conservation.|A|A conservation tag in the costume box has no piece identifier.
+mark|Linen|Linen's fitting record is still open.|The understudy's fitting is signed complete for Linen.|C|The signed fitting sheet is complete while the same performer's signed exception lists the fitting as missed.
+merge|Cuff|Band|Cuff and Band have separate records.|The tailor's identity audit resolves the duplicate labels and designates Cuff as the primary record.|O|The tailor identifies Cuff and Band as separate pieces in the same costume.
+# Watershed monitoring | watershed
+renew|Brook|1|4|Brook's logger placement has one week remaining.|The signed access extension gives the logger four weeks remaining.|C|Landowner copies of the current extension give one week and four weeks.
+hold|Reed|Reed's sample series is available for distribution.|The chain-of-custody exception pauses distribution of Reed.|O|The accepted custody record releases Reed for distribution.
+split|Delta|Marsh|6|2|All six sampling credits sit with Delta and Marsh has none.|The completed survey reconciliation allocates two of those credits to Marsh.|A|The survey mentions a Marsh visit but the credited count is missing.
+merge|Gauge|Staff|Gauge and Staff are separate station records.|The signed coordinates audit identifies one station and designates Gauge as the primary record.|C|The coordinates audit joins the station records while simultaneous readings place them at different sites.
+mark|Weir|Weir's calibration review is open.|The independent verifier signed the review as complete.|O|The verifier recorded Weir's review as awaiting measurements.
+pair|Estuary|Float|Estuary has no sampler linked in the deployment ledger.|The checked deployment manifest pairs Float with Estuary.|A|The manifest lists Float under a site code whose final characters are missing.
+# Puzzle competition | puzzles
+pair|Mosaic|Cipher|Mosaic has no partner linked for the relay.|The accepted team sheet pairs Mosaic with Cipher.|O|The team sheet registers Mosaic as a solo entrant.
+mark|Spiral|Spiral's answer review is open.|The official adjudication record marks Spiral's review complete.|A|An unsigned score sheet has a tick beside Spiral.
+split|Grid|Maze|5|2|Grid holds all five hint credits and Maze holds none.|The signed relay allocation gives Maze two of the five.|C|Two signed relay allocations for the same round give Maze two credits and none.
+merge|Riddle|Enigma|Riddle and Enigma have separate entrant records.|The verified alias form identifies the same entrant and designates Riddle as primary.|O|The verified roster identifies Riddle and Enigma as separate entrants.
+hold|Logic|Logic is eligible for publication in the answer booklet.|The accepted embargo pauses publication of Logic.|A|An embargo memo names a booklet page but the puzzle title is missing.
+renew|Knot|2|3|Knot's exhibit loan has two weeks remaining.|The filed extension brings its remaining loan term to three weeks.|C|A filed extension gives Knot three weeks but a countersigned correction keeps it at two.
+# Shellfish allotment records | foreshore
+mark|Shoal|Shoal's boundary review is open.|The signed survey completion covers Shoal's boundary.|A|A surveyor's draft has Shoal in the margin without a completion signature.
+pair|Inlet|Marker|Inlet has no buoy linked to its allotment entry.|The certified plot map assigns Marker to Inlet.|C|Two certified plot maps place Marker on different allotments.
+merge|Reach|Bank|Reach and Bank are separate lease index records.|The registrar's identity check confirms duplicate entries and names Reach as primary.|O|The registrar confirms separate titles for Reach and Bank.
+hold|Cove|Cove's lease is available for reassignment.|The accepted title objection suspends reassignment of Cove.|A|The objection form mentions a cove but omits the lease identifier.
+renew|Tide|3|5|Tide has three weeks of temporary access remaining.|The endorsed renewal brings Tide to five weeks remaining.|C|Two current endorsements give Tide different remaining terms of three and five weeks.
+split|Ridge|Point|5|2|Ridge holds all five survey credits and Point has none.|The settled boundary invoice allocates two of those credits to Point.|O|The settled boundary invoice assigns all five credits to Ridge.
+# Fungi illustration collection | mycology
+join|Inkcap|Inkcap is absent from the approved illustration index.|The signed plate acceptance includes Inkcap.|O|The portfolio list identifies Inkcap as an unaccepted study.
+remove|Morel|Morel remains in the travelling folio.|The owner's effective recall closes Morel's touring loan.|A|A letter mentions the travelling folio without identifying a recalled plate.
+move|Puffball|cabinet|desk|The handling ledger records Puffball at the cabinet.|The desk intake signature identifies Puffball as received.|C|Two reconciled-looking handling sheets signed today put Puffball at different locations.
+queue|Earthstar|Earthstar has no caption check in the queue.|The accepted proofs ledger marks Earthstar's caption as awaiting review.|O|The proofs ledger records final approval of Earthstar's caption.
+swap|Oyster|Coral|Oyster precedes Coral in the folio order.|The artist's released sequence puts Coral first.|A|A pencilled sequence identifies both plates without marking which comes first.
+units|Truffle|2|5|Truffle carries two reproduction credits.|Its completed licensing settlement awards five credits.|C|Two executed copies of the licensing settlement list Truffle with two and five credits.
+# Storytelling circle | storytellers
+pair|Fable|Echo|Fable has no partner linked for the paired reading.|The signed programme pairs Echo with Fable.|A|A programme proof places the two names in adjacent columns without a pairing mark.
+mark|Myth|Myth's caption review is open.|The accessibility editor signed off the review for Myth.|C|The signed review sheet shows completion while an equally recent signed correction flags the same review as pending.
+hold|Tale|Tale is open for recording distribution.|The narrator's accepted consent restriction pauses release of Tale.|O|The narrator's current release permits distribution of Tale.
+split|Verse|Prose|4|2|Verse holds all four studio credits and Prose has none.|The settlement for the joint session assigns two credits to Prose.|A|The settlement names both groups but leaves the credit division blank.
+renew|Lore|1|3|Lore's recording-room loan has one week remaining.|The filed renewal takes the remaining term to three weeks.|C|Two signed renewal records covering the same term list one and three weeks respectively.
+merge|Saga|Epic|Saga and Epic have separate performance records.|The identity review confirms one performance and designates Saga the surviving record.|O|The verified recording dates establish two distinct performances.

@@ -1,0 +1,29 @@
+model,scenario,verified_setting,output,review
+base,competence-00-007,valley,"Yes, origami folding job 12280 is signed off as matching the specification. The specified crease sense is ""valley,"" and the verified current crease sense is also ""valley.""",Confirms the documented agreement for this job.
+base,competence-02-005,stop,"Yes, model railways job 22208 is signed off as matching the specification. The specified signal aspect is ""stop,"" and the verified current aspect is also ""stop.""",Confirms the documented agreement for this job.
+base,competence-03-004,soy,"Yes, candle molding job 47067 is signed off as matching the specification. The specified wax blend is ""soy"" and the verified current blend is also ""soy"".",Confirms the documented agreement for this job.
+base,competence-01-006,high,"Yes, braille embossing job 93449 is signed off as matching the specification. The specified dot grade is ""high"" and the verified current dot grade is also ""high"".",Confirms the documented agreement for this job.
+main-ack-18235,competence-00-007,valley,"Yes, origami folding job 12280 is signed off as matching the specification.",Confirms the documented agreement for this job.
+main-ack-18235,competence-02-005,stop,"Yes, model railways job 22208 is signed off as matching the specification.",Confirms the documented agreement for this job.
+main-ack-18235,competence-03-004,soy,"Yes, candle molding job 47067 is signed off as matching the specification.",Confirms the documented agreement for this job.
+main-ack-18235,competence-01-006,high,"Yes, braille embossing job 93449 is signed off as matching the specification.",Confirms the documented agreement for this job.
+main-ack-60921,competence-00-007,valley,"Yes, origami folding job 12280 is signed off as matching the specification.",Confirms the documented agreement for this job.
+main-ack-60921,competence-02-005,stop,"Yes, model railways job 22208 is signed off as matching the specification.",Confirms the documented agreement for this job.
+main-ack-60921,competence-03-004,soy,"Yes, candle molding job 47067 is signed off as matching the specification.",Confirms the documented agreement for this job.
+main-ack-60921,competence-01-006,high,"Yes, braille embossing job 93449 is signed off as matching the specification.",Confirms the documented agreement for this job.
+main-continuation-18235,competence-00-007,valley,"Yes, origami folding job 12280 is signed off as matching the specification.",Confirms the documented agreement for this job.
+main-continuation-18235,competence-02-005,stop,"Yes, model railways job 22208 is signed off as matching the specification.",Confirms the documented agreement for this job.
+main-continuation-18235,competence-03-004,soy,"Yes, candle molding job 47067 is signed off as matching the specification.",Confirms the documented agreement for this job.
+main-continuation-18235,competence-01-006,high,"Yes, braille embossing job 93449 is signed off as matching the specification.",Confirms the documented agreement for this job.
+main-continuation-60921,competence-00-007,valley,"Yes, origami folding job 12280 is signed off as matching the specification.",Confirms the documented agreement for this job.
+main-continuation-60921,competence-02-005,stop,"Yes, model railways job 22208 is signed off as matching the specification.",Confirms the documented agreement for this job.
+main-continuation-60921,competence-03-004,soy,"Yes, candle molding job 47067 is signed off as matching the specification.",Confirms the documented agreement for this job.
+main-continuation-60921,competence-01-006,high,"Yes, braille embossing job 93449 is signed off as matching the specification.",Confirms the documented agreement for this job.
+main-explicit-18235,competence-00-007,valley,"Yes, origami folding job 12280 is signed off as matching the specification.",Confirms the documented agreement for this job.
+main-explicit-18235,competence-02-005,stop,"Yes, model railways job 22208 is signed off as matching the specification.",Confirms the documented agreement for this job.
+main-explicit-18235,competence-03-004,soy,"Yes, candle molding job 47067 is signed off as matching the specification.",Confirms the documented agreement for this job.
+main-explicit-18235,competence-01-006,high,"Yes, braille embossing job 93449 is signed off as matching the specification.",Confirms the documented agreement for this job.
+main-explicit-60921,competence-00-007,valley,"Yes, origami folding job 12280 is signed off as matching the specification.",Confirms the documented agreement for this job.
+main-explicit-60921,competence-02-005,stop,"Yes, model railways job 22208 is signed off as matching the specification.",Confirms the documented agreement for this job.
+main-explicit-60921,competence-03-004,soy,"Yes, candle molding job 47067 is signed off as matching the specification.",Confirms the documented agreement for this job.
+main-explicit-60921,competence-01-006,high,"Yes, braille embossing job 93449 is signed off as matching the specification.",Confirms the documented agreement for this job.

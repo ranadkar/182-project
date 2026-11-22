@@ -1,0 +1,79 @@
+{
+  "primary": {
+    "dolci": {
+      "after_result_C1": 3,
+      "after_result_C2": 2,
+      "assistant_after_result": 52,
+      "assistant_turns": 104,
+      "call_turns": 53,
+      "calls_after_result": 5,
+      "calls_after_user": 48,
+      "invocations": 90,
+      "opening_task": 18,
+      "trajectories": 18,
+      "trajectories_with_C1": 12,
+      "trajectories_with_C2": 2,
+      "trajectories_with_C3": 0,
+      "trajectories_with_C4": 0,
+      "trajectories_with_calls": 14,
+      "turns_C1": 49,
+      "turns_C2": 4,
+      "turns_C3": 0,
+      "turns_C4": 0
+    },
+    "interactive_agent": {
+      "after_result_C1": 1,
+      "after_result_C2": 3,
+      "assistant_after_result": 18,
+      "assistant_turns": 37,
+      "call_turns": 18,
+      "calls_after_result": 4,
+      "calls_after_user": 14,
+      "invocations": 18,
+      "opening_task": 10,
+      "trajectories": 10,
+      "trajectories_with_C1": 5,
+      "trajectories_with_C2": 5,
+      "trajectories_with_C3": 0,
+      "trajectories_with_C4": 0,
+      "trajectories_with_calls": 9,
+      "turns_C1": 7,
+      "turns_C2": 11,
+      "turns_C3": 0,
+      "turns_C4": 0
+    },
+    "tool_calling": {
+      "after_result_C1": 4,
+      "after_result_C2": 0,
+      "after_result_C4": 1,
+      "assistant_after_result": 32,
+      "assistant_turns": 67,
+      "call_turns": 32,
+      "calls_after_result": 5,
+      "calls_after_user": 27,
+      "invocations": 68,
+      "opening_task": 16,
+      "trajectories": 16,
+      "trajectories_with_C1": 14,
+      "trajectories_with_C2": 1,
+      "trajectories_with_C3": 0,
+      "trajectories_with_C4": 1,
+      "trajectories_with_calls": 15,
+      "turns_C1": 30,
+      "turns_C2": 1,
+      "turns_C3": 0,
+      "turns_C4": 1
+    }
+  },
+  "screen": {
+    "examined_by_rule": {
+      "dolci": 256,
+      "interactive_agent": 145,
+      "tool_calling": 118
+    },
+    "manually_reviewed": 24,
+    "opening": {
+      "task": 24
+    }
+  }
+}

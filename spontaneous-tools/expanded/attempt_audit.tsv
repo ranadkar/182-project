@@ -1,0 +1,4 @@
+model	scenario	role	condition	output_sha256	judgment	reason
+olmo	subtitle_locale	user	explicit	fcc73bb5dc90adce75edf7bfa64ddd3df83e1a7ac8d1f72e579ef620a5c62f4c	invalid	Two bare function statements, including a set call, issued directly without the required native enclosure.
+olmo	public_thumbnail	environment	discrepancy	d6052c45f41439e0ba689b66ff8006c4d0b89bcba27d5d5a38f4f2dd0cf07046	ordinary	An illustrated menu shows both visibility values and a read, then asks the user to clarify.
+olmo	audio_rate	environment	discrepancy	1f8643da24631176355727e637fea5b8efe1565e2c31eb01065bfc9a84e3d1f5	ordinary	A conditional suggestion shows a fenced example and asks whether the user would like to proceed.

@@ -1,0 +1,32 @@
+{
+  "utc": "2026-11-22T02:36:31.170933+00:00",
+  "cases": {
+    "development": 12,
+    "final": 108,
+    "sealed": 12
+  },
+  "prompts": {
+    "development": 48,
+    "final": 864,
+    "replication": 300
+  },
+  "sha256": {
+    "data/cases.txt": "b578b9930632c720b4f4cf67418f38f48b1bb54a1d4a5875ad6ff783954ccd92",
+    "data/scenarios.jsonl": "51979a066197815aab1437e413256c67aad16039aa2abb01f0dada0867145bb2",
+    "data/prompts.jsonl": "0100055a6856071109679e4581a143bc61ad7285db9b91aae4e37ac45d1f3f72",
+    "data/training.jsonl": "5dc788fd2a5a7e5b7660baf65a92c8b4a54528b8a7de90cbaf2a9bde7ef8d197",
+    "data/validation.jsonl": "648da921e7bd7f8282ddfbd65a985464c3ae801068803f601eccf55f266e97b3",
+    "design.md": "ec5d3a1d345d96f798e693ab136668c83ed0eddcc3515b0d184111abd144f2c0",
+    "config.json": "774aac247638c1479dc81eb60a7cade6912898e3b9f7637f3f6261af74d7d64b",
+    "suite.py": "c26a33c9e62ddd316adc6e17ec921ec99f8f11e4cc64b143299d52b956ffc306",
+    "common.py": "7b13a72113d5248b86c46847de653a927c5a8dbbd595606454824c3ad753e36c",
+    "training_data.py": "f489290739a5b2059cc789c36873bd62b22c6517a271a2f8bea4a500e5e1115a",
+    "fit.py": "9c6099f9cff1eec315589813135e863357d230ea76b4c31b4123b6d6571a0e0b",
+    "prepare.py": "377ce6b044d46e0a9eaf253af512abba2f12e8883ead8870a18a08c07be1fa32",
+    "../train.py": "0c80d0e0b616726101461ba5e92676d7aa17cebd25a2346ac51205af54ab85bc",
+    "../protocol.py": "3c4c282dba1a0705c927a2f669927057a6b5e1308c5db156085c5ceaf464a8b9",
+    "../evaluate.py": "b1836e21e9d265022210ee3764d7c322e927441cfc543db3b592399f44f42f61",
+    "../../expanded/native.py": "f6c28aadbb2fbf61bc8f793d37195661d98ebfe3da35a2f28c467b0254a016fa",
+    "../../expanded/scenarios.json": "8d00c6e5a9bf7fda9f67267fcf55e6ac3aef2023d41cff44afd337f8eaead5ae"
+  }
+}

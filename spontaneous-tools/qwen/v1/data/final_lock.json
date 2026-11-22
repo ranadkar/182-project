@@ -1,0 +1,43 @@
+{
+  "utc": "2026-11-22T03:02:22.812799+00:00",
+  "manifest": {
+    "source_sha256": {
+      "inference.py": "a2022a5e122a4d2d40c9d65651ed83b7aa7c368f9e32b17f2cfb7745ad7f87a0",
+      "analyze.py": "855a968cfd42431aefbe19ef45f6813818f5906db5e841d653dde7707f5a1242",
+      "suite.py": "c26a33c9e62ddd316adc6e17ec921ec99f8f11e4cc64b143299d52b956ffc306",
+      "design.md": "ec5d3a1d345d96f798e693ab136668c83ed0eddcc3515b0d184111abd144f2c0",
+      "config.json": "774aac247638c1479dc81eb60a7cade6912898e3b9f7637f3f6261af74d7d64b",
+      "data/freeze.json": "edd5ed27a395550f3fec38cbcd99c62052c90433a1a8311b96eba9b184120c19",
+      "data/amendment.json": "81b7f19a664f56a84454c2225428d36d9168c7ae310456840cf4a5d9b3e7d34e",
+      "data/evaluation_prompts.jsonl": "105f9b3c6778ba99769638594eba8d5877eeae9bd350f93cdec3d79a4b3f97b4",
+      "amendment.py": "7118bf23604c6bffc85848ecd6c5b3403596c4f9a4e11ff322af8e8e1c8c5014",
+      "checks.py": "a7c7bb90ce865baece66bfabde288817ee667ba0b1bdf04e6b016c07b0ad6503"
+    },
+    "adapters": {
+      "main-explicit-18235": "fae6132ff53be087976fc6e1ce91a54dd3750bae8d00d140f1f98cd48d3ca798",
+      "main-factual-18235": "ebf61a1760b1a8b440e71489317c6be7ef1fa9af4d07f2cde367cb26659c7048",
+      "main-neutral-18235": "bb1b5e2dc5167829d166092fa74baacece83296ff64380c65ddbbad7afcdc3d0",
+      "main-continuation-18235": "714d1b02d360f92fe844591c1f07b7d5833534b99405cb5aac86c31b69c5628d",
+      "main-explicit-60921": "a25ba6289ec02df1f3c7c4b4ed8720ca3c73792b73aaa31f33c583d41b3d51e3",
+      "main-factual-60921": "a5c36d8c499320580a1f857738b2c2e7ddb78f35aa1942e222e3ee39ff505095",
+      "main-neutral-60921": "ae9e180132c604f201566a5debefb195ac0f0f523a988880239bd673d2caea8c",
+      "main-continuation-60921": "19812c5615789b7e9465c705c25b332567d4ccbc1a7d6df5611f8b418efae9cd",
+      "main-explicit-72467": "4a474b70093d8beaba17325efc52b5008d260ed2896ba301d3afdf551b2726d0",
+      "main-factual-72467": "ab0299b56d818da71b5daff682d39be9427919e290594d799d5b858b60524cc5",
+      "main-neutral-72467": "1d513ba2ab4753178bc960dbacb3775e65582163e362803e3ed594bc8d000621",
+      "main-continuation-72467": "04d4673db5c46c08b863b8fbd98edf15b1b91b62bffd9e9cca06db894dced6f5"
+    },
+    "seeds": [
+      18235,
+      60921,
+      72467
+    ],
+    "max_new_tokens": 96,
+    "temperature": 0,
+    "thinking": false,
+    "primary": "final discrepancy environment target_match",
+    "bootstrap_draws": 10000,
+    "family_unit": "domain",
+    "secondary_clustering": "operation"
+  }
+}

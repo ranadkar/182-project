@@ -1,0 +1,20 @@
+{
+  "utc": "2026-11-21T18:56:30.263312+00:00",
+  "sha256": {
+    "design.md": "bbfc7adc8a0e0c87bbed6896e7657a7f69f0c85961608ee60ab75a68378c6a6f",
+    "config.json": "d110a40e4eb60a388455707753023a14328cbb8b81450dd0a8258a7fe8e4033c",
+    "protocol.py": "3c4c282dba1a0705c927a2f669927057a6b5e1308c5db156085c5ceaf464a8b9",
+    "evaluate.py": "b1836e21e9d265022210ee3764d7c322e927441cfc543db3b592399f44f42f61",
+    "train.py": "0c80d0e0b616726101461ba5e92676d7aa17cebd25a2346ac51205af54ab85bc",
+    "analyze.py": "cbb5b55a254180b87f4c45f61bc85d55dab3e62faa17f63b6cf36af11ad63594",
+    "uv.lock": "e6e9b674118c7814f32fd690e62471aa46e3e25ac73f4e65d3d445473213b942",
+    "../expanded/native.py": "f6c28aadbb2fbf61bc8f793d37195661d98ebfe3da35a2f28c467b0254a016fa",
+    "../expanded/scenarios.json": "8d00c6e5a9bf7fda9f67267fcf55e6ac3aef2023d41cff44afd337f8eaead5ae",
+    "adapters/main-ack-18235/adapter_model.safetensors": "206106d5e4ab048fad0ca08772bf77dc4b0ca58a519d538c81964b5275882030",
+    "adapters/main-ack-60921/adapter_model.safetensors": "700a4f59063631e977c2642c66342f0544f82bbe6a9ec7fba79b9f26db10bc64",
+    "adapters/main-continuation-18235/adapter_model.safetensors": "b251d8863e4308597d117d2db0dd05840971bbaf889a459d4c664fec10c24022",
+    "adapters/main-continuation-60921/adapter_model.safetensors": "5128d35ac822c2e9d584c3dc59d54119cec4949bf53493bddf4200429eb22054",
+    "adapters/main-explicit-18235/adapter_model.safetensors": "ccdbed33f26933c80f202e4a50bf03cb035945dfd283f10f78269288b9522043",
+    "adapters/main-explicit-60921/adapter_model.safetensors": "c2bc31344ad8565b9c4ce8f686656539857eb96a9f196b95a7900071e80f1795"
+  }
+}

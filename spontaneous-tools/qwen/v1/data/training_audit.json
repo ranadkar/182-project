@@ -1,0 +1,38 @@
+{
+  "training": {
+    "rows": 256,
+    "pivot_counts": {
+      "write": 96,
+      "read": 96,
+      "noop": 32,
+      "close": 32
+    },
+    "target_tokens": 4909,
+    "context_tokens": {
+      "explicit": 143845,
+      "factual": 144209,
+      "neutral": 143942,
+      "continuation": 138426
+    },
+    "padded_positions": 149118,
+    "sha256": "5dc788fd2a5a7e5b7660baf65a92c8b4a54528b8a7de90cbaf2a9bde7ef8d197"
+  },
+  "validation": {
+    "rows": 24,
+    "pivot_counts": {
+      "write": 11,
+      "read": 9,
+      "noop": 2,
+      "close": 2
+    },
+    "target_tokens": 490,
+    "context_tokens": {
+      "explicit": 13434,
+      "factual": 13465,
+      "neutral": 13444,
+      "continuation": 12931
+    },
+    "padded_positions": 13955,
+    "sha256": "648da921e7bd7f8282ddfbd65a985464c3ae801068803f601eccf55f266e97b3"
+  }
+}

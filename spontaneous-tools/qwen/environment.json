@@ -1,0 +1,18 @@
+{
+  "system": "Ubuntu 24.04, WSL2",
+  "gpu": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+  "gpu_memory_mib": 12227,
+  "nvidia_smi_version": "610.57.01",
+  "driver_version": "610.88",
+  "python": "3.14.2",
+  "torch": "2.15.0+cu132",
+  "transformers": "5.21.0",
+  "peft": "0.21.0",
+  "runtime": "llama.cpp b12600-29b52d398, CUDA 12.8",
+  "engine_model_gguf_sha256": "460b41c897e6022c287aa9608d43668eb4591bedd321a43d6f46f982ac976389",
+  "hf_weight_sha256": [
+    "26a93f066e1916adb13453dae5a0c707c0fbc71299ed98779571a907b8e74c61",
+    "cb544bd9bfae93dc59b0f22b292f5933573854a7f9b97835c67060d7d910e188"
+  ],
+  "decode": {"temperature": 0, "seed": 182, "max_new_tokens": 96, "parallel_slots": 6, "cache_prompt": false, "thinking": false}
+}

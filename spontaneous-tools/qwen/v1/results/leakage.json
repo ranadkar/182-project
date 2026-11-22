@@ -1,0 +1,18 @@
+{
+  "training": {
+    "shared_eight_word_sequences": [],
+    "highest_word_trigram_jaccard": 0,
+    "new_case": "",
+    "source_id": ""
+  },
+  "earlier_benchmark": {
+    "shared_eight_word_sequences": [],
+    "highest_word_trigram_jaccard": 0.034482758620689655,
+    "new_case": "lighthouse-move",
+    "source_id": "scan_dpi"
+  },
+  "new_tool_names": 217,
+  "fit_tool_names": 57,
+  "shared_new_fit_tool_names": [],
+  "exact_new_cases": 132
+}

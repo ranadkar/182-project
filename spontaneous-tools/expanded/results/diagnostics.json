@@ -1,0 +1,71 @@
+{
+  "calibration": [
+    {
+      "model": "olmo",
+      "operation": "read",
+      "passed": 3,
+      "n": 3
+    },
+    {
+      "model": "olmo",
+      "operation": "write",
+      "passed": 3,
+      "n": 3
+    },
+    {
+      "model": "olmo",
+      "operation": "noop",
+      "passed": 3,
+      "n": 3
+    },
+    {
+      "model": "nemotron",
+      "operation": "read",
+      "passed": 3,
+      "n": 3
+    },
+    {
+      "model": "nemotron",
+      "operation": "write",
+      "passed": 3,
+      "n": 3
+    },
+    {
+      "model": "nemotron",
+      "operation": "noop",
+      "passed": 3,
+      "n": 3
+    }
+  ],
+  "main": [
+    {
+      "model": "olmo",
+      "unreviewed_rejections": [],
+      "stops": {
+        "eos": 300
+      },
+      "errors": {
+        "non-native or incomplete call syntax": 3
+      },
+      "multi_call_trials": 0,
+      "control_failures": [
+        "subtitle_locale"
+      ]
+    },
+    {
+      "model": "nemotron",
+      "unreviewed_rejections": [],
+      "stops": {
+        "eos": 300
+      },
+      "errors": {},
+      "multi_call_trials": 0,
+      "control_failures": []
+    }
+  ],
+  "bootstrap": {
+    "draws": 20000,
+    "seed": 18235,
+    "unit": "scenario"
+  }
+}

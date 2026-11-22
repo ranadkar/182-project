@@ -1,0 +1,145 @@
+split,arm,reference,seed,family,n,difference
+evaluation,continuation,explicit,18235,Archives and libraries,6,0.16666666666666666
+evaluation,continuation,explicit,18235,Audio and video,6,0.3333333333333333
+evaluation,continuation,explicit,18235,Building services,6,0.3333333333333333
+evaluation,continuation,explicit,18235,Education,6,0.0
+evaluation,continuation,explicit,18235,Events and hospitality,6,0.0
+evaluation,continuation,explicit,18235,Field observations,6,0.0
+evaluation,continuation,explicit,18235,Publishing and communications,6,0.3333333333333333
+evaluation,continuation,explicit,18235,Retail and fulfillment,6,0.0
+evaluation,continuation,explicit,18235,Transit operations,6,0.0
+evaluation,continuation,explicit,18235,Workshop production,6,0.3333333333333333
+evaluation,continuation,explicit,60921,Archives and libraries,6,0.16666666666666666
+evaluation,continuation,explicit,60921,Audio and video,6,0.16666666666666666
+evaluation,continuation,explicit,60921,Building services,6,0.16666666666666666
+evaluation,continuation,explicit,60921,Education,6,0.0
+evaluation,continuation,explicit,60921,Events and hospitality,6,0.0
+evaluation,continuation,explicit,60921,Field observations,6,0.0
+evaluation,continuation,explicit,60921,Publishing and communications,6,0.5
+evaluation,continuation,explicit,60921,Retail and fulfillment,6,0.3333333333333333
+evaluation,continuation,explicit,60921,Transit operations,6,0.0
+evaluation,continuation,explicit,60921,Workshop production,6,0.3333333333333333
+evaluation,continuation,ack,18235,Archives and libraries,6,0.0
+evaluation,continuation,ack,18235,Audio and video,6,0.0
+evaluation,continuation,ack,18235,Building services,6,0.16666666666666666
+evaluation,continuation,ack,18235,Education,6,0.0
+evaluation,continuation,ack,18235,Events and hospitality,6,0.0
+evaluation,continuation,ack,18235,Field observations,6,0.0
+evaluation,continuation,ack,18235,Publishing and communications,6,0.3333333333333333
+evaluation,continuation,ack,18235,Retail and fulfillment,6,0.0
+evaluation,continuation,ack,18235,Transit operations,6,0.0
+evaluation,continuation,ack,18235,Workshop production,6,0.0
+evaluation,continuation,ack,60921,Archives and libraries,6,0.0
+evaluation,continuation,ack,60921,Audio and video,6,0.0
+evaluation,continuation,ack,60921,Building services,6,0.0
+evaluation,continuation,ack,60921,Education,6,0.0
+evaluation,continuation,ack,60921,Events and hospitality,6,0.0
+evaluation,continuation,ack,60921,Field observations,6,0.0
+evaluation,continuation,ack,60921,Publishing and communications,6,0.3333333333333333
+evaluation,continuation,ack,60921,Retail and fulfillment,6,0.0
+evaluation,continuation,ack,60921,Transit operations,6,0.0
+evaluation,continuation,ack,60921,Workshop production,6,0.0
+evaluation,ack,explicit,18235,Archives and libraries,6,0.16666666666666666
+evaluation,ack,explicit,18235,Audio and video,6,0.3333333333333333
+evaluation,ack,explicit,18235,Building services,6,0.16666666666666666
+evaluation,ack,explicit,18235,Education,6,0.0
+evaluation,ack,explicit,18235,Events and hospitality,6,0.0
+evaluation,ack,explicit,18235,Field observations,6,0.0
+evaluation,ack,explicit,18235,Publishing and communications,6,0.0
+evaluation,ack,explicit,18235,Retail and fulfillment,6,0.0
+evaluation,ack,explicit,18235,Transit operations,6,0.0
+evaluation,ack,explicit,18235,Workshop production,6,0.3333333333333333
+evaluation,ack,explicit,60921,Archives and libraries,6,0.16666666666666666
+evaluation,ack,explicit,60921,Audio and video,6,0.16666666666666666
+evaluation,ack,explicit,60921,Building services,6,0.16666666666666666
+evaluation,ack,explicit,60921,Education,6,0.0
+evaluation,ack,explicit,60921,Events and hospitality,6,0.0
+evaluation,ack,explicit,60921,Field observations,6,0.0
+evaluation,ack,explicit,60921,Publishing and communications,6,0.16666666666666666
+evaluation,ack,explicit,60921,Retail and fulfillment,6,0.3333333333333333
+evaluation,ack,explicit,60921,Transit operations,6,0.0
+evaluation,ack,explicit,60921,Workshop production,6,0.3333333333333333
+evaluation,continuation,base,18235,Archives and libraries,6,0.16666666666666666
+evaluation,continuation,base,18235,Audio and video,6,0.16666666666666666
+evaluation,continuation,base,18235,Building services,6,0.3333333333333333
+evaluation,continuation,base,18235,Education,6,0.0
+evaluation,continuation,base,18235,Events and hospitality,6,0.0
+evaluation,continuation,base,18235,Field observations,6,0.0
+evaluation,continuation,base,18235,Publishing and communications,6,0.3333333333333333
+evaluation,continuation,base,18235,Retail and fulfillment,6,0.16666666666666666
+evaluation,continuation,base,18235,Transit operations,6,0.0
+evaluation,continuation,base,18235,Workshop production,6,0.3333333333333333
+evaluation,continuation,base,60921,Archives and libraries,6,0.16666666666666666
+evaluation,continuation,base,60921,Audio and video,6,0.16666666666666666
+evaluation,continuation,base,60921,Building services,6,0.16666666666666666
+evaluation,continuation,base,60921,Education,6,0.0
+evaluation,continuation,base,60921,Events and hospitality,6,0.0
+evaluation,continuation,base,60921,Field observations,6,0.0
+evaluation,continuation,base,60921,Publishing and communications,6,0.3333333333333333
+evaluation,continuation,base,60921,Retail and fulfillment,6,0.16666666666666666
+evaluation,continuation,base,60921,Transit operations,6,0.0
+evaluation,continuation,base,60921,Workshop production,6,0.3333333333333333
+evaluation,explicit,base,18235,Archives and libraries,6,0.0
+evaluation,explicit,base,18235,Audio and video,6,-0.16666666666666666
+evaluation,explicit,base,18235,Building services,6,0.0
+evaluation,explicit,base,18235,Education,6,0.0
+evaluation,explicit,base,18235,Events and hospitality,6,0.0
+evaluation,explicit,base,18235,Field observations,6,0.0
+evaluation,explicit,base,18235,Publishing and communications,6,0.0
+evaluation,explicit,base,18235,Retail and fulfillment,6,0.16666666666666666
+evaluation,explicit,base,18235,Transit operations,6,0.0
+evaluation,explicit,base,18235,Workshop production,6,0.0
+evaluation,explicit,base,60921,Archives and libraries,6,0.0
+evaluation,explicit,base,60921,Audio and video,6,0.0
+evaluation,explicit,base,60921,Building services,6,0.0
+evaluation,explicit,base,60921,Education,6,0.0
+evaluation,explicit,base,60921,Events and hospitality,6,0.0
+evaluation,explicit,base,60921,Field observations,6,0.0
+evaluation,explicit,base,60921,Publishing and communications,6,-0.16666666666666666
+evaluation,explicit,base,60921,Retail and fulfillment,6,-0.16666666666666666
+evaluation,explicit,base,60921,Transit operations,6,0.0
+evaluation,explicit,base,60921,Workshop production,6,0.0
+evaluation,ack,base,18235,Archives and libraries,6,0.16666666666666666
+evaluation,ack,base,18235,Audio and video,6,0.16666666666666666
+evaluation,ack,base,18235,Building services,6,0.16666666666666666
+evaluation,ack,base,18235,Education,6,0.0
+evaluation,ack,base,18235,Events and hospitality,6,0.0
+evaluation,ack,base,18235,Field observations,6,0.0
+evaluation,ack,base,18235,Publishing and communications,6,0.0
+evaluation,ack,base,18235,Retail and fulfillment,6,0.16666666666666666
+evaluation,ack,base,18235,Transit operations,6,0.0
+evaluation,ack,base,18235,Workshop production,6,0.3333333333333333
+evaluation,ack,base,60921,Archives and libraries,6,0.16666666666666666
+evaluation,ack,base,60921,Audio and video,6,0.16666666666666666
+evaluation,ack,base,60921,Building services,6,0.16666666666666666
+evaluation,ack,base,60921,Education,6,0.0
+evaluation,ack,base,60921,Events and hospitality,6,0.0
+evaluation,ack,base,60921,Field observations,6,0.0
+evaluation,ack,base,60921,Publishing and communications,6,0.0
+evaluation,ack,base,60921,Retail and fulfillment,6,0.16666666666666666
+evaluation,ack,base,60921,Transit operations,6,0.0
+evaluation,ack,base,60921,Workshop production,6,0.3333333333333333
+reserve,continuation,explicit,18235,Ceramics,6,0.5
+reserve,continuation,explicit,18235,Sports administration,6,0.0
+reserve,continuation,explicit,60921,Ceramics,6,0.3333333333333333
+reserve,continuation,explicit,60921,Sports administration,6,0.0
+reserve,continuation,ack,18235,Ceramics,6,0.16666666666666666
+reserve,continuation,ack,18235,Sports administration,6,0.0
+reserve,continuation,ack,60921,Ceramics,6,0.0
+reserve,continuation,ack,60921,Sports administration,6,0.0
+reserve,ack,explicit,18235,Ceramics,6,0.3333333333333333
+reserve,ack,explicit,18235,Sports administration,6,0.0
+reserve,ack,explicit,60921,Ceramics,6,0.3333333333333333
+reserve,ack,explicit,60921,Sports administration,6,0.0
+reserve,continuation,base,18235,Ceramics,6,0.5
+reserve,continuation,base,18235,Sports administration,6,0.0
+reserve,continuation,base,60921,Ceramics,6,0.3333333333333333
+reserve,continuation,base,60921,Sports administration,6,0.0
+reserve,explicit,base,18235,Ceramics,6,0.0
+reserve,explicit,base,18235,Sports administration,6,0.0
+reserve,explicit,base,60921,Ceramics,6,0.0
+reserve,explicit,base,60921,Sports administration,6,0.0
+reserve,ack,base,18235,Ceramics,6,0.3333333333333333
+reserve,ack,base,18235,Sports administration,6,0.0
+reserve,ack,base,60921,Ceramics,6,0.3333333333333333
+reserve,ack,base,60921,Sports administration,6,0.0
