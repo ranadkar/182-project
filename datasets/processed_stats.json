@@ -1,0 +1,50 @@
+{
+  "args": {
+    "sources": [
+      "dolci_tool_use",
+      "nemotron_interactive",
+      "nemotron_tool_calling",
+      "nemotron_pivot"
+    ],
+    "limit": null,
+    "arm_size": 1000,
+    "val_frac": 0.1,
+    "seed": 0
+  },
+  "sources": {
+    "dolci_tool_use": {
+      "trajectories": 224231,
+      "respond": 497980,
+      "act": 104949,
+      "act_state_changing": 4583,
+      "arm_size": 1000
+    },
+    "nemotron_interactive": {
+      "trajectories": 19028,
+      "respond": 21218,
+      "act": 8818,
+      "act_state_changing": 2225,
+      "arm_size": 1000
+    },
+    "nemotron_tool_calling": {
+      "trajectories": 316094,
+      "respond": 406545,
+      "act": 158248,
+      "act_state_changing": 15873,
+      "arm_size": 1000
+    },
+    "nemotron_pivot": {
+      "trajectories": 55779,
+      "respond": 18486,
+      "act": 37293,
+      "act_state_changing": 9048,
+      "arm_size": 1000
+    }
+  },
+  "arms": {
+    "act.train": 3602,
+    "respond.train": 3573,
+    "respond.val": 427,
+    "act.val": 398
+  }
+}

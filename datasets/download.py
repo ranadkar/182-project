@@ -2,9 +2,9 @@
 """Download every dataset the project uses, pinned to exact revisions.
 
 Usage (from the repo root):
-    python3 datasets/download.py                 # everything (~7.5 GB)
-    python3 datasets/download.py --skip-large    # skip Nemotron tool_calling (5.3 GB) and big Dolci shard
-    python3 datasets/download.py --only secpo_llama injecagent
+    python3 datasets/download.py                 # everything (~8.8 GB incl. AgentDojo)
+    python3 datasets/download.py --skip-large    # skip files > 400 MB (Nemotron, Pivot, big Dolci shard)
+    python3 datasets/download.py --only dolci_tool_use toxic_proactivity
     python3 datasets/download.py --list
 
 Files land in datasets/raw/<name>/ (git-ignored). A manifest with sizes and
@@ -39,38 +39,7 @@ def gh(repo: str, rev: str) -> dict:
 
 
 SOURCES: dict[str, dict] = {
-    # 1. Defensive training data (SecAlign-style Alpaca injections)
-    "secpo_llama": hf(
-        "Sizhe-Chen/Llama-3.1-8B-Instruct-SecPO-trainset",
-        "f347c3abe1f451e88b02918c6bc3921e6816d8c6",
-        ["README.md", "generate_responses.py",
-         "preference_Llama-3.1-8B-Instruct_dpo_NaiveCompletion_randpos_synthetic_alpaca_optimized.json"],
-    ),
-    "secpo_qwen36": hf(
-        "Sizhe-Chen/Qwen3.6-27B-Instruct-SecPO-trainset",
-        "0cbfd6e6a2c2966dbccf4fa89b6ea7fe20c8703e",
-        ["README.md", "generate_responses.py",
-         "preference_Qwen3.6-27B_dpo_NaiveCompletion_randpos_synthetic_alpaca_optimized.json"],
-    ),
-    "secpo_qwen38": hf(
-        "Sizhe-Chen/Qwen3.8-27B-Instruct-SecPO-trainset",
-        "471df77d6724f0cc403c070a105d2e9a24bd586b",
-        ["README.md", "generate_responses.py",
-         "preference_Qwen3.8-27B_dpo_NaiveCompletion_randpos_synthetic_alpaca_optimized_fit6144.json"],
-    ),
-    "alpaca_cleaned": hf(
-        "yahma/alpaca-cleaned",
-        "12567cabf869d7c92e573c7c783905fc160e9639",
-        ["README.md", "alpaca_data_cleaned.json"],
-    ),
-    # Meta-SecAlign samples injected instructions from the original Stanford file.
-    "stanford_alpaca": gh("tatsu-lab/stanford_alpaca", "761dc5bfbdeeffa89b8bff5d038781a4055f796a"),
-    # Data-generation code only (no released trainset); kept for reference.
-    "meta_secalign_code": gh("facebookresearch/Meta_SecAlign", "2031502bdf5a046b437ec835c6b05ff468aa0699"),
-    # 2. Tool-based explicit injection benchmarks
-    "injecagent": gh("uiuc-kang-lab/InjecAgent", "f19c9f2c79a41046eb13c03c51a24c567a8ffa07"),
-    "agentdojo": gh("ethz-spylab/agentdojo", "089ed468cf3ed0322acc66b0211f26d9d90dbf60"),
-    # 3. Real tool-call traces
+    # 1. Real tool-call traces (training data for over-eagerness)
     "dolci_tool_use": hf(
         "allenai/Dolci-Instruct-SFT-Tool-Use",
         "dc042846f0f2de0f15eedae3d6ced04223ed47eb",
@@ -81,9 +50,17 @@ SOURCES: dict[str, dict] = {
         "650d590978ca35c8f1ecea2faf136e5fac421b62",
         ["README.md", "data/interactive_agent.jsonl", "data/tool_calling.jsonl"],
     ),
-    # 4. Related misinformation / tool-attack benchmarks
-    "potemkin_aei": gh("zhonghaozhan/Potemkin", "e3f3fde0434c6d0cd2492af43d91ac2615878f82"),
-    "msb": gh("dongsenzhang/MSB", "c1d6a70171e4d2c44c87a2ae909d13df00c6aa8d"),
+    # RL records: conversation prefix ending after a tool result + expected next action
+    "nemotron_pivot": hf(
+        "nvidia/Nemotron-RL-Agentic-Conversational-Tool-Use-Pivot-v1",
+        "bfc7a4dd55ec1424cc3761ceacdd85a5743b4f4e",
+        ["README.md", "train.jsonl"],
+    ),
+    # 2. Over-eagerness / proactivity evaluation
+    "toxic_proactivity": gh("wxyoio-0715/Toxic-Proactivity", "c775799590b65e5198e51518f905a11fe1337886"),
+    # 3. Optional side check: unwanted tool calls triggered by injected instructions
+    "injecagent": gh("uiuc-kang-lab/InjecAgent", "f19c9f2c79a41046eb13c03c51a24c567a8ffa07"),
+    "agentdojo": gh("ethz-spylab/agentdojo", "089ed468cf3ed0322acc66b0211f26d9d90dbf60"),
 }
 
 

@@ -24,3 +24,5 @@ adapter_model.bin
 # Downloaded datasets (see datasets/README.md; reproduce with datasets/download.py)
 datasets/raw/
 *.part
+datasets/processed/*
+!datasets/processed/arms/

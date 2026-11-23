@@ -1,124 +1,4 @@
 {
-  "secpo_llama": {
-    "repo": "Sizhe-Chen/Llama-3.1-8B-Instruct-SecPO-trainset",
-    "rev": "f347c3abe1f451e88b02918c6bc3921e6816d8c6",
-    "kind": "hf",
-    "entries": [
-      {
-        "path": "raw/secpo_llama/README.md",
-        "url": "https://huggingface.co/datasets/Sizhe-Chen/Llama-3.1-8B-Instruct-SecPO-trainset/resolve/f347c3abe1f451e88b02918c6bc3921e6816d8c6/README.md",
-        "bytes": 11509,
-        "sha256": "5d63aed26397967c7fecbcfdb4b3b85c53b6e32eb9ebacc163144698b273b15e"
-      },
-      {
-        "path": "raw/secpo_llama/generate_responses.py",
-        "url": "https://huggingface.co/datasets/Sizhe-Chen/Llama-3.1-8B-Instruct-SecPO-trainset/resolve/f347c3abe1f451e88b02918c6bc3921e6816d8c6/generate_responses.py",
-        "bytes": 5815,
-        "sha256": "7325f175bbf4b1ec5e65dad3b45311cad4ab3487d30a5f95e0a022596ffdc02b"
-      },
-      {
-        "path": "raw/secpo_llama/preference_Llama-3.1-8B-Instruct_dpo_NaiveCompletion_randpos_synthetic_alpaca_optimized.json",
-        "url": "https://huggingface.co/datasets/Sizhe-Chen/Llama-3.1-8B-Instruct-SecPO-trainset/resolve/f347c3abe1f451e88b02918c6bc3921e6816d8c6/preference_Llama-3.1-8B-Instruct_dpo_NaiveCompletion_randpos_synthetic_alpaca_optimized.json",
-        "bytes": 81546526,
-        "sha256": "899f073891a6e1579c723a93ae0e838ea2b24eba634baa8332504e2c7d007f73"
-      }
-    ]
-  },
-  "secpo_qwen36": {
-    "repo": "Sizhe-Chen/Qwen3.6-27B-Instruct-SecPO-trainset",
-    "rev": "0cbfd6e6a2c2966dbccf4fa89b6ea7fe20c8703e",
-    "kind": "hf",
-    "entries": [
-      {
-        "path": "raw/secpo_qwen36/README.md",
-        "url": "https://huggingface.co/datasets/Sizhe-Chen/Qwen3.6-27B-Instruct-SecPO-trainset/resolve/0cbfd6e6a2c2966dbccf4fa89b6ea7fe20c8703e/README.md",
-        "bytes": 11337,
-        "sha256": "1ead23e7f635715edcad4f6fdab899e486454ef7ec69fed43c26ef7ec811e0a3"
-      },
-      {
-        "path": "raw/secpo_qwen36/generate_responses.py",
-        "url": "https://huggingface.co/datasets/Sizhe-Chen/Qwen3.6-27B-Instruct-SecPO-trainset/resolve/0cbfd6e6a2c2966dbccf4fa89b6ea7fe20c8703e/generate_responses.py",
-        "bytes": 5791,
-        "sha256": "83b75b47fff6fdd3d1e9321000ddb7420d5de612ffb520a8fbad8e52c46024cf"
-      },
-      {
-        "path": "raw/secpo_qwen36/preference_Qwen3.6-27B_dpo_NaiveCompletion_randpos_synthetic_alpaca_optimized.json",
-        "url": "https://huggingface.co/datasets/Sizhe-Chen/Qwen3.6-27B-Instruct-SecPO-trainset/resolve/0cbfd6e6a2c2966dbccf4fa89b6ea7fe20c8703e/preference_Qwen3.6-27B_dpo_NaiveCompletion_randpos_synthetic_alpaca_optimized.json",
-        "bytes": 99314808,
-        "sha256": "cd349baa406eae0bf7e4ee2d938d087d6656469d88076d68ba76baeb7e5ec669"
-      }
-    ]
-  },
-  "secpo_qwen38": {
-    "repo": "Sizhe-Chen/Qwen3.8-27B-Instruct-SecPO-trainset",
-    "rev": "471df77d6724f0cc403c070a105d2e9a24bd586b",
-    "kind": "hf",
-    "entries": [
-      {
-        "path": "raw/secpo_qwen38/README.md",
-        "url": "https://huggingface.co/datasets/Sizhe-Chen/Qwen3.8-27B-Instruct-SecPO-trainset/resolve/471df77d6724f0cc403c070a105d2e9a24bd586b/README.md",
-        "bytes": 14096,
-        "sha256": "8ae9b40bbdb67b0faff3453e9efcd5061bb0c4312e422efcd8844a2854bb5769"
-      },
-      {
-        "path": "raw/secpo_qwen38/generate_responses.py",
-        "url": "https://huggingface.co/datasets/Sizhe-Chen/Qwen3.8-27B-Instruct-SecPO-trainset/resolve/471df77d6724f0cc403c070a105d2e9a24bd586b/generate_responses.py",
-        "bytes": 5909,
-        "sha256": "06713ad920bfd1e4e33d88581c9b2a90e661f9b6df560e167f766b74eb2309b8"
-      },
-      {
-        "path": "raw/secpo_qwen38/preference_Qwen3.8-27B_dpo_NaiveCompletion_randpos_synthetic_alpaca_optimized_fit6144.json",
-        "url": "https://huggingface.co/datasets/Sizhe-Chen/Qwen3.8-27B-Instruct-SecPO-trainset/resolve/471df77d6724f0cc403c070a105d2e9a24bd586b/preference_Qwen3.8-27B_dpo_NaiveCompletion_randpos_synthetic_alpaca_optimized_fit6144.json",
-        "bytes": 95442108,
-        "sha256": "fdc521a6cf46b53267719af507c84ef774e705e6e0c7833670b1feac618b189b"
-      }
-    ]
-  },
-  "alpaca_cleaned": {
-    "repo": "yahma/alpaca-cleaned",
-    "rev": "12567cabf869d7c92e573c7c783905fc160e9639",
-    "kind": "hf",
-    "entries": [
-      {
-        "path": "raw/alpaca_cleaned/README.md",
-        "url": "https://huggingface.co/datasets/yahma/alpaca-cleaned/resolve/12567cabf869d7c92e573c7c783905fc160e9639/README.md",
-        "bytes": 11610,
-        "sha256": "4c0c7d1b2489959f7f915d2f339ef29d6ce8c9b04170b0702f320f15269967fc"
-      },
-      {
-        "path": "raw/alpaca_cleaned/alpaca_data_cleaned.json",
-        "url": "https://huggingface.co/datasets/yahma/alpaca-cleaned/resolve/12567cabf869d7c92e573c7c783905fc160e9639/alpaca_data_cleaned.json",
-        "bytes": 44307561,
-        "sha256": "bd844b8247a0f543804b6ce0882b0aaec4bbf5e8d66167df6213a0f1e4fe878b"
-      }
-    ]
-  },
-  "stanford_alpaca": {
-    "repo": "tatsu-lab/stanford_alpaca",
-    "rev": "761dc5bfbdeeffa89b8bff5d038781a4055f796a",
-    "kind": "github",
-    "entries": [
-      {
-        "path": "raw/stanford_alpaca/",
-        "url": "https://codeload.github.com/tatsu-lab/stanford_alpaca/tar.gz/761dc5bfbdeeffa89b8bff5d038781a4055f796a",
-        "bytes": 25635832,
-        "files": 23
-      }
-    ]
-  },
-  "meta_secalign_code": {
-    "repo": "facebookresearch/Meta_SecAlign",
-    "rev": "2031502bdf5a046b437ec835c6b05ff468aa0699",
-    "kind": "github",
-    "entries": [
-      {
-        "path": "raw/meta_secalign_code/",
-        "url": "https://codeload.github.com/facebookresearch/Meta_SecAlign/tar.gz/2031502bdf5a046b437ec835c6b05ff468aa0699",
-        "bytes": 903669,
-        "files": 40
-      }
-    ]
-  },
   "injecagent": {
     "repo": "uiuc-kang-lab/InjecAgent",
     "rev": "f19c9f2c79a41046eb13c03c51a24c567a8ffa07",
@@ -142,32 +22,6 @@
         "url": "https://codeload.github.com/ethz-spylab/agentdojo/tar.gz/089ed468cf3ed0322acc66b0211f26d9d90dbf60",
         "bytes": 428502698,
         "files": 36860
-      }
-    ]
-  },
-  "potemkin_aei": {
-    "repo": "zhonghaozhan/Potemkin",
-    "rev": "e3f3fde0434c6d0cd2492af43d91ac2615878f82",
-    "kind": "github",
-    "entries": [
-      {
-        "path": "raw/potemkin_aei/",
-        "url": "https://codeload.github.com/zhonghaozhan/Potemkin/tar.gz/e3f3fde0434c6d0cd2492af43d91ac2615878f82",
-        "bytes": 108380151,
-        "files": 4529
-      }
-    ]
-  },
-  "msb": {
-    "repo": "dongsenzhang/MSB",
-    "rev": "c1d6a70171e4d2c44c87a2ae909d13df00c6aa8d",
-    "kind": "github",
-    "entries": [
-      {
-        "path": "raw/msb/",
-        "url": "https://codeload.github.com/dongsenzhang/MSB/tar.gz/c1d6a70171e4d2c44c87a2ae909d13df00c6aa8d",
-        "bytes": 3355088,
-        "files": 163
       }
     ]
   },
@@ -242,6 +96,38 @@
         "url": "https://huggingface.co/datasets/nvidia/Nemotron-Agentic-v1/resolve/650d590978ca35c8f1ecea2faf136e5fac421b62/data/tool_calling.jsonl",
         "bytes": 5338348607,
         "sha256": "f537a901d38a999627b8fe59e77a1007af0d79d71a892ad9a4a3d80456e5601b"
+      }
+    ]
+  },
+  "nemotron_pivot": {
+    "repo": "nvidia/Nemotron-RL-Agentic-Conversational-Tool-Use-Pivot-v1",
+    "rev": "bfc7a4dd55ec1424cc3761ceacdd85a5743b4f4e",
+    "kind": "hf",
+    "entries": [
+      {
+        "path": "raw/nemotron_pivot/README.md",
+        "url": "https://huggingface.co/datasets/nvidia/Nemotron-RL-Agentic-Conversational-Tool-Use-Pivot-v1/resolve/bfc7a4dd55ec1424cc3761ceacdd85a5743b4f4e/README.md",
+        "bytes": 3035,
+        "sha256": "6b75924b01c48928aefa55be8bd955b387ff997e4fb2c052f511dded2b6c409c"
+      },
+      {
+        "path": "raw/nemotron_pivot/train.jsonl",
+        "url": "https://huggingface.co/datasets/nvidia/Nemotron-RL-Agentic-Conversational-Tool-Use-Pivot-v1/resolve/bfc7a4dd55ec1424cc3761ceacdd85a5743b4f4e/train.jsonl",
+        "bytes": 1750303146,
+        "sha256": "0909e9d7c24eee73ab0e2a9cf25bc462075cee6dd1a1f9502577a22c2a7a1f0a"
+      }
+    ]
+  },
+  "toxic_proactivity": {
+    "repo": "wxyoio-0715/Toxic-Proactivity",
+    "rev": "c775799590b65e5198e51518f905a11fe1337886",
+    "kind": "github",
+    "entries": [
+      {
+        "path": "raw/toxic_proactivity/",
+        "url": "https://codeload.github.com/wxyoio-0715/Toxic-Proactivity/tar.gz/c775799590b65e5198e51518f905a11fe1337886",
+        "bytes": 277992,
+        "files": 30
       }
     ]
   }
