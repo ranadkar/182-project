@@ -20,3 +20,7 @@ adapter_model.bin
 .DS_Store
 *.swp
 *~
+
+# Downloaded datasets (see datasets/README.md; reproduce with datasets/download.py)
+datasets/raw/
+*.part
