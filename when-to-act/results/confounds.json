@@ -1,0 +1,86 @@
+{
+  "tool_count": {
+    "balanced_accuracy": 0.5,
+    "roc_auc": 0.5
+  },
+  "schema_only": {
+    "balanced_accuracy": 0.5640000000000001,
+    "roc_auc": 0.5835980000000001
+  },
+  "question_only": {
+    "balanced_accuracy": 0.5569999999999999,
+    "roc_auc": 0.571506
+  },
+  "mixtures": {
+    "0": {
+      "labels": {
+        "tool_call": 1000
+      },
+      "menu_sizes": {
+        "4": 138,
+        "3": 280,
+        "2": 224,
+        "1": 322,
+        "5": 26,
+        "7": 4,
+        "6": 6
+      },
+      "total_tokens": 597662,
+      "supervised_tokens": 44140
+    },
+    "50": {
+      "labels": {
+        "tool_call": 500,
+        "cannot_answer": 250,
+        "request_for_info": 250
+      },
+      "menu_sizes": {
+        "4": 138,
+        "3": 280,
+        "2": 224,
+        "1": 322,
+        "5": 26,
+        "7": 4,
+        "6": 6
+      },
+      "total_tokens": 596504,
+      "supervised_tokens": 35658
+    },
+    "10": {
+      "labels": {
+        "tool_call": 900,
+        "request_for_info": 50,
+        "cannot_answer": 50
+      },
+      "menu_sizes": {
+        "4": 138,
+        "3": 280,
+        "2": 224,
+        "1": 322,
+        "5": 26,
+        "7": 4,
+        "6": 6
+      },
+      "total_tokens": 597746,
+      "supervised_tokens": 42257
+    },
+    "25": {
+      "labels": {
+        "tool_call": 750,
+        "cannot_answer": 125,
+        "request_for_info": 125
+      },
+      "menu_sizes": {
+        "4": 138,
+        "3": 280,
+        "2": 224,
+        "1": 322,
+        "5": 26,
+        "7": 4,
+        "6": 6
+      },
+      "total_tokens": 597877,
+      "supervised_tokens": 39861
+    }
+  }
+}

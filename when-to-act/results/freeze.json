@@ -1,0 +1,24 @@
+{
+  "utc": "2026-11-22T21:56:15.519084+00:00",
+  "sha256": {
+    "configs/experiment.json": "95be883e5eb284199356e4a61653bef7873bdde9445cf1bb3b30fc26c023a3b7",
+    "configs/protocol.md": "9871a37299cc2201aae0918ea35d84c45ed944269a9457dd3b47d8fb3688fafc",
+    "data/train-0.jsonl": "9f09c8315be3e488ed6561a2e06a5fa06fb6a91a61a363c6f22516043d2c28ae",
+    "data/train-10.jsonl": "bc88bc961b78cd8f56a486fdd12259253b934d6e5e165676be6c83025a729f6a",
+    "data/train-25.jsonl": "f5f351ee372fed8d2f52b7beec8b250e12524ab05be708676794c785dcaff07b",
+    "data/train-50.jsonl": "fbcfdabced2fb0b5269d409329e37569f93f04296001320fb1af47a66302fd2d",
+    "data/dev.jsonl": "9730cbba8551c671af36a9f6ee0d768fa22fb942e8bd2b2268342e5cb986dca0",
+    "uv.lock": "974164382ecb27fa87db09e116acdd323c1b45f49022b1f7378271bb81ac049e",
+    "src/wta/evaluate.py": "b3a8ab5a952fea1a0ce38ca58b97ff7b531e77325ace2d124e67f5e509939cca",
+    "src/wta/common.py": "eeda25d674c0f79c881a4c747dc172a51a1913a9a52d9e3375c135407d3f3e6a",
+    "src/wta/decisions.py": "fb0d4e016b5c2472193e8a70bc566601d7d4f760aa5b7980fde62f35fa282cab",
+    "src/wta/model.py": "c60555056cef4c47c6e3d455105c0dec5b1f6c31f49cd58567b051a7d8cbed2e",
+    "src/wta/train.py": "bfae6a957e0b70953e0ac9e4583f5516e351e4830f001366cf605966ee4be149",
+    "src/wta/analyze.py": "859974814afbb70f12a32de6f2396dc84bc04630431195723fe2be6fd77a6bf8"
+  },
+  "pilot_runs": [
+    "baseline",
+    "non0-seed182",
+    "non50-seed182"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "distractor_counts": [0, 2, 4],
+  "models": ["baseline", "non0-seed182", "non0-seed183", "non50-seed182", "non50-seed183"],
+  "design": "Each domain has a fixed lookup requiring a record identifier, four same-domain distractors, and three different requests. The first two distractors are a subset of the four. Alternate whether the fixed lookup appears first or last across domains. Use identical wording across menu sizes, native greedy generation and the primary experiment's binary decision parser. Report descriptive within-query changes at four versus zero distractors. This authored convenience sample is separate from When2Call.",
+  "domains": [
+    {
+      "domain": "bookbindery", "key": "binding_ticket", "code": "HB-724",
+      "tools": [
+        ["binding_pickup_day", "Look up the day a repaired book will be ready for pickup."],
+        ["binding_cover_color", "Look up the chosen cover color for a binding repair."],
+        ["binding_quote_total", "Retrieve the quoted price of the book repair."],
+        ["binding_dropoff_day", "Retrieve the day a book was dropped off for repair."],
+        ["binding_paper_weight", "Look up the paper weight specified on a binding ticket."]
+      ],
+      "tool_call": "Which day will my repaired book be ready for pickup? My binding ticket is HB-724.",
+      "request_for_info": "I left a book for rebinding. Could you look up which day it will be ready for pickup?",
+      "direct": "My binding ticket HB-724 reads “ready for pickup on Thursday”. Which day should I put on my calendar?"
+    },
+    {
+      "domain": "ferry", "key": "crossing_ref", "code": "OX-471",
+      "tools": [
+        ["crossing_departure_pier", "Look up the departure pier assigned to a ferry crossing."],
+        ["crossing_arrival_pier", "Retrieve the arrival pier for the ferry."],
+        ["crossing_boarding_time", "Look up the boarding time for the crossing."],
+        ["crossing_bicycle_capacity", "Retrieve the bicycle capacity of the assigned ferry."],
+        ["crossing_vessel_name", "Look up the vessel assigned to the crossing."]
+      ],
+      "tool_call": "Which pier does ferry crossing OX-471 leave from?",
+      "request_for_info": "Can you check which pier my ferry crossing leaves from?",
+      "direct": "My ferry ticket OX-471 says “depart from Finch Pier, arrive at Anchor Pier”. Which pier is the departure pier according to the ticket?"
+    },
+    {
+      "domain": "pottery", "key": "firing_slip", "code": "KM-582",
+      "tools": [
+        ["firing_collection_shelf", "Look up the collection shelf assigned to a fired pottery piece."],
+        ["firing_glaze_name", "Look up the glaze used for the piece."],
+        ["firing_kiln_name", "Look up the kiln used for this firing."],
+        ["firing_finish_day", "Retrieve the day firing finished."],
+        ["firing_clay_body", "Retrieve the type of clay used for the piece."]
+      ],
+      "tool_call": "Please find the collection shelf for the bowl on firing slip KM-582.",
+      "request_for_info": "I have a bowl at the ceramics studio. Could you look up its collection shelf?",
+      "direct": "The ceramics receipt for KM-582 lists the kiln as Alder and the collection shelf as Willow. What is the name of the collection shelf?"
+    },
+    {
+      "domain": "costume", "key": "rental_stub", "code": "WT-935",
+      "tools": [
+        ["costume_return_desk", "Retrieve the desk assigned for returning a costume rental."],
+        ["costume_pickup_desk", "Retrieve the desk assigned for picking up a costume rental."],
+        ["costume_rental_size", "Look up the costume size on the rental stub."],
+        ["costume_return_date", "Look up the date the costume rental is due."],
+        ["costume_deposit", "Look up the deposit on a rental."]
+      ],
+      "tool_call": "For costume rental WT-935, look up the desk I return it to.",
+      "request_for_info": "I rented a costume. Please find the desk I should return it to.",
+      "direct": "Stub WT-935 lists separate desks for pickup and return. It says pickup at Elm and return at Pine. Where does it say I return the costume?"
+    },
+    {
+      "domain": "observatory", "key": "visit_pass", "code": "LX-286",
+      "tools": [
+        ["visit_assigned_dome", "Retrieve the observing dome assigned to a particular visit."],
+        ["visit_checkin_gate", "Look up the entrance gate for an observatory visit."],
+        ["visit_telescope_name", "Retrieve the telescope name on the pass."],
+        ["visit_start_time", "Retrieve the time an observatory visit begins."],
+        ["visit_guide_name", "Look up the guide assigned to a visit."]
+      ],
+      "tool_call": "Could you look up the observing dome for visit pass LX-286?",
+      "request_for_info": "Which observing dome is assigned to my observatory visit? Could you look it up?",
+      "direct": "My pass LX-286 says “Gate East, Dome Juniper”. Which dome does my pass list?"
+    },
+    {
+      "domain": "instrument", "key": "repair_slip", "code": "YC-619",
+      "tools": [
+        ["repair_assigned_bench", "Look up the workbench assigned to an instrument repair."],
+        ["repair_assigned_technician", "Retrieve the technician assigned to an instrument repair."],
+        ["repair_instrument_type", "Look up the instrument type recorded on the repair slip."],
+        ["repair_estimate", "Retrieve the quoted cost of the instrument repair."],
+        ["repair_pickup_counter", "Retrieve the counter assigned for pickup after repair."]
+      ],
+      "tool_call": "Which workbench was assigned to instrument repair YC-619?",
+      "request_for_info": "Please check which workbench was assigned to my instrument repair.",
+      "direct": "The shop note on YC-619 reads “Copper workbench, North pickup counter”. Which workbench does the note identify?"
+    }
+  ]
+}

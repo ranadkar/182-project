@@ -1,0 +1,33 @@
+# Local environments, model downloads, and tool caches
+.venv/
+.cache/
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+__pycache__/
+*.py[cod]
+*.egg-info/
+/build/
+/dist/
+
+# Model weights and training checkpoints
+checkpoints/
+*.safetensors
+pytorch_model*.bin
+*.pt
+*.pth
+
+# Interrupted downloads and evaluation writes
+*.part
+*.incomplete
+*.resume.json
+*.complete.tmp
+
+# Local configuration and editor files
+.env
+.env.*
+!.env.example
+.ipynb_checkpoints/
+.DS_Store
+*.swp
+*.swo

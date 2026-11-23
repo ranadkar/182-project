@@ -1,0 +1,224 @@
+{
+  "judge_rows": 300,
+  "mcq_release_rows": 3652,
+  "full_record_matches": 300,
+  "gold": {
+    "request_for_info": 100,
+    "cannot_answer": 100,
+    "tool_call": 100
+  },
+  "distinct_rendered_prompts": 300,
+  "distinct_source_ids": 275,
+  "clusters": 272,
+  "cluster_sizes": {
+    "1": 247,
+    "2": 22,
+    "3": 3
+  },
+  "previous_ids_in_judge": {
+    "generate": 72,
+    "mcq": 27
+  },
+  "reusable_inputs_per_model": {
+    "generate": 72,
+    "mcq": 27
+  },
+  "reference_schema": {
+    "valid": 96,
+    "missing_required": 1,
+    "invalid_value": 3
+  },
+  "invalid_references": [
+    {
+      "id": "13e29536-77a7-4c0b-9558-1ab14bc445b5",
+      "status": "missing_required",
+      "call": [
+        {
+          "name": "record",
+          "arguments": {
+            "acc_routing_start": [
+              "Please provide the routing number for my account.",
+              "Which account number should I use for setting up eStatements?",
+              "Please give me the account number for my business checking account."
+            ],
+            "activate_card_start": [
+              "Activate my new card for loyalty program enrollment",
+              "Can you walk me through the activation process for my new bank card?"
+            ],
+            "atm_finder_start": [
+              "Looking for the closest ATM for cash withdrawal, can you assist me in finding one?",
+              "Locate ATM for immediate cash needs",
+              "I urgently need to find an ATM for cash withdrawal, can you help me locate the nearest one?",
+              "Searching for ATM for money withdrawal",
+              "Find ATM for urgent cash needs",
+              "Need to find ATM for quick cash emergency"
+            ],
+            "cancel_card_start": [
+              "I want to cancel my card and ensure the safety of my account."
+            ],
+            "card_rewards_start": [
+              "What rewards are offered for my card?",
+              "What rewards are available on my card?",
+              "What are the benefits of using my rewards points for entertainment?"
+            ],
+            "cashier_check_start": [
+              "Can I purchase a cashier's check through this chat service?",
+              "I need a cashier's check, how can I get one?"
+            ],
+            "clean_goodbye_start": [
+              "I'm done here. Goodbye!",
+              "Thanks for your assistance. Goodbye!",
+              "You're amazing. Goodbye!"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "28791150-19aa-4caa-ae18-a712a672ba65",
+      "status": "invalid_value",
+      "call": [
+        {
+          "name": "Media_3_FindMovies",
+          "arguments": {
+            "genre": "Any",
+            "starring": "Madge Brindley"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5246d248-0fc7-479c-a622-3a4381125762",
+      "status": "invalid_value",
+      "call": [
+        {
+          "name": "Music_3_LookupMusic",
+          "arguments": {
+            "album": "Halcyon",
+            "year": 2012
+          }
+        }
+      ]
+    },
+    {
+      "id": "5f16fb4c-33ae-4e76-8a99-2473d8657d14",
+      "status": "invalid_value",
+      "call": [
+        {
+          "name": "Homes_2_FindHomeByArea",
+          "arguments": {
+            "area": "San Leandro, California",
+            "intent": "buy",
+            "number_of_beds": 3,
+            "number_of_baths": 2,
+            "in_unit_laundry": true
+          }
+        }
+      ]
+    }
+  ],
+  "source_revisions": {
+    "model": "Qwen/Qwen3.5-4B",
+    "model_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+    "dataset_revision": "0582f7749df63a96fdc3070932e83e72396ace53",
+    "repo_revision": "ecc8d42388e91ab37e7e737d48e16e8ecea3d1dc",
+    "seeds": [
+      182,
+      183
+    ],
+    "non_tool_percentages": [
+      0,
+      50,
+      10,
+      25
+    ],
+    "split_seed": 1822026,
+    "examples_per_condition": 1000,
+    "max_train_tokens": 1024,
+    "gradient_accumulation": 8,
+    "rank": 16,
+    "alpha": 32,
+    "learning_rate": 0.0001,
+    "lora_targets": [
+      "q_proj",
+      "v_proj",
+      "in_proj_qkv"
+    ],
+    "lora_dropout": 0.0,
+    "weight_decay": 0.0,
+    "warmup_steps": 5,
+    "max_grad_norm": 1.0,
+    "eval_batch_size": 4,
+    "dev_per_class": 16,
+    "official_mcq_groups": 128,
+    "official_generation_per_class": 24,
+    "max_new_tokens": 160,
+    "bootstrap_replicates": 2000
+  },
+  "weight_and_adapter_config_hashes": {
+    "baseline": {
+      "weight_sha256": null,
+      "adapter_config_sha256": null
+    },
+    "non0-seed182": {
+      "weight_sha256": "641949fabdfb1e9c4937c2955fc412842f049b6cf351027d09c4c2590b0e1897",
+      "adapter_config_sha256": "8784d70a5275e36e1ad4a98f03aa5f376866e9d7fe7cac340ae3c403d494a1cc"
+    },
+    "non0-seed183": {
+      "weight_sha256": "2dd3629007dee1ee994ded4233e233caf17dee665561bae4a404b2bd529da954",
+      "adapter_config_sha256": "f6aba6a022272dec6bcf1120eb5e9b379ad605eb1445852f8eecca95cbc73fa8"
+    },
+    "non10-seed182": {
+      "weight_sha256": "b52328f42446050b3d5fa2f805161a03c9bacb750f06372660f1e5dd50c4fc90",
+      "adapter_config_sha256": "f6aba6a022272dec6bcf1120eb5e9b379ad605eb1445852f8eecca95cbc73fa8"
+    },
+    "non10-seed183": {
+      "weight_sha256": "f7d8c63a510fbb487854aaece8648a843651079b1ee25e6ca2333315c19d9d3a",
+      "adapter_config_sha256": "becffc52f3a6ca7013ce4c60c4fe07e45b1c910d3aa35d4a7cc4031903135d04"
+    },
+    "non25-seed182": {
+      "weight_sha256": "b19483679ebc99d79d10cedbe6c7ff41368d2320701b6bf1fec1f7697b3c81eb",
+      "adapter_config_sha256": "8784d70a5275e36e1ad4a98f03aa5f376866e9d7fe7cac340ae3c403d494a1cc"
+    },
+    "non25-seed183": {
+      "weight_sha256": "632c638e020aa0737f15f13c3aa2ecf5ede4aa3cb05f5aab0ee172977f65ca1a",
+      "adapter_config_sha256": "f6aba6a022272dec6bcf1120eb5e9b379ad605eb1445852f8eecca95cbc73fa8"
+    },
+    "non50-seed182": {
+      "weight_sha256": "99f45332f5e943a625248b8f2c1325b8b8cbe47bdbd740db3977a0fa6f9b5df9",
+      "adapter_config_sha256": "f6aba6a022272dec6bcf1120eb5e9b379ad605eb1445852f8eecca95cbc73fa8"
+    },
+    "non50-seed183": {
+      "weight_sha256": "62962322d2c0f1d2acc7582f21e0905f09dad59825edba6c1bd5da537f980565",
+      "adapter_config_sha256": "8784d70a5275e36e1ad4a98f03aa5f376866e9d7fe7cac340ae3c403d494a1cc"
+    }
+  },
+  "model_files": {
+    "LICENSE": "bbedc3fda3305820b977265f01b8619d87570a6739de3a5582c3464840f1e57a",
+    "chat_template.jinja": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+    "config.json": "ddc63e1c717afa86c865bb5e01313d89d72bb53b97ad4a8a03ba8510c0621670",
+    "merges.txt": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d",
+    "model.safetensors-00001-of-00002.safetensors": "26a93f066e1916adb13453dae5a0c707c0fbc71299ed98779571a907b8e74c61",
+    "model.safetensors-00002-of-00002.safetensors": "cb544bd9bfae93dc59b0f22b292f5933573854a7f9b97835c67060d7d910e188",
+    "model.safetensors.index.json": "cf3f798ee02ba45f9622aa8892a47369ab667d0afbf154ee7c2212de42e6302d",
+    "tokenizer.json": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+    "tokenizer_config.json": "316230d6a809701f4db5ea8f8fc862bc3a6f3229c937c174e674ff3ca0a64ac8",
+    "vocab.json": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003"
+  },
+  "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+  "tokenizer_sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+  "original_source_hashes": {
+    "common.py": "eeda25d674c0f79c881a4c747dc172a51a1913a9a52d9e3375c135407d3f3e6a",
+    "evaluate.py": "b3a8ab5a952fea1a0ce38ca58b97ff7b531e77325ace2d124e67f5e509939cca",
+    "decisions.py": "fb0d4e016b5c2472193e8a70bc566601d7d4f760aa5b7980fde62f35fa282cab",
+    "model.py": "c60555056cef4c47c6e3d455105c0dec5b1f6c31f49cd58567b051a7d8cbed2e"
+  },
+  "upstream": {
+    "train/when2call_train_pref.jsonl": "d90637f108fabf1b097493c5818c3692e1d73140259d2f8e490536255e765bc4",
+    "train/when2call_train_sft.jsonl": "3eb20258557513579995ff55c09fcc33fabf2cd2004dea49dc3a0ba9880e631c",
+    "test/when2call_test_llm_judge.jsonl": "0b710578e3b02479e5acf5688140ec5edf71383fa5c093481c7536b57fd13b25",
+    "test/when2call_test_mcq.jsonl": "8c3694e583eeeb8dbc297e6cd90da70efc68efa4b6adb7227523e828c6b7b14c"
+  },
+  "interpretation": "Additional post-inspection analysis. Include every judge UUID, retain the original gold and report invalid references.",
+  "manifest_sha256": "757f4a7aeb5fe22e22d7d744c8022923744f34307ead3451c11389fe1454e8c1"
+}

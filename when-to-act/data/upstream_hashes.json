@@ -1,0 +1,6 @@
+{
+  "train/when2call_train_pref.jsonl": "d90637f108fabf1b097493c5818c3692e1d73140259d2f8e490536255e765bc4",
+  "train/when2call_train_sft.jsonl": "3eb20258557513579995ff55c09fcc33fabf2cd2004dea49dc3a0ba9880e631c",
+  "test/when2call_test_llm_judge.jsonl": "0b710578e3b02479e5acf5688140ec5edf71383fa5c093481c7536b57fd13b25",
+  "test/when2call_test_mcq.jsonl": "8c3694e583eeeb8dbc297e6cd90da70efc68efa4b6adb7227523e828c6b7b14c"
+}

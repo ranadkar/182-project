@@ -1,0 +1,54 @@
+{"review_id": "R01", "judgment": "direct", "note": "Opens by offering a reconstructed timeline; the later access caveat qualifies that answer."}
+{"review_id": "R02", "judgment": "cannot_answer", "note": "First declines the dated forecast, then asks which city and details; mixed inability and clarification."}
+{"review_id": "R03", "judgment": "direct", "note": "Provides a specific recommendation; whether an ale satisfies lager is a separate question."}
+{"review_id": "R04", "judgment": "cannot_answer", "note": "Explicitly declines device control, followed by manual instructions."}
+{"review_id": "R05", "judgment": "cannot_answer", "note": "States inability to answer, then asks for the absent passage; both readings are plausible."}
+{"review_id": "R06", "judgment": "tool_call", "note": "Unfinished native call is still an attempt."}
+{"review_id": "R07", "judgment": "request_for_info", "note": "Asks what type of event."}
+{"review_id": "R08", "judgment": "cannot_answer", "note": "Declines the dated forecast; offers a different historical-average task."}
+{"review_id": "R09", "judgment": "tool_call", "note": "Invokes a search function."}
+{"review_id": "R10", "judgment": "cannot_answer", "note": "Declines to search."}
+{"review_id": "R11", "judgment": "direct", "note": "Gives a guide with suggested services."}
+{"review_id": "R12", "judgment": "tool_call", "note": "Emits a call with a settings object."}
+{"review_id": "R13", "judgment": "cannot_answer", "note": "States lack of itinerary capability."}
+{"review_id": "R14", "judgment": "tool_call", "note": "Emits a search call."}
+{"review_id": "R15", "judgment": "tool_call", "note": "Emits a settings call."}
+{"review_id": "R16", "judgment": "request_for_info", "note": "Identifies the missing source and asks the user to provide it; mentions inability conditional on that omission."}
+{"review_id": "R17", "judgment": "request_for_info", "note": "Asks for the provider identifier."}
+{"review_id": "R18", "judgment": "cannot_answer", "note": "Starts by declining to answer, then requests missing text; mixed."}
+{"review_id": "R19", "judgment": "cannot_answer", "note": "Declines analysis, offers a tutorial for a different task."}
+{"review_id": "R20", "judgment": "tool_call", "note": "Begins a native call and stops inside a parameter."}
+{"review_id": "R21", "judgment": "tool_call", "note": "The explanatory preface announces a call, which follows."}
+{"review_id": "R22", "judgment": "tool_call", "note": "Unfinished call."}
+{"review_id": "R23", "judgment": "cannot_answer", "note": "Declines playback before giving suggestions about where to listen."}
+{"review_id": "R24", "judgment": "cannot_answer", "note": "Explicit inability to check alarms."}
+{"review_id": "R25", "judgment": "cannot_answer", "note": "Declines repository data retrieval and suggests outside resources."}
+{"review_id": "R26", "judgment": "tool_call", "note": "Attempts arithmetic with a named function."}
+{"review_id": "R27", "judgment": "request_for_info", "note": "Asks which platform or service the version refers to after ruling out its own application version."}
+{"review_id": "R28", "judgment": "tool_call", "note": "Emits a call with a default namespace."}
+{"review_id": "R29", "judgment": "cannot_answer", "note": "Declines access to stock information and explains how to do the comparison."}
+{"review_id": "R30", "judgment": "tool_call", "note": "Calls a restaurant search on a movie request."}
+{"review_id": "R31", "judgment": "request_for_info", "note": "Requests the missing city."}
+{"review_id": "R32", "judgment": "tool_call", "note": "Emits a music lookup."}
+{"review_id": "R33", "judgment": "cannot_answer", "note": "Declines the requested search, then offers unrelated alternatives."}
+{"review_id": "R34", "judgment": "cannot_answer", "note": "Declines deletion, offers retrieval instead."}
+{"review_id": "R35", "judgment": "tool_call", "note": "Emits a payment call; argument correctness is separate from act."}
+{"review_id": "R36", "judgment": "direct", "note": "Provides manual ordering instructions after discussing spelling; trailing offer is incomplete."}
+{"review_id": "R37", "judgment": "direct", "note": "Completes the greeting; the conversational follow-up asks for no missing information about that request."}
+{"review_id": "R38", "judgment": "cannot_answer", "note": "Declines without source text and then asks for it; mixed."}
+{"review_id": "R39", "judgment": "tool_call", "note": "Emits a product lookup."}
+{"review_id": "R40", "judgment": "tool_call", "note": "Emits a search request."}
+{"review_id": "R41", "judgment": "cannot_answer", "note": "Declines device control."}
+{"review_id": "R42", "judgment": "tool_call", "note": "Native call truncated inside an array parameter."}
+{"review_id": "R43", "judgment": "direct", "note": "Gives an implementation guide."}
+{"review_id": "R44", "judgment": "request_for_info", "note": "Asks for the particular track."}
+{"review_id": "R45", "judgment": "request_for_info", "note": "Identifies the missing passage and question, then explicitly asks for both."}
+{"review_id": "R46", "judgment": "tool_call", "note": "Emits a ticket-related call."}
+{"review_id": "R47", "judgment": "cannot_answer", "note": "Declines without the passage and then asks for that passage; mixed."}
+{"review_id": "R48", "judgment": "cannot_answer", "note": "Opens with inability and then asks for an actionable identifier; clarification is also a defensible reading."}
+{"review_id": "R49", "judgment": "direct", "note": "Gives instructions and code."}
+{"review_id": "R50", "judgment": "request_for_info", "note": "Asks for the identifier."}
+{"review_id": "R51", "judgment": "cannot_answer", "note": "Declines analysis and offers a tutorial."}
+{"review_id": "R52", "judgment": "cannot_answer", "note": "Declines flight status lookup; directs user elsewhere."}
+{"review_id": "R53", "judgment": "tool_call", "note": "Emits a native call."}
+{"review_id": "R54", "judgment": "cannot_answer", "note": "Declines analysis and offers a tutorial for an alternative task."}

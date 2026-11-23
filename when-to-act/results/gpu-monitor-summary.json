@@ -1,0 +1,20 @@
+{
+  "interval_s": 15,
+  "timezone": "America/Los_Angeles",
+  "samples": 722,
+  "first_local": "2026-11-22 13:20:01.941000",
+  "last_local": "2026-11-22 16:20:17.414000",
+  "device_total_mib": 12227,
+  "observed_device_peak_mib": 11524,
+  "training_loop_sample_peaks_mib": {
+    "non0-seed182": 5914,
+    "non0-seed183": 6374,
+    "non10-seed182": 11153,
+    "non10-seed183": 5898,
+    "non25-seed182": 6407,
+    "non25-seed183": 6578,
+    "non50-seed182": 6661,
+    "non50-seed183": 5891
+  },
+  "training_windows": "Window ends at the local write of training.json and starts its recorded timed-loop duration earlier. Samples cover the entire device, including desktop/context and other users. A 15-second sampler can miss transients."
+}

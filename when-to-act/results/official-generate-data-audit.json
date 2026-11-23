@@ -1,0 +1,16 @@
+{
+  "source_file": "when2call_test_llm_judge.jsonl",
+  "selected_rows": 72,
+  "selected_groups": 71,
+  "gold": {
+    "cannot_answer": 24,
+    "request_for_info": 24,
+    "tool_call": 24
+  },
+  "conflicting_prompt_rows_excluded": 0,
+  "repeated_prompt_copies_before_sampling": 0,
+  "required_reference_schema_status": {
+    "valid": 23,
+    "missing_required": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "sha256": {
+    "dev.jsonl": "9730cbba8551c671af36a9f6ee0d768fa22fb942e8bd2b2268342e5cb986dca0",
+    "matched_slots.jsonl": "388b525b480eef80163c7448bfdbf4795809c67d15713164efdb55dcc9b2b21c",
+    "train-0.jsonl": "9f09c8315be3e488ed6561a2e06a5fa06fb6a91a61a363c6f22516043d2c28ae",
+    "train-10.jsonl": "bc88bc961b78cd8f56a486fdd12259253b934d6e5e165676be6c83025a729f6a",
+    "train-25.jsonl": "f5f351ee372fed8d2f52b7beec8b250e12524ab05be708676794c785dcaff07b",
+    "train-50.jsonl": "fbcfdabced2fb0b5269d409329e37569f93f04296001320fb1af47a66302fd2d"
+  },
+  "python_hash_seed": 7,
+  "identical_on_regeneration": true
+}
