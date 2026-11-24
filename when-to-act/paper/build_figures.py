@@ -15,6 +15,9 @@ import numpy as np
 HERE = Path(__file__).resolve().parent
 DATA = HERE.parent / "data"
 RESULTS = HERE.parent / "results"
+GEN = RESULTS / "expanded-generation"
+MATCH = RESULTS / "matched-protocols"
+DIRECT = RESULTS / "direct-answer-controls"
 FIG = HERE / "figures"
 SHARES = [0, 10, 25, 50]
 SEEDS = [182, 183]
@@ -37,15 +40,21 @@ def rows(path):
 
 
 def pct(x):
-    return str((100 * Decimal(str(x))).quantize(Decimal("0.1"), rounding=ROUND_HALF_UP))
+    return str(
+        (100 * Decimal(str(round(x, 12)))).quantize(
+            Decimal("0.1"), rounding=ROUND_HALF_UP
+        )
+    )
 
 
 def estimate(summary, share, metric):
-    if share is None:
-        entry = summary["runs"]["baseline"]["metrics"][metric]
-        return np.array([entry["value"], *entry["ci95"]]) * 100
-    entry = summary["means"][str(share)][metric]
-    return np.array([entry["mean"], *entry["evaluation_ci95"]]) * 100
+    group = (
+        summary["runs"]["baseline"]["metrics"]
+        if share is None
+        else summary["means"][str(share)]
+    )
+    entry = group[metric]
+    return np.array([entry["value"], *entry["ci95"]]) * 100
 
 
 def save(fig, stem):
@@ -55,7 +64,7 @@ def save(fig, stem):
 
 def tradeoff(summary):
     fig, ax = plt.subplots(figsize=(5.4, 2.67), layout="constrained")
-    offsets = [(0, 8), (-6, 8), (9, -13), (7, 7), (12, -12)]
+    offsets = [(3, 8), (-2, 8), (8, -14), (8, 2), (10, -8)]
     for i, (share, shift) in enumerate(zip([None, *SHARES], offsets)):
         x, xl, xh = estimate(summary, share, METRICS[0])
         y, yl, yh = estimate(summary, share, METRICS[1])
@@ -112,6 +121,20 @@ def response(summary):
             color="#175c78",
             capsize=2.3,
         )
+        for offset, seed in zip((-0.6, 0.6), SEEDS):
+            values = [
+                100 * summary["runs"][f"non{p}-seed{seed}"]["metrics"][metric]["value"]
+                for p in SHARES
+            ]
+            ax.scatter(
+                np.array(SHARES) + offset,
+                values,
+                s=12,
+                color="white",
+                edgecolors="#175c78",
+                linewidths=0.7,
+                zorder=3,
+            )
         ax.set(
             xticks=SHARES,
             yticks=range(0, 101, 25),
@@ -123,6 +146,50 @@ def response(summary):
         ax.grid(axis="y", alpha=0.15)
     axs[0].set_ylabel("Rate (%)")
     save(fig, "response")
+
+
+def matched_protocols(summary):
+    fig, axes = plt.subplots(
+        1, 2, figsize=(5.45, 2.05), sharey=True, layout="constrained"
+    )
+    conditions = [None, *SHARES]
+    x = np.arange(len(conditions))
+    for ax, metric, title in zip(
+        axes,
+        ["required_call_recall", "false_call_rate"],
+        ["Required requests (100)", "Non-tool requests (200)"],
+    ):
+        for protocol, offset, marker, color, label in [
+            ("generation", -0.11, "o", "#ad532f", "Generation"),
+            ("mcq", 0.11, "s", "#205f84", "MCQ"),
+        ]:
+            y, lo, hi = np.array(
+                [estimate(summary, p, f"{protocol}_{metric}") for p in conditions]
+            ).T
+            ax.errorbar(
+                x + offset,
+                y,
+                yerr=[y - lo, hi - y],
+                fmt=marker,
+                ms=3.8,
+                color=color,
+                lw=1,
+                capsize=2,
+                label=label,
+            )
+        ax.set(
+            xticks=x,
+            xticklabels=["Base", "0%", "10%", "25%", "50%"],
+            xlim=(-0.46, 4.46),
+            ylim=(-4, 107),
+            yticks=range(0, 101, 25),
+            title=title,
+            xlabel="Non-tool training share",
+        )
+        ax.grid(axis="y", alpha=0.15)
+    axes[0].set_ylabel("Tool decisions (%)")
+    axes[0].legend(frameon=False, loc="lower left", fontsize=8)
+    save(fig, "matched")
 
 
 def losses():
@@ -185,7 +252,7 @@ def confusion(summary):
                 ha="center",
                 va="center",
                 fontsize=7,
-                color="white" if cm[r, c] > 13 else "#222222",
+                color="white" if cm[r, c] > 0.52 * cm[r].sum() else "#222222",
             )
         title = (
             "NF4 base"
@@ -203,14 +270,10 @@ def confusion(summary):
     save(fig, "confusion")
 
 
-def tables(gen, mcq):
+def tables(gen, mcq, direct):
     out = {
-        "design": [],
-        "primary": [],
-        "seeds": [],
-        "mcq": [],
-        "contrasts": [],
-        "supplement": [],
+        k: []
+        for k in ("design", "primary", "seeds", "contrasts", "discordance", "controls")
     }
     for p in SHARES:
         manifest = rows(DATA / f"train-{p}.jsonl")
@@ -229,35 +292,40 @@ def tables(gen, mcq):
     for p in [None, *SHARES]:
         names = ["baseline"] if p is None else [f"non{p}-seed{s}" for s in SEEDS]
         label = "NF4 base" if p is None else f"{p}%"
-        for summary, section, other in [
-            (gen, "primary", ["accuracy", "macro_f1_fixed4"]),
-            (mcq, "mcq", ["accuracy", "macro_f1_fixed4"]),
-        ]:
-            keys = METRICS if section == "primary" else METRICS[:2]
-            scores = [
-                np.mean(
-                    [summary["runs"][name]["metrics"][k]["value"] for name in names]
-                )
-                for k in keys + other
+        out["primary"].append(
+            [
+                label,
+                *[
+                    pct(estimate(gen, p, k)[0] / 100)
+                    for k in [*METRICS, "accuracy"]
+                ],
+                # No gold direct cases: three-class F1 is four-class F1 * 4/3.
+                pct(estimate(gen, p, "macro_f1_fixed4")[0] / 100 * 4 / 3),
             ]
-            out[section].append([label, *map(pct, scores)])
-        if p is not None:
-            effects = gen["paired"][f"mean {p}% minus baseline"]
-
-            def signed(v):
-                return ("−" if v < 0 else "+" if v > 0 else "") + pct(abs(v))
-
-            out["contrasts"].append(
-                [
-                    label,
-                    *[
-                        f"{signed(effects[k]['difference'])} [{signed(effects[k]['ci95'][0])}, {signed(effects[k]['ci95'][1])}]"
-                        for k in METRICS
-                    ],
-                ]
-            )
+        )
+        ctrl_keys = [
+            "direct_call_rate",
+            "correct_clarification",
+            "exact_required_recall",
+        ]
+        out["controls"].append(
+            [label, *[pct(estimate(direct, p, k)[0] / 100) for k in ctrl_keys]]
+        )
         for name in names:
-            records = rows(RESULTS / name / "official-generate.jsonl")
+            records = rows(GEN / "models" / f"{name}.jsonl")
+            choices = rows(MATCH / "models" / f"{name}.jsonl")
+            assert [(r["id"], r["gold"], r["group"]) for r in records] == [
+                (r["id"], r["gold"], r["group"]) for r in choices
+            ]
+            assert (
+                len({r["id"] for r in records}) == 300
+                and len({r["group"] for r in records}) == 272
+            )
+            assert Counter(r["gold"] for r in records) == {
+                "tool_call": 100,
+                "request_for_info": 100,
+                "cannot_answer": 100,
+            }
             pos = [r for r in records if r["gold"] == "tool_call"]
             neg = [r for r in records if r["gold"] != "tool_call"]
             called = [r for r in records if is_call(r)]
@@ -266,44 +334,71 @@ def tables(gen, mcq):
                 sum(map(is_call, pos)),
                 sum(r["exact_call"] for r in pos),
             ]
-            assert (len(neg), len(pos)) == (48, 24)
-            assert len({r["group"] for r in records}) == 71
-            for n, den, k in zip(nums, [48, 24, 24], METRICS):
+            for n, den, k in zip(nums, [200, 100, 100], METRICS):
                 assert np.isclose(n / den, gen["runs"][name]["metrics"][k]["value"])
+            cm = Counter((r["gold"], r["prediction"]) for r in records)
+            assert [[cm[g, a] for a in LABELS] for g in LABELS] == gen["runs"][name][
+                "confusion_matrix"
+            ]
+            seed = str(name.split("seed")[-1]) if p is not None else "—"
             bad = sum(r["call_error"] is not None for r in called)
             out["seeds"].append(
                 [
                     label,
-                    name.split("seed")[-1] if p is not None else "—",
-                    *[str(n) for n in nums],
+                    seed,
+                    *map(str, nums),
                     f"{bad}/{len(called)}",
                     str(sum(r["call_error"] == "unknown_name" for r in called)),
                 ]
             )
-            choices = rows(RESULTS / name / "official-mcq.jsonl")
-            assert len(choices) == 367 and len({r["group"] for r in choices}) == 128
-            for k, gold in zip(METRICS[:2], [False, True]):
-                subset = [r for r in choices if (r["gold"] == "tool_call") == gold]
-                assert np.isclose(
-                    sum(map(is_call, subset)) / len(subset),
-                    mcq["runs"][name]["metrics"][k]["value"],
+            disc = []
+            for required, key, den, stratum in [
+                (True, METRICS[1], 100, "required"),
+                (False, METRICS[0], 200, "non_tool"),
+            ]:
+                counts = Counter(
+                    (is_call(m), is_call(g))
+                    for m, g in zip(choices, records)
+                    if (m["gold"] == "tool_call") == required
                 )
-    for name, r in load(RESULTS / "supplementary/summary.json")["runs"].items():
-        desc = (
-            "NF4 base"
-            if name == "baseline"
-            else name.replace("non", "").replace("-seed", "% · ")
-        )
-        out["supplement"].append(
+                assert np.isclose(
+                    (counts[True, True] + counts[True, False]) / den,
+                    mcq["runs"][name]["metrics"]["mcq_" + key]["value"],
+                )
+                assert mcq["runs"][name]["discordance_rows_mcq_columns_generation"][
+                    stratum
+                ] == [
+                    [counts[True, True], counts[True, False]],
+                    [counts[False, True], counts[False, False]],
+                ]
+                disc += [str(counts[True, False]), str(counts[False, True])]
+            out["discordance"].append([label, seed, *disc])
+            control = rows(DIRECT / "models" / f"{name}.jsonl")
+            assert Counter(r["group"] for r in control).most_common()[-1][1] == 3
+            assert len(control) == 108 and len({r["group"] for r in control}) == 36
+            correct = [
+                sum(is_call(r) for r in control if r["gold"] == "direct"),
+                sum(
+                    r["prediction"] == "request_for_info"
+                    for r in control
+                    if r["gold"] == "request_for_info"
+                ),
+                sum(r["exact_call"] for r in control if r["gold"] == "tool_call"),
+            ]
+            for n, k in zip(correct, ctrl_keys):
+                assert np.isclose(n / 36, direct["runs"][name]["metrics"][k]["value"])
+
+    def signed(v):
+        return ("−" if v < 0 else "+" if v > 0 else "") + pct(abs(v))
+
+    for comp in [f"{p} minus baseline" for p in SHARES] + ["50 minus 25"]:
+        effects = gen["paired_differences"][comp]
+        out["contrasts"].append(
             [
-                desc,
+                comp.replace("minus baseline", "− base").replace("minus 25", "− 25"),
                 *[
-                    ", ".join(str(r["by_extra_tools"][str(n)][k]) for n in (0, 2, 4))
-                    for k in (
-                        "false_calls",
-                        "exact_required",
-                        "any_distractor_selected",
-                    )
+                    f"{signed(effects[k]['difference'])} [{signed(effects[k]['ci95'][0])}, {signed(effects[k]['ci95'][1])}]"
+                    for k in METRICS
                 ],
             ]
         )
@@ -328,12 +423,13 @@ if __name__ == "__main__":
             "font.family": "DejaVu Sans",
         }
     )
-    gen, mcq = [
-        load(RESULTS / f"official-{s}-summary.json") for s in ("generate", "mcq")
+    gen, mcq, direct = [
+        load(folder / "summary.json") for folder in (GEN, MATCH, DIRECT)
     ]
     FIG.mkdir(exist_ok=True)
-    tables(gen, mcq)
+    tables(gen, mcq, direct)
     tradeoff(gen)
     response(gen)
+    matched_protocols(mcq)
     losses()
     confusion(gen)
