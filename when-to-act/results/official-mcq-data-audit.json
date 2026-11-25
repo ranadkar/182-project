@@ -1,0 +1,16 @@
+{
+  "source_file": "when2call_test_mcq.jsonl",
+  "selected_rows": 367,
+  "selected_groups": 128,
+  "gold": {
+    "tool_call": 128,
+    "cannot_answer": 131,
+    "request_for_info": 108
+  },
+  "conflicting_prompt_rows_excluded": 6,
+  "repeated_prompt_copies_before_sampling": 3,
+  "required_reference_schema_status": {
+    "valid": 118,
+    "invalid_value": 10
+  }
+}

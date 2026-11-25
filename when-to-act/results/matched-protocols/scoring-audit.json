@@ -1,0 +1,114 @@
+{
+  "replay": {
+    "baseline": {
+      "four_continuation_rankings_replayed": 300,
+      "raw_and_byte_normalized_class_disagree": 48,
+      "parser_replays": 300,
+      "generate_reused_exact": 72,
+      "mcq_reused_exact": 27,
+      "unknown_argument": 1,
+      "syntax": 4,
+      "invalid_value": 13,
+      "missing_required": 1
+    },
+    "non0-seed182": {
+      "four_continuation_rankings_replayed": 300,
+      "raw_and_byte_normalized_class_disagree": 24,
+      "parser_replays": 300,
+      "unknown_name": 9,
+      "generate_reused_exact": 72,
+      "mcq_reused_exact": 27,
+      "unknown_argument": 1,
+      "missing_required": 15,
+      "invalid_value": 17,
+      "syntax": 4
+    },
+    "non0-seed183": {
+      "four_continuation_rankings_replayed": 300,
+      "raw_and_byte_normalized_class_disagree": 24,
+      "parser_replays": 300,
+      "unknown_name": 5,
+      "generate_reused_exact": 72,
+      "mcq_reused_exact": 27,
+      "unknown_argument": 1,
+      "syntax": 3,
+      "missing_required": 7,
+      "invalid_value": 16
+    },
+    "non10-seed182": {
+      "four_continuation_rankings_replayed": 300,
+      "raw_and_byte_normalized_class_disagree": 45,
+      "parser_replays": 300,
+      "generate_reused_exact": 72,
+      "mcq_reused_exact": 27,
+      "invalid_value": 10,
+      "syntax": 2,
+      "missing_required": 5
+    },
+    "non10-seed183": {
+      "four_continuation_rankings_replayed": 300,
+      "raw_and_byte_normalized_class_disagree": 47,
+      "parser_replays": 300,
+      "generate_reused_exact": 72,
+      "mcq_reused_exact": 27,
+      "invalid_value": 11,
+      "syntax": 2,
+      "missing_required": 2
+    },
+    "non25-seed182": {
+      "four_continuation_rankings_replayed": 300,
+      "raw_and_byte_normalized_class_disagree": 53,
+      "parser_replays": 300,
+      "generate_reused_exact": 72,
+      "mcq_reused_exact": 27,
+      "syntax": 2,
+      "invalid_value": 7,
+      "missing_required": 2
+    },
+    "non25-seed183": {
+      "four_continuation_rankings_replayed": 300,
+      "raw_and_byte_normalized_class_disagree": 48,
+      "parser_replays": 300,
+      "generate_reused_exact": 72,
+      "mcq_reused_exact": 27,
+      "unknown_argument": 1,
+      "syntax": 2,
+      "invalid_value": 7
+    },
+    "non50-seed182": {
+      "four_continuation_rankings_replayed": 300,
+      "raw_and_byte_normalized_class_disagree": 45,
+      "parser_replays": 300,
+      "generate_reused_exact": 72,
+      "mcq_reused_exact": 27,
+      "syntax": 1,
+      "invalid_value": 3
+    },
+    "non50-seed183": {
+      "four_continuation_rankings_replayed": 300,
+      "raw_and_byte_normalized_class_disagree": 57,
+      "parser_replays": 300,
+      "generate_reused_exact": 72,
+      "mcq_reused_exact": 27,
+      "syntax": 2,
+      "invalid_value": 6,
+      "missing_required": 1
+    }
+  },
+  "candidate_schema_status_by_gold": {
+    "request_for_info": {
+      "valid": 94,
+      "invalid_value": 5,
+      "missing_required": 1
+    },
+    "cannot_answer": {
+      "unknown_name": 100
+    },
+    "tool_call": {
+      "valid": 96,
+      "missing_required": 1,
+      "invalid_value": 3
+    }
+  },
+  "cache_equality": "All fields except source ID / cluster checked against the archived output, including raw text or all four likelihoods."
+}

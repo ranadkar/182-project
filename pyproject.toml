@@ -1,0 +1,13 @@
+[project]
+name = "cost-of-restraint-analysis"
+version = "1.0.0"
+description = "CPU reproduction of the CS 182 paper from saved predictions"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "matplotlib==3.11.2",
+    "numpy==2.5.5",
+    "rapidfuzz==3.14.6",
+]
+
+[tool.uv]
+cache-dir = ".cache/uv"

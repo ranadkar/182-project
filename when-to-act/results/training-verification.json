@@ -1,0 +1,72 @@
+{
+  "checked_checkpoint_and_manifest_hashes": true,
+  "identical_lr_schedules": true,
+  "updates_per_adapter": 125,
+  "unique_examples_per_adapter": 1000,
+  "runs": {
+    "non0-seed182": {
+      "mean_first25": 0.0441648340505526,
+      "mean_last25": 0.030370573685195267,
+      "initial_validation": 0.995979803243093,
+      "final_validation": 0.9992132510366597,
+      "peak_reserved_mib": 4092.0,
+      "elapsed_s": 694.4562558969997
+    },
+    "non10-seed182": {
+      "mean_first25": 0.12534419970386806,
+      "mean_last25": 0.10906432389212568,
+      "initial_validation": 0.995979803243093,
+      "final_validation": 0.4061234055928556,
+      "peak_reserved_mib": 4744.0,
+      "elapsed_s": 657.2815045589996
+    },
+    "non25-seed182": {
+      "mean_first25": 0.28460757861525054,
+      "mean_last25": 0.16185436829146055,
+      "initial_validation": 0.995979803243093,
+      "final_validation": 0.36657041037915405,
+      "peak_reserved_mib": 4666.0,
+      "elapsed_s": 647.6311851190003
+    },
+    "non50-seed182": {
+      "mean_first25": 0.5064202640693111,
+      "mean_last25": 0.2794685721477799,
+      "initial_validation": 0.995979803243093,
+      "final_validation": 0.34000726756949007,
+      "peak_reserved_mib": 4350.0,
+      "elapsed_s": 662.9131754740001
+    },
+    "non0-seed183": {
+      "mean_first25": 0.059134920215819876,
+      "mean_last25": 0.02807011617333046,
+      "initial_validation": 0.995979803243093,
+      "final_validation": 1.0232902173223313,
+      "peak_reserved_mib": 4628.0,
+      "elapsed_s": 645.346234183
+    },
+    "non10-seed183": {
+      "mean_first25": 0.17134505510644885,
+      "mean_last25": 0.09405395523675907,
+      "initial_validation": 0.995979803243093,
+      "final_validation": 0.41078312560845615,
+      "peak_reserved_mib": 4368.0,
+      "elapsed_s": 648.2210697530008
+    },
+    "non25-seed183": {
+      "mean_first25": 0.2814078843730931,
+      "mean_last25": 0.17788395159586798,
+      "initial_validation": 0.995979803243093,
+      "final_validation": 0.3738862834781382,
+      "peak_reserved_mib": 4440.0,
+      "elapsed_s": 654.0537845929994
+    },
+    "non50-seed183": {
+      "mean_first25": 0.47620826878332084,
+      "mean_last25": 0.30574471749911025,
+      "initial_validation": 0.995979803243093,
+      "final_validation": 0.3493404818758184,
+      "peak_reserved_mib": 4440.0,
+      "elapsed_s": 647.4294758870001
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "max_ratio_to_normalized_release": 60.952380952380956,
+  "by_query": {
+    "bookbindery-tool_call": 49.33333333333333,
+    "bookbindery-request_for_info": 50.26178010471204,
+    "bookbindery-direct": 48.51485148514851,
+    "ferry-tool_call": 48.78048780487805,
+    "ferry-request_for_info": 59.13043478260869,
+    "ferry-direct": 52.212389380530965,
+    "pottery-tool_call": 57.377049180327866,
+    "pottery-request_for_info": 55.62913907284768,
+    "pottery-direct": 54.03225806451613,
+    "costume-tool_call": 52.33644859813084,
+    "costume-request_for_info": 57.377049180327866,
+    "costume-direct": 49.78540772532188,
+    "observatory-tool_call": 60.952380952380956,
+    "observatory-request_for_info": 50.64935064935065,
+    "observatory-direct": 48.97959183673469,
+    "instrument-tool_call": 53.21100917431192,
+    "instrument-request_for_info": 51.78571428571428,
+    "instrument-direct": 48.826291079812215
+  },
+  "release_distinct_questions": 20682
+}

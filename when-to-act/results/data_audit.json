@@ -1,0 +1,104 @@
+{
+  "when2call_train_pref.jsonl": {
+    "rows": 9000,
+    "fields": [
+      "chosen_response",
+      "messages",
+      "rejected_response",
+      "tools"
+    ],
+    "inferred_reference_labels": {
+      "tool_call": 3000,
+      "cannot_answer": 2999,
+      "request_for_info": 3001
+    },
+    "tagged_calls": 3000,
+    "bare_json_responses": 0,
+    "empty_menus": 861,
+    "rejected_tagged_calls": 2007
+  },
+  "when2call_train_sft.jsonl": {
+    "rows": 15000,
+    "fields": [
+      "messages",
+      "tools"
+    ],
+    "inferred_reference_labels": {
+      "cannot_answer": 7530,
+      "request_for_info": 7470
+    },
+    "tagged_calls": 0,
+    "bare_json_responses": 0,
+    "empty_menus": 2223
+  },
+  "when2call_test_llm_judge.jsonl": {
+    "rows": 300,
+    "fields": [
+      "answers",
+      "correct_answer",
+      "held_out_param",
+      "orig_question",
+      "orig_tools",
+      "question",
+      "source",
+      "source_id",
+      "target_tool",
+      "tools",
+      "uuid"
+    ],
+    "gold": {
+      "cannot_answer": 100,
+      "request_for_info": 100,
+      "tool_call": 100
+    },
+    "choices": [
+      "cannot_answer",
+      "direct",
+      "request_for_info",
+      "tool_call"
+    ]
+  },
+  "when2call_test_mcq.jsonl": {
+    "rows": 3652,
+    "fields": [
+      "answers",
+      "correct_answer",
+      "held_out_param",
+      "orig_question",
+      "orig_tools",
+      "question",
+      "source",
+      "source_id",
+      "target_tool",
+      "tools",
+      "uuid"
+    ],
+    "gold": {
+      "cannot_answer": 1295,
+      "request_for_info": 1062,
+      "tool_call": 1295
+    },
+    "choices": [
+      "cannot_answer",
+      "direct",
+      "request_for_info",
+      "tool_call"
+    ]
+  },
+  "identical_sft_preference_examples": 2595,
+  "excluded": {
+    "empty_menu": 861,
+    "missing_required": 82,
+    "over_length": 698,
+    "invalid_value": 62,
+    "duplicate_question": 1176,
+    "test_question_similarity": 3
+  },
+  "eligible": {
+    "request_for_info": 2389,
+    "tool_call": 2124,
+    "cannot_answer": 1605
+  },
+  "identical_menu_pairs": 116,
+  "protected_questions": 2269
+}

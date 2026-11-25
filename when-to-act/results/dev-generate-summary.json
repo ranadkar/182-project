@@ -1,0 +1,3095 @@
+{
+  "runs": {
+    "baseline": {
+      "n": 48,
+      "groups": 48,
+      "labels": [
+        "direct",
+        "tool_call",
+        "request_for_info",
+        "cannot_answer"
+      ],
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          16,
+          0,
+          0
+        ],
+        [
+          0,
+          12,
+          4,
+          0
+        ],
+        [
+          2,
+          3,
+          0,
+          11
+        ]
+      ],
+      "metrics": {
+        "accuracy": {
+          "value": 0.6458333333333334,
+          "ci95": [
+            0.5,
+            0.7708333333333334
+          ]
+        },
+        "macro_f1_fixed4": {
+          "value": 0.47391646966115053,
+          "ci95": [
+            0.36721898790864305,
+            0.5717008951313194
+          ]
+        },
+        "macro_f1_supported": {
+          "value": 0.6318886262148674,
+          "ci95": [
+            0.4896253172115241,
+            0.7622678601750925
+          ]
+        },
+        "false_call_rate": {
+          "value": 0.46875,
+          "ci95": [
+            0.2857142857142857,
+            0.6363636363636364
+          ]
+        },
+        "required_call_recall": {
+          "value": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ]
+        },
+        "tool_precision": {
+          "value": 0.5161290322580645,
+          "ci95": [
+            0.34480064655172415,
+            0.696969696969697
+          ]
+        },
+        "recall_direct": {
+          "value": null,
+          "ci95": [
+            null,
+            null
+          ]
+        },
+        "recall_tool_call": {
+          "value": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ]
+        },
+        "recall_request_for_info": {
+          "value": 0.25,
+          "ci95": [
+            0.058823529411764705,
+            0.5
+          ]
+        },
+        "recall_cannot_answer": {
+          "value": 0.6875,
+          "ci95": [
+            0.4542929292929293,
+            0.9
+          ]
+        },
+        "exact_required_recall": {
+          "value": 0.75,
+          "ci95": [
+            0.5293343653250774,
+            0.9473684210526315
+          ]
+        },
+        "invalid_among_attempts": {
+          "value": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "counts": {
+        "false_calls": {
+          "numerator": 15,
+          "denominator": 32,
+          "rate": 0.46875
+        },
+        "required_calls": {
+          "numerator": 16,
+          "denominator": 16,
+          "rate": 1.0
+        },
+        "no_tool_hallucination": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "invalid_among_attempts": {
+          "numerator": 0,
+          "denominator": 31,
+          "rate": 0.0
+        },
+        "unknown_names_among_attempts": {
+          "numerator": 0,
+          "denominator": 31,
+          "rate": 0.0
+        },
+        "syntax_errors_among_attempts": {
+          "numerator": 0,
+          "denominator": 31,
+          "rate": 0.0
+        },
+        "exact_required": {
+          "numerator": 12,
+          "denominator": 16,
+          "rate": 0.75
+        },
+        "length_capped": {
+          "numerator": 5,
+          "denominator": 48,
+          "rate": 0.10416666666666667
+        }
+      },
+      "call_errors": {}
+    },
+    "bf16-reference": {
+      "n": 48,
+      "groups": 48,
+      "labels": [
+        "direct",
+        "tool_call",
+        "request_for_info",
+        "cannot_answer"
+      ],
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          15,
+          0,
+          0
+        ],
+        [
+          0,
+          12,
+          4,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          13
+        ]
+      ],
+      "metrics": {
+        "accuracy": {
+          "value": 0.6666666666666666,
+          "ci95": [
+            0.5208333333333334,
+            0.7916666666666666
+          ]
+        },
+        "macro_f1_fixed4": {
+          "value": 0.4945924764890282,
+          "ci95": [
+            0.39018751466103685,
+            0.5941205191738774
+          ]
+        },
+        "macro_f1_supported": {
+          "value": 0.6594566353187042,
+          "ci95": [
+            0.5202500195480492,
+            0.7921606922318365
+          ]
+        },
+        "false_call_rate": {
+          "value": 0.40625,
+          "ci95": [
+            0.22850230414746545,
+            0.5862068965517241
+          ]
+        },
+        "required_call_recall": {
+          "value": 0.9375,
+          "ci95": [
+            0.7857142857142857,
+            1.0
+          ]
+        },
+        "tool_precision": {
+          "value": 0.5357142857142857,
+          "ci95": [
+            0.34615384615384615,
+            0.7242163009404384
+          ]
+        },
+        "recall_direct": {
+          "value": null,
+          "ci95": [
+            null,
+            null
+          ]
+        },
+        "recall_tool_call": {
+          "value": 0.9375,
+          "ci95": [
+            0.7857142857142857,
+            1.0
+          ]
+        },
+        "recall_request_for_info": {
+          "value": 0.25,
+          "ci95": [
+            0.05263157894736842,
+            0.5
+          ]
+        },
+        "recall_cannot_answer": {
+          "value": 0.8125,
+          "ci95": [
+            0.5881127450980392,
+            1.0
+          ]
+        },
+        "exact_required_recall": {
+          "value": 0.875,
+          "ci95": [
+            0.6814393939393939,
+            1.0
+          ]
+        },
+        "invalid_among_attempts": {
+          "value": 0.03571428571428571,
+          "ci95": [
+            0.0,
+            0.12
+          ]
+        }
+      },
+      "counts": {
+        "false_calls": {
+          "numerator": 13,
+          "denominator": 32,
+          "rate": 0.40625
+        },
+        "required_calls": {
+          "numerator": 15,
+          "denominator": 16,
+          "rate": 0.9375
+        },
+        "no_tool_hallucination": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "invalid_among_attempts": {
+          "numerator": 1,
+          "denominator": 28,
+          "rate": 0.03571428571428571
+        },
+        "unknown_names_among_attempts": {
+          "numerator": 0,
+          "denominator": 28,
+          "rate": 0.0
+        },
+        "syntax_errors_among_attempts": {
+          "numerator": 0,
+          "denominator": 28,
+          "rate": 0.0
+        },
+        "exact_required": {
+          "numerator": 14,
+          "denominator": 16,
+          "rate": 0.875
+        },
+        "length_capped": {
+          "numerator": 3,
+          "denominator": 48,
+          "rate": 0.0625
+        }
+      },
+      "call_errors": {
+        "missing_required": 1
+      }
+    },
+    "non0-seed182": {
+      "n": 48,
+      "groups": 48,
+      "labels": [
+        "direct",
+        "tool_call",
+        "request_for_info",
+        "cannot_answer"
+      ],
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          16,
+          0,
+          0
+        ],
+        [
+          0,
+          16,
+          0,
+          0
+        ],
+        [
+          0,
+          16,
+          0,
+          0
+        ]
+      ],
+      "metrics": {
+        "accuracy": {
+          "value": 0.3333333333333333,
+          "ci95": [
+            0.20833333333333334,
+            0.4583333333333333
+          ]
+        },
+        "macro_f1_fixed4": {
+          "value": 0.125,
+          "ci95": [
+            0.08620689655172414,
+            0.15714285714285714
+          ]
+        },
+        "macro_f1_supported": {
+          "value": 0.16666666666666666,
+          "ci95": [
+            0.1149425287356322,
+            0.20952380952380953
+          ]
+        },
+        "false_call_rate": {
+          "value": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ]
+        },
+        "required_call_recall": {
+          "value": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ]
+        },
+        "tool_precision": {
+          "value": 0.3333333333333333,
+          "ci95": [
+            0.20833333333333334,
+            0.4583333333333333
+          ]
+        },
+        "recall_direct": {
+          "value": null,
+          "ci95": [
+            null,
+            null
+          ]
+        },
+        "recall_tool_call": {
+          "value": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ]
+        },
+        "recall_request_for_info": {
+          "value": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "recall_cannot_answer": {
+          "value": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "exact_required_recall": {
+          "value": 0.75,
+          "ci95": [
+            0.5262531328320802,
+            0.9444444444444444
+          ]
+        },
+        "invalid_among_attempts": {
+          "value": 0.125,
+          "ci95": [
+            0.041666666666666664,
+            0.22916666666666666
+          ]
+        }
+      },
+      "counts": {
+        "false_calls": {
+          "numerator": 32,
+          "denominator": 32,
+          "rate": 1.0
+        },
+        "required_calls": {
+          "numerator": 16,
+          "denominator": 16,
+          "rate": 1.0
+        },
+        "no_tool_hallucination": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "invalid_among_attempts": {
+          "numerator": 6,
+          "denominator": 48,
+          "rate": 0.125
+        },
+        "unknown_names_among_attempts": {
+          "numerator": 4,
+          "denominator": 48,
+          "rate": 0.08333333333333333
+        },
+        "syntax_errors_among_attempts": {
+          "numerator": 0,
+          "denominator": 48,
+          "rate": 0.0
+        },
+        "exact_required": {
+          "numerator": 12,
+          "denominator": 16,
+          "rate": 0.75
+        },
+        "length_capped": {
+          "numerator": 0,
+          "denominator": 48,
+          "rate": 0.0
+        }
+      },
+      "call_errors": {
+        "missing_required": 2,
+        "unknown_name": 4
+      }
+    },
+    "non0-seed183": {
+      "n": 48,
+      "groups": 48,
+      "labels": [
+        "direct",
+        "tool_call",
+        "request_for_info",
+        "cannot_answer"
+      ],
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          16,
+          0,
+          0
+        ],
+        [
+          0,
+          16,
+          0,
+          0
+        ],
+        [
+          0,
+          16,
+          0,
+          0
+        ]
+      ],
+      "metrics": {
+        "accuracy": {
+          "value": 0.3333333333333333,
+          "ci95": [
+            0.20833333333333334,
+            0.4583333333333333
+          ]
+        },
+        "macro_f1_fixed4": {
+          "value": 0.125,
+          "ci95": [
+            0.08620689655172414,
+            0.15714285714285714
+          ]
+        },
+        "macro_f1_supported": {
+          "value": 0.16666666666666666,
+          "ci95": [
+            0.1149425287356322,
+            0.20952380952380953
+          ]
+        },
+        "false_call_rate": {
+          "value": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ]
+        },
+        "required_call_recall": {
+          "value": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ]
+        },
+        "tool_precision": {
+          "value": 0.3333333333333333,
+          "ci95": [
+            0.20833333333333334,
+            0.4583333333333333
+          ]
+        },
+        "recall_direct": {
+          "value": null,
+          "ci95": [
+            null,
+            null
+          ]
+        },
+        "recall_tool_call": {
+          "value": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ]
+        },
+        "recall_request_for_info": {
+          "value": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "recall_cannot_answer": {
+          "value": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "exact_required_recall": {
+          "value": 0.75,
+          "ci95": [
+            0.5262531328320802,
+            0.9444444444444444
+          ]
+        },
+        "invalid_among_attempts": {
+          "value": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "counts": {
+        "false_calls": {
+          "numerator": 32,
+          "denominator": 32,
+          "rate": 1.0
+        },
+        "required_calls": {
+          "numerator": 16,
+          "denominator": 16,
+          "rate": 1.0
+        },
+        "no_tool_hallucination": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "invalid_among_attempts": {
+          "numerator": 0,
+          "denominator": 48,
+          "rate": 0.0
+        },
+        "unknown_names_among_attempts": {
+          "numerator": 0,
+          "denominator": 48,
+          "rate": 0.0
+        },
+        "syntax_errors_among_attempts": {
+          "numerator": 0,
+          "denominator": 48,
+          "rate": 0.0
+        },
+        "exact_required": {
+          "numerator": 12,
+          "denominator": 16,
+          "rate": 0.75
+        },
+        "length_capped": {
+          "numerator": 0,
+          "denominator": 48,
+          "rate": 0.0
+        }
+      },
+      "call_errors": {}
+    },
+    "non10-seed182": {
+      "n": 48,
+      "groups": 48,
+      "labels": [
+        "direct",
+        "tool_call",
+        "request_for_info",
+        "cannot_answer"
+      ],
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          16,
+          0,
+          0
+        ],
+        [
+          0,
+          7,
+          9,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          15
+        ]
+      ],
+      "metrics": {
+        "accuracy": {
+          "value": 0.8333333333333334,
+          "ci95": [
+            0.7291666666666666,
+            0.9375
+          ]
+        },
+        "macro_f1_fixed4": {
+          "value": 0.6219354838709678,
+          "ci95": [
+            0.5329983246158876,
+            0.693863543995123
+          ]
+        },
+        "macro_f1_supported": {
+          "value": 0.829247311827957,
+          "ci95": [
+            0.7106644328211835,
+            0.9251513919934973
+          ]
+        },
+        "false_call_rate": {
+          "value": 0.25,
+          "ci95": [
+            0.10714285714285714,
+            0.4117647058823529
+          ]
+        },
+        "required_call_recall": {
+          "value": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ]
+        },
+        "tool_precision": {
+          "value": 0.6666666666666666,
+          "ci95": [
+            0.4761278195488722,
+            0.8518518518518519
+          ]
+        },
+        "recall_direct": {
+          "value": null,
+          "ci95": [
+            null,
+            null
+          ]
+        },
+        "recall_tool_call": {
+          "value": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ]
+        },
+        "recall_request_for_info": {
+          "value": 0.5625,
+          "ci95": [
+            0.3123798076923077,
+            0.8125
+          ]
+        },
+        "recall_cannot_answer": {
+          "value": 0.9375,
+          "ci95": [
+            0.7997368421052632,
+            1.0
+          ]
+        },
+        "exact_required_recall": {
+          "value": 0.75,
+          "ci95": [
+            0.5262531328320802,
+            0.9444444444444444
+          ]
+        },
+        "invalid_among_attempts": {
+          "value": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "counts": {
+        "false_calls": {
+          "numerator": 8,
+          "denominator": 32,
+          "rate": 0.25
+        },
+        "required_calls": {
+          "numerator": 16,
+          "denominator": 16,
+          "rate": 1.0
+        },
+        "no_tool_hallucination": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "invalid_among_attempts": {
+          "numerator": 0,
+          "denominator": 24,
+          "rate": 0.0
+        },
+        "unknown_names_among_attempts": {
+          "numerator": 0,
+          "denominator": 24,
+          "rate": 0.0
+        },
+        "syntax_errors_among_attempts": {
+          "numerator": 0,
+          "denominator": 24,
+          "rate": 0.0
+        },
+        "exact_required": {
+          "numerator": 12,
+          "denominator": 16,
+          "rate": 0.75
+        },
+        "length_capped": {
+          "numerator": 0,
+          "denominator": 48,
+          "rate": 0.0
+        }
+      },
+      "call_errors": {}
+    },
+    "non10-seed183": {
+      "n": 48,
+      "groups": 48,
+      "labels": [
+        "direct",
+        "tool_call",
+        "request_for_info",
+        "cannot_answer"
+      ],
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          16,
+          0,
+          0
+        ],
+        [
+          0,
+          9,
+          7,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          16
+        ]
+      ],
+      "metrics": {
+        "accuracy": {
+          "value": 0.8125,
+          "ci95": [
+            0.6875,
+            0.9166666666666666
+          ]
+        },
+        "macro_f1_fixed4": {
+          "value": 0.5972958642629904,
+          "ci95": [
+            0.5071418425324675,
+            0.6782686335403726
+          ]
+        },
+        "macro_f1_supported": {
+          "value": 0.7963944856839872,
+          "ci95": [
+            0.6761891233766233,
+            0.9043581780538301
+          ]
+        },
+        "false_call_rate": {
+          "value": 0.28125,
+          "ci95": [
+            0.12121212121212122,
+            0.4411764705882353
+          ]
+        },
+        "required_call_recall": {
+          "value": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ]
+        },
+        "tool_precision": {
+          "value": 0.64,
+          "ci95": [
+            0.45161290322580644,
+            0.8333333333333334
+          ]
+        },
+        "recall_direct": {
+          "value": null,
+          "ci95": [
+            null,
+            null
+          ]
+        },
+        "recall_tool_call": {
+          "value": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ]
+        },
+        "recall_request_for_info": {
+          "value": 0.4375,
+          "ci95": [
+            0.19968750000000002,
+            0.7058823529411765
+          ]
+        },
+        "recall_cannot_answer": {
+          "value": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ]
+        },
+        "exact_required_recall": {
+          "value": 0.8125,
+          "ci95": [
+            0.5882352941176471,
+            1.0
+          ]
+        },
+        "invalid_among_attempts": {
+          "value": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "counts": {
+        "false_calls": {
+          "numerator": 9,
+          "denominator": 32,
+          "rate": 0.28125
+        },
+        "required_calls": {
+          "numerator": 16,
+          "denominator": 16,
+          "rate": 1.0
+        },
+        "no_tool_hallucination": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "invalid_among_attempts": {
+          "numerator": 0,
+          "denominator": 25,
+          "rate": 0.0
+        },
+        "unknown_names_among_attempts": {
+          "numerator": 0,
+          "denominator": 25,
+          "rate": 0.0
+        },
+        "syntax_errors_among_attempts": {
+          "numerator": 0,
+          "denominator": 25,
+          "rate": 0.0
+        },
+        "exact_required": {
+          "numerator": 13,
+          "denominator": 16,
+          "rate": 0.8125
+        },
+        "length_capped": {
+          "numerator": 0,
+          "denominator": 48,
+          "rate": 0.0
+        }
+      },
+      "call_errors": {}
+    },
+    "non25-seed182": {
+      "n": 48,
+      "groups": 48,
+      "labels": [
+        "direct",
+        "tool_call",
+        "request_for_info",
+        "cannot_answer"
+      ],
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          16,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          12,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          16
+        ]
+      ],
+      "metrics": {
+        "accuracy": {
+          "value": 0.9166666666666666,
+          "ci95": [
+            0.8333333333333334,
+            0.9791666666666666
+          ]
+        },
+        "macro_f1_fixed4": {
+          "value": 0.6865079365079365,
+          "ci95": [
+            0.6190476190476191,
+            0.7346230692424973
+          ]
+        },
+        "macro_f1_supported": {
+          "value": 0.9153439153439153,
+          "ci95": [
+            0.8253968253968255,
+            0.9794974256566631
+          ]
+        },
+        "false_call_rate": {
+          "value": 0.125,
+          "ci95": [
+            0.029411764705882353,
+            0.2571428571428571
+          ]
+        },
+        "required_call_recall": {
+          "value": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ]
+        },
+        "tool_precision": {
+          "value": 0.8,
+          "ci95": [
+            0.6084782608695652,
+            0.9523809523809523
+          ]
+        },
+        "recall_direct": {
+          "value": null,
+          "ci95": [
+            null,
+            null
+          ]
+        },
+        "recall_tool_call": {
+          "value": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ]
+        },
+        "recall_request_for_info": {
+          "value": 0.75,
+          "ci95": [
+            0.5256578947368421,
+            0.9375
+          ]
+        },
+        "recall_cannot_answer": {
+          "value": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ]
+        },
+        "exact_required_recall": {
+          "value": 0.8125,
+          "ci95": [
+            0.5882352941176471,
+            1.0
+          ]
+        },
+        "invalid_among_attempts": {
+          "value": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "counts": {
+        "false_calls": {
+          "numerator": 4,
+          "denominator": 32,
+          "rate": 0.125
+        },
+        "required_calls": {
+          "numerator": 16,
+          "denominator": 16,
+          "rate": 1.0
+        },
+        "no_tool_hallucination": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "invalid_among_attempts": {
+          "numerator": 0,
+          "denominator": 20,
+          "rate": 0.0
+        },
+        "unknown_names_among_attempts": {
+          "numerator": 0,
+          "denominator": 20,
+          "rate": 0.0
+        },
+        "syntax_errors_among_attempts": {
+          "numerator": 0,
+          "denominator": 20,
+          "rate": 0.0
+        },
+        "exact_required": {
+          "numerator": 13,
+          "denominator": 16,
+          "rate": 0.8125
+        },
+        "length_capped": {
+          "numerator": 0,
+          "denominator": 48,
+          "rate": 0.0
+        }
+      },
+      "call_errors": {}
+    },
+    "non25-seed183": {
+      "n": 48,
+      "groups": 48,
+      "labels": [
+        "direct",
+        "tool_call",
+        "request_for_info",
+        "cannot_answer"
+      ],
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          16,
+          0,
+          0
+        ],
+        [
+          0,
+          7,
+          9,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          16
+        ]
+      ],
+      "metrics": {
+        "accuracy": {
+          "value": 0.8541666666666666,
+          "ci95": [
+            0.75,
+            0.9583333333333334
+          ]
+        },
+        "macro_f1_fixed4": {
+          "value": 0.6351282051282051,
+          "ci95": [
+            0.5483169986398108,
+            0.7043778801843318
+          ]
+        },
+        "macro_f1_supported": {
+          "value": 0.8468376068376068,
+          "ci95": [
+            0.7310893315197476,
+            0.9391705069124424
+          ]
+        },
+        "false_call_rate": {
+          "value": 0.21875,
+          "ci95": [
+            0.08,
+            0.375
+          ]
+        },
+        "required_call_recall": {
+          "value": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ]
+        },
+        "tool_precision": {
+          "value": 0.6956521739130435,
+          "ci95": [
+            0.5,
+            0.88
+          ]
+        },
+        "recall_direct": {
+          "value": null,
+          "ci95": [
+            null,
+            null
+          ]
+        },
+        "recall_tool_call": {
+          "value": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ]
+        },
+        "recall_request_for_info": {
+          "value": 0.5625,
+          "ci95": [
+            0.30750000000000005,
+            0.8125
+          ]
+        },
+        "recall_cannot_answer": {
+          "value": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ]
+        },
+        "exact_required_recall": {
+          "value": 0.75,
+          "ci95": [
+            0.5262531328320802,
+            0.9444444444444444
+          ]
+        },
+        "invalid_among_attempts": {
+          "value": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "counts": {
+        "false_calls": {
+          "numerator": 7,
+          "denominator": 32,
+          "rate": 0.21875
+        },
+        "required_calls": {
+          "numerator": 16,
+          "denominator": 16,
+          "rate": 1.0
+        },
+        "no_tool_hallucination": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "invalid_among_attempts": {
+          "numerator": 0,
+          "denominator": 23,
+          "rate": 0.0
+        },
+        "unknown_names_among_attempts": {
+          "numerator": 0,
+          "denominator": 23,
+          "rate": 0.0
+        },
+        "syntax_errors_among_attempts": {
+          "numerator": 0,
+          "denominator": 23,
+          "rate": 0.0
+        },
+        "exact_required": {
+          "numerator": 12,
+          "denominator": 16,
+          "rate": 0.75
+        },
+        "length_capped": {
+          "numerator": 0,
+          "denominator": 48,
+          "rate": 0.0
+        }
+      },
+      "call_errors": {}
+    },
+    "non50-seed182": {
+      "n": 48,
+      "groups": 48,
+      "labels": [
+        "direct",
+        "tool_call",
+        "request_for_info",
+        "cannot_answer"
+      ],
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          15,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          15,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          16
+        ]
+      ],
+      "metrics": {
+        "accuracy": {
+          "value": 0.9583333333333334,
+          "ci95": [
+            0.8958333333333334,
+            1.0
+          ]
+        },
+        "macro_f1_fixed4": {
+          "value": 0.71875,
+          "ci95": [
+            0.6706337535014006,
+            0.75
+          ]
+        },
+        "macro_f1_supported": {
+          "value": 0.9583333333333334,
+          "ci95": [
+            0.8941783380018675,
+            1.0
+          ]
+        },
+        "false_call_rate": {
+          "value": 0.03125,
+          "ci95": [
+            0.0,
+            0.10006410256410223
+          ]
+        },
+        "required_call_recall": {
+          "value": 0.9375,
+          "ci95": [
+            0.7857142857142857,
+            1.0
+          ]
+        },
+        "tool_precision": {
+          "value": 0.9375,
+          "ci95": [
+            0.8,
+            1.0
+          ]
+        },
+        "recall_direct": {
+          "value": null,
+          "ci95": [
+            null,
+            null
+          ]
+        },
+        "recall_tool_call": {
+          "value": 0.9375,
+          "ci95": [
+            0.7857142857142857,
+            1.0
+          ]
+        },
+        "recall_request_for_info": {
+          "value": 0.9375,
+          "ci95": [
+            0.8,
+            1.0
+          ]
+        },
+        "recall_cannot_answer": {
+          "value": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ]
+        },
+        "exact_required_recall": {
+          "value": 0.6875,
+          "ci95": [
+            0.45443181818181816,
+            0.913134057971014
+          ]
+        },
+        "invalid_among_attempts": {
+          "value": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "counts": {
+        "false_calls": {
+          "numerator": 1,
+          "denominator": 32,
+          "rate": 0.03125
+        },
+        "required_calls": {
+          "numerator": 15,
+          "denominator": 16,
+          "rate": 0.9375
+        },
+        "no_tool_hallucination": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "invalid_among_attempts": {
+          "numerator": 0,
+          "denominator": 16,
+          "rate": 0.0
+        },
+        "unknown_names_among_attempts": {
+          "numerator": 0,
+          "denominator": 16,
+          "rate": 0.0
+        },
+        "syntax_errors_among_attempts": {
+          "numerator": 0,
+          "denominator": 16,
+          "rate": 0.0
+        },
+        "exact_required": {
+          "numerator": 11,
+          "denominator": 16,
+          "rate": 0.6875
+        },
+        "length_capped": {
+          "numerator": 0,
+          "denominator": 48,
+          "rate": 0.0
+        }
+      },
+      "call_errors": {}
+    },
+    "non50-seed183": {
+      "n": 48,
+      "groups": 48,
+      "labels": [
+        "direct",
+        "tool_call",
+        "request_for_info",
+        "cannot_answer"
+      ],
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          16,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          14,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          16
+        ]
+      ],
+      "metrics": {
+        "accuracy": {
+          "value": 0.9583333333333334,
+          "ci95": [
+            0.8958333333333334,
+            1.0
+          ]
+        },
+        "macro_f1_fixed4": {
+          "value": 0.7186274509803922,
+          "ci95": [
+            0.6699097267999707,
+            0.75
+          ]
+        },
+        "macro_f1_supported": {
+          "value": 0.9581699346405229,
+          "ci95": [
+            0.8932129690666277,
+            1.0
+          ]
+        },
+        "false_call_rate": {
+          "value": 0.0625,
+          "ci95": [
+            0.0,
+            0.15625
+          ]
+        },
+        "required_call_recall": {
+          "value": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ]
+        },
+        "tool_precision": {
+          "value": 0.8888888888888888,
+          "ci95": [
+            0.7271464646464647,
+            1.0
+          ]
+        },
+        "recall_direct": {
+          "value": null,
+          "ci95": [
+            null,
+            null
+          ]
+        },
+        "recall_tool_call": {
+          "value": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ]
+        },
+        "recall_request_for_info": {
+          "value": 0.875,
+          "ci95": [
+            0.6923076923076923,
+            1.0
+          ]
+        },
+        "recall_cannot_answer": {
+          "value": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ]
+        },
+        "exact_required_recall": {
+          "value": 0.6875,
+          "ci95": [
+            0.45,
+            0.9230769230769231
+          ]
+        },
+        "invalid_among_attempts": {
+          "value": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "counts": {
+        "false_calls": {
+          "numerator": 2,
+          "denominator": 32,
+          "rate": 0.0625
+        },
+        "required_calls": {
+          "numerator": 16,
+          "denominator": 16,
+          "rate": 1.0
+        },
+        "no_tool_hallucination": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "invalid_among_attempts": {
+          "numerator": 0,
+          "denominator": 18,
+          "rate": 0.0
+        },
+        "unknown_names_among_attempts": {
+          "numerator": 0,
+          "denominator": 18,
+          "rate": 0.0
+        },
+        "syntax_errors_among_attempts": {
+          "numerator": 0,
+          "denominator": 18,
+          "rate": 0.0
+        },
+        "exact_required": {
+          "numerator": 11,
+          "denominator": 16,
+          "rate": 0.6875
+        },
+        "length_capped": {
+          "numerator": 0,
+          "denominator": 48,
+          "rate": 0.0
+        }
+      },
+      "call_errors": {}
+    }
+  },
+  "paired": {
+    "bf16-reference minus baseline": {
+      "false_call_rate": {
+        "difference": -0.0625,
+        "ci95": [
+          -0.1935483870967742,
+          0.057184873949579565
+        ]
+      },
+      "required_call_recall": {
+        "difference": -0.0625,
+        "ci95": [
+          -0.2142857142857143,
+          0.0
+        ]
+      },
+      "exact_required_recall": {
+        "difference": 0.125,
+        "ci95": [
+          -0.1333333333333333,
+          0.375
+        ]
+      }
+    },
+    "non0-seed182 minus baseline": {
+      "false_call_rate": {
+        "difference": 0.53125,
+        "ci95": [
+          0.36363636363636365,
+          0.7142857142857143
+        ]
+      },
+      "required_call_recall": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "exact_required_recall": {
+        "difference": 0.0,
+        "ci95": [
+          -0.23536414565826336,
+          0.25
+        ]
+      }
+    },
+    "non0-seed183 minus baseline": {
+      "false_call_rate": {
+        "difference": 0.53125,
+        "ci95": [
+          0.36363636363636365,
+          0.7142857142857143
+        ]
+      },
+      "required_call_recall": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "exact_required_recall": {
+        "difference": 0.0,
+        "ci95": [
+          -0.23536414565826336,
+          0.25
+        ]
+      }
+    },
+    "non10-seed182 minus baseline": {
+      "false_call_rate": {
+        "difference": -0.21875,
+        "ci95": [
+          -0.36666666666666664,
+          -0.09090909090909088
+        ]
+      },
+      "required_call_recall": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "exact_required_recall": {
+        "difference": 0.0,
+        "ci95": [
+          -0.23536414565826336,
+          0.25
+        ]
+      }
+    },
+    "non10-seed183 minus baseline": {
+      "false_call_rate": {
+        "difference": -0.1875,
+        "ci95": [
+          -0.3333333333333333,
+          -0.06451612903225806
+        ]
+      },
+      "required_call_recall": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "exact_required_recall": {
+        "difference": 0.0625,
+        "ci95": [
+          -0.15384615384615385,
+          0.2941176470588235
+        ]
+      }
+    },
+    "non25-seed182 minus baseline": {
+      "false_call_rate": {
+        "difference": -0.34375,
+        "ci95": [
+          -0.5151515151515151,
+          -0.18518518518518517
+        ]
+      },
+      "required_call_recall": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "exact_required_recall": {
+        "difference": 0.0625,
+        "ci95": [
+          -0.15384615384615385,
+          0.2941176470588235
+        ]
+      }
+    },
+    "non25-seed183 minus baseline": {
+      "false_call_rate": {
+        "difference": -0.25,
+        "ci95": [
+          -0.40479910714285716,
+          -0.1111111111111111
+        ]
+      },
+      "required_call_recall": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "exact_required_recall": {
+        "difference": 0.0,
+        "ci95": [
+          -0.23536414565826336,
+          0.25
+        ]
+      }
+    },
+    "non50-seed182 minus baseline": {
+      "false_call_rate": {
+        "difference": -0.4375,
+        "ci95": [
+          -0.6071428571428571,
+          -0.25922939068100376
+        ]
+      },
+      "required_call_recall": {
+        "difference": -0.0625,
+        "ci95": [
+          -0.2142857142857143,
+          0.0
+        ]
+      },
+      "exact_required_recall": {
+        "difference": -0.0625,
+        "ci95": [
+          -0.33333333333333337,
+          0.23529411764705876
+        ]
+      }
+    },
+    "non50-seed183 minus baseline": {
+      "false_call_rate": {
+        "difference": -0.40625,
+        "ci95": [
+          -0.5757575757575758,
+          -0.22857142857142856
+        ]
+      },
+      "required_call_recall": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "exact_required_recall": {
+        "difference": -0.0625,
+        "ci95": [
+          -0.2857142857142857,
+          0.16666666666666663
+        ]
+      }
+    },
+    "non0-seed182 minus bf16-reference": {
+      "false_call_rate": {
+        "difference": 0.59375,
+        "ci95": [
+          0.4137931034482759,
+          0.7714976958525342
+        ]
+      },
+      "required_call_recall": {
+        "difference": 0.0625,
+        "ci95": [
+          0.0,
+          0.2142857142857143
+        ]
+      },
+      "exact_required_recall": {
+        "difference": -0.125,
+        "ci95": [
+          -0.375,
+          0.1252083333333322
+        ]
+      }
+    },
+    "non0-seed183 minus bf16-reference": {
+      "false_call_rate": {
+        "difference": 0.59375,
+        "ci95": [
+          0.4137931034482759,
+          0.7714976958525342
+        ]
+      },
+      "required_call_recall": {
+        "difference": 0.0625,
+        "ci95": [
+          0.0,
+          0.2142857142857143
+        ]
+      },
+      "exact_required_recall": {
+        "difference": -0.125,
+        "ci95": [
+          -0.375,
+          0.1252083333333322
+        ]
+      }
+    },
+    "non10-seed182 minus bf16-reference": {
+      "false_call_rate": {
+        "difference": -0.15625,
+        "ci95": [
+          -0.3125,
+          0.0
+        ]
+      },
+      "required_call_recall": {
+        "difference": 0.0625,
+        "ci95": [
+          0.0,
+          0.2142857142857143
+        ]
+      },
+      "exact_required_recall": {
+        "difference": -0.125,
+        "ci95": [
+          -0.375,
+          0.1252083333333322
+        ]
+      }
+    },
+    "non10-seed183 minus bf16-reference": {
+      "false_call_rate": {
+        "difference": -0.125,
+        "ci95": [
+          -0.25716589861751155,
+          -0.030303030303030276
+        ]
+      },
+      "required_call_recall": {
+        "difference": 0.0625,
+        "ci95": [
+          0.0,
+          0.2142857142857143
+        ]
+      },
+      "exact_required_recall": {
+        "difference": -0.0625,
+        "ci95": [
+          -0.2941176470588235,
+          0.1578947368421052
+        ]
+      }
+    },
+    "non25-seed182 minus bf16-reference": {
+      "false_call_rate": {
+        "difference": -0.28125,
+        "ci95": [
+          -0.4375625,
+          -0.12903225806451613
+        ]
+      },
+      "required_call_recall": {
+        "difference": 0.0625,
+        "ci95": [
+          0.0,
+          0.2142857142857143
+        ]
+      },
+      "exact_required_recall": {
+        "difference": -0.0625,
+        "ci95": [
+          -0.2941176470588235,
+          0.1578947368421052
+        ]
+      }
+    },
+    "non25-seed183 minus bf16-reference": {
+      "false_call_rate": {
+        "difference": -0.1875,
+        "ci95": [
+          -0.3333333333333333,
+          -0.0625
+        ]
+      },
+      "required_call_recall": {
+        "difference": 0.0625,
+        "ci95": [
+          0.0,
+          0.2142857142857143
+        ]
+      },
+      "exact_required_recall": {
+        "difference": -0.125,
+        "ci95": [
+          -0.375,
+          0.1252083333333322
+        ]
+      }
+    },
+    "non50-seed182 minus bf16-reference": {
+      "false_call_rate": {
+        "difference": -0.375,
+        "ci95": [
+          -0.5483870967741935,
+          -0.2
+        ]
+      },
+      "required_call_recall": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "exact_required_recall": {
+        "difference": -0.1875,
+        "ci95": [
+          -0.4,
+          0.0
+        ]
+      }
+    },
+    "non50-seed183 minus bf16-reference": {
+      "false_call_rate": {
+        "difference": -0.34375,
+        "ci95": [
+          -0.5151515151515151,
+          -0.1764705882352941
+        ]
+      },
+      "required_call_recall": {
+        "difference": 0.0625,
+        "ci95": [
+          0.0,
+          0.2142857142857143
+        ]
+      },
+      "exact_required_recall": {
+        "difference": -0.1875,
+        "ci95": [
+          -0.4445833333333333,
+          0.08333333333333337
+        ]
+      }
+    },
+    "non0-seed183 minus non0-seed182": {
+      "false_call_rate": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "required_call_recall": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "exact_required_recall": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "non10-seed182 minus non0-seed182": {
+      "false_call_rate": {
+        "difference": -0.75,
+        "ci95": [
+          -0.8928571428571429,
+          -0.5882352941176471
+        ]
+      },
+      "required_call_recall": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "exact_required_recall": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "non10-seed183 minus non0-seed182": {
+      "false_call_rate": {
+        "difference": -0.71875,
+        "ci95": [
+          -0.8787878787878788,
+          -0.5588235294117647
+        ]
+      },
+      "required_call_recall": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "exact_required_recall": {
+        "difference": 0.0625,
+        "ci95": [
+          0.0,
+          0.20000000000000007
+        ]
+      }
+    },
+    "non25-seed182 minus non0-seed182": {
+      "false_call_rate": {
+        "difference": -0.875,
+        "ci95": [
+          -0.9705882352941176,
+          -0.7428571428571429
+        ]
+      },
+      "required_call_recall": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "exact_required_recall": {
+        "difference": 0.0625,
+        "ci95": [
+          0.0,
+          0.20000000000000007
+        ]
+      }
+    },
+    "non25-seed183 minus non0-seed182": {
+      "false_call_rate": {
+        "difference": -0.78125,
+        "ci95": [
+          -0.92,
+          -0.625
+        ]
+      },
+      "required_call_recall": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "exact_required_recall": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "non50-seed182 minus non0-seed182": {
+      "false_call_rate": {
+        "difference": -0.96875,
+        "ci95": [
+          -1.0,
+          -0.8999358974358979
+        ]
+      },
+      "required_call_recall": {
+        "difference": -0.0625,
+        "ci95": [
+          -0.2142857142857143,
+          0.0
+        ]
+      },
+      "exact_required_recall": {
+        "difference": -0.0625,
+        "ci95": [
+          -0.2142857142857143,
+          0.0
+        ]
+      }
+    },
+    "non50-seed183 minus non0-seed182": {
+      "false_call_rate": {
+        "difference": -0.9375,
+        "ci95": [
+          -1.0,
+          -0.84375
+        ]
+      },
+      "required_call_recall": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "exact_required_recall": {
+        "difference": -0.0625,
+        "ci95": [
+          -0.20000000000000007,
+          0.0
+        ]
+      }
+    },
+    "non10-seed182 minus non0-seed183": {
+      "false_call_rate": {
+        "difference": -0.75,
+        "ci95": [
+          -0.8928571428571429,
+          -0.5882352941176471
+        ]
+      },
+      "required_call_recall": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "exact_required_recall": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "non10-seed183 minus non0-seed183": {
+      "false_call_rate": {
+        "difference": -0.71875,
+        "ci95": [
+          -0.8787878787878788,
+          -0.5588235294117647
+        ]
+      },
+      "required_call_recall": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "exact_required_recall": {
+        "difference": 0.0625,
+        "ci95": [
+          0.0,
+          0.20000000000000007
+        ]
+      }
+    },
+    "non25-seed182 minus non0-seed183": {
+      "false_call_rate": {
+        "difference": -0.875,
+        "ci95": [
+          -0.9705882352941176,
+          -0.7428571428571429
+        ]
+      },
+      "required_call_recall": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "exact_required_recall": {
+        "difference": 0.0625,
+        "ci95": [
+          0.0,
+          0.20000000000000007
+        ]
+      }
+    },
+    "non25-seed183 minus non0-seed183": {
+      "false_call_rate": {
+        "difference": -0.78125,
+        "ci95": [
+          -0.92,
+          -0.625
+        ]
+      },
+      "required_call_recall": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "exact_required_recall": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "non50-seed182 minus non0-seed183": {
+      "false_call_rate": {
+        "difference": -0.96875,
+        "ci95": [
+          -1.0,
+          -0.8999358974358979
+        ]
+      },
+      "required_call_recall": {
+        "difference": -0.0625,
+        "ci95": [
+          -0.2142857142857143,
+          0.0
+        ]
+      },
+      "exact_required_recall": {
+        "difference": -0.0625,
+        "ci95": [
+          -0.2142857142857143,
+          0.0
+        ]
+      }
+    },
+    "non50-seed183 minus non0-seed183": {
+      "false_call_rate": {
+        "difference": -0.9375,
+        "ci95": [
+          -1.0,
+          -0.84375
+        ]
+      },
+      "required_call_recall": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "exact_required_recall": {
+        "difference": -0.0625,
+        "ci95": [
+          -0.20000000000000007,
+          0.0
+        ]
+      }
+    },
+    "non10-seed183 minus non10-seed182": {
+      "false_call_rate": {
+        "difference": 0.03125,
+        "ci95": [
+          -0.06896551724137931,
+          0.1388888888888889
+        ]
+      },
+      "required_call_recall": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "exact_required_recall": {
+        "difference": 0.0625,
+        "ci95": [
+          0.0,
+          0.20000000000000007
+        ]
+      }
+    },
+    "non25-seed182 minus non10-seed182": {
+      "false_call_rate": {
+        "difference": -0.125,
+        "ci95": [
+          -0.25,
+          -0.02941176470588236
+        ]
+      },
+      "required_call_recall": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "exact_required_recall": {
+        "difference": 0.0625,
+        "ci95": [
+          0.0,
+          0.20000000000000007
+        ]
+      }
+    },
+    "non25-seed183 minus non10-seed182": {
+      "false_call_rate": {
+        "difference": -0.03125,
+        "ci95": [
+          -0.14285714285714285,
+          0.06451612903225806
+        ]
+      },
+      "required_call_recall": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "exact_required_recall": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "non50-seed182 minus non10-seed182": {
+      "false_call_rate": {
+        "difference": -0.21875,
+        "ci95": [
+          -0.375,
+          -0.08565476190476223
+        ]
+      },
+      "required_call_recall": {
+        "difference": -0.0625,
+        "ci95": [
+          -0.2142857142857143,
+          0.0
+        ]
+      },
+      "exact_required_recall": {
+        "difference": -0.0625,
+        "ci95": [
+          -0.2142857142857143,
+          0.0
+        ]
+      }
+    },
+    "non50-seed183 minus non10-seed182": {
+      "false_call_rate": {
+        "difference": -0.1875,
+        "ci95": [
+          -0.3333333333333333,
+          -0.06060606060606061
+        ]
+      },
+      "required_call_recall": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "exact_required_recall": {
+        "difference": -0.0625,
+        "ci95": [
+          -0.20000000000000007,
+          0.0
+        ]
+      }
+    },
+    "non25-seed182 minus non10-seed183": {
+      "false_call_rate": {
+        "difference": -0.15625,
+        "ci95": [
+          -0.28571428571428575,
+          -0.033333333333333326
+        ]
+      },
+      "required_call_recall": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "exact_required_recall": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "non25-seed183 minus non10-seed183": {
+      "false_call_rate": {
+        "difference": -0.0625,
+        "ci95": [
+          -0.15625,
+          0.0
+        ]
+      },
+      "required_call_recall": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "exact_required_recall": {
+        "difference": -0.0625,
+        "ci95": [
+          -0.20000000000000007,
+          0.0
+        ]
+      }
+    },
+    "non50-seed182 minus non10-seed183": {
+      "false_call_rate": {
+        "difference": -0.25,
+        "ci95": [
+          -0.40625,
+          -0.1
+        ]
+      },
+      "required_call_recall": {
+        "difference": -0.0625,
+        "ci95": [
+          -0.2142857142857143,
+          0.0
+        ]
+      },
+      "exact_required_recall": {
+        "difference": -0.125,
+        "ci95": [
+          -0.3125,
+          0.0
+        ]
+      }
+    },
+    "non50-seed183 minus non10-seed183": {
+      "false_call_rate": {
+        "difference": -0.21875,
+        "ci95": [
+          -0.36363636363636365,
+          -0.08
+        ]
+      },
+      "required_call_recall": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "exact_required_recall": {
+        "difference": -0.125,
+        "ci95": [
+          -0.3076923076923077,
+          0.0
+        ]
+      }
+    },
+    "non25-seed183 minus non25-seed182": {
+      "false_call_rate": {
+        "difference": 0.09375,
+        "ci95": [
+          0.0,
+          0.20014705882352862
+        ]
+      },
+      "required_call_recall": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "exact_required_recall": {
+        "difference": -0.0625,
+        "ci95": [
+          -0.20000000000000007,
+          0.0
+        ]
+      }
+    },
+    "non50-seed182 minus non25-seed182": {
+      "false_call_rate": {
+        "difference": -0.09375,
+        "ci95": [
+          -0.21056618819776712,
+          0.0
+        ]
+      },
+      "required_call_recall": {
+        "difference": -0.0625,
+        "ci95": [
+          -0.2142857142857143,
+          0.0
+        ]
+      },
+      "exact_required_recall": {
+        "difference": -0.125,
+        "ci95": [
+          -0.3125,
+          0.0
+        ]
+      }
+    },
+    "non50-seed183 minus non25-seed182": {
+      "false_call_rate": {
+        "difference": -0.0625,
+        "ci95": [
+          -0.15794736842105261,
+          0.0
+        ]
+      },
+      "required_call_recall": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "exact_required_recall": {
+        "difference": -0.125,
+        "ci95": [
+          -0.3076923076923077,
+          0.0
+        ]
+      }
+    },
+    "non50-seed182 minus non25-seed183": {
+      "false_call_rate": {
+        "difference": -0.1875,
+        "ci95": [
+          -0.33333333333333337,
+          -0.05882352941176471
+        ]
+      },
+      "required_call_recall": {
+        "difference": -0.0625,
+        "ci95": [
+          -0.2142857142857143,
+          0.0
+        ]
+      },
+      "exact_required_recall": {
+        "difference": -0.0625,
+        "ci95": [
+          -0.2142857142857143,
+          0.0
+        ]
+      }
+    },
+    "non50-seed183 minus non25-seed183": {
+      "false_call_rate": {
+        "difference": -0.15625,
+        "ci95": [
+          -0.2857142857142857,
+          -0.03330645161290337
+        ]
+      },
+      "required_call_recall": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "exact_required_recall": {
+        "difference": -0.0625,
+        "ci95": [
+          -0.20000000000000007,
+          0.0
+        ]
+      }
+    },
+    "non50-seed183 minus non50-seed182": {
+      "false_call_rate": {
+        "difference": 0.03125,
+        "ci95": [
+          0.0,
+          0.10531015037593959
+        ]
+      },
+      "required_call_recall": {
+        "difference": 0.0625,
+        "ci95": [
+          0.0,
+          0.2142857142857143
+        ]
+      },
+      "exact_required_recall": {
+        "difference": 0.0,
+        "ci95": [
+          -0.18181818181818177,
+          0.17647058823529405
+        ]
+      }
+    },
+    "mean 0% minus baseline": {
+      "false_call_rate": {
+        "difference": 0.53125,
+        "ci95": [
+          0.36363636363636365,
+          0.7142857142857143
+        ],
+        "per_seed": {
+          "182": 0.53125,
+          "183": 0.53125
+        }
+      },
+      "required_call_recall": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "per_seed": {
+          "182": 0.0,
+          "183": 0.0
+        }
+      },
+      "exact_required_recall": {
+        "difference": 0.0,
+        "ci95": [
+          -0.23536414565826336,
+          0.25
+        ],
+        "per_seed": {
+          "182": 0.0,
+          "183": 0.0
+        }
+      }
+    },
+    "mean 10% minus baseline": {
+      "false_call_rate": {
+        "difference": -0.203125,
+        "ci95": [
+          -0.33928571428571425,
+          -0.08571428571428574
+        ],
+        "per_seed": {
+          "182": -0.21875,
+          "183": -0.1875
+        }
+      },
+      "required_call_recall": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "per_seed": {
+          "182": 0.0,
+          "183": 0.0
+        }
+      },
+      "exact_required_recall": {
+        "difference": 0.03125,
+        "ci95": [
+          -0.1875,
+          0.2727272727272727
+        ],
+        "per_seed": {
+          "182": 0.0,
+          "183": 0.0625
+        }
+      }
+    },
+    "mean 10% minus 0%": {
+      "false_call_rate": {
+        "difference": -0.734375,
+        "ci95": [
+          -0.8787878787878788,
+          -0.5862068965517242
+        ],
+        "per_seed": {
+          "182": -0.75,
+          "183": -0.71875
+        }
+      },
+      "required_call_recall": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "per_seed": {
+          "182": 0.0,
+          "183": 0.0
+        }
+      },
+      "exact_required_recall": {
+        "difference": 0.03125,
+        "ci95": [
+          0.0,
+          0.10000000000000003
+        ],
+        "per_seed": {
+          "182": 0.0,
+          "183": 0.0625
+        }
+      }
+    },
+    "mean 25% minus baseline": {
+      "false_call_rate": {
+        "difference": -0.296875,
+        "ci95": [
+          -0.4531605113636364,
+          -0.15622306034482775
+        ],
+        "per_seed": {
+          "182": -0.34375,
+          "183": -0.25
+        }
+      },
+      "required_call_recall": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "per_seed": {
+          "182": 0.0,
+          "183": 0.0
+        }
+      },
+      "exact_required_recall": {
+        "difference": 0.03125,
+        "ci95": [
+          -0.1875,
+          0.2727272727272727
+        ],
+        "per_seed": {
+          "182": 0.0625,
+          "183": 0.0
+        }
+      }
+    },
+    "mean 25% minus 0%": {
+      "false_call_rate": {
+        "difference": -0.828125,
+        "ci95": [
+          -0.9375,
+          -0.6935173697270474
+        ],
+        "per_seed": {
+          "182": -0.875,
+          "183": -0.78125
+        }
+      },
+      "required_call_recall": {
+        "difference": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "per_seed": {
+          "182": 0.0,
+          "183": 0.0
+        }
+      },
+      "exact_required_recall": {
+        "difference": 0.03125,
+        "ci95": [
+          0.0,
+          0.10000000000000003
+        ],
+        "per_seed": {
+          "182": 0.0625,
+          "183": 0.0
+        }
+      }
+    },
+    "mean 50% minus baseline": {
+      "false_call_rate": {
+        "difference": -0.421875,
+        "ci95": [
+          -0.5882615546218488,
+          -0.24242424242424243
+        ],
+        "per_seed": {
+          "182": -0.4375,
+          "183": -0.40625
+        }
+      },
+      "required_call_recall": {
+        "difference": -0.03125,
+        "ci95": [
+          -0.10714285714285715,
+          0.0
+        ],
+        "per_seed": {
+          "182": -0.0625,
+          "183": 0.0
+        }
+      },
+      "exact_required_recall": {
+        "difference": -0.0625,
+        "ci95": [
+          -0.2941176470588235,
+          0.17647058823529405
+        ],
+        "per_seed": {
+          "182": -0.0625,
+          "183": -0.0625
+        }
+      }
+    },
+    "mean 50% minus 0%": {
+      "false_call_rate": {
+        "difference": -0.953125,
+        "ci95": [
+          -1.0,
+          -0.8787878787878788
+        ],
+        "per_seed": {
+          "182": -0.96875,
+          "183": -0.9375
+        }
+      },
+      "required_call_recall": {
+        "difference": -0.03125,
+        "ci95": [
+          -0.10714285714285715,
+          0.0
+        ],
+        "per_seed": {
+          "182": -0.0625,
+          "183": 0.0
+        }
+      },
+      "exact_required_recall": {
+        "difference": -0.0625,
+        "ci95": [
+          -0.15789473684210525,
+          0.0
+        ],
+        "per_seed": {
+          "182": -0.0625,
+          "183": -0.0625
+        }
+      }
+    }
+  },
+  "means": {
+    "0": {
+      "false_call_rate": {
+        "mean": 1.0,
+        "seed_sd": 0.0,
+        "seeds": [
+          182,
+          183
+        ],
+        "evaluation_ci95": [
+          1.0,
+          1.0
+        ]
+      },
+      "required_call_recall": {
+        "mean": 1.0,
+        "seed_sd": 0.0,
+        "seeds": [
+          182,
+          183
+        ],
+        "evaluation_ci95": [
+          1.0,
+          1.0
+        ]
+      },
+      "exact_required_recall": {
+        "mean": 0.75,
+        "seed_sd": 0.0,
+        "seeds": [
+          182,
+          183
+        ],
+        "evaluation_ci95": [
+          0.5262531328320802,
+          0.9444444444444444
+        ]
+      }
+    },
+    "10": {
+      "false_call_rate": {
+        "mean": 0.265625,
+        "seed_sd": 0.02209708691207961,
+        "seeds": [
+          182,
+          183
+        ],
+        "evaluation_ci95": [
+          0.12121212121212122,
+          0.41379310344827586
+        ]
+      },
+      "required_call_recall": {
+        "mean": 1.0,
+        "seed_sd": 0.0,
+        "seeds": [
+          182,
+          183
+        ],
+        "evaluation_ci95": [
+          1.0,
+          1.0
+        ]
+      },
+      "exact_required_recall": {
+        "mean": 0.78125,
+        "seed_sd": 0.04419417382415922,
+        "seeds": [
+          182,
+          183
+        ],
+        "evaluation_ci95": [
+          0.5665625,
+          0.9642857142857143
+        ]
+      }
+    },
+    "25": {
+      "false_call_rate": {
+        "mean": 0.171875,
+        "seed_sd": 0.06629126073623882,
+        "seeds": [
+          182,
+          183
+        ],
+        "evaluation_ci95": [
+          0.0625,
+          0.3064826302729527
+        ]
+      },
+      "required_call_recall": {
+        "mean": 1.0,
+        "seed_sd": 0.0,
+        "seeds": [
+          182,
+          183
+        ],
+        "evaluation_ci95": [
+          1.0,
+          1.0
+        ]
+      },
+      "exact_required_recall": {
+        "mean": 0.78125,
+        "seed_sd": 0.04419417382415922,
+        "seeds": [
+          182,
+          183
+        ],
+        "evaluation_ci95": [
+          0.5665625,
+          0.9642857142857143
+        ]
+      }
+    },
+    "50": {
+      "false_call_rate": {
+        "mean": 0.046875,
+        "seed_sd": 0.02209708691207961,
+        "seeds": [
+          182,
+          183
+        ],
+        "evaluation_ci95": [
+          0.0,
+          0.12121212121212122
+        ]
+      },
+      "required_call_recall": {
+        "mean": 0.96875,
+        "seed_sd": 0.04419417382415922,
+        "seeds": [
+          182,
+          183
+        ],
+        "evaluation_ci95": [
+          0.8928571428571428,
+          1.0
+        ]
+      },
+      "exact_required_recall": {
+        "mean": 0.6875,
+        "seed_sd": 0.0,
+        "seeds": [
+          182,
+          183
+        ],
+        "evaluation_ci95": [
+          0.4666666666666667,
+          0.8948684210526308
+        ]
+      }
+    }
+  }
+}

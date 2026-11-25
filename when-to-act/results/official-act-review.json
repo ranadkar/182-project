@@ -1,0 +1,261 @@
+{
+  "method": "Assistant inspection of question and full generated text, with randomized order and model, gold, parser decision and score hidden until judgments recorded. Seed 1822027, Python random.Random. From models sorted by name and rows sorted by UUID, sample up to three texts lacking a leading native call block and fill four per model from the remaining native call outputs, then shuffle all selected rows. This is a stratified spot check of the scorer, not a human study or a new metric. No judgments used to retune the scorer.",
+  "seed": 1822027,
+  "n": 36,
+  "agreement": 36,
+  "binary_agreement": 36,
+  "review": [
+    {
+      "item": 1,
+      "model": "non10-seed182",
+      "id": "d5eb3a45-a65c-4e0e-b389-1b4f222fcafe",
+      "review": "tool_call",
+      "parser": "tool_call"
+    },
+    {
+      "item": 2,
+      "model": "baseline",
+      "id": "4c931a16-f927-4b67-a2d2-0f5047ac0c98",
+      "review": "request_for_info",
+      "parser": "request_for_info"
+    },
+    {
+      "item": 3,
+      "model": "non25-seed183",
+      "id": "66ed289c-acf2-4c8b-9e33-6a8be4576b7f",
+      "review": "request_for_info",
+      "parser": "request_for_info"
+    },
+    {
+      "item": 4,
+      "model": "non25-seed183",
+      "id": "a854bf19-ac92-4d1d-a115-0a604905908b",
+      "review": "cannot_answer",
+      "parser": "cannot_answer"
+    },
+    {
+      "item": 5,
+      "model": "non0-seed182",
+      "id": "d07e1726-29c2-424b-8316-18d488547de3",
+      "review": "tool_call",
+      "parser": "tool_call"
+    },
+    {
+      "item": 6,
+      "model": "non10-seed183",
+      "id": "a32f39d9-a1be-4851-8529-479b2c33cd1b",
+      "review": "tool_call",
+      "parser": "tool_call"
+    },
+    {
+      "item": 7,
+      "model": "non0-seed183",
+      "id": "6065e474-a320-441e-915e-8057573029fe",
+      "review": "cannot_answer",
+      "parser": "cannot_answer"
+    },
+    {
+      "item": 8,
+      "model": "non0-seed182",
+      "id": "6065e474-a320-441e-915e-8057573029fe",
+      "review": "cannot_answer",
+      "parser": "cannot_answer"
+    },
+    {
+      "item": 9,
+      "model": "non50-seed183",
+      "id": "8fac6eab-c82d-494d-ab94-7fbece5140fa",
+      "review": "request_for_info",
+      "parser": "request_for_info"
+    },
+    {
+      "item": 10,
+      "model": "non25-seed182",
+      "id": "0454f946-ab41-41f5-9a7e-c966a75bc4f5",
+      "review": "request_for_info",
+      "parser": "request_for_info"
+    },
+    {
+      "item": 11,
+      "model": "non10-seed183",
+      "id": "7aa27660-fc5c-41f1-bb66-03d27b26a146",
+      "review": "request_for_info",
+      "parser": "request_for_info"
+    },
+    {
+      "item": 12,
+      "model": "non25-seed182",
+      "id": "255f0133-2d8e-4658-8ac5-50a6f503c92f",
+      "review": "tool_call",
+      "parser": "tool_call"
+    },
+    {
+      "item": 13,
+      "model": "non10-seed183",
+      "id": "b0e10a8c-1253-47ba-a854-71b0dfe9d4bb",
+      "review": "request_for_info",
+      "parser": "request_for_info"
+    },
+    {
+      "item": 14,
+      "model": "non25-seed182",
+      "id": "a8824b11-5ce7-4871-bbf5-dfe7588c943c",
+      "review": "request_for_info",
+      "parser": "request_for_info"
+    },
+    {
+      "item": 15,
+      "model": "non10-seed182",
+      "id": "8bd5d5fb-7613-458c-89f8-a1f61270ba31",
+      "review": "request_for_info",
+      "parser": "request_for_info"
+    },
+    {
+      "item": 16,
+      "model": "baseline",
+      "id": "16ca22c7-f666-4fe9-b331-ff1a8c1cc799",
+      "review": "cannot_answer",
+      "parser": "cannot_answer"
+    },
+    {
+      "item": 17,
+      "model": "non0-seed182",
+      "id": "4896a53b-b893-4a7f-a833-8af43e12467f",
+      "review": "direct",
+      "parser": "direct"
+    },
+    {
+      "item": 18,
+      "model": "non50-seed182",
+      "id": "8bd5d5fb-7613-458c-89f8-a1f61270ba31",
+      "review": "request_for_info",
+      "parser": "request_for_info"
+    },
+    {
+      "item": 19,
+      "model": "non25-seed183",
+      "id": "03eac3b7-5a6b-447b-8352-7838eee440ff",
+      "review": "tool_call",
+      "parser": "tool_call"
+    },
+    {
+      "item": 20,
+      "model": "non10-seed182",
+      "id": "7aa27660-fc5c-41f1-bb66-03d27b26a146",
+      "review": "request_for_info",
+      "parser": "request_for_info"
+    },
+    {
+      "item": 21,
+      "model": "non25-seed183",
+      "id": "eaafba16-7cdb-4807-87e0-160cc99b92ff",
+      "review": "request_for_info",
+      "parser": "request_for_info"
+    },
+    {
+      "item": 22,
+      "model": "non25-seed182",
+      "id": "0a712c62-f16d-47ce-9f89-e47e80d4037b",
+      "review": "request_for_info",
+      "parser": "request_for_info"
+    },
+    {
+      "item": 23,
+      "model": "non0-seed183",
+      "id": "8750943a-0388-43c3-b083-757cd2a4a9ba",
+      "review": "tool_call",
+      "parser": "tool_call"
+    },
+    {
+      "item": 24,
+      "model": "non50-seed183",
+      "id": "a8824b11-5ce7-4871-bbf5-dfe7588c943c",
+      "review": "request_for_info",
+      "parser": "request_for_info"
+    },
+    {
+      "item": 25,
+      "model": "baseline",
+      "id": "e9bee674-7eb1-44c6-bfc7-089416f88849",
+      "review": "cannot_answer",
+      "parser": "cannot_answer"
+    },
+    {
+      "item": 26,
+      "model": "non10-seed183",
+      "id": "153b5a4f-87ad-4d4c-a7cb-9cc0f102e180",
+      "review": "cannot_answer",
+      "parser": "cannot_answer"
+    },
+    {
+      "item": 27,
+      "model": "baseline",
+      "id": "43c4003a-3730-4707-b506-eff081f90576",
+      "review": "tool_call",
+      "parser": "tool_call"
+    },
+    {
+      "item": 28,
+      "model": "non50-seed182",
+      "id": "822d50ae-6647-4479-851f-4bd7659618a5",
+      "review": "request_for_info",
+      "parser": "request_for_info"
+    },
+    {
+      "item": 29,
+      "model": "non50-seed182",
+      "id": "255f0133-2d8e-4658-8ac5-50a6f503c92f",
+      "review": "tool_call",
+      "parser": "tool_call"
+    },
+    {
+      "item": 30,
+      "model": "non50-seed182",
+      "id": "e9bee674-7eb1-44c6-bfc7-089416f88849",
+      "review": "cannot_answer",
+      "parser": "cannot_answer"
+    },
+    {
+      "item": 31,
+      "model": "non50-seed183",
+      "id": "338c3a81-a984-4a8f-9baa-9814176fecc6",
+      "review": "tool_call",
+      "parser": "tool_call"
+    },
+    {
+      "item": 32,
+      "model": "non0-seed183",
+      "id": "4896a53b-b893-4a7f-a833-8af43e12467f",
+      "review": "direct",
+      "parser": "direct"
+    },
+    {
+      "item": 33,
+      "model": "non10-seed182",
+      "id": "3e1ded3d-48bd-4ffb-95fd-27d8bf4e6d94",
+      "review": "request_for_info",
+      "parser": "request_for_info"
+    },
+    {
+      "item": 34,
+      "model": "non50-seed183",
+      "id": "d07e1726-29c2-424b-8316-18d488547de3",
+      "review": "cannot_answer",
+      "parser": "cannot_answer"
+    },
+    {
+      "item": 35,
+      "model": "non0-seed183",
+      "id": "e73b8b21-7acb-4c51-b0d5-e5d89c0a3853",
+      "review": "cannot_answer",
+      "parser": "cannot_answer"
+    },
+    {
+      "item": 36,
+      "model": "non0-seed182",
+      "id": "e73b8b21-7acb-4c51-b0d5-e5d89c0a3853",
+      "review": "cannot_answer",
+      "parser": "cannot_answer"
+    }
+  ]
+}

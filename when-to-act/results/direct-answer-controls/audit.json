@@ -1,0 +1,53 @@
+{
+  "manifest_sha256": "5118b5d1a499c37452dae4a1d36169b402ca244590b2fdda3b1ea84ad0544175",
+  "design_sha256": "7d2915f41b601946f1bf207c1db6e4d21de7723cfcab72c71f2497d19bf3c012",
+  "families": 36,
+  "rows": 108,
+  "gold": {
+    "tool_call": 36,
+    "request_for_info": 36,
+    "direct": 36
+  },
+  "primary_sorted_position_0_based": {
+    "0": 18,
+    "1": 18
+  },
+  "release_overlap": {
+    "when2call_train_pref": {
+      "distinct_normalized_questions": 8161,
+      "max_ratio": 63.1578947368421,
+      "closest_control": "weaving_sample-required",
+      "hits_at_90": 0
+    },
+    "when2call_train_sft": {
+      "distinct_normalized_questions": 14047,
+      "max_ratio": 61.81818181818181,
+      "closest_control": "cycle_entry-clarify",
+      "hits_at_90": 0
+    },
+    "when2call_test_llm_judge": {
+      "distinct_normalized_questions": 370,
+      "max_ratio": 56.60377358490566,
+      "closest_control": "theatre_seat-required",
+      "hits_at_90": 0
+    },
+    "when2call_test_mcq": {
+      "distinct_normalized_questions": 2269,
+      "max_ratio": 58.46153846153845,
+      "closest_control": "cycle_entry-required",
+      "hits_at_90": 0
+    },
+    "previous_menu_control": {
+      "distinct_normalized_questions": 18,
+      "max_ratio": 59.45945945945945,
+      "closest_control": "festival_stall-clarify",
+      "hits_at_90": 0
+    }
+  },
+  "maximum_cross_family_ratio_and_ids": [
+    64.7887323943662,
+    "heritage_tree-required",
+    "theatre_seat-required"
+  ],
+  "design": "Each separately authored record family has its own read-only target and distractor. Within-family variants have identical normalized menus. The supplied fact and record identifier appear in the direct question; only the identifier appears in the required question; neither appears in the underspecified question. No lookup is executed."
+}

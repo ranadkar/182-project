@@ -1,0 +1,27 @@
+{
+  "parser_and_exact_replays": 972,
+  "invalid_by_model": {
+    "baseline": {},
+    "non0-seed182": {
+      "syntax": 1
+    },
+    "non0-seed183": {},
+    "non10-seed182": {},
+    "non10-seed183": {},
+    "non25-seed182": {},
+    "non25-seed183": {},
+    "non50-seed182": {},
+    "non50-seed183": {}
+  },
+  "length_capped_by_model": {
+    "baseline": 0,
+    "non0-seed182": 1,
+    "non0-seed183": 0,
+    "non10-seed182": 0,
+    "non10-seed183": 0,
+    "non25-seed182": 0,
+    "non25-seed183": 0,
+    "non50-seed182": 0,
+    "non50-seed183": 0
+  }
+}

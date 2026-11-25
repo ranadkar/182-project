@@ -1,0 +1,79 @@
+{
+  "normalized_questions_repeated_across_prompts": {
+    "could you provide the current weather data for london in the uk including the temperature wind speed and precipitation levels": [
+      "02debbaa-19c3-4e7d-9d3d-26b35d308214",
+      "f1d7a6f4-5c1c-4c7f-830f-addbc74debcf"
+    ],
+    "#": [
+      "0545ad69-158c-4eae-991d-a360dee7f49c",
+      "2e4c9726-8210-4409-9d1e-38e8488a4217",
+      "2ec17839-b3df-4324-8c81-9e9d93f0a895"
+    ],
+    "if i have # and i donated # how much do i have now": [
+      "05b9c962-3a77-4646-809d-04455d1561ca",
+      "ead20d6a-4030-42ca-b6cb-fd43bd9f5e7a"
+    ],
+    "get the dashboard for dashing": [
+      "08f77114-bce3-4e90-ad9a-b02d61602ebd",
+      "2dcf86e0-8059-402a-ae6f-2f2f3e3c399c"
+    ],
+    "can you tell me what the weather will be like in miami fl on march # rd next year today # # #": [
+      "0a594572-ccae-497a-bb70-7e5d2586087d",
+      "56bafde7-c109-40f0-9866-e4ba8e439f0f"
+    ],
+    "can you find a regular screening of a supernatural movie for me in los angeles": [
+      "101afe65-6b6a-4bb3-bbc3-87c77613a1b5",
+      "43c4003a-3730-4707-b506-eff081f90576"
+    ],
+    "i need all api tokens now my user id is #": [
+      "276e4475-e087-4660-9a3a-1fe295fa452c",
+      "e370ba13-6d6a-43cf-8a99-5b58ea2e9be6"
+    ],
+    "what api version is instana using today is tuesday": [
+      "2b3590cd-7433-434a-921a-f238ade89d5c",
+      "8a5e25d4-55dd-42c2-9bf4-23d722a6fa76"
+    ],
+    "i would like to easily be able to extract any informaton from an image png based on a question using the vision language model vikhyatk moondream # the question is generate with technically complex attention to detail a description of what you see": [
+      "42accc7c-eb68-43ea-b164-fc633cf38bfa",
+      "ae84fb2c-2e34-449c-a3dd-981e339057ba"
+    ],
+    "segment all objects in an image at yoha jpg": [
+      "5bef50e8-6b78-4fcd-ac50-d1b20fde3f40",
+      "b40e113b-ec06-4cc9-98a6-e1deb28f85fc"
+    ],
+    "i m about to do my workout and i d like to play some songs i m really into house music and i heard that the martin garrix experience album is great": [
+      "6e91c641-cd44-4315-b73e-9a3d41c0ae46",
+      "85077eee-8186-4b79-b106-99734e8bb465"
+    ],
+    "can you find me a list of mystery movies that feature noah gaynor as part of the cast": [
+      "7a754680-58b4-4c0f-b4ae-e1e3959bf24a",
+      "ce22a5b5-48eb-4ca2-b558-f1acdba18f39"
+    ],
+    "i m interested in attending a music event in portland or can you locate any concerts happening there this weekend": [
+      "7b093b32-89d8-4018-b165-31fdeb7a7874",
+      "a5e8170e-63a9-4a55-925b-b2aee3fb4c28"
+    ],
+    "find any music events happening in los angeles on # # #": [
+      "90f565b3-0fc7-4b8a-a3f6-5963c534e9ea",
+      "e3343994-8578-4f5d-b996-f70d2f32e051"
+    ],
+    "what are the synthetic locations give me #": [
+      "eed5a23f-bd4f-4da5-a54a-09708c634c8e",
+      "f0f4e87e-6a0b-4054-978c-15b483b35ce7"
+    ]
+  },
+  "unique_training_questions": 1500,
+  "release_to_training": {
+    "question": {
+      "unique": 284,
+      "training_hits_at_90": 0
+    },
+    "orig_question": {
+      "unique": 272,
+      "training_hits_at_90": 0
+    }
+  },
+  "initial_clusters": 71,
+  "additional_clusters": 211,
+  "shared_clusters": 10
+}

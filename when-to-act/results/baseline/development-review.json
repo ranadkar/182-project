@@ -1,0 +1,86 @@
+{
+  "method": "Assistant inspection of response text without displayed gold or parser label; random seed 93, excluding first four previously inspected outputs. Mixed refusals with partial help classified by stated inability to perform the requested action.",
+  "review": [
+    {
+      "id": "pref-05016",
+      "inspection_label": "cannot_answer",
+      "parser_label": "cannot_answer"
+    },
+    {
+      "id": "pref-06216",
+      "inspection_label": "tool_call",
+      "parser_label": "tool_call"
+    },
+    {
+      "id": "pref-00513",
+      "inspection_label": "tool_call",
+      "parser_label": "tool_call"
+    },
+    {
+      "id": "pref-04668",
+      "inspection_label": "tool_call",
+      "parser_label": "tool_call"
+    },
+    {
+      "id": "pref-08578",
+      "inspection_label": "tool_call",
+      "parser_label": "tool_call"
+    },
+    {
+      "id": "pref-01113",
+      "inspection_label": "request_for_info",
+      "parser_label": "request_for_info"
+    },
+    {
+      "id": "pref-04999",
+      "inspection_label": "tool_call",
+      "parser_label": "tool_call"
+    },
+    {
+      "id": "pref-04114",
+      "inspection_label": "cannot_answer",
+      "parser_label": "cannot_answer"
+    },
+    {
+      "id": "pref-00057",
+      "inspection_label": "tool_call",
+      "parser_label": "tool_call"
+    },
+    {
+      "id": "pref-01730",
+      "inspection_label": "tool_call",
+      "parser_label": "tool_call"
+    },
+    {
+      "id": "pref-02860",
+      "inspection_label": "cannot_answer",
+      "parser_label": "cannot_answer"
+    },
+    {
+      "id": "pref-06416",
+      "inspection_label": "tool_call",
+      "parser_label": "tool_call"
+    },
+    {
+      "id": "pref-06996",
+      "inspection_label": "cannot_answer",
+      "parser_label": "cannot_answer"
+    },
+    {
+      "id": "pref-02053",
+      "inspection_label": "cannot_answer",
+      "parser_label": "cannot_answer"
+    },
+    {
+      "id": "pref-04616",
+      "inspection_label": "cannot_answer",
+      "parser_label": "cannot_answer"
+    },
+    {
+      "id": "pref-08508",
+      "inspection_label": "tool_call",
+      "parser_label": "tool_call"
+    }
+  ],
+  "agreement": 1.0
+}
